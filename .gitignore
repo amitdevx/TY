@@ -1,0 +1,22 @@
+# Obsidian
+.obsidian/
+!.obsidian/plugins/
+!.obsidian/snippets/
+!.obsidian/templates/
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Node modules
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
