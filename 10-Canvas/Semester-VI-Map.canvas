@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"sem6center","type":"text","x":0,"y":0,"width":220,"height":90,"text":"#  Semester VI\nTY B.Sc. CS\n2026–27","color":"1"},
+		{"id":"cs351node","type":"text","x":-550,"y":-320,"width":210,"height":120,"text":"## CS-351\n**Advanced Java**\n 5 Chapters\nJDBC • Servlets • JSP • Spring","color":"5"},
+		{"id":"cs352node","type":"text","x":-550,"y":-80,"width":210,"height":120,"text":"## CS-352\n**Computer Networks**\n 5 Chapters\nOSI • TCP/IP • Routing • Security","color":"6"},
+		{"id":"cs353node","type":"text","x":-550,"y":160,"width":210,"height":120,"text":"## CS-353\n**Web Technology-II**\n 4 Chapters\nReact • REST API • DB Integration","color":"2"},
+		{"id":"cs354node","type":"text","x":340,"y":-320,"width":210,"height":120,"text":"## CS-354\n**Compiler Construction**\n 5 Chapters\nLexer • Parser • Semantic • Codegen","color":"3"},
+		{"id":"cs357node","type":"text","x":340,"y":-80,"width":210,"height":120,"text":"## CS-357\n**Cloud Computing**\n 5 Units\nIaaS • PaaS • SaaS • Docker • K8s","color":"4"},
+		{"id":"cs371node","type":"text","x":340,"y":160,"width":210,"height":120,"text":"## CS-371\n**Android Development**\n 5 Units\nActivities • Fragments • Room • API","color":"1"},
+		{"id":"cs351sub1","type":"text","x":-820,"y":-420,"width":180,"height":60,"text":"Ch1: JDBC & Database","color":"5"},
+		{"id":"cs351sub2","type":"text","x":-820,"y":-340,"width":180,"height":60,"text":"Ch2: Servlets & JSP","color":"5"},
+		{"id":"cs351sub3","type":"text","x":-820,"y":-260,"width":180,"height":60,"text":"Ch3: Hibernate / JPA","color":"5"},
+		{"id":"cs351sub4","type":"text","x":-820,"y":-180,"width":180,"height":60,"text":"Ch4: Spring Framework","color":"5"},
+		{"id":"cs351sub5","type":"text","x":-820,"y":-100,"width":180,"height":60,"text":"Ch5: REST APIs & Design Patterns","color":"5"},
+		{"id":"cs354sub1","type":"text","x":610,"y":-420,"width":180,"height":60,"text":"Ch1: Lexical Analysis","color":"3"},
+		{"id":"cs354sub2","type":"text","x":610,"y":-340,"width":180,"height":60,"text":"Ch2: Syntax Analysis","color":"3"},
+		{"id":"cs354sub3","type":"text","x":610,"y":-260,"width":180,"height":60,"text":"Ch3: Semantic Analysis","color":"3"},
+		{"id":"cs354sub4","type":"text","x":610,"y":-180,"width":180,"height":60,"text":"Ch4: Intermediate Code","color":"3"},
+		{"id":"cs354sub5","type":"text","x":610,"y":-100,"width":180,"height":60,"text":"Ch5: Code Optimization & Gen","color":"3"},
+		{"id":"ojtnode","type":"text","x":0,"y":280,"width":220,"height":90,"text":"##  OJT\nOn-Job Training\n6 Weeks Industry Exposure","color":"0"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"sem6center","toNode":"cs351node","label":"Theory","fromSide":"top","toSide":"right"},
+		{"id":"e2","fromNode":"sem6center","toNode":"cs352node","label":"Theory","fromSide":"left","toSide":"right"},
+		{"id":"e3","fromNode":"sem6center","toNode":"cs353node","label":"Theory","fromSide":"left","toSide":"right"},
+		{"id":"e4","fromNode":"sem6center","toNode":"cs354node","label":"Theory","fromSide":"top","toSide":"bottom"},
+		{"id":"e5","fromNode":"sem6center","toNode":"cs357node","label":"Elective","fromSide":"right","toSide":"left"},
+		{"id":"e6","fromNode":"sem6center","toNode":"cs371node","label":"VSC","fromSide":"bottom","toSide":"left"},
+		{"id":"e7","fromNode":"sem6center","toNode":"ojtnode","label":"Practical","fromSide":"bottom","toSide":"top"},
+		{"id":"e8","fromNode":"cs351node","toNode":"cs351sub1","fromSide":"left","toSide":"bottom"},
+		{"id":"e9","fromNode":"cs351node","toNode":"cs351sub2","fromSide":"left","toSide":"right"},
+		{"id":"e10","fromNode":"cs351node","toNode":"cs351sub3","fromSide":"left","toSide":"right"},
+		{"id":"e11","fromNode":"cs351node","toNode":"cs351sub4","fromSide":"left","toSide":"top"},
+		{"id":"e12","fromNode":"cs351node","toNode":"cs351sub5","fromSide":"bottom","toSide":"top"},
+		{"id":"e13","fromNode":"cs354node","toNode":"cs354sub1","fromSide":"right","toSide":"bottom"},
+		{"id":"e14","fromNode":"cs354node","toNode":"cs354sub2","fromSide":"right","toSide":"left"},
+		{"id":"e15","fromNode":"cs354node","toNode":"cs354sub3","fromSide":"right","toSide":"left"},
+		{"id":"e16","fromNode":"cs354node","toNode":"cs354sub4","fromSide":"right","toSide":"top"},
+		{"id":"e17","fromNode":"cs354node","toNode":"cs354sub5","fromSide":"bottom","toSide":"top"}
+	]
+}

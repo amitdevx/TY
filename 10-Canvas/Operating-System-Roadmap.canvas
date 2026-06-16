@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"os_center","type":"text","x":0,"y":0,"width":220,"height":80,"text":"# ️ Operating System\nCS-302 Visual Roadmap","color":"6"},
+		{"id":"os_intro","type":"text","x":-600,"y":-200,"width":220,"height":120,"text":"**Ch1: OS Introduction**\n• Definition, Functions\n• Types (Batch, Time-sharing,\n  Real-time, Distributed)\n• Booting process","color":"4"},
+		{"id":"os_proc","type":"text","x":-300,"y":-280,"width":250,"height":180,"text":"**Ch2: Process & Scheduling**\n• Process States (5 states)\n• PCB, Context switching\n• CPU Burst vs I/O Burst\n• **FCFS, SJF, Priority, RR**\n• Gantt Chart examples","color":"5"},
+		{"id":"os_mem","type":"text","x":100,"y":-280,"width":260,"height":200,"text":"**Ch3: Memory Management**\n• Address binding\n• Logical vs Physical address\n• **Paging** (page table, TLB)\n• **Segmentation**\n• Virtual Memory, Demand Paging\n• **Page Replacement:**\n  FIFO, Optimal, LRU, MFU","color":"6"},
+		{"id":"os_dead","type":"text","x":-300,"y":120,"width":250,"height":180,"text":"**Ch4: Deadlock**\n• 4 Necessary Conditions\n  (Mutual Excl, Hold&Wait,\n   No Preemption, Circular Wait)\n• Prevention, Avoidance\n• **Banker's Algorithm**\n• Detection & Recovery","color":"1"},
+		{"id":"os_file","type":"text","x":100,"y":120,"width":250,"height":180,"text":"**Ch5: File & Disk**\n• File attributes & operations\n• Allocation: Contiguous,\n  Linked, Indexed\n• Free space: Bit vector,\n  Linked list\n• **Disk Scheduling:**\n  FCFS, SSTF, SCAN, LOOK","color":"2"},
+		{"id":"os_lab","type":"text","x":-150,"y":350,"width":300,"height":80,"text":"**CS-305-MJ-P (OS Lab)**\nImplement in C language\nLinux environment","color":"3"}
+	],
+	"edges":[
+		{"id":"ose01","fromNode":"os_center","toNode":"os_intro","fromSide":"left","toSide":"right"},
+		{"id":"ose02","fromNode":"os_center","toNode":"os_proc","fromSide":"top","toSide":"bottom"},
+		{"id":"ose03","fromNode":"os_center","toNode":"os_mem","fromSide":"top","toSide":"bottom"},
+		{"id":"ose04","fromNode":"os_center","toNode":"os_dead","fromSide":"bottom","toSide":"right"},
+		{"id":"ose05","fromNode":"os_center","toNode":"os_file","fromSide":"bottom","toSide":"top"},
+		{"id":"ose06","fromNode":"os_proc","toNode":"os_dead","label":"Process sync","fromSide":"bottom","toSide":"top"},
+		{"id":"ose07","fromNode":"os_mem","toNode":"os_file","label":"Storage","fromSide":"bottom","toSide":"top"},
+		{"id":"ose08","fromNode":"os_center","toNode":"os_lab","label":"Practical","fromSide":"bottom","toSide":"top"}
+	]
+}

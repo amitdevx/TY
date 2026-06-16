@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"ds_title","type":"text","x":-100,"y":-900,"width":200,"height":80,"text":"#  Data Science\nCS-307 Roadmap","color":"3"},
+		{"id":"ds_center","type":"text","x":-100,"y":-50,"width":200,"height":100,"text":"##  Data Science\nProcess (CRISP-DM)\n6-Phase Lifecycle","color":"3"},
+		{"id":"ds_collection","type":"text","x":-550,"y":-350,"width":200,"height":140,"text":"## 1️⃣ Data Collection\n Web Scraping\n APIs\n CSV/JSON files\n Databases\n Web datasets\n(Kaggle, UCI, etc.)","color":"5"},
+		{"id":"ds_preprocessing","type":"text","x":-550,"y":60,"width":200,"height":160,"text":"## 2️⃣ Data Preprocessing\n Handling missing values\n Removing duplicates\n Normalization (Min-Max)\n Standardization (Z-score)\n Encoding (One-Hot, Label)\n Feature selection","color":"6"},
+		{"id":"ds_visualization","type":"text","x":-100,"y":-500,"width":200,"height":160,"text":"## 3️⃣ Data Visualization\n Line, Bar, Histogram\n Scatter, Box, Heatmap\n **Matplotlib** basics\n **Seaborn** statistical plots\n Pair plots\n Correlation matrix","color":"2"},
+		{"id":"ds_ml","type":"text","x":260,"y":-350,"width":200,"height":120,"text":"## 4️⃣ Machine Learning\n Supervised Learning\n Unsupervised Learning\n Reinforcement Learning\n Train-Test Split\n Cross-Validation","color":"1"},
+		{"id":"ds_supervised","type":"text","x":480,"y":-500,"width":200,"height":140,"text":"## Supervised Learning\n **Regression:**\nLinear, Polynomial\nRidge, Lasso\n **Classification:**\nLogistic Regression\nKNN, Decision Tree\nRandom Forest, SVM\nNaive Bayes","color":"1"},
+		{"id":"ds_unsupervised","type":"text","x":480,"y":-120,"width":200,"height":120,"text":"## Unsupervised Learning\n **Clustering:**\nK-Means\nHierarchical\nDBSCAN\n **Dimensionality Reduction:**\nPCA, t-SNE","color":"4"},
+		{"id":"ds_evaluation","type":"text","x":260,"y":60,"width":200,"height":140,"text":"## 5️⃣ Model Evaluation\n **Regression:** MSE, RMSE, R²\n **Classification:**\nAccuracy, Precision\nRecall, F1-Score\nROC-AUC Curve\n Confusion Matrix","color":"6"},
+		{"id":"ds_python","type":"text","x":-100,"y":300,"width":200,"height":180,"text":"##  Python Libraries\n**NumPy:**\narrays, broadcasting, math ops\n\n**Pandas:**\nDataFrame, groupby, merge, pivot\n\n**Matplotlib:**\nplt.plot, plt.show, subplots\n\n**Seaborn:**\nsns.heatmap, pairplot, boxplot\n\n**Scikit-learn:**\nfit, predict, train_test_split","color":"3"},
+		{"id":"ds_complete","type":"text","x":-100,"y":540,"width":200,"height":80,"text":"##  DS Ready!\nReady for AI/ML (CS-321)\nand Advanced Analytics","color":"4"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"ds_title","toNode":"ds_center","fromSide":"bottom","toSide":"top"},
+		{"id":"e2","fromNode":"ds_center","toNode":"ds_collection","label":"Phase 1","fromSide":"top","toSide":"right"},
+		{"id":"e3","fromNode":"ds_center","toNode":"ds_visualization","label":"Phase 2","fromSide":"top","toSide":"bottom"},
+		{"id":"e4","fromNode":"ds_center","toNode":"ds_ml","label":"Phase 3","fromSide":"top","toSide":"bottom"},
+		{"id":"e5","fromNode":"ds_collection","toNode":"ds_preprocessing","label":"Clean data","fromSide":"bottom","toSide":"top"},
+		{"id":"e6","fromNode":"ds_ml","toNode":"ds_supervised","label":"Labeled data","fromSide":"top","toSide":"left"},
+		{"id":"e7","fromNode":"ds_ml","toNode":"ds_unsupervised","label":"Unlabeled data","fromSide":"bottom","toSide":"top"},
+		{"id":"e8","fromNode":"ds_supervised","toNode":"ds_evaluation","label":"Evaluate","fromSide":"bottom","toSide":"top"},
+		{"id":"e9","fromNode":"ds_unsupervised","toNode":"ds_evaluation","fromSide":"bottom","toSide":"top"},
+		{"id":"e10","fromNode":"ds_preprocessing","toNode":"ds_python","label":"Tools","fromSide":"right","toSide":"left"},
+		{"id":"e11","fromNode":"ds_evaluation","toNode":"ds_python","fromSide":"bottom","toSide":"right"},
+		{"id":"e12","fromNode":"ds_python","toNode":"ds_complete","fromSide":"bottom","toSide":"top"}
+	]
+}

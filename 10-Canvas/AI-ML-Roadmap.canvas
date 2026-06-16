@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"ai_title","type":"text","x":-100,"y":-900,"width":200,"height":80,"text":"#  AI / ML\nCS-321 Roadmap (VSC)","color":"4"},
+		{"id":"ai_foundations","type":"text","x":-600,"y":-700,"width":220,"height":160,"text":"##  AI Foundations\n What is AI? History\n Intelligent Agents\n PEAS Framework\n Rationality\n Types of Environments\n Agent Architecture","color":"6"},
+		{"id":"ai_search","type":"text","x":-600,"y":-480,"width":220,"height":180,"text":"##  Search Algorithms\n**Uninformed:**\n BFS - breadth-first\n DFS - depth-first\n IDDFS, UCS\n\n**Informed:**\n Greedy Best-First\n A* Search\n   f(n) = g(n) + h(n)\n Admissible heuristics","color":"5"},
+		{"id":"ai_logic","type":"text","x":-600,"y":-240,"width":220,"height":160,"text":"##  Knowledge Representation\n Propositional Logic\n Predicate Logic (FOL)\n Inference Rules\n Resolution\n Unification\n Semantic Networks\n Frames & Scripts","color":"2"},
+		{"id":"ml_types","type":"text","x":200,"y":-700,"width":220,"height":140,"text":"## ️ ML Types\n **Supervised** - labeled data\n **Unsupervised** - no labels\n **Reinforcement** - reward/penalty\n **Semi-supervised**\n **Self-supervised**","color":"1"},
+		{"id":"ml_algorithms","type":"text","x":200,"y":-500,"width":220,"height":180,"text":"## ️ ML Algorithms\n**Regression:**\nLinear, Polynomial\n\n**Classification:**\nLogistic Reg, KNN\nDecision Tree, SVM\nNaive Bayes, Random Forest\n\n**Clustering:**\nK-Means, Hierarchical\n\n**Dimensionality:**\nPCA, LDA","color":"1"},
+		{"id":"nn_basics","type":"text","x":-200,"y":-100,"width":220,"height":160,"text":"##  Neural Networks\n Perceptron model\n Multi-layer Perceptron\n Activation functions:\n   Sigmoid, ReLU, Tanh, Softmax\n Backpropagation\n Gradient Descent\n Loss functions\n Epochs, Batch size, LR","color":"3"},
+		{"id":"dl_cnn","type":"text","x":-450,"y":120,"width":200,"height":140,"text":"## ️ CNN\nConvolutional Neural Networks\n Convolution operation\n Pooling (Max, Avg)\n Flatten + Dense layers\n Image classification\n Feature maps\n Architectures: LeNet, VGG","color":"4"},
+		{"id":"dl_rnn","type":"text","x":60,"y":120,"width":200,"height":140,"text":"##  RNN / LSTM\nRecurrent Networks\n Sequential data\n Hidden state\n Vanishing gradient\n LSTM - Long Short-Term Memory\n GRU\n NLP applications","color":"4"},
+		{"id":"ml_applications","type":"text","x":200,"y":-260,"width":220,"height":160,"text":"##  Applications\n Computer Vision\n Natural Language Processing\n Speech Recognition\n Recommendation Systems\n Autonomous Vehicles\n Medical Diagnosis\n Fraud Detection","color":"5"},
+		{"id":"ai_tools","type":"text","x":-100,"y":320,"width":200,"height":140,"text":"## ️ Tools & Frameworks\n **Python** - primary language\n **NumPy / Pandas** - data\n **Scikit-learn** - ML algorithms\n **TensorFlow / Keras** - DL\n **PyTorch** - research DL\n **Jupyter Notebook**","color":"6"},
+		{"id":"ai_complete","type":"text","x":-100,"y":520,"width":200,"height":80,"text":"##  AI/ML Ready!\nAdvanced: NLP, CV\nResearch & Projects","color":"4"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"ai_title","toNode":"ai_foundations","label":"Chapter 1","fromSide":"bottom","toSide":"right"},
+		{"id":"e2","fromNode":"ai_title","toNode":"ml_types","label":"Chapter 3","fromSide":"bottom","toSide":"top"},
+		{"id":"e3","fromNode":"ai_foundations","toNode":"ai_search","label":"Search","fromSide":"bottom","toSide":"top"},
+		{"id":"e4","fromNode":"ai_search","toNode":"ai_logic","label":"Knowledge","fromSide":"bottom","toSide":"top"},
+		{"id":"e5","fromNode":"ml_types","toNode":"ml_algorithms","label":"Algorithms","fromSide":"bottom","toSide":"top"},
+		{"id":"e6","fromNode":"ml_algorithms","toNode":"ml_applications","label":"Use cases","fromSide":"bottom","toSide":"top"},
+		{"id":"e7","fromNode":"ai_logic","toNode":"nn_basics","label":"Neural AI","fromSide":"right","toSide":"left"},
+		{"id":"e8","fromNode":"ml_algorithms","toNode":"nn_basics","label":"Deep learning","fromSide":"bottom","toSide":"top"},
+		{"id":"e9","fromNode":"nn_basics","toNode":"dl_cnn","label":"Images","fromSide":"bottom","toSide":"top"},
+		{"id":"e10","fromNode":"nn_basics","toNode":"dl_rnn","label":"Sequences","fromSide":"bottom","toSide":"top"},
+		{"id":"e11","fromNode":"dl_cnn","toNode":"ai_tools","fromSide":"right","toSide":"left"},
+		{"id":"e12","fromNode":"dl_rnn","toNode":"ai_tools","fromSide":"bottom","toSide":"top"},
+		{"id":"e13","fromNode":"ai_tools","toNode":"ai_complete","fromSide":"bottom","toSide":"top"}
+	]
+}

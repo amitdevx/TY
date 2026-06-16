@@ -1,0 +1,51 @@
+filters:
+  file.inFolder("08-Resources")
+
+properties:
+  resource_type:
+    displayName: "Resource Type"
+  subject:
+    displayName: "Subject"
+  subject_code:
+    displayName: "Subject Code"
+  source:
+    displayName: "Source"
+  tags:
+    displayName: "Tags"
+  rating:
+    displayName: "Rating"
+
+views:
+  - type: list
+    name: "All Resources"
+    order:
+      - file.name
+      - resource_type
+      - subject
+      - file.mtime
+  - type: table
+    name: "Resources by Subject"
+    order:
+      - file.name
+      - subject
+      - subject_code
+      - resource_type
+      - rating
+      - source
+  - type: table
+    name: "Books & PDFs"
+    filters:
+      file.hasTag("book")
+    order:
+      - file.name
+      - subject
+      - source
+  - type: table
+    name: "Video Resources"
+    filters:
+      file.hasTag("video")
+    order:
+      - file.name
+      - subject
+      - source
+      - rating

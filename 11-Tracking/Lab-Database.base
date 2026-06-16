@@ -1,0 +1,40 @@
+filters:
+  file.inFolder("04-Labs")
+
+properties:
+  lab_code:
+    displayName: "Lab Code"
+  based_on:
+    displayName: "Based On"
+  status:
+    displayName: "Status"
+
+views:
+  - type: table
+    name: " All Labs"
+    columns:
+      - file.name
+      - lab_code
+      - based_on
+      - status
+      - file.mtime
+
+  - type: table
+    name: " Semester V Labs"
+    filter:
+      file.inFolder("04-Labs/Semester-V")
+    columns:
+      - file.name
+      - lab_code
+      - based_on
+      - status
+
+  - type: table
+    name: " Semester VI Labs"
+    filter:
+      file.inFolder("04-Labs/Semester-VI")
+    columns:
+      - file.name
+      - lab_code
+      - based_on
+      - status

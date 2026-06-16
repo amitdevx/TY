@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"and_title","type":"text","x":-100,"y":-900,"width":200,"height":80,"text":"#  Android Development\nCS-371 Roadmap (VSC)","color":"1"},
+		{"id":"and_arch","type":"text","x":-100,"y":-760,"width":200,"height":160,"text":"## ️ Android Architecture\n5 Layers (top → bottom):\n\n5️⃣ Applications\n4️⃣ App Framework\n3️⃣ Libraries + ART/Dalvik\n2️⃣ HAL\n1️⃣ Linux Kernel","color":"6"},
+		{"id":"and_activity","type":"text","x":-600,"y":-540,"width":220,"height":200,"text":"##  Activity Lifecycle\n **onCreate()** - init UI\n **onStart()** - visible\n **onResume()** - interactive\n **onPause()** - partially hidden\n **onStop()** - fully hidden\n **onRestart()** - coming back\n **onDestroy()** - cleanup\n\n savedInstanceState\n Bundle for data","color":"5"},
+		{"id":"and_fragment","type":"text","x":-600,"y":-270,"width":220,"height":160,"text":"##  Fragments\n Reusable UI components\n Fragment lifecycle\n FragmentManager\n FragmentTransaction\n Back stack management\n Communication via:\n   ViewModel or Interface\n Navigation Component","color":"5"},
+		{"id":"and_intent","type":"text","x":210,"y":-540,"width":220,"height":160,"text":"##  Intents\n **Explicit Intent:**\n   Start specific Activity\n **Implicit Intent:**\n   Open camera, browser...\n Intent Filters\n putExtra() / getExtra()\n startActivityForResult()\n PendingIntent","color":"2"},
+		{"id":"and_ui","type":"text","x":210,"y":-320,"width":220,"height":180,"text":"##  UI Components\n **Views:** Button, TextView, EditText, ImageView\n **ViewGroups:** ConstraintLayout, LinearLayout, RelativeLayout\n **RecyclerView** - efficient lists\n   Adapter, ViewHolder, LayoutManager\n **Menus:** Options, Context, Popup\n **Dialogs & Toasts**\n **Material Design**","color":"3"},
+		{"id":"and_storage","type":"text","x":-600,"y":-50,"width":220,"height":180,"text":"##  Data Storage\n **SharedPreferences**\n   Key-value pairs, small data\n **Internal Storage**\n   Files in app sandbox\n **External Storage**\n   SD card, public files\n **SQLite + Room**\n   Relational DB, @Entity, @Dao, @Database\n **DataStore** (modern)\n **ContentProvider**","color":"4"},
+		{"id":"and_networking","type":"text","x":210,"y":-80,"width":220,"height":160,"text":"##  Networking\n **Retrofit** - REST APIs\n   @GET, @POST, @Body, @Path\n **OkHttp** - HTTP client\n **Volley** - fast requests\n **Gson / Moshi** - JSON parsing\n **Coroutines** - async calls\n **Glide / Picasso** - image loading\n Internet permission","color":"1"},
+		{"id":"and_background","type":"text","x":-200,"y":180,"width":220,"height":160,"text":"## ️ Background Work\n **Service** - long-running bg tasks\n   startService(), bindService()\n **IntentService** - queued tasks\n **BroadcastReceiver** - system events\n **WorkManager** - guaranteed work\n   OneTimeWorkRequest\n   PeriodicWorkRequest\n **AlarmManager**","color":"6"},
+		{"id":"and_advanced","type":"text","x":210,"y":180,"width":220,"height":180,"text":"##  Advanced Topics\n **ViewModel + LiveData** - MVVM\n **Data Binding**\n **Dependency Injection** (Hilt/Dagger)\n **Kotlin Coroutines & Flow**\n **Jetpack Compose** - declarative UI\n **Notifications** - push notifications\n **Permissions** (runtime)\n **Google Play Store** deployment","color":"4"},
+		{"id":"and_architecture_patterns","type":"text","x":-200,"y":400,"width":220,"height":140,"text":"## ️ Architecture Patterns\n **MVC** - Model-View-Controller\n **MVP** - Model-View-Presenter\n **MVVM** - Model-View-ViewModel \n   ViewModel + LiveData + Repository\n **Clean Architecture**\n SOLID Principles","color":"3"},
+		{"id":"and_testing","type":"text","x":210,"y":400,"width":220,"height":120,"text":"##  Testing\n **Unit Tests** - JUnit 4/5\n **Instrumented Tests** - on device\n **Espresso** - UI testing\n **Mockito** - mocking\n **Robolectric** - fast local tests","color":"5"},
+		{"id":"and_complete","type":"text","x":-100,"y":600,"width":200,"height":80,"text":"##  Android Ready!\nBuild & publish\nyour first app! ","color":"4"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"and_title","toNode":"and_arch","fromSide":"bottom","toSide":"top"},
+		{"id":"e2","fromNode":"and_arch","toNode":"and_activity","label":"Core Components","fromSide":"left","toSide":"right"},
+		{"id":"e3","fromNode":"and_arch","toNode":"and_intent","label":"Navigation","fromSide":"right","toSide":"left"},
+		{"id":"e4","fromNode":"and_activity","toNode":"and_fragment","label":"UI parts","fromSide":"bottom","toSide":"top"},
+		{"id":"e5","fromNode":"and_intent","toNode":"and_ui","label":"UI","fromSide":"bottom","toSide":"top"},
+		{"id":"e6","fromNode":"and_fragment","toNode":"and_storage","label":"Persist data","fromSide":"bottom","toSide":"top"},
+		{"id":"e7","fromNode":"and_ui","toNode":"and_networking","label":"Fetch data","fromSide":"bottom","toSide":"top"},
+		{"id":"e8","fromNode":"and_storage","toNode":"and_background","label":"Bg tasks","fromSide":"right","toSide":"left"},
+		{"id":"e9","fromNode":"and_networking","toNode":"and_advanced","label":"Advanced","fromSide":"bottom","toSide":"top"},
+		{"id":"e10","fromNode":"and_background","toNode":"and_architecture_patterns","fromSide":"bottom","toSide":"top"},
+		{"id":"e11","fromNode":"and_advanced","toNode":"and_testing","fromSide":"bottom","toSide":"top"},
+		{"id":"e12","fromNode":"and_architecture_patterns","toNode":"and_complete","fromSide":"bottom","toSide":"top"},
+		{"id":"e13","fromNode":"and_testing","toNode":"and_complete","fromSide":"bottom","toSide":"top"}
+	]
+}

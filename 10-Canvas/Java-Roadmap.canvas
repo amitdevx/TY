@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"javastart","type":"text","x":-100,"y":-700,"width":200,"height":80,"text":"#  Core Java\nLearning Roadmap","color":"5"},
+		{"id":"group_basics","type":"group","x":-500,"y":-560,"width":380,"height":380,"label":" Java Fundamentals (Ch 1–2)"},
+		{"id":"basics_intro","type":"text","x":-480,"y":-510,"width":160,"height":70,"text":"**JVM Architecture**\nJDK • JRE • JVM\nBytecode compilation","color":"5"},
+		{"id":"basics_datatypes","type":"text","x":-480,"y":-420,"width":160,"height":70,"text":"**Data Types**\nprimitive vs reference\nTypecast, Widening","color":"5"},
+		{"id":"basics_control","type":"text","x":-480,"y":-330,"width":160,"height":70,"text":"**Control Flow**\nif-else, switch\nfor, while, do-while","color":"5"},
+		{"id":"basics_arrays","type":"text","x":-300,"y":-510,"width":160,"height":70,"text":"**Arrays & Strings**\n1D/2D arrays\nString methods","color":"5"},
+		{"id":"basics_methods","type":"text","x":-300,"y":-420,"width":160,"height":70,"text":"**Methods**\nstatic vs instance\nRecursion, varargs","color":"5"},
+		{"id":"group_oop","type":"group","x":130,"y":-560,"width":380,"height":380,"label":"️ OOP Concepts (Ch 3)"},
+		{"id":"oop_class","type":"text","x":150,"y":-510,"width":160,"height":70,"text":"**Classes & Objects**\nConstructors\nthis keyword, static","color":"2"},
+		{"id":"oop_inherit","type":"text","x":150,"y":-420,"width":160,"height":70,"text":"**Inheritance**\nextends, super\nMethod overriding","color":"2"},
+		{"id":"oop_poly","type":"text","x":150,"y":-330,"width":160,"height":70,"text":"**Polymorphism**\nOverloading vs Overriding\nRuntime dispatch","color":"2"},
+		{"id":"oop_abstract","type":"text","x":320,"y":-510,"width":160,"height":70,"text":"**Abstract & Interface**\nabstract class\ninterface, default methods","color":"2"},
+		{"id":"oop_encap","type":"text","x":320,"y":-420,"width":160,"height":70,"text":"**Encapsulation**\nprivate fields\ngetters & setters","color":"2"},
+		{"id":"group_advanced","type":"group","x":-500,"y":-100,"width":380,"height":360,"label":" File I/O & Exception Handling (Ch 4)"},
+		{"id":"adv_exception","type":"text","x":-480,"y":-50,"width":160,"height":80,"text":"**Exception Handling**\ntry-catch-finally\nthrow vs throws\nCustom exceptions","color":"6"},
+		{"id":"adv_collections","type":"text","x":-300,"y":-50,"width":160,"height":80,"text":"**Collections**\nArrayList, LinkedList\nHashMap, HashSet\nComparator, Iterator","color":"6"},
+		{"id":"adv_fileio","type":"text","x":-480,"y":50,"width":160,"height":80,"text":"**File I/O**\nFileReader/Writer\nBufferedReader\nScanner, nio","color":"6"},
+		{"id":"adv_generics","type":"text","x":-300,"y":50,"width":160,"height":80,"text":"**Generics & Lambda**\nGeneric classes\nLambda expressions\nStream API","color":"6"},
+		{"id":"group_javafx","type":"group","x":130,"y":-100,"width":380,"height":360,"label":"️ JavaFX & Multithreading (Ch 5)"},
+		{"id":"javafx_basics","type":"text","x":150,"y":-50,"width":160,"height":80,"text":"**JavaFX**\nStage & Scene\nFXML layouts\nEvent handling","color":"4"},
+		{"id":"javafx_controls","type":"text","x":320,"y":-50,"width":160,"height":80,"text":"**UI Controls**\nButton, TextField\nTableView\nCSS styling","color":"4"},
+		{"id":"javafx_thread","type":"text","x":150,"y":50,"width":160,"height":80,"text":"**Multithreading**\nThread class\nRunnable interface\nsynchronized, wait/notify","color":"4"},
+		{"id":"javafx_network","type":"text","x":320,"y":50,"width":160,"height":80,"text":"**Networking**\nSocket, ServerSocket\nURL connection\nHTTP calls","color":"4"},
+		{"id":"javaend","type":"text","x":-100,"y":340,"width":200,"height":80,"text":"##  Java Mastered!\nReady for Advanced Java\n(CS-351 Sem VI)","color":"4"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"javastart","toNode":"group_basics","label":"Start here","fromSide":"bottom","toSide":"right"},
+		{"id":"e2","fromNode":"group_basics","toNode":"group_oop","label":"Then","fromSide":"right","toSide":"left"},
+		{"id":"e3","fromNode":"group_oop","toNode":"group_advanced","label":"Then","fromSide":"left","toSide":"right"},
+		{"id":"e4","fromNode":"group_advanced","toNode":"group_javafx","label":"Then","fromSide":"right","toSide":"left"},
+		{"id":"e5","fromNode":"group_javafx","toNode":"javaend","label":"Complete!","fromSide":"left","toSide":"top"},
+		{"id":"e6","fromNode":"basics_intro","toNode":"basics_datatypes","fromSide":"bottom","toSide":"top"},
+		{"id":"e7","fromNode":"basics_datatypes","toNode":"basics_control","fromSide":"bottom","toSide":"top"},
+		{"id":"e8","fromNode":"oop_class","toNode":"oop_inherit","fromSide":"bottom","toSide":"top"},
+		{"id":"e9","fromNode":"oop_inherit","toNode":"oop_poly","fromSide":"bottom","toSide":"top"},
+		{"id":"e10","fromNode":"oop_poly","toNode":"oop_abstract","fromSide":"top","toSide":"bottom"}
+	]
+}

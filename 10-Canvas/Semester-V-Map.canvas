@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"sem5center01","type":"text","x":0,"y":0,"width":220,"height":90,"text":"#  Semester V\nTY B.Sc. Computer Science\nLevel 5.5","color":"4"},
+		{"id":"cs301node01","type":"text","x":-580,"y":-300,"width":220,"height":120,"text":"**CS-301-MJ-T**\n Core Java\n5 Chapters | 30 Hours\nJavaFX, OOP, Collections","color":"5"},
+		{"id":"cs302node01","type":"text","x":-580,"y":-80,"width":220,"height":120,"text":"**CS-302-MJ-T**\n️ Operating Systems\n5 Chapters | 30 Hours\nScheduling, Paging, Deadlock","color":"6"},
+		{"id":"cs303node01","type":"text","x":-580,"y":160,"width":220,"height":120,"text":"**CS-303-MJ-T**\n Web Technology-I\n4 Chapters | 30 Hours\nHTML5, CSS3, JS, Node.js","color":"1"},
+		{"id":"cs304node01","type":"text","x":370,"y":-300,"width":220,"height":120,"text":"**CS-304-MJ-T**\n️ Theory of CS\n5 Chapters | 30 Hours\nDFA, NFA, CFG, TM","color":"2"},
+		{"id":"cs307node01","type":"text","x":370,"y":-80,"width":220,"height":120,"text":"**CS-307-MJ-T**\n Data Science\n5 Units | 30 Hours\nML, Visualization, Analysis","color":"3"},
+		{"id":"cs321node01","type":"text","x":370,"y":160,"width":220,"height":120,"text":"**CS-321-VSC-P**\n Foundation AI/ML\nVSC Course | 4 Credits\nNN, Deep Learning, NLP","color":"4"},
+		{"id":"labs5group01","type":"text","x":-200,"y":350,"width":400,"height":100,"text":"**Labs**\nCS-305: OS Lab | CS-306: Java+Web Lab | CS-308: DS Lab","color":"4"},
+		{"id":"math01","type":"text","x":-200,"y":480,"width":400,"height":80,"text":"**Mathematics** (Separate)\nMTC-341: Operations Research","color":"3"}
+	],
+	"edges":[
+		{"id":"e5v01","fromNode":"sem5center01","toNode":"cs301node01","label":"Theory","fromSide":"top","toSide":"right"},
+		{"id":"e5v02","fromNode":"sem5center01","toNode":"cs302node01","label":"Theory","fromSide":"left","toSide":"right"},
+		{"id":"e5v03","fromNode":"sem5center01","toNode":"cs303node01","label":"Theory","fromSide":"left","toSide":"right"},
+		{"id":"e5v04","fromNode":"sem5center01","toNode":"cs304node01","label":"Theory","fromSide":"top","toSide":"bottom"},
+		{"id":"e5v05","fromNode":"sem5center01","toNode":"cs307node01","label":"Major Elective","fromSide":"right","toSide":"left"},
+		{"id":"e5v06","fromNode":"sem5center01","toNode":"cs321node01","label":"VSC","fromSide":"bottom","toSide":"left"},
+		{"id":"e5v07","fromNode":"cs302node01","toNode":"labs5group01","label":"CS-305","fromSide":"bottom","toSide":"top"},
+		{"id":"e5v08","fromNode":"cs301node01","toNode":"labs5group01","label":"CS-306","fromSide":"bottom","toSide":"top"},
+		{"id":"e5v09","fromNode":"cs307node01","toNode":"labs5group01","label":"CS-308","fromSide":"bottom","toSide":"top"}
+	]
+}

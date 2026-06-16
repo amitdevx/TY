@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"wt1_center","type":"text","x":0,"y":0,"width":220,"height":80,"text":"#  Web Technology I\nCS-303 Visual Roadmap","color":"1"},
+		{"id":"wt1_html","type":"text","x":-600,"y":-200,"width":240,"height":160,"text":"**Ch1a: HTML5**\n• Semantic elements\n  header, nav, section, footer\n• Forms & Input types\n• Multimedia: Audio, Video\n• Accessibility (alt text)","color":"4"},
+		{"id":"wt1_css","type":"text","x":-300,"y":-280,"width":240,"height":180,"text":"**Ch1b: CSS3**\n• Selectors, specificity\n• Box model (margin/padding)\n• **Flexbox** alignment\n• **CSS Grid** rows/columns\n• Responsive/Media queries\n• Mobile-first approach","color":"5"},
+		{"id":"wt1_js","type":"text","x":100,"y":-280,"width":240,"height":160,"text":"**Ch1c: Core JavaScript**\n• Variables, Data types\n• Functions, Scope\n• Arrays & Objects\n• **DOM** manipulation\n• Event handling","color":"6"},
+		{"id":"wt1_es6","type":"text","x":-300,"y":80,"width":240,"height":160,"text":"**Ch2: Advanced JS (ES6+)**\n• Arrow functions, `let`/`const`\n• Template literals\n• Destructuring, Spread/Rest\n• **Promises lifecycle**\n• **async/await**","color":"1"},
+		{"id":"wt1_node","type":"text","x":100,"y":80,"width":240,"height":160,"text":"**Ch3: Node.js**\n• Runtime architecture\n• npm, package.json\n• **Event loop** (non-blocking)\n• Core modules: fs, path, http\n• HTTP server creation","color":"2"},
+		{"id":"wt1_file","type":"text","x":-150,"y":320,"width":300,"height":140,"text":"**Ch4: File Handling (Node.js)**\n• File read/write/append/delete\n• Sync vs Async methods\n• JSON handling (parse/stringify)\n• Directory management\n• File upload basics","color":"3"},
+		{"id":"wt1_arrow","type":"text","x":420,"y":0,"width":200,"height":120,"text":"**Leads to →**\nCS-353 Web Tech II\n• React.js\n• PostgreSQL\n• REST APIs\n• JWT Auth","color":"4"}
+	],
+	"edges":[
+		{"id":"wt1e01","fromNode":"wt1_center","toNode":"wt1_html","fromSide":"left","toSide":"right"},
+		{"id":"wt1e02","fromNode":"wt1_center","toNode":"wt1_css","fromSide":"top","toSide":"bottom"},
+		{"id":"wt1e03","fromNode":"wt1_center","toNode":"wt1_js","fromSide":"top","toSide":"bottom"},
+		{"id":"wt1e04","fromNode":"wt1_center","toNode":"wt1_es6","fromSide":"bottom","toSide":"right"},
+		{"id":"wt1e05","fromNode":"wt1_center","toNode":"wt1_node","fromSide":"bottom","toSide":"top"},
+		{"id":"wt1e06","fromNode":"wt1_node","toNode":"wt1_file","fromSide":"bottom","toSide":"top"},
+		{"id":"wt1e07","fromNode":"wt1_js","toNode":"wt1_es6","label":"Upgrades to","fromSide":"bottom","toSide":"top"},
+		{"id":"wt1e08","fromNode":"wt1_center","toNode":"wt1_arrow","label":"Sem VI","fromSide":"right","toSide":"left"}
+	]
+}

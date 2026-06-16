@@ -1,0 +1,35 @@
+filters: file.inFolder("07-Exams")
+properties:
+  subject:
+    displayName: Subject
+  exam_date:
+    displayName: Exam Date
+  exam_type:
+    displayName: Type (IE/EE)
+  marks:
+    displayName: Max Marks
+views:
+  - type: table
+    name: " All Exam Notes"
+    columns:
+      - file.name
+      - subject
+      - exam_date
+      - exam_type
+      - marks
+  - type: table
+    name: " Semester V"
+    filter: file.inFolder("07-Exams/Semester-V")
+    columns:
+      - file.name
+      - subject
+      - exam_date
+      - marks
+  - type: table
+    name: " Semester VI"
+    filter: file.inFolder("07-Exams/Semester-VI")
+    columns:
+      - file.name
+      - subject
+      - exam_date
+      - marks
