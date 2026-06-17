@@ -20,7 +20,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 3: Data Storage
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 3: Data Storage
 
 > [!important] Learning Objectives
 > After this unit, you should be able to:
@@ -33,7 +36,7 @@ updated: 2026-06-16
 
 ---
 
-##  Topics at a Glance
+## Topics at a Glance
 
 ```mermaid
 mindmap
@@ -68,7 +71,7 @@ mindmap
 
 ## 3.1 SharedPreferences
 
-###  What is SharedPreferences?
+### What is SharedPreferences?
 
 ==SharedPreferences== is an Android API for storing **small amounts of primitive data** as key-value pairs. Data persists across app sessions.
 
@@ -78,7 +81,7 @@ mindmap
 
 ---
 
-###  Writing to SharedPreferences
+### Writing to SharedPreferences
 
 ```kotlin
 // Get SharedPreferences instance
@@ -105,7 +108,7 @@ prefs.edit()
     .apply()
 ```
 
-###  Reading from SharedPreferences
+### Reading from SharedPreferences
 
 ```kotlin
 val prefs = getSharedPreferences("MyAppPrefs", Context.MODE_PRIVATE)
@@ -126,7 +129,7 @@ if (prefs.contains("username")) {
 val allPrefs: Map<String, *> = prefs.all
 ```
 
-###  Deleting from SharedPreferences
+### Deleting from SharedPreferences
 
 ```kotlin
 val editor = prefs.edit()
@@ -135,7 +138,7 @@ editor.clear()             // Remove ALL keys
 editor.apply()
 ```
 
-###  Practical: Login State Management
+### Practical: Login State Management
 
 ```kotlin
 // Save login state
@@ -165,7 +168,7 @@ fun logout() {
 
 ## 3.2 SQLite Database
 
-###  What is SQLite?
+### What is SQLite?
 
 ==SQLite== is a **lightweight, serverless relational database** built into Android. Every Android device has SQLite available.
 
@@ -173,7 +176,7 @@ fun logout() {
 
 ---
 
-###  SQLiteOpenHelper
+### SQLiteOpenHelper
 
 ```kotlin
 // DatabaseHelper.kt
@@ -335,7 +338,7 @@ graph LR
     DAO --> LD
 ```
 
-###  Setup
+### Setup
 
 ```groovy
 // build.gradle (Module)
@@ -351,7 +354,7 @@ dependencies {
 }
 ```
 
-###  Step 1: Entity
+### Step 1: Entity
 
 ```kotlin
 // User.kt - Entity (maps to a table)
@@ -371,7 +374,7 @@ data class User(
 )
 ```
 
-###  Step 2: DAO (Data Access Object)
+### Step 2: DAO (Data Access Object)
 
 ```kotlin
 // UserDao.kt - Database operations as interface
@@ -411,7 +414,7 @@ interface UserDao {
 }
 ```
 
-###  Step 3: Database
+### Step 3: Database
 
 ```kotlin
 // AppDatabase.kt - Singleton Room database
@@ -446,7 +449,7 @@ abstract class AppDatabase : RoomDatabase() {
 }
 ```
 
-###  Step 4: Using Room with LiveData
+### Step 4: Using Room with LiveData
 
 ```kotlin
 // ViewModel
@@ -494,7 +497,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 3.4 File Storage
 
-###  Internal Storage
+### Internal Storage
 
 Internal files are **private** to the app - deleted when app is uninstalled.
 
@@ -520,7 +523,7 @@ val internalDir = filesDir  // /data/data/com.package/files/
 val cacheDir = cacheDir     // /data/data/com.package/cache/
 ```
 
-###  External Storage
+### External Storage
 
 ```kotlin
 // Check permission and availability first
@@ -577,7 +580,7 @@ cursor?.use {
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -595,7 +598,7 @@ cursor?.use {
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 > [!question] Short Answer Questions
 > 1. What is SharedPreferences? What types of data can it store?
@@ -611,7 +614,7 @@ cursor?.use {
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Unit-2|← Unit 2: Activities and Intents]]
 - [[Syllabus| Syllabus]]

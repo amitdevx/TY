@@ -19,13 +19,16 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # Unit 5 - User Interface with JavaFX
 > [!important] **Hours:** 8 | **Subject:** CS-301-MJ-T Core Java | **Semester:** V
 > **Previous:** [[Unit-4|Unit 4: Exception and File Handling]] | **Next:** [[Important-Questions]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Compare JavaFX and Swing for GUI development
 - Understand JavaFX architecture and the scene graph model
@@ -59,15 +62,15 @@ last_modified: 2026-06-16
 
 ```mermaid
 graph TD
-    APP["JavaFX Application"] --> SG["Scene Graph\n(Hierarchical node tree)"]
-    SG --> PRISM["Prism\n(Graphics rendering engine\nOpenGL / DirectX)"]
-    SG --> GLASS["Glass Windowing Toolkit\n(Window management, Events)"]
-    SG --> MEDIA["Media Engine\n(Audio/Video playback)"]
-    SG --> WEB["WebView\n(Embedded browser - WebKit)"]
+    APP["JavaFX Application"] --> SG["Scene Graph<br/>(Hierarchical node tree)"]
+    SG --> PRISM["Prism<br/>(Graphics rendering engine<br/>OpenGL / DirectX)"]
+    SG --> GLASS["Glass Windowing Toolkit<br/>(Window management, Events)"]
+    SG --> MEDIA["Media Engine<br/>(Audio/Video playback)"]
+    SG --> WEB["WebView<br/>(Embedded browser - WebKit)"]
     PRISM --> OS["Operating System / Hardware"]
     GLASS --> OS
     
-    QUANTUM["Quantum Toolkit\n(Orchestrates Prism + Glass)"] --> PRISM
+    QUANTUM["Quantum Toolkit<br/>(Orchestrates Prism + Glass)"] --> PRISM
     QUANTUM --> GLASS
 ```
 
@@ -138,11 +141,11 @@ public class MyApp extends Application {
 
 ```mermaid
 flowchart LR
-    L["launch(args)"] --> INIT["init()\n(non-UI setup)"]
-    INIT --> START["start(Stage)\n(build and show UI)"]
-    START --> RUNNING["Application\nRunning\n(event loop)"]
-    RUNNING --> |"Window closed\nor Platform.exit()"| STOP["stop()\n(cleanup)"]
-    STOP --> EXIT["Application\nTerminated"]
+    L["launch(args)"] --> INIT["init()<br/>(non-UI setup)"]
+    INIT --> START["start(Stage)<br/>(build and show UI)"]
+    START --> RUNNING["Application<br/>Running<br/>(event loop)"]
+    RUNNING --> |"Window closed<br/>or Platform.exit()"| STOP["stop()<br/>(cleanup)"]
+    STOP --> EXIT["Application<br/>Terminated"]
 ```
 
 | Method | Thread | Purpose |
@@ -157,14 +160,14 @@ flowchart LR
 
 ```mermaid
 graph TD
-    Stage["️ Stage\n(Window / OS Window)"]
-    Stage --> Scene[" Scene\n(Container for content)"]
-    Scene --> Root["Root Node\n(Layout Pane - VBox, etc.)"]
-    Root --> N1["Node 1\n(Button)"]
-    Root --> N2["Node 2\n(Label)"]
-    Root --> N3["Node 3\n(Sub-layout - HBox)"]
-    N3 --> N4["Node 4\n(TextField)"]
-    N3 --> N5["Node 5\n(CheckBox)"]
+    Stage[" Stage<br/>(Window / OS Window)"]
+    Stage --> Scene[" Scene<br/>(Container for content)"]
+    Scene --> Root["Root Node<br/>(Layout Pane - VBox, etc.)"]
+    Root --> N1["Node 1<br/>(Button)"]
+    Root --> N2["Node 2<br/>(Label)"]
+    Root --> N3["Node 3<br/>(Sub-layout - HBox)"]
+    N3 --> N4["Node 4<br/>(TextField)"]
+    N3 --> N5["Node 5<br/>(CheckBox)"]
 ```
 
 | Concept | Description |
@@ -594,7 +597,7 @@ public class LoginApp extends Application {
 
 ---
 
-##  Interview Questions
+## Interview Questions
 
 1. **What is the difference between Swing and JavaFX?**
    - JavaFX: CSS styling, FXML, built-in charts/media, modern API, scene graph; Swing: older, no FXML, heavyweight components, maintenance mode.
@@ -612,7 +615,7 @@ public class LoginApp extends Application {
    - HBox (horizontal), VBox (vertical), BorderPane (5 regions), GridPane (rows+cols), FlowPane (wrapping), StackPane (overlapping).
 
 6. **How to handle events in JavaFX? Mention three ways.**
-   - (1) Anonymous inner class with EventHandler<ActionEvent>
+   - (1) Anonymous inner class with `EventHandler<ActionEvent>`
    - (2) Lambda expression: `btn.setOnAction(e -> ...)`
    - (3) Method reference: `btn.setOnAction(this::method)`
 
@@ -632,7 +635,7 @@ public class LoginApp extends Application {
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!note] Quick Revision - Unit 5
 > 
@@ -652,8 +655,8 @@ public class LoginApp extends Application {
 
 ---
 
-##  Navigation
+## Navigation
 
 | Previous | Current | Next |
 |----------|---------|------|
-| [[Unit-4\|Unit 4: Exception and File Handling]] | **Unit 5: User Interface with JavaFX** | [[Important-Questions\|Important Questions]] |
+| [[Unit-4|Unit 4: Exception and File Handling]] | **Unit 5: User Interface with JavaFX** | [[Important-Questions|Important Questions]] |

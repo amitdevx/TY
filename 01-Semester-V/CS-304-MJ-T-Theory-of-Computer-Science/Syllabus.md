@@ -21,25 +21,28 @@ aliases:
 status: "not-started"
 ---
 
-#  CS-304 Theory of Computer Science - Complete Syllabus
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-304 Theory of Computer Science - Complete Syllabus
 
 > [!info] Course Information
 > **Semester:** V | **Credits:** 2 | **IE:** 15 | **EE:** 35
 > **Teaching:** 2 Hours/Week | **Total:** 30 Hours
 
-##  Prerequisites
+## Prerequisites
 - Knowledge of Sets, relations, functions, and logic in discrete mathematics
 - Fundamental algorithms and data structures
 - Basic knowledge of programming concepts
 
-##  Course Objectives
+## Course Objectives
 - Introduce the **mathematical foundations of computation**
 - Examine computational complexity of algorithms and problems
 - Learn about **grammars and formal languages**
 - Gain knowledge of formal computation models like **Turing machines and automata**
 - Develop strong problem-solving and proof-building abilities
 
-##  Course Outcomes (COs)
+## Course Outcomes (COs)
 
 | CO | Description |
 |----|-------------|
@@ -50,7 +53,7 @@ status: "not-started"
 | CO5 | Understand Turing machines design and finite automata |
 | CO6 | Use formal languages and automata to model real world problems |
 
-##  Chapter-wise Syllabus
+## Chapter-wise Syllabus
 
 ### Chapter 1: Finite Automaton *(8 Hours)* 
 → [[Unit-1|Unit 1 Notes]]
@@ -108,7 +111,7 @@ status: "not-started"
 | 5.2 | Problems on language recognizers |
 | 5.3 | Language accepted by TM |
 
-##  Reference Books
+## Reference Books
 
 | # | Book | Author | Publisher |
 |---|------|--------|-----------|
@@ -118,7 +121,7 @@ status: "not-started"
 | R4 | Introduction to Languages and Theory of Computation | John C. Martin | McGraw-Hill |
 | R5 | Languages and Machines | Thomas A. Sudkamp | - |
 
-##  Most Important Topics for Exam
+## Most Important Topics for Exam
 
 > [!warning] Always in Exam
 > 1. **DFA/NFA construction** from given language description
@@ -132,7 +135,7 @@ status: "not-started"
 > 9. **Turing Machine design** for simple languages
 > 10. **Moore vs Mealy** machine differences and conversions
 
-##  Chomsky Hierarchy (Quick Reference)
+## Chomsky Hierarchy (Quick Reference)
 
 | Type | Grammar | Language | Automaton |
 |------|---------|----------|-----------|
@@ -141,7 +144,7 @@ status: "not-started"
 | Type 2 | Context-Free | Context-Free | PDA |
 | Type 3 | Regular | Regular | DFA/NFA |
 
-## ️ Quick Navigation
+## Quick Navigation
 
 | File | Purpose |
 |------|---------|

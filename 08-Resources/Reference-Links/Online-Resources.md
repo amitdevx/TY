@@ -8,12 +8,15 @@ tags:
 date: 2026-06-16
 ---
 
-#  Online Learning Resources
+[[00-Dashboard/Home|Home]] | [[08-Resources/Resources-Dashboard|Resources Dashboard]]
+
+
+# Online Learning Resources
 
 > [!tip] Best Study Strategy
 > Use these alongside your textbooks. For quick concept clearing, YouTube > GeeksforGeeks. For practice problems, LeetCode > HackerRank.
 
-##  Core Java (CS-301)
+## Core Java (CS-301)
 
 | Resource | Type | Link |
 |----------|------|------|
@@ -26,7 +29,7 @@ date: 2026-06-16
 | W3Schools Java | Quick reference | https://www.w3schools.com/java/ |
 | LeetCode | Practice | https://leetcode.com |
 
-## ️ Operating Systems (CS-302)
+## Operating Systems (CS-302)
 
 | Resource | Type | Link |
 |----------|------|------|
@@ -36,7 +39,7 @@ date: 2026-06-16
 | OS Study Materials | NPTEL | https://nptel.ac.in |
 | Silberschatz Textbook Site | Slides | https://www.os-book.com/ |
 
-##  Web Technology-I (CS-303)
+## Web Technology-I (CS-303)
 
 | Resource | Type | Link |
 |----------|------|------|
@@ -49,7 +52,7 @@ date: 2026-06-16
 | CSS-Tricks | CSS reference | https://css-tricks.com |
 | YouTube: Traversy Media | Video | Search "Traversy Media Node" |
 
-## ️ Theory of Computer Science (CS-304)
+## Theory of Computer Science (CS-304)
 
 | Resource | Type | Link |
 |----------|------|------|
@@ -59,7 +62,7 @@ date: 2026-06-16
 | YouTube: Gate Smashers TOC | Hindi | Search "Gate Smashers TOC" |
 | Sipser Book Online | Chapter 1-3 free | http://math.mit.edu/~sipser/ |
 
-##  Data Science (CS-307)
+## Data Science (CS-307)
 
 | Resource | Type | Link |
 |----------|------|------|
@@ -72,7 +75,7 @@ date: 2026-06-16
 | StatQuest | Stats for ML | Search "StatQuest" on YouTube |
 | Fast.ai | Practical DL | https://www.fast.ai |
 
-##  AI/ML (CS-321)
+## AI/ML (CS-321)
 
 | Resource | Type | Link |
 |----------|------|------|
@@ -82,7 +85,7 @@ date: 2026-06-16
 | YouTube: Sentdex | Python ML | Search "Sentdex Python ML" |
 | YouTube: 3Blue1Brown Neural Networks | Visual | Search "3Blue1Brown NN" |
 
-##  Advanced Java (CS-351)
+## Advanced Java (CS-351)
 
 | Resource | Type | Link |
 |----------|------|------|
@@ -92,7 +95,7 @@ date: 2026-06-16
 | YouTube: Amigoscode | Spring Boot | Search "Amigoscode Spring Boot" |
 | YouTube: Java Brains | Spring, Hibernate | Search "Java Brains" on YouTube |
 
-## ️ Angular (CS-352)
+## Angular (CS-352)
 
 | Resource | Type | Link |
 |----------|------|------|
@@ -102,7 +105,7 @@ date: 2026-06-16
 | YouTube: Decoded Frontend | Angular tutorials | Search "Decoded Frontend" |
 | StackBlitz | Online Angular IDE | https://stackblitz.com |
 
-##  Web Technology-II (CS-353)
+## Web Technology-II (CS-353)
 
 | Resource | Type | Link |
 |----------|------|------|
@@ -114,7 +117,7 @@ date: 2026-06-16
 | YouTube: Fireship React | Short videos | Search "Fireship React" |
 | YouTube: Traversy Media | MERN Stack | Search "Traversy MERN" |
 
-## ️ Compiler Construction (CS-354)
+## Compiler Construction (CS-354)
 
 | Resource | Type | Link |
 |----------|------|------|
@@ -124,7 +127,7 @@ date: 2026-06-16
 | Dragon Book (PDF) | Reference book | - |
 | Jflap Tool | FA/CFG simulator | https://www.jflap.org |
 
-##  Android (CS-357)
+## Android (CS-357)
 
 | Resource | Type | Link |
 |----------|------|------|
@@ -133,7 +136,7 @@ date: 2026-06-16
 | YouTube: Coding With Mitch | Android dev | Search "Coding With Mitch" |
 | YouTube: Philipp Lackner | Android Kotlin | Search "Philipp Lackner" |
 
-##  Agile (CS-371)
+## Agile (CS-371)
 
 | Resource | Type | Link |
 |----------|------|------|
@@ -143,7 +146,7 @@ date: 2026-06-16
 | Jira Free | Agile tool | https://www.atlassian.com/software/jira |
 | GitHub | Version control | https://github.com |
 
-##  General CS Resources
+## General CS Resources
 
 | Resource | Purpose |
 |----------|---------|
@@ -156,4 +159,4 @@ date: 2026-06-16
 | MIT OpenCourseWare | Free course materials |
 
 ---
-*[[Books/CS-Recommended-Books|← Reference Books]] | [[Home| Dashboard]]*
+*[[08-Resources/Books/CS-Recommended-Books|← Reference Books]] | [[Home| Dashboard]]*

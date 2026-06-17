@@ -8,14 +8,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Mathematics Formula Sheet - TY B.Sc. CS
+[[00-Dashboard/Home|Home]] | [[03-Mathematics/Mathematics-Dashboard|Mathematics]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Formula-Sheet]] | [[PYQ]]
+
+
+# Mathematics Formula Sheet - TY B.Sc. CS
 
 > [!tip] Usage
 > This is your go-to quick reference. Memorize highlighted formulas before exams. Use  markers to indicate priority.
 
 ---
 
-##  PART A: Operations Research
+## PART A: Operations Research
 
 ### A.1 Linear Programming Problem (LPP)
 
@@ -41,7 +44,7 @@ $$a_{i1}x_1 + a_{i2}x_2 + \cdots + a_{in}x_n + s_i = b_i \quad (s_i \geq 0)$$
 For **≥ constraints** (subtract surplus, add artificial):
 $$a_{i1}x_1 + \cdots + a_{in}x_n - s_i + A_i = b_i$$
 
-####  Simplex Method Steps
+#### Simplex Method Steps
 
 1. Convert to standard form (add slack variables $s_1, s_2, \ldots$)
 2. Set up initial **Simplex Tableau**
@@ -65,7 +68,7 @@ $$c_j - z_j = c_j - \sum_{i=1}^{m} c_{Bi} \cdot a_{ij}$$
 
 where $c_{Bi}$ = cost of basic variable in row $i$
 
-####  Big-M Method Steps
+#### Big-M Method Steps
 
 1. Add **artificial variables** $A_i$ to equality/≥ constraints
 2. Assign cost $-M$ (maximization) or $+M$ (minimization) to artificial variables ($M$ = very large)
@@ -114,7 +117,7 @@ $$\text{Number of allocations} = m + n - 1$$
 
 If allocations $< m+n-1$ → **Degenerate** (add $\epsilon$ to empty cell)
 
-####  North West Corner Rule (NWCR) Steps
+#### North West Corner Rule (NWCR) Steps
 
 1. Start at top-left (NW) corner cell $(1,1)$
 2. Allocate $x_{ij} = \min(a_i, b_j)$
@@ -123,14 +126,14 @@ If allocations $< m+n-1$ → **Degenerate** (add $\epsilon$ to empty cell)
 5. If $a_i = b_j$: exhausted both, move diagonally (handle degeneracy)
 6. Repeat until all supply/demand satisfied
 
-####  Least Cost Method (LCM) Steps
+#### Least Cost Method (LCM) Steps
 
 1. Find cell with **minimum cost** in entire table
 2. Allocate as much as possible $x_{ij} = \min(a_i, b_j)$
 3. Cross out exhausted row/column
 4. Repeat with remaining cells
 
-####  Vogel's Approximation Method (VAM) Steps
+#### Vogel's Approximation Method (VAM) Steps
 
 1. Compute **penalty** for each row and column:
    $$\text{Penalty}_i = \text{2nd smallest cost} - \text{smallest cost in row/col}$$
@@ -139,7 +142,7 @@ If allocations $< m+n-1$ → **Degenerate** (add $\epsilon$ to empty cell)
 4. Eliminate satisfied row/col, recompute penalties
 5. Repeat until all allocated
 
-####  MODI Method (Modified Distribution Method / UV Method) Steps
+#### MODI Method (Modified Distribution Method / UV Method) Steps
 
 1. Start with a basic feasible solution (m+n-1 allocations)
 2. Assign $u_i$ to rows, $v_j$ to columns such that:
@@ -172,7 +175,7 @@ $$\sum_{j=1}^{n} x_{ij} = 1 \quad \forall i \quad (\text{each person assigned ex
 $$\sum_{i=1}^{n} x_{ij} = 1 \quad \forall j \quad (\text{each job assigned to exactly one person})$$
 $$x_{ij} \in \{0, 1\}$$
 
-####  Hungarian Method Steps
+#### Hungarian Method Steps
 
 **Step 1 - Row Reduction:**
 $$c_{ij}' = c_{ij} - \min_j(c_{ij}) \quad \text{for each row } i$$
@@ -207,7 +210,7 @@ Assign very large cost $M$ to forbidden cell $(i, j)$
 
 ---
 
-##  PART B: Discrete Mathematics
+## PART B: Discrete Mathematics
 
 ### B.1 Set Theory
 
@@ -290,7 +293,7 @@ $$P(A') = 1 - P(A)$$
 
 $$P(A|B) = \frac{P(A \cap B)}{P(B)}, \quad P(B) > 0$$
 
-####  Bayes' Theorem
+#### Bayes' Theorem
 
 $$P(A_i|B) = \frac{P(B|A_i) \cdot P(A_i)}{\sum_{j=1}^{n} P(B|A_j) \cdot P(A_j)}$$
 
@@ -312,7 +315,7 @@ $$\sigma = \sqrt{\text{Var}(X)}$$
 
 ---
 
-##  PART C: Number Theory & Algebra
+## PART C: Number Theory & Algebra
 
 ### C.1 Modular Arithmetic
 
@@ -346,7 +349,7 @@ $$F_n = \frac{\phi^n - \psi^n}{\sqrt{5}}, \quad \phi = \frac{1+\sqrt{5}}{2} \app
 
 ---
 
-##  PART D: Calculus & Linear Algebra Review
+## PART D: Calculus & Linear Algebra Review
 
 ### D.1 Matrix Operations
 

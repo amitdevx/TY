@@ -7,12 +7,15 @@ tags:
 date: 2026-06-16
 ---
 
-#  Recommended Reference Books
+[[00-Dashboard/Home|Home]] | [[08-Resources/Resources-Dashboard|Resources Dashboard]]
+
+
+# Recommended Reference Books
 
 > [!note] About This List
 > All books are from official syllabi of SPPU TY B.Sc. Computer Science NEP CBCS 2026-27
 
-##  Core Java (CS-301)
+## Core Java (CS-301)
 | # | Title | Author | Publisher |
 |---|-------|--------|-----------|
 | R1 | Complete Reference Java | Herbert Schildt | McGraw-Hill, 5th Ed. |
@@ -20,7 +23,7 @@ date: 2026-06-16
 | R3 | Programming with Java: A Primer | E. Balagurusamy | TMH, 4th Ed. |
 | R4 | Core Java Volume-I Fundamentals | Cay Horstmann, Gary Cornell | Sun Microsystems, 8th Ed. |
 
-## ️ Operating Systems (CS-302)
+## Operating Systems (CS-302)
 | # | Title | Author | Publisher |
 |---|-------|--------|-----------|
 | R1 | Operating System Concepts (Dinosaur Book) | Silberschatz, Galvin, Gagne | Wiley |
@@ -28,7 +31,7 @@ date: 2026-06-16
 | R3 | Advanced Concepts in Operating Systems | Singhal, Shivaratri | McGraw-Hill |
 | R4 | Modern Operating Systems | Andrew Tanenbaum | Pearson |
 
-##  Web Technology-I (CS-303)
+## Web Technology-I (CS-303)
 | # | Title | Author | Publisher |
 |---|-------|--------|-----------|
 | R1 | HTML and CSS: Design and Build Websites | Jon Duckett | Wiley |
@@ -40,7 +43,7 @@ date: 2026-06-16
 | R7 | Practical Node.js | Azat Mardan | Apress |
 | R8 | Learning Node.js Development | Andrew Mead | Packt |
 
-## ️ Theory of Computer Science (CS-304)
+## Theory of Computer Science (CS-304)
 | # | Title | Author | Publisher |
 |---|-------|--------|-----------|
 | R1 | Introduction to the Theory of Computation | Michael Sipser | Cengage |
@@ -49,7 +52,7 @@ date: 2026-06-16
 | R4 | Introduction to Languages and Theory of Computation | John C. Martin | McGraw-Hill |
 | R5 | Languages and Machines | Thomas A. Sudkamp | - |
 
-##  Data Science and Analytics (CS-307)
+## Data Science and Analytics (CS-307)
 | # | Title | Author |
 |---|-------|--------|
 | R1 | Data Science from Scratch | Joel Grus (O'Reilly) |
@@ -57,7 +60,7 @@ date: 2026-06-16
 | R3 | Python for Data Analysis | Wes McKinney (O'Reilly) |
 | R4 | Hands-On Machine Learning | Aurélien Géron (O'Reilly) |
 
-##  Advanced Java (CS-351)
+## Advanced Java (CS-351)
 | # | Title | Author |
 |---|-------|--------|
 | R1 | Java The Complete Reference | Herbert Schildt |
@@ -65,7 +68,7 @@ date: 2026-06-16
 | R3 | Spring in Action | Craig Walls |
 | R4 | Hibernate in Action | Bauer, King, Gregory |
 
-## ️ Design Framework - Angular (CS-352)
+## Design Framework - Angular (CS-352)
 | # | Title | Author |
 |---|-------|--------|
 | R1 | Angular Development with TypeScript | Yakov Fain, Anton Moiseev |
@@ -73,7 +76,7 @@ date: 2026-06-16
 | R3 | Angular Up & Running | Shyam Seshadri |
 | R4 | Learning Angular | Aristeidis Bampakos |
 
-##  Web Technology-II (CS-353)
+## Web Technology-II (CS-353)
 | # | Title | Author |
 |---|-------|--------|
 | R1 | Web Development with Node and Express | Ethan Brown |
@@ -82,7 +85,7 @@ date: 2026-06-16
 | R4 | You Don't Know JS | Kyle Simpson |
 | R5 | Mastering PostgreSQL | Hans-Jürgen Schönig |
 
-## ️ Compiler Construction (CS-354)
+## Compiler Construction (CS-354)
 | # | Title | Author |
 |---|-------|--------|
 | R1 | Compilers: Principles, Techniques and Tools (Dragon Book) | Aho, Sethi, Ullman |
@@ -90,14 +93,14 @@ date: 2026-06-16
 | R3 | Advanced Compiler Design and Implementation | Steven S. Muchnick |
 | R4 | Principles of Compiler Design | Aho, Ullman (Narosa) |
 
-##  Android Programming (CS-357)
+## Android Programming (CS-357)
 | # | Title | Author |
 |---|-------|--------|
 | R1 | Android Programming: The Big Nerd Ranch Guide | Phillips, Stewart, Hardy |
 | R2 | Head First Android Development | Dawn Griffiths, David Griffiths |
 | R3 | Android Development with Kotlin | Marcin Moskala, Igor Wojda |
 
-##  Agile Processes (CS-371)
+## Agile Processes (CS-371)
 | # | Title | Author |
 |---|-------|--------|
 | R1 | Agile Estimating and Planning | Mike Cohn |
@@ -106,4 +109,4 @@ date: 2026-06-16
 | R4 | Agile Testing | Lisa Crispin, Janet Gregory |
 
 ---
-*[[Home| Dashboard]] | [[Reference-Links/Online-Resources|Online Resources →]]*
+*[[Home| Dashboard]] | [[08-Resources/Reference-Links/Online-Resources|Online Resources →]]*

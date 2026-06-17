@@ -13,7 +13,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-357 Android Programming - Syllabus
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-357 Android Programming - Syllabus
 
 > [!note] Course Details
 > **Subject Code:** CS-357-MJ-T | **Type:** Major Theory
@@ -22,7 +25,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit-wise Syllabus
+## Unit-wise Syllabus
 
 ### Unit 1: Introduction to Android
 
@@ -120,7 +123,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit Hours Distribution
+## Unit Hours Distribution
 
 ```mermaid
 pie title Unit Hours (Approximate)
@@ -133,7 +136,7 @@ pie title Unit Hours (Approximate)
 
 ---
 
-##  Reference Books & Resources
+## Reference Books & Resources
 
 | # | Resource | Notes |
 |---|----------|-------|
@@ -145,7 +148,7 @@ pie title Unit Hours (Approximate)
 
 ---
 
-## ️ Tools & Environment
+## Tools & Environment
 
 | Tool | Purpose |
 |------|---------|
@@ -157,7 +160,7 @@ pie title Unit Hours (Approximate)
 
 ---
 
-##  Related Notes
+## Related Notes
 
 - [[Overview|Subject Overview]]
 - [[Unit-1|Unit 1: Introduction to Android]]

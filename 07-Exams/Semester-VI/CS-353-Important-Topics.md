@@ -18,14 +18,17 @@ created: 2026-06-16
 type: important-topics
 ---
 
-#  CS-353 Web Technology-II - Important Topics
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-353 Web Technology-II - Important Topics
 
 > [!important] Exam Focus
 > Web Tech-II is full-stack. PostgreSQL queries and REST API design are guaranteed. React Hooks (useState/useEffect) + JWT auth are the most scoring practical topics.
 
 ---
 
-##  Top 10 Most Important Topics
+## Top 10 Most Important Topics
 
 | # | Topic | Description | Probability |
 |---|-------|-------------|-------------|
@@ -42,7 +45,7 @@ type: important-topics
 
 ---
 
-##  "Definitely Going to Come" Section
+## "Definitely Going to Come" Section
 
 > [!warning] Near-Certain Questions
 > 1. **PostgreSQL JOINs** - write INNER JOIN and LEFT JOIN queries
@@ -54,7 +57,7 @@ type: important-topics
 
 ---
 
-##  Must-Know Definitions
+## Must-Know Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -74,7 +77,7 @@ type: important-topics
 
 ---
 
-##  Quick Code Patterns
+## Quick Code Patterns
 
 ### PostgreSQL Common Queries
 ```sql
@@ -127,7 +130,7 @@ const authenticate = (req, res, next) => {
 
 ---
 
-##  HTTP Status Codes Reference
+## HTTP Status Codes Reference
 
 | Code | Meaning | When to Use |
 |------|---------|-------------|
@@ -142,7 +145,7 @@ const authenticate = (req, res, next) => {
 
 ---
 
-##  Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 > [!warning] Avoid These Errors
 > - **`useEffect` dependency array:** Missing dependencies cause stale closures; extra dependencies cause infinite loops.
@@ -155,7 +158,7 @@ const authenticate = (req, res, next) => {
 
 ---
 
-##  PostgreSQL Data Types Quick Reference
+## PostgreSQL Data Types Quick Reference
 
 | Type | Example |
 |------|---------|
@@ -172,4 +175,4 @@ const authenticate = (req, res, next) => {
 
 ---
 
-*Tags: CS-353 Web Technology-II | Semester VI | [[07-Exams]]*
+*Tags: CS-353 Web Technology-II | Semester VI | [[07-Exams/Exams-Dashboard|Exams]]*

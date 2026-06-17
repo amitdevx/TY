@@ -18,13 +18,16 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # Unit 1 - Introduction to Java
 > [!important] **Hours:** 5 | **Subject:** CS-301-MJ-T Core Java | **Semester:** V
 > **Previous:** [[Overview]] | **Next:** [[Unit-2|Unit 2: Objects and Classes]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Understand the principles of Object-Oriented Programming
 - Trace the history and evolution of Java
@@ -45,25 +48,25 @@ last_modified: 2026-06-16
 
 ```mermaid
 graph TD
-    OOP["️ OOP Pillars"] --> E[" Encapsulation"]
+    OOP[" OOP Pillars"] --> E[" Encapsulation"]
     OOP --> I[" Inheritance"]
     OOP --> P[" Polymorphism"]
     OOP --> A[" Abstraction"]
 
-    E --> E1["Bundle data + methods\nin a class"]
-    E --> E2["Hide internal state\nusing access modifiers"]
+    E --> E1["Bundle data + methods<br/>in a class"]
+    E --> E2["Hide internal state<br/>using access modifiers"]
 
-    I --> I1["Child class inherits\nparent class properties"]
-    I --> I2["Code reusability\nand extensibility"]
+    I --> I1["Child class inherits<br/>parent class properties"]
+    I --> I2["Code reusability<br/>and extensibility"]
 
-    P --> P1["One interface,\nmany implementations"]
-    P --> P2["Overloading &\nOverriding"]
+    P --> P1["One interface,<br/>many implementations"]
+    P --> P2["Overloading &<br/>Overriding"]
 
     A --> A1["Show what, hide how"]
-    A --> A2["Abstract classes\nand Interfaces"]
+    A --> A2["Abstract classes<br/>and Interfaces"]
 ```
 
-####  Encapsulation
+#### Encapsulation
 > [!note] Definition
 > Encapsulation is the mechanism of **bundling data (fields) and methods** that operate on that data within a single unit (class), and **restricting direct access** to some of the object's components.
 
@@ -82,7 +85,7 @@ class BankAccount {
 }
 ```
 
-####  Inheritance
+#### Inheritance
 > [!note] Definition
 > Inheritance allows a **new class** (subclass/child) to **acquire properties and behaviors** of an existing class (superclass/parent), promoting code reuse.
 
@@ -98,7 +101,7 @@ class Dog extends Animal {  // Dog inherits Animal
 }
 ```
 
-####  Polymorphism
+#### Polymorphism
 > [!note] Definition
 > Polymorphism means **"many forms"** - the ability of a single interface/method to behave differently based on the object or context.
 
@@ -115,7 +118,7 @@ class Circle extends Shape {
 }
 ```
 
-####  Abstraction
+#### Abstraction
 > [!note] Definition
 > Abstraction is the process of **hiding implementation details** and showing only the **essential features** of an object.
 
@@ -170,20 +173,20 @@ class Circle extends Shape {
 
 ```mermaid
 flowchart LR
-    A[" Source Code\n(.java)"] -->|javac compiler| B[" Bytecode\n(.class)"]
-    B -->|JVM loads| C["️ JVM\nJava Virtual Machine"]
-    C -->|JIT Compiler| D[" Machine Code\n(Platform Specific)"]
+    A[" Source Code<br/>(.java)"] -->|javac compiler| B[" Bytecode<br/>(.class)"]
+    B -->|JVM loads| C[" JVM<br/>Java Virtual Machine"]
+    C -->|JIT Compiler| D[" Machine Code<br/>(Platform Specific)"]
 
     subgraph JDK[" JDK (Java Development Kit)"]
         subgraph JRE[" JRE (Java Runtime Environment)"]
-            subgraph JVM2["️ JVM"]
+            subgraph JVM2[" JVM"]
                 CL["ClassLoader"]
                 BV["Bytecode Verifier"]
                 INT["Interpreter / JIT"]
             end
-            LIB["Java Class Libraries\n(rt.jar)"]
+            LIB["Java Class Libraries<br/>(rt.jar)"]
         end
-        TOOLS["Development Tools\n(javac, javadoc, jar, jdb)"]
+        TOOLS["Development Tools<br/>(javac, javadoc, jar, jdb)"]
     end
 ```
 
@@ -248,11 +251,11 @@ Java has **two categories** of data types:
 
 ```mermaid
 graph TD
-    DT["Java Data Types"] --> P["Primitive Types\n(8 types)"]
+    DT["Java Data Types"] --> P["Primitive Types<br/>(8 types)"]
     DT --> R["Reference Types"]
     
-    P --> I["Integer Types\nbyte, short, int, long"]
-    P --> F["Floating Point\nfloat, double"]
+    P --> I["Integer Types<br/>byte, short, int, long"]
+    P --> F["Floating Point<br/>float, double"]
     P --> C["char"]
     P --> B["boolean"]
     
@@ -343,8 +346,8 @@ class Counter {
 |----------|-----------|---------|
 | **Arithmetic** | `+`, `-`, `*`, `/`, `%` | `a + b`, `10 % 3` |
 | **Relational** | `==`, `!=`, `<`, `>`, `<=`, `>=` | `a == b`, `x > 5` |
-| **Logical** | `&&`, `\|\|`, `!` | `a && b`, `!flag` |
-| **Bitwise** | `&`, `\|`, `^`, `~`, `<<`, `>>`, `>>>` | `a & b`, `x << 2` |
+| **Logical** | `&&`, `||`, `!` | `a && b`, `!flag` |
+| **Bitwise** | `&`, `|`, `^`, `~`, `<<`, `>>`, `>>>` | `a & b`, `x << 2` |
 | **Assignment** | `=`, `+=`, `-=`, `*=`, `/=`, `%=` | `x += 5` |
 | **Unary** | `++`, `--`, `+`, `-`, `!` | `i++`, `--j` |
 | **Ternary** | `? :` | `max = (a>b) ? a : b` |
@@ -534,7 +537,7 @@ public class CmdArgs {
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|------------|
@@ -550,7 +553,7 @@ public class CmdArgs {
 
 ---
 
-##  Interview Questions
+## Interview Questions
 
 > [!tip] Commonly Asked Questions
 
@@ -591,7 +594,7 @@ public class CmdArgs {
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!note] Quick Revision - Unit 1
 > 
@@ -611,8 +614,8 @@ public class CmdArgs {
 
 ---
 
-##  Navigation
+## Navigation
 
 | Previous | Current | Next |
 |----------|---------|------|
-| [[Overview\|Subject Overview]] | **Unit 1: Introduction to Java** | [[Unit-2\|Unit 2: Objects and Classes]] |
+| [[Overview|Subject Overview]] | **Unit 1: Introduction to Java** | [[Unit-2|Unit 2: Objects and Classes]] |

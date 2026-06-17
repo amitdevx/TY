@@ -16,14 +16,17 @@ type: unit-notes
 last_reviewed: 2026-06-16
 ---
 
-#  Unit 4 - Push Down Automata (PDA)
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 4 - Push Down Automata (PDA)
 
 > [!note] Navigation
 > [[Overview|CS-304 Overview]] | ← [[Unit-3]] | **Unit 4** → [[Unit-5]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Define PDA formally as a 7-tuple
 - Understand the role of the stack in PDA computation
@@ -347,7 +350,7 @@ Stack: S; Input: aabb
 
 ---
 
-##  Interview Questions - Unit 4
+## Interview Questions - Unit 4
 
 > [!question] Key Interview/Exam Questions
 
@@ -379,7 +382,7 @@ Stack: S; Input: aabb
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 4 Key Takeaways
 >

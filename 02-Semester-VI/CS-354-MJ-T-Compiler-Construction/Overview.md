@@ -19,12 +19,14 @@ exam_marks: 80
 internal_marks: 20
 ---
 
-#  CS-354-MJ-T - Compiler Construction
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+# CS-354-MJ-T - Compiler Construction
 
 > [!important] Subject at a Glance
 > Compiler Construction dives deep into how programming languages are translated to machine code. From Context-Free Grammars to lexical analysis, parsing techniques, and code optimization - this subject builds the foundation of language design and systems programming.
 
-##  Learning Objectives
+## Learning Objectives
 
 After completing this subject, students will be able to:
 
@@ -36,7 +38,7 @@ After completing this subject, students will be able to:
 - [ ] Construct LL(1), SLR, CLR, and LALR parsing tables
 - [ ] Generate and optimize intermediate code representations
 
-## ️ Subject Map
+## Subject Map
 
 ```mermaid
 mindmap
@@ -51,7 +53,7 @@ mindmap
       Compiler Types
     Unit 3
       Lexical Analysis
-      Tokens & Patterns
+      Tokens and Patterns
       Finite Automata
     Unit 4
       Syntax Analysis
@@ -64,45 +66,45 @@ mindmap
       Optimization
 ```
 
-##  Units Summary
+## Units Summary
 
 | Unit | Topic | Hours | Weight |
 |------|-------|-------|--------|
-| [[Unit-1 - CFG and Languages\|Unit 1]] | CFG, Parse Trees, Ambiguity | 6H |  |
-| [[Unit-2 - Introduction to Compiler\|Unit 2]] | Compiler Structure & Phases | 4H |  |
-| [[Unit-3 - Lexical Analysis\|Unit 3]] | Lexer, Tokens, FA | 5H |  |
-| [[Unit-4 - Syntax Analysis\|Unit 4]] | All Parsers (LL, LR, SLR, LALR) | **12H** |  |
-| [[Unit-5 - Code Generation & Optimization\|Unit 5]] | Code Gen, Intermediate Code, Optimization | 3H |  |
+| [[Unit-1|Unit 1: CFG and Languages]] | CFG, Parse Trees, Ambiguity | 6H | |
+| [[Unit-2|Unit 2: Introduction to Compiler]] | Compiler Structure and Phases | 4H | |
+| [[Unit-3|Unit 3: Lexical Analysis]] | Lexer, Tokens, FA | 5H | |
+| [[Unit-4|Unit 4: Syntax Analysis]] | All Parsers (LL, LR, SLR, LALR) | **12H** | |
+| [[Unit-5|Unit 5: Code Generation and Optimization]] | Code Gen, Intermediate Code, Optimization | 3H | |
 
 **Total: 30 Hours**
 
 > [!warning] Heaviest Unit
 > Unit 4 (Syntax Analysis) is **12 hours** - the largest unit. It covers all parser types and is the most exam-heavy chapter. Plan extra study time for this unit.
 
-##  Reference Books
+## Reference Books
 
 1. **Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman** - *Compilers: Principles, Techniques, and Tools* (Dragon Book) - **Primary**
 2. **Andrew Appel** - *Modern Compiler Implementation in Java/C/ML*
 3. **Steven Muchnick** - *Advanced Compiler Design and Implementation*
 
-##  Quick Navigation
+## Quick Navigation
 
 - [[Syllabus]] - Detailed syllabus breakdown
-- [[Unit-1|Unit-1 - CFG and Languages]] - CFG, LMD, RMD, Ambiguity
-- [[Unit-2|Unit-2 - Introduction to Compiler]] - Phases and structure
-- [[Unit-3|Unit-3 - Lexical Analysis]] - Tokens and FA
-- [[Unit-4|Unit-4 - Syntax Analysis]] - All parsing techniques (LARGEST)
-- [[Unit-5|Unit-5 - Code Generation & Optimization]] - Backend
+- [[Unit-1|Unit 1: CFG and Languages]] - CFG, LMD, RMD, Ambiguity
+- [[Unit-2|Unit 2: Introduction to Compiler]] - Phases and structure
+- [[Unit-3|Unit 3: Lexical Analysis]] - Tokens and FA
+- [[Unit-4|Unit 4: Syntax Analysis]] - All parsing techniques (LARGEST)
+- [[Unit-5|Unit 5: Code Generation and Optimization]] - Backend
 - [[Important-Questions]] - Exam-focused questions
 - [[Revision]] - Quick revision notes
 - [[Interview-Prep]] - Interview Q&A
 
-##  Why This Subject Matters
+## Why This Subject Matters
 
 > [!tip] Foundational Knowledge
 > Understanding compilers gives you deep insight into how programming languages work - essential for systems programming, language design, virtual machines (JVM/V8), and even interview questions at top companies about interpreters, ASTs, and optimizations.
 
-##  Compiler Pipeline Flow
+## Compiler Pipeline Flow
 
 ```mermaid
 flowchart LR
@@ -118,9 +120,9 @@ flowchart LR
   J --> K[Target Code]
 ```
 
-## ️ Related Subjects
+## Related Subjects
 
-- [[../CS-351-MJ-T-Advanced-Java/Overview|Advanced Java]] - Language being compiled
+- [[02-Semester-VI/CS-351-MJ-T-Advanced-Java/Overview|Advanced Java]] - Language being compiled
 - Theory of Computation - Automata foundation for Unit 3
 
 ---

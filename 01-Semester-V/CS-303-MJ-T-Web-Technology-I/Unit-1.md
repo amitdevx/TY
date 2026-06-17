@@ -17,14 +17,17 @@ type: unit-notes
 last_reviewed: 2026-06-16
 ---
 
-#  Unit 1 - Web Basics: HTML5 & CSS3
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 1 - Web Basics: HTML5 & CSS3
 
 > [!note] Navigation
 > [[Overview|CS-303 Overview]] | [[Syllabus|CS-303 Syllabus]] | **Unit 1** → [[Unit-2]] → [[Unit-3]] → [[Unit-4]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Understand HTML5 semantic elements and their purpose
 - Master the CSS box model and all selector types
@@ -749,7 +752,7 @@ space-evenly: [  1  ][  2  ][  3  ]
 
 ---
 
-##  Interview Questions - Unit 1
+## Interview Questions - Unit 1
 
 > [!question] Commonly Asked Questions
 
@@ -790,7 +793,7 @@ space-evenly: [  1  ][  2  ][  3  ]
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 1 Key Takeaways
 > 

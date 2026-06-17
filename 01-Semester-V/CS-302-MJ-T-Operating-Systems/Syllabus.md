@@ -18,22 +18,25 @@ aliases:
 status: "not-started"
 ---
 
-#  CS-302 Operating Systems - Complete Syllabus
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-302 Operating Systems - Complete Syllabus
 
 > [!info] Course Information
 > **Semester:** V | **Credits:** 2 | **IE:** 15 Marks | **EE:** 35 Marks
 > **Teaching:** 2 Hours/Week | **Total:** 30 Hours
 
-##  Prerequisites
+## Prerequisites
 - Data structures: stack, queue, linked list, tree, graph, hashing, file structures
 - Any structured programming language
 
-##  Course Objectives
+## Course Objectives
 - Understand concepts that underlie operating systems
 - Study Modern OS and their principles
 - Study process scheduling, CPU scheduling algorithms, memory management, Deadlock handling, file system and Disk Management
 
-##  Course Outcomes (COs)
+## Course Outcomes (COs)
 
 | CO | Description |
 |----|-------------|
@@ -44,7 +47,7 @@ status: "not-started"
 | CO5 | Understand techniques of deadlock handling |
 | CO6 | Implement Scheduling algorithms, memory management, disk scheduling |
 
-##  Chapter-wise Syllabus
+## Chapter-wise Syllabus
 
 ### Chapter 1: Introduction to Operating System *(3 Hours)*
 → [[Unit-1|Unit 1 Notes]]
@@ -98,7 +101,7 @@ status: "not-started"
 | 5.4 | Disk Structure |
 | 5.5 | Disk Scheduling algorithms: **FCFS**, **SSTF**, **SCAN**, **LOOK** |
 
-##  Reference Books
+## Reference Books
 
 | # | Book | Author |
 |---|------|--------|
@@ -106,7 +109,7 @@ status: "not-started"
 | R2 | Operating Systems: Internals and Design Principles | William Stallings |
 | R3 | Advanced Concepts in Operating Systems | M. Singhal, N.G. Shivaratri |
 
-##  High-Importance Topics for Exam
+## High-Importance Topics for Exam
 
 > [!warning] Must Study
 > - **CPU Scheduling**: Gantt charts for FCFS, SJF, Priority, RR
@@ -115,7 +118,7 @@ status: "not-started"
 > - **Deadlock**: 4 necessary conditions + Coffman's conditions
 > - **Disk Scheduling**: Seek time calculation for SSTF, SCAN, LOOK
 
-## ️ Quick Navigation
+## Quick Navigation
 
 | File | Purpose |
 |------|---------|

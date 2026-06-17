@@ -10,7 +10,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Mathematics Dashboard - TY B.Sc. CS
+[[00-Dashboard/Home|Home]] | [[03-Mathematics/Mathematics-Dashboard|Mathematics]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Formula-Sheet]] | [[PYQ]]
+
+
+# Mathematics Dashboard - TY B.Sc. CS
 
 > [!important] Subject Info
 > **Code:** MTC-341 MN: B | **Type:** Minor (Elective) | **Credits:** 2 | **Semester:** V
@@ -18,7 +21,7 @@ updated: 2026-06-16
 
 ---
 
-## ️ Navigation Hub
+## Navigation Hub
 
 | Section | Link | Status |
 |---------|------|--------|
@@ -32,7 +35,7 @@ updated: 2026-06-16
 
 ---
 
-##  Course Overview
+## Course Overview
 
 > [!note] What is Operations Research?
 > Operations Research (OR) is a discipline that uses advanced analytical methods to improve decision-making. It applies mathematical modeling, statistical analysis, and optimization to find the best possible solutions.
@@ -63,7 +66,7 @@ mindmap
 
 ---
 
-##  Unit-wise Topic Summary
+## Unit-wise Topic Summary
 
 ### Unit 1: Linear Programming Problem (12 Hours)
 
@@ -96,13 +99,13 @@ mindmap
 
 ---
 
-##  Embedded Formula Sheet
+## Embedded Formula Sheet
 
 ![[Formula-Sheet]]
 
 ---
 
-##  Exam Strategy
+## Exam Strategy
 
 > [!tip] High-Weightage Topics
 > 1. **Simplex Method** - Always appears (8–10 marks)
@@ -121,7 +124,7 @@ mindmap
 
 ---
 
-##  Progress Tracker
+## Progress Tracker
 
 ### Study Progress
 - [ ] Unit 1 - Read once
@@ -142,7 +145,7 @@ mindmap
 
 ---
 
-##  Quick Reference
+## Quick Reference
 
 > [!note] Key Definitions to Know
 > - **Feasible Solution:** Satisfies all constraints
@@ -153,7 +156,7 @@ mindmap
 
 ---
 
-##  Study Schedule
+## Study Schedule
 
 | Week | Focus | Target |
 |------|-------|--------|
@@ -165,10 +168,10 @@ mindmap
 
 ---
 
-##  Backlinks & Related
+## Backlinks and Related
 
-- [[../01-Core-Subjects/Semester-V/CS-301-Core-Java/Dashboard|CS-301 Dashboard]]
-- [[../07-Exams/Semester-V/Last-Minute-Revision|Last Minute Revision]]
+- [[01-Semester-V/CS-301-MJ-T-Core-Java/Overview|CS-301 Dashboard]]
+- [[06-Revision/Revision-Dashboard|Revision Hub]]
 - [[Formula-Sheet|Mathematics Formula Sheet]]
 
 ---

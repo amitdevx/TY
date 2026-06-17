@@ -3,6 +3,9 @@ title: "CS-354 Unit 4 - Syntax Analysis (Parser)"
 tags: [cs-354, compiler, unit-4]
 ---
 
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # Unit 4: Syntax Analysis (Parser)
 
 ## Introduction

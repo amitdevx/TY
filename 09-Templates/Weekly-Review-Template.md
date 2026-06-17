@@ -18,16 +18,19 @@ aliases:
   - "Week {{week_number}} Review"
 ---
 
-#  Weekly Review - Week {{week_number}}
+[[00-Dashboard/Home|Home]] | [[09-Templates/Templates-Dashboard|Templates Dashboard]]
 
-> [!note] ️ Week Overview
+
+# Weekly Review - Week {{week_number}}
+
+> [!note]  Week Overview
 > **Week:** {{week_start_date}} → {{week_end_date}}
 > **Semester:** {{semester}} | **Week #:** {{week_number}}
 > **Mood:** {{mood}} | **Productivity:** {{score}}/10
 
 ---
 
-##  Weekly Goals Review
+## Weekly Goals Review
 
 > How did you do on last week's goals?
 
@@ -44,7 +47,7 @@ aliases:
 
 ---
 
-##  Subjects Studied This Week
+## Subjects Studied This Week
 
 | Subject | Hours Spent | Topics Covered | Units Completed | Notes |
 |---|---|---|---|---|
@@ -59,30 +62,30 @@ aliases:
 
 ---
 
-##  Topics Completed This Week
+## Topics Completed This Week
 
-###  Theory Topics
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-###  Lab Work
+### Theory Topics
 
 - [ ] 
 - [ ] 
 - [ ] 
+- [ ] 
+- [ ] 
 
-###  Assignments / Projects
+### Lab Work
+
+- [ ] 
+- [ ] 
+- [ ] 
+
+### Assignments / Projects
 
 - [ ] 
 - [ ] 
 
 ---
 
-##  Pending Topics (Carried Forward)
+## Pending Topics (Carried Forward)
 
 > [!warning]  These need to be addressed next week!
 
@@ -95,7 +98,7 @@ aliases:
 
 ---
 
-##  Lab Progress This Week
+## Lab Progress This Week
 
 | Lab | Experiment # | Title | Status | Submitted? |
 |---|---|---|---|---|
@@ -110,7 +113,7 @@ aliases:
 
 ---
 
-##  Challenges Faced
+## Challenges Faced
 
 > [!warning] Issues Encountered This Week
 
@@ -132,7 +135,7 @@ aliases:
 
 ---
 
-##  What Went Well
+## What Went Well
 
 > [!tip]  Wins of the Week
 
@@ -143,11 +146,11 @@ aliases:
 
 ---
 
-##  Plan for Next Week
+## Plan for Next Week
 
 > Goals and tasks for Week {{week_number + 1}}
 
-###  Academic Goals
+### Academic Goals
 
 - [ ] 
 - [ ] 
@@ -155,17 +158,17 @@ aliases:
 - [ ] 
 - [ ] 
 
-###  Lab Goals
+### Lab Goals
 
 - [ ] 
 - [ ] 
 
-###  Assignment / Project Goals
+### Assignment / Project Goals
 
 - [ ] 
 - [ ] 
 
-###  Priority Topics
+### Priority Topics
 
 | Priority | Subject | Topic | Target Date |
 |---|---|---|---|
@@ -175,7 +178,7 @@ aliases:
 
 ---
 
-##  Resources Used This Week
+## Resources Used This Week
 
 | Resource | Type | Subject | Usefulness (1–5) |
 |---|---|---|---|
@@ -186,7 +189,7 @@ aliases:
 
 ---
 
-##  Reflection
+## Reflection
 
 > [!note]  Weekly Reflection
 >
@@ -200,12 +203,12 @@ aliases:
 
 ---
 
-##  Navigation
+## Navigation
 
 | | Link |
 |---|---|
-| ⬅️ Previous Week | [[Week {{week_number - 1}} Review]] |
-| ️ Next Week | [[Week {{week_number + 1}} Review]] |
+| ⬅ Previous Week | [[Week {{week_number - 1}} Review]] |
+|  Next Week | [[Week {{week_number + 1}} Review]] |
 |  Grade Tracker | Grade-Tracker |
 |  Habit Tracker | Habit-Tracker |
 |  Dashboard | [[00-Dashboard/Home]] |

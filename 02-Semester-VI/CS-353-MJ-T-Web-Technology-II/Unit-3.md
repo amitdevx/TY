@@ -23,7 +23,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-# ️ Unit 3: Introduction to React *(10 Hours)*
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 3: Introduction to React *(10 Hours)*
 
 > [!important] Learning Objectives
 > After this unit, you should be able to:
@@ -35,7 +38,7 @@ updated: 2026-06-16
 
 ---
 
-##  Topics at a Glance
+## Topics at a Glance
 
 ```mermaid
 mindmap
@@ -149,7 +152,7 @@ const element = React.createElement(
 );
 ```
 
-###  JSX Rules
+### JSX Rules
 
 ```jsx
 // 1. Return a single root element (or Fragment)
@@ -194,7 +197,7 @@ const name = "Alice";
 
 ## 3.4 Components
 
-###  Functional Components (Modern)
+### Functional Components (Modern)
 
 ```jsx
 // Simple functional component
@@ -219,7 +222,7 @@ const Button = ({ label, onClick, disabled = false }) => (
 <Button label="Submit" onClick={() => console.log('clicked')} />
 ```
 
-###  Conditional Rendering
+### Conditional Rendering
 
 ```jsx
 function UserStatus({ isLoggedIn, username }) {
@@ -239,7 +242,7 @@ function UserStatus({ isLoggedIn, username }) {
 }
 ```
 
-###  List Rendering
+### List Rendering
 
 ```jsx
 function ProductList({ products }) {
@@ -269,17 +272,17 @@ const products = [
 
 ## 3.5 Virtual DOM
 
-###  What is the Virtual DOM?
+### What is the Virtual DOM?
 
 The ==Virtual DOM== is a **lightweight JavaScript representation** of the actual DOM. React maintains this in memory and syncs it with the real DOM efficiently.
 
 ```mermaid
 graph LR
-    A[State/Props Change] --> B[React re-renders\nvirtual DOM]
-    B --> C[Diffing Algorithm\n compares old vs new]
-    C --> D[Finds minimal\nchanges needed]
-    D --> E[Reconciliation:\nUpdates only\nchanged real DOM nodes]
-    E --> F[Browser renders\nupdated UI]
+    A[State/Props Change] --> B[React re-renders<br/>virtual DOM]
+    B --> C[Diffing Algorithm<br/> compares old vs new]
+    C --> D[Finds minimal<br/>changes needed]
+    D --> E[Reconciliation:<br/>Updates only<br/>changed real DOM nodes]
+    E --> F[Browser renders<br/>updated UI]
 ```
 
 **Diffing Algorithm:**
@@ -305,7 +308,7 @@ graph LR
 
 ## 3.7 React Hooks
 
-###  useState
+### useState
 
 ==useState== is a Hook that lets you add **state** to functional components.
 
@@ -344,7 +347,7 @@ setUser({ ...user, name: "Alice" });                   // Update object property
 
 ---
 
-###  useEffect
+### useEffect
 
 ==useEffect== lets you perform **side effects** in functional components (data fetching, subscriptions, DOM manipulation).
 
@@ -389,7 +392,7 @@ function UserProfile({ userId }) {
 }
 ```
 
-###  useEffect Dependency Array
+### useEffect Dependency Array
 
 ```jsx
 // No dependency array → runs after EVERY render
@@ -555,7 +558,7 @@ function ProductDetail() {
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -574,7 +577,7 @@ function ProductDetail() {
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 > [!question] Short Answer Questions
 > 1. What is React? What are its key features?
@@ -590,7 +593,7 @@ function ProductDetail() {
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Unit-2|← Unit 2: CRUD & REST API]]
 - [[Syllabus| Syllabus]]

@@ -21,7 +21,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 4: Networking and Web Services
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 4: Networking and Web Services
 
 > [!important] Learning Objectives
 > After this unit, you should be able to:
@@ -34,7 +37,7 @@ updated: 2026-06-16
 
 ---
 
-##  Topics at a Glance
+## Topics at a Glance
 
 ```mermaid
 mindmap
@@ -70,18 +73,18 @@ mindmap
 
 ## 4.1 HTTP Basics
 
-###  HTTP Request/Response
+### HTTP Request/Response
 
 ```mermaid
 sequenceDiagram
     participant App as Android App
     participant Server as REST API Server
     
-    App->>Server: GET /api/products\nHeaders: Authorization: Bearer <token>
-    Server-->>App: HTTP 200 OK\nContent-Type: application/json\n[{"id":1,"name":"Laptop",...}]
+    App->>Server: GET /api/products<br/>Headers: Authorization: Bearer <token>
+    Server-->>App: HTTP 200 OK<br/>Content-Type: application/json<br/>[{"id":1,"name":"Laptop",...}]
     
-    App->>Server: POST /api/products\nBody: {"name":"Phone","price":15000}
-    Server-->>App: HTTP 201 Created\n{"id":5,"name":"Phone","price":15000}
+    App->>Server: POST /api/products<br/>Body: {"name":"Phone","price":15000}
+    Server-->>App: HTTP 201 Created<br/>{"id":5,"name":"Phone","price":15000}
 ```
 
 **HTTP Request Components:**
@@ -96,7 +99,7 @@ sequenceDiagram
 
 ==Retrofit== is a **type-safe HTTP client** for Android/Java by Square. It turns HTTP API calls into Java/Kotlin interface methods.
 
-###  Setup
+### Setup
 
 ```groovy
 // build.gradle (Module)
@@ -114,7 +117,7 @@ dependencies {
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
-###  Step 1: Data Classes (Models)
+### Step 1: Data Classes (Models)
 
 ```kotlin
 // Product.kt
@@ -139,7 +142,7 @@ data class CreateProductRequest(
 )
 ```
 
-###  Step 2: API Interface
+### Step 2: API Interface
 
 ```kotlin
 // ApiService.kt
@@ -197,7 +200,7 @@ interface ApiService {
 | `@Header("Name")` | Single request header |
 | `@Headers(...)` | Multiple headers |
 
-###  Step 3: Retrofit Instance (Singleton)
+### Step 3: Retrofit Instance (Singleton)
 
 ```kotlin
 // RetrofitClient.kt
@@ -226,7 +229,7 @@ object RetrofitClient {
 }
 ```
 
-###  Step 4: Making API Calls with Coroutines
+### Step 4: Making API Calls with Coroutines
 
 ```kotlin
 // ProductViewModel.kt
@@ -311,7 +314,7 @@ class ProductsActivity : AppCompatActivity() {
 
 ## 4.3 AsyncTask vs Coroutines
 
-###  AsyncTask (Deprecated - API 30)
+### AsyncTask (Deprecated - API 30)
 
 ```kotlin
 // OLD way - AsyncTask (DEPRECATED, don't use in new code!)
@@ -337,7 +340,7 @@ class FetchDataTask : AsyncTask<Void, Void, String>() {
 - Deprecated in API 30 (Android 11)
 - Callback hell for complex operations
 
-###  Kotlin Coroutines (Modern)
+### Kotlin Coroutines (Modern)
 
 ```kotlin
 // MODERN way - Kotlin Coroutines
@@ -401,7 +404,7 @@ data class Product(
 
 ## 4.5 Image Loading (Glide / Picasso)
 
-###  Glide
+### Glide
 
 ==Glide== is the recommended image loading library for Android by Google.
 
@@ -440,7 +443,7 @@ Glide.with(context)
 Glide.with(context).clear(imageView)
 ```
 
-###  Picasso (Alternative)
+### Picasso (Alternative)
 
 ```kotlin
 Picasso.get()
@@ -462,14 +465,14 @@ Picasso.get()
 
 ## 4.6 Permissions
 
-###  Types of Permissions
+### Types of Permissions
 
 | Type | Declared in | Grant method | Examples |
 |------|-------------|-------------|---------|
 | Normal | Manifest only | Auto-granted at install | INTERNET, VIBRATE |
 | Dangerous | Manifest + Runtime | User must approve | CAMERA, READ_CONTACTS, LOCATION |
 
-###  INTERNET Permission (Normal)
+### INTERNET Permission (Normal)
 
 ```xml
 <!-- AndroidManifest.xml - required for all network calls -->
@@ -477,7 +480,7 @@ Picasso.get()
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 ```
 
-###  Runtime Permissions (API 23+)
+### Runtime Permissions (API 23+)
 
 ```kotlin
 // Check and request permission
@@ -530,7 +533,7 @@ requestMultiplePermissions.launch(arrayOf(
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -547,7 +550,7 @@ requestMultiplePermissions.launch(arrayOf(
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 > [!question] Short Answer Questions
 > 1. What is Retrofit? What are its advantages over `HttpURLConnection`?
@@ -563,7 +566,7 @@ requestMultiplePermissions.launch(arrayOf(
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Unit-3|← Unit 3: Data Storage]]
 - [[Syllabus| Syllabus]]

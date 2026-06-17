@@ -21,7 +21,10 @@ aliases:
   - "{{subject}} {{revision_type}} revision {{date}}"
 ---
 
-#  Revision: {{subject}} - {{revision_type}} Review
+[[00-Dashboard/Home|Home]] | [[09-Templates/Templates-Dashboard|Templates Dashboard]]
+
+
+# Revision: {{subject}} - {{revision_type}} Review
 
 > [!note]  Revision Session Info
 > **Subject:** {{subject}} (`{{subject_code}}`) | **Semester:** {{semester}}
@@ -31,7 +34,7 @@ aliases:
 
 ---
 
-##  Quick Review Checklist
+## Quick Review Checklist
 
 > Tick off each item as you revise it. Be honest - don't tick unless you truly understand it.
 
@@ -67,7 +70,7 @@ aliases:
 
 ---
 
-##  Key Formulas
+## Key Formulas
 
 > [!important]  Must-Know Formulas - Verify you can write these from memory!
 
@@ -82,7 +85,7 @@ aliases:
 
 ---
 
-##  Important Definitions
+## Important Definitions
 
 > Write these from memory first, then check your notes.
 
@@ -101,7 +104,7 @@ aliases:
 
 ---
 
-## ️ Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 > [!warning]  Don't Make These Errors!
 
@@ -127,7 +130,7 @@ aliases:
 
 ---
 
-##  5-Minute Summary
+## 5-Minute Summary
 
 > [!tip]  If You Only Have 5 Minutes - Read This!
 
@@ -156,7 +159,7 @@ graph LR
 
 ---
 
-##  Interview Questions Quick Fire
+## Interview Questions Quick Fire
 
 > [!tip] Answer these out loud or in writing - time yourself!
 
@@ -177,7 +180,7 @@ graph LR
 
 ---
 
-##  Self Assessment
+## Self Assessment
 
 > [!note]  How Well Do You Know This Subject?
 
@@ -216,12 +219,12 @@ graph LR
 
 ---
 
-##  Related Notes
+## Related Notes
 
 - [[{{subject}} Overview]]
 - [[{{subject}} Unit 1 Notes]]
 - [[{{subject}} Unit 2 Notes]]
-- [[06-Revision/Overview|Revision Hub]]
+- [[01-Semester-V/CS-302-MJ-T-Operating-Systems/Overview|Revision Hub]]
 - [[07-Exams/{{subject}}-Exam-Prep|Exam Prep]]
 - [[00-Dashboard/Home| Dashboard]]
 

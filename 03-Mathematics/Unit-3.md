@@ -10,6 +10,9 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[03-Mathematics/Mathematics-Dashboard|Mathematics]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Formula-Sheet]] | [[PYQ]]
+
+
 # Unit 3 - Assignment Problem
 
 > [!important] Unit Overview
@@ -83,7 +86,7 @@ Developed by **Harold Kuhn** in 1955, based on earlier work by Hungarian mathema
 > [!tip] Key Insight
 > The optimal assignment is found by working with **reduced cost matrix** - subtracting row/column minima preserves relative costs and creates zeros that correspond to potential assignments.
 
-###  Complete Hungarian Method - Step by Step
+### Complete Hungarian Method - Step by Step
 
 #### Step 1: Row Reduction
 For each row, subtract the **row minimum** from all elements in that row:
@@ -118,7 +121,7 @@ $$\theta = \min(\text{all uncovered elements})$$
 4. If ties, try different combinations
 5. Repeat until all $n$ assignments made
 
-###  Complete Worked Example
+### Complete Worked Example
 
 **Problem:** Minimize cost using Hungarian method:
 
@@ -322,7 +325,7 @@ flowchart TD
     F --> G{Lines = n?}
     G -- Yes --> H[Step 5: Make Assignment]
     G -- No --> I[Step 4: Find θ = min uncovered]
-    I --> J[Subtract θ from uncovered\nAdd θ to intersections]
+    I --> J[Subtract θ from uncovered<br/>Add θ to intersections]
     J --> F
     H --> K[Optimal Solution Found!]
 ```

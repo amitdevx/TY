@@ -21,7 +21,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 1: Agile Fundamentals *(Assignments 1 & 2)*
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 1: Agile Fundamentals *(Assignments 1 & 2)*
 
 > [!important] Learning Objectives
 > After this unit, you should be able to:
@@ -35,7 +38,7 @@ updated: 2026-06-16
 
 ---
 
-##  Topics at a Glance
+## Topics at a Glance
 
 ```mermaid
 mindmap
@@ -79,7 +82,7 @@ The ==Agile Manifesto== was created in **February 2001** by 17 software practiti
 >
 > *That is, while there is value in the items on the right, we value the items on the left more.*
 
-###  Explaining the 4 Values
+### Explaining the 4 Values
 
 | Value (Left Side) | Over (Right Side) | Meaning |
 |-------------------|-------------------|---------|
@@ -114,10 +117,10 @@ The 12 principles behind the Agile Manifesto:
 
 ```mermaid
 graph LR
-    A[12 Agile Principles] --> B[Customer Focus\nPrinciples 1-3]
-    A --> C[Team & Collaboration\nPrinciples 4-6]
-    A --> D[Product Quality\nPrinciples 7-10]
-    A --> E[Process Improvement\nPrinciples 11-12]
+    A[12 Agile Principles] --> B[Customer Focus<br/>Principles 1-3]
+    A --> C[Team & Collaboration<br/>Principles 4-6]
+    A --> D[Product Quality<br/>Principles 7-10]
+    A --> E[Process Improvement<br/>Principles 11-12]
 ```
 
 ---
@@ -144,15 +147,15 @@ graph LR
 graph LR
     PB[Product Backlog] --> SP[Sprint Planning]
     SP --> SB[Sprint Backlog]
-    SB --> S[Sprint\n1-4 weeks]
-    S --> DSU[Daily Scrum\n15 min]
+    SB --> S[Sprint<br/>1-4 weeks]
+    S --> DSU[Daily Scrum<br/>15 min]
     S --> INC[Working Increment]
     INC --> SR[Sprint Review]
     SR --> RETRO[Sprint Retrospective]
     RETRO --> PB
 ```
 
-###  Scrum Roles
+### Scrum Roles
 
 | Role | Responsibilities |
 |------|-----------------|
@@ -160,7 +163,7 @@ graph LR
 | ==Scrum Master (SM)== | Facilitates Scrum ceremonies, removes impediments, coaches team |
 | ==Development Team== | Self-organizing, cross-functional, builds the product (3-9 people) |
 
-###  Scrum Ceremonies
+### Scrum Ceremonies
 
 | Ceremony | Duration (2-week sprint) | Purpose |
 |----------|--------------------------|---------|
@@ -170,7 +173,7 @@ graph LR
 | Sprint Retrospective | ≤1.5 hours | Reflect on process, improve |
 | Backlog Refinement | Ongoing (~10% of sprint) | Clarify, estimate, and split stories |
 
-###  Scrum Artifacts
+### Scrum Artifacts
 
 | Artifact | Description |
 |----------|-------------|
@@ -182,7 +185,7 @@ graph LR
 
 ## 1.5 Git Setup for Agile Teams
 
-###  Initial Repository Setup
+### Initial Repository Setup
 
 ```bash
 # Initialize a new repository
@@ -203,7 +206,7 @@ git remote add origin https://github.com/username/my-project.git
 git push -u origin main
 ```
 
-###  Branching Strategy (Git Flow for Agile)
+### Branching Strategy (Git Flow for Agile)
 
 ```
 main          ──●──────────────────────────────●── (production releases)
@@ -235,7 +238,7 @@ git push origin feature/US-101-user-login
 # → Create PR on GitHub: feature/US-101-user-login → develop
 ```
 
-###  Commit Message Convention
+### Commit Message Convention
 
 ```bash
 # Format: type(scope): message [story-id]
@@ -252,7 +255,7 @@ git commit -m "refactor(db): optimize user query performance [US-204]"
 
 ## 1.6 Agile Board Setup
 
-###  Jira Board Configuration
+### Jira Board Configuration
 
 **Standard Scrum Board Columns:**
 
@@ -281,7 +284,7 @@ git commit -m "refactor(db): optimize user query performance [US-204]"
 
 ## 2.1 User Stories
 
-###  What is a User Story?
+### What is a User Story?
 
 A ==User Story== is a short, simple description of a feature from the perspective of the person who desires the new capability - usually a user or customer of the system.
 
@@ -309,7 +312,7 @@ So that I can access personalized features.
 
 ---
 
-###  INVEST Criteria
+### INVEST Criteria
 
 Good user stories satisfy the ==INVEST== criteria:
 
@@ -327,7 +330,7 @@ Good user stories satisfy the ==INVEST== criteria:
 
 ---
 
-###  Story Hierarchy
+### Story Hierarchy
 
 ```mermaid
 graph TD
@@ -349,11 +352,11 @@ graph TD
 
 ## 2.2 Acceptance Criteria (Given-When-Then)
 
-###  What are Acceptance Criteria?
+### What are Acceptance Criteria?
 
 ==Acceptance Criteria== define the specific conditions that a user story must satisfy to be accepted by the Product Owner. They answer: *"How do we know this story is done correctly?"*
 
-###  Given-When-Then Format (Gherkin)
+### Given-When-Then Format (Gherkin)
 
 ```gherkin
 Given [initial context/precondition]
@@ -448,7 +451,7 @@ When a story is too large (an epic), split it:
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -466,7 +469,7 @@ When a story is too large (an epic), split it:
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 > [!question] Short Answer Questions
 > 1. State and explain the 4 values of the Agile Manifesto.
@@ -482,7 +485,7 @@ When a story is too large (an epic), split it:
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview|← Overview]]
 - [[Syllabus| Syllabus]]

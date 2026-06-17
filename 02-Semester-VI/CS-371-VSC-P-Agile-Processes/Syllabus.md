@@ -15,7 +15,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-371 Agile Processes - Syllabus
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-371 Agile Processes - Syllabus
 
 > [!note] Course Details
 > **Subject Code:** CS-371-VSC-P | **Type:** Vocational/Skill Course (Practical)
@@ -24,7 +27,7 @@ updated: 2026-06-16
 
 ---
 
-##  Assignment-wise Syllabus
+## Assignment-wise Syllabus
 
 ### Assignment 1: Agile Fundamentals & Team Setup *(2 Slots)*
 
@@ -157,19 +160,19 @@ updated: 2026-06-16
 
 ---
 
-## ️ Unit → Assignment Mapping
+## Unit → Assignment Mapping
 
 | Unit | Assignments | Slots | Key Focus |
 |------|-------------|-------|-----------|
-| [[Unit-1\|Unit 1: Agile Fundamentals]] | 1, 2 | 3 slots | Manifesto, User Stories, DoR/DoD |
-| [[Unit-2\|Unit 2: Planning & Estimation]] | 3, 4 | 3 slots | MoSCoW, Story Points, Planning Poker |
-| [[Unit-3\|Unit 3: Sprint Execution]] | 5 | 2 slots | Daily Scrum, Burndown, Velocity |
-| [[Unit-4\|Unit 4: Quality Assurance]] | 6 | 2 slots | Unit Tests, CI/CD, Code Review |
-| [[Unit-5\|Unit 5: Review & Retro]] | 7, 8 | 3 slots | Sprint Review, Demo, Retrospective |
+| [[Unit-1|Unit 1: Agile Fundamentals]] | 1, 2 | 3 slots | Manifesto, User Stories, DoR/DoD |
+| [[Unit-2|Unit 2: Planning & Estimation]] | 3, 4 | 3 slots | MoSCoW, Story Points, Planning Poker |
+| [[Unit-3|Unit 3: Sprint Execution]] | 5 | 2 slots | Daily Scrum, Burndown, Velocity |
+| [[Unit-4|Unit 4: Quality Assurance]] | 6 | 2 slots | Unit Tests, CI/CD, Code Review |
+| [[Unit-5|Unit 5: Review & Retro]] | 7, 8 | 3 slots | Sprint Review, Demo, Retrospective |
 
 ---
 
-## ️ Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose | Used In |
 |------|---------|---------|
@@ -181,7 +184,7 @@ updated: 2026-06-16
 
 ---
 
-##  Reference Books
+## Reference Books
 
 | # | Title | Author |
 |---|-------|--------|
@@ -192,7 +195,7 @@ updated: 2026-06-16
 
 ---
 
-##  Related Notes
+## Related Notes
 
 - [[Overview|Subject Overview]]
 - [[Unit-1|Unit 1: Agile Fundamentals]]

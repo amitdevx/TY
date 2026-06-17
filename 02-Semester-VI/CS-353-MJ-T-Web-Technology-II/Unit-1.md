@@ -22,7 +22,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-# ️ Unit 1: Database Connectivity *(4 Hours)*
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 1: Database Connectivity *(4 Hours)*
 
 > [!important] Learning Objectives
 > After this unit, you should be able to:
@@ -33,7 +36,7 @@ updated: 2026-06-16
 
 ---
 
-##  Topics at a Glance
+## Topics at a Glance
 
 ```mermaid
 mindmap
@@ -61,7 +64,7 @@ mindmap
 
 ## 1.1 PostgreSQL Integration
 
-###  What is PostgreSQL?
+### What is PostgreSQL?
 
 ==PostgreSQL== (Postgres) is a powerful, open-source **object-relational database system** known for its reliability, feature richness, and standards compliance. It supports:
 - ACID transactions
@@ -75,7 +78,7 @@ mindmap
 
 ---
 
-###  Installation
+### Installation
 
 **Linux (Ubuntu/Debian):**
 ```bash
@@ -98,7 +101,7 @@ GRANT ALL PRIVILEGES ON DATABASE myapp TO myuser;
 
 ---
 
-###  The `pg` Module
+### The `pg` Module
 
 ==pg== is the official Node.js client library for PostgreSQL.
 
@@ -140,7 +143,7 @@ connectAndQuery().catch(console.error);
 
 ## 1.2 Connection Pooling
 
-###  What is Connection Pooling?
+### What is Connection Pooling?
 
 ==Connection Pooling== is the technique of maintaining a **cache of database connections** so that connections can be reused when future requests to the database are required.
 
@@ -166,7 +169,7 @@ sequenceDiagram
 
 ---
 
-###  Using Pool
+### Using Pool
 
 ```javascript
 const { Pool } = require('pg');
@@ -210,7 +213,7 @@ async function transferFunds(fromId, toId, amount) {
 }
 ```
 
-###  Pool Configuration Options
+### Pool Configuration Options
 
 | Option | Default | Description |
 |--------|---------|-------------|
@@ -224,7 +227,7 @@ async function transferFunds(fromId, toId, amount) {
 
 ## 1.3 Parameterized Queries
 
-###  What are Parameterized Queries?
+### What are Parameterized Queries?
 
 ==Parameterized queries== (also called **prepared statements**) separate SQL code from user-supplied data using **placeholders** (`$1`, `$2`, etc. in PostgreSQL).
 
@@ -241,7 +244,7 @@ const result = await pool.query(
 );
 ```
 
-###  PostgreSQL Placeholder Syntax
+### PostgreSQL Placeholder Syntax
 
 ```javascript
 // Single parameter
@@ -263,7 +266,7 @@ await pool.query(
 await pool.query('DELETE FROM orders WHERE id = $1 AND user_id = $2', [orderId, userId]);
 ```
 
-###  Query Result Object
+### Query Result Object
 
 ```javascript
 const result = await pool.query('SELECT * FROM users');
@@ -282,14 +285,14 @@ console.log(result.rows[0].name); // 'Alice'
 
 ## 1.4 Environment Variables
 
-###  Why Environment Variables?
+### Why Environment Variables?
 
 > [!warning] Security Risk
 > **Never** hardcode database credentials, API keys, or secrets in source code. If pushed to GitHub, they are publicly exposed.
 
 ==Environment variables== store sensitive configuration **outside** the code.
 
-###  The `dotenv` Package
+### The `dotenv` Package
 
 ```bash
 npm install dotenv
@@ -348,7 +351,7 @@ node_modules/
 
 ## 1.5 SQL Injection Prevention
 
-###  What is SQL Injection?
+### What is SQL Injection?
 
 ==SQL Injection== is an attack where malicious SQL code is inserted into input fields, manipulating the database query.
 
@@ -369,7 +372,7 @@ SELECT * FROM users WHERE name = ''; DROP TABLE users; --'
 -- Deletes the entire users table!
 ```
 
-###  Prevention Strategies
+### Prevention Strategies
 
 ```mermaid
 graph TD
@@ -422,7 +425,7 @@ app.post('/login', async (req, res) => {
 
 ---
 
-##  Practical: db.js Module
+## Practical: db.js Module
 
 ```javascript
 // db.js - Centralized database configuration
@@ -472,7 +475,7 @@ module.exports = { getAllUsers, getUserById };
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -486,7 +489,7 @@ module.exports = { getAllUsers, getUserById };
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 > [!question] Short Answer Questions
 > 1. What is the difference between `Client` and `Pool` in the `pg` module?
@@ -500,7 +503,7 @@ module.exports = { getAllUsers, getUserById };
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview|← Overview]]
 - [[Syllabus| Syllabus]]

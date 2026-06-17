@@ -19,12 +19,15 @@ updated: 2026-06-16
 hours: 6
 ---
 
-#  Unit 1 - CFG and Languages
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 1 - CFG and Languages
 
 > [!note] Unit Overview
 > Context-Free Grammars form the mathematical foundation of programming language syntax. This unit covers CFG notation, parse tree construction, derivation types, and how to detect and resolve ambiguous grammars.
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Define a Context-Free Grammar (CFG) formally
 - [ ] Construct parse trees from grammars and strings
@@ -321,7 +324,7 @@ graph TD
 
 ---
 
-##  Key Terms Summary
+## Key Terms Summary
 
 | Term | Definition |
 |------|------------|
@@ -338,7 +341,7 @@ graph TD
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 1. Define a Context-Free Grammar formally with all four components.
 2. What is the difference between a terminal and a non-terminal in a CFG?
@@ -353,7 +356,7 @@ graph TD
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview]] | [[Syllabus]]
 - ← Previous: (Start)

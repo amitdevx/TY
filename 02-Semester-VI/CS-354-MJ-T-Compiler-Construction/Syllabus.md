@@ -18,25 +18,28 @@ aliases:
 status: "not-started"
 ---
 
-#  CS-354 Compiler Construction - Complete Syllabus
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-354 Compiler Construction - Complete Syllabus
 
 > [!info] Course Information
 > **Semester:** VI | **Credits:** 2 | **IE:** 15 | **EE:** 35
 > **Teaching:** 2 Hours/Week | **Total:** ~30 Hours
 
-##  Prerequisites
+## Prerequisites
 - Familiarity with **Finite Automata (FA)**, **Regular Expressions (RE)**, and **Context-Free Grammars (CFG)** (from CS-304 TCS)
 - Knowledge of stacks, trees, graphs, symbol tables, and basic complexity
 - Basic understanding of machine coding and instruction sets
 
-##  Course Objectives
+## Course Objectives
 - Understand lexical analysis, syntax analysis, and semantic analysis
 - Describe the basic ideas and stages involved in compiler design
 - Examine the runtime environment and intermediary code creation
 - Recognize symbol table management and error handling
 - Learn to build and implement compiler components
 
-##  Course Outcomes (COs)
+## Course Outcomes (COs)
 
 | CO | Description |
 |----|-------------|
@@ -47,7 +50,7 @@ status: "not-started"
 | CO5 | Utilize code optimization strategies |
 | CO6 | Use CFGs to parse programming languages |
 
-##  Chapter-wise Syllabus
+## Chapter-wise Syllabus
 
 ### Chapter 1: Context-Free Grammars and Languages *(6 Hours)*
 → [[Unit-1|Unit 1 Notes]]
@@ -147,7 +150,7 @@ graph LR
 | 5.3 | Intermediate code: **Postfix**, **Triples**, **Quadruples**, **Expression trees** |
 | 5.4 | Code Optimization techniques: compile-time eval, common sub-expression elimination, dead code elimination, frequency reduction, strength reduction |
 
-##  Reference Books
+## Reference Books
 
 | # | Book | Author |
 |---|------|--------|
@@ -156,7 +159,7 @@ graph LR
 | R3 | Advanced Compiler Design and Implementation | Steven S. Muchnick |
 | R4 | Principles of Compiler Design | Aho, Ullman (Narosa) |
 
-##  Most Important Topics for Exam
+## Most Important Topics for Exam
 
 > [!warning] Definitely Coming in Exam
 > 1. **FIRST & FOLLOW** set computation (always numerical)
@@ -168,7 +171,7 @@ graph LR
 > 7. **Intermediate code** (Triples/Quadruples from expression)
 > 8. **Compiler phases** diagram and description
 
-## ️ Quick Navigation
+## Quick Navigation
 
 | File | Purpose |
 |------|---------|

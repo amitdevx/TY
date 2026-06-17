@@ -22,7 +22,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 4: Forms, Sessions and Cookies *(7 Hours)*
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 4: Forms, Sessions and Cookies *(7 Hours)*
 
 > [!important] Learning Objectives
 > After this unit, you should be able to:
@@ -34,7 +37,7 @@ updated: 2026-06-16
 
 ---
 
-##  Topics at a Glance
+## Topics at a Glance
 
 ```mermaid
 mindmap
@@ -65,7 +68,7 @@ mindmap
 
 ## 4.1 Session Management
 
-###  What is a Session?
+### What is a Session?
 
 An HTTP session is a way to **maintain state** between requests from the same user. Since HTTP is stateless (each request is independent), sessions provide a mechanism to remember the user across multiple requests.
 
@@ -88,7 +91,7 @@ sequenceDiagram
 
 ---
 
-###  express-session Setup
+### express-session Setup
 
 ```bash
 npm install express-session
@@ -123,7 +126,7 @@ app.use(session({
 
 ---
 
-###  Using Sessions
+### Using Sessions
 
 ```javascript
 // Set session data
@@ -179,16 +182,16 @@ app.post('/update-theme', (req, res) => {
 });
 ```
 
-###  Session Lifecycle
+### Session Lifecycle
 
 ```mermaid
 graph LR
-    A[User logs in] --> B[Session created\nwith unique ID]
-    B --> C[Session ID sent\nin cookie]
-    C --> D[User makes requests\nwith session cookie]
-    D --> E[Server looks up session\nby ID]
+    A[User logs in] --> B[Session created<br/>with unique ID]
+    B --> C[Session ID sent<br/>in cookie]
+    C --> D[User makes requests<br/>with session cookie]
+    D --> E[Server looks up session<br/>by ID]
     E --> F[Access session data]
-    F --> G{Logged out\nor expired?}
+    F --> G{Logged out<br/>or expired?}
     G -->|Logout| H[Session destroyed]
     G -->|Expired| I[Session auto-deleted]
     G -->|Active| D
@@ -198,7 +201,7 @@ graph LR
 
 ## 4.2 Cookies
 
-###  What are Cookies?
+### What are Cookies?
 
 ==Cookies== are small pieces of data stored on the **client's browser** and sent automatically with every request to the server. Max size: ~4KB.
 
@@ -213,7 +216,7 @@ app.use(cookieParser(process.env.COOKIE_SECRET));  // Secret for signed cookies
 
 ---
 
-###  Creating Cookies
+### Creating Cookies
 
 ```javascript
 // res.cookie(name, value, options)
@@ -240,7 +243,7 @@ app.get('/set-cookies', (req, res) => {
 });
 ```
 
-###  Reading Cookies
+### Reading Cookies
 
 ```javascript
 app.get('/read-cookies', (req, res) => {
@@ -257,7 +260,7 @@ app.get('/read-cookies', (req, res) => {
 });
 ```
 
-###  Deleting Cookies
+### Deleting Cookies
 
 ```javascript
 // Clear cookie - must match original path/domain options
@@ -270,7 +273,7 @@ app.get('/clear-cookies', (req, res) => {
 
 ---
 
-###  Cookie Security Flags
+### Cookie Security Flags
 
 | Flag | Description | Why Important |
 |------|------------|---------------|
@@ -285,7 +288,7 @@ app.get('/clear-cookies', (req, res) => {
 
 ## 4.3 Form Processing
 
-###  Handling Form Data
+### Handling Form Data
 
 ```javascript
 // Parse URL-encoded form data (HTML forms with POST)
@@ -453,7 +456,7 @@ graph LR
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -470,7 +473,7 @@ graph LR
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 > [!question] Short Answer Questions
 > 1. What is a session? Why are sessions needed if HTTP is stateless?
@@ -486,7 +489,7 @@ graph LR
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Unit-3|← Unit 3: Introduction to React]]
 - [[Syllabus| Syllabus]]

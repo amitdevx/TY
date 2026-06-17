@@ -18,14 +18,17 @@ type: unit-notes
 last_reviewed: 2026-06-16
 ---
 
-#  Unit 3 - Node.js Fundamentals
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 3 - Node.js Fundamentals
 
 > [!note] Navigation
 > [[Overview|CS-303 Overview]] | ← [[Unit-2]] | **Unit 3** → [[Unit-4]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Understand the Node.js runtime and how it differs from browser JavaScript
 - Set up npm and manage packages with `package.json`
@@ -658,7 +661,7 @@ console.log(emitter.eventNames());
 
 ---
 
-##  Interview Questions - Unit 3
+## Interview Questions - Unit 3
 
 > [!question] Key Interview/Exam Questions
 
@@ -688,7 +691,7 @@ console.log(emitter.eventNames());
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 3 Key Takeaways
 >

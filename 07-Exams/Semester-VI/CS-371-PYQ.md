@@ -19,14 +19,17 @@ created: 2026-06-16
 type: pyq
 ---
 
-#  CS-371 Agile Methodology - Expected PYQ
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-371 Agile Methodology - Expected PYQ
 
 > [!important] Exam Strategy
 > Agile is mostly theory-based. Master Scrum roles, events, artifacts, Agile Manifesto values and principles, and comparison of Scrum vs Kanban vs XP. Diagrams (Sprint burndown chart, Scrum framework) fetch extra marks.
 
 ---
 
-## ️ Unit-wise Distribution
+## Unit-wise Distribution
 
 | Unit | Topic | Weightage |
 |------|-------|-----------|
@@ -38,7 +41,7 @@ type: pyq
 
 ---
 
-## ️ Section A - Short Answer (2 Marks)
+## Section A - Short Answer (2 Marks)
 
 1. **What is Agile methodology? How does it differ from Waterfall?**
 2. **List the 4 values of the Agile Manifesto.**
@@ -68,7 +71,7 @@ type: pyq
 
 ---
 
-##  Section B - Long Answer (5–7 Marks)
+## Section B - Long Answer (5–7 Marks)
 
 ---
 
@@ -310,7 +313,7 @@ Story Points Remaining vs. Days in Sprint
 
 ---
 
-##  Most Expected Questions
+## Most Expected Questions
 
 > [!tip] High Probability
 > 1.  Agile Manifesto - 4 values and 12 principles
@@ -324,7 +327,7 @@ Story Points Remaining vs. Days in Sprint
 
 ---
 
-##  Daily Scrum - 3 Questions
+## Daily Scrum - 3 Questions
 
 > [!note] Every day, each team member answers:
 > 1. **What did I do yesterday?** (Progress)
@@ -333,4 +336,4 @@ Story Points Remaining vs. Days in Sprint
 
 ---
 
-*Tags: CS-371 Agile Methodology | Semester VI | [[07-Exams]]*
+*Tags: CS-371 Agile Methodology | Semester VI | [[07-Exams/Exams-Dashboard|Exams]]*

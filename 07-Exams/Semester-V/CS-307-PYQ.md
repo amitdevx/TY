@@ -18,14 +18,17 @@ created: 2026-06-16
 type: pyq
 ---
 
-#  CS-307 Data Science - Expected PYQ
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-307 Data Science - Expected PYQ
 
 > [!important] Exam Strategy
 > Data Science paper balances theory and practical. Focus on preprocessing techniques, visualization types, ML algorithms (Linear Regression, KNN, K-Means), and evaluation metrics. Expect short Python code snippets too.
 
 ---
 
-## ️ Unit-wise Distribution
+## Unit-wise Distribution
 
 | Unit | Topic | Weightage |
 |------|-------|-----------|
@@ -37,7 +40,7 @@ type: pyq
 
 ---
 
-## ️ Section A - Short Answer Questions (2 Marks)
+## Section A - Short Answer Questions (2 Marks)
 
 1. **Define Data Science. List its key components.**
 2. **What is the difference between structured and unstructured data?**
@@ -62,7 +65,7 @@ type: pyq
 
 ---
 
-##  Section B - Long Answer Questions (5–7 Marks)
+## Section B - Long Answer Questions (5–7 Marks)
 
 ---
 
@@ -355,7 +358,7 @@ x̄ = 3, ȳ = 4
 
 ---
 
-##  Most Expected Questions
+## Most Expected Questions
 
 > [!tip] High Probability Questions
 > 1.  Data Preprocessing - missing values, outliers, normalization
@@ -369,7 +372,7 @@ x̄ = 3, ȳ = 4
 
 ---
 
-##  Quick Formulas
+## Quick Formulas
 
 | Formula | Expression |
 |---------|-----------|
@@ -382,4 +385,4 @@ x̄ = 3, ȳ = 4
 
 ---
 
-*Tags: CS-307 Data Science | Semester V | [[07-Exams]]*
+*Tags: CS-307 Data Science | Semester V | [[07-Exams/Exams-Dashboard|Exams]]*

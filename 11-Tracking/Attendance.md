@@ -8,7 +8,10 @@ tags:
 date: 2026-06-16
 ---
 
-#  Attendance Tracker
+[[00-Dashboard/Home|Home]] | [[11-Tracking/Tracking-Dashboard|Tracking Dashboard]]
+
+
+# Attendance Tracker
 
 > [!warning] Minimum Attendance Required
 > **75%** attendance required to be eligible for exams. Track carefully!
@@ -17,7 +20,7 @@ date: 2026-06-16
 > **Attendance % = (Attended / Total) × 100**
 > **Required attended = Total × 0.75**
 
-##  Semester V Attendance
+## Semester V Attendance
 
 ### Overall Sem V Status
 
@@ -66,7 +69,7 @@ date: 2026-06-16
 
 ---
 
-##  Semester VI Attendance
+## Semester VI Attendance
 
 ### Overall Sem VI Status
 
@@ -84,7 +87,7 @@ date: 2026-06-16
 
 ---
 
-## ️ Attendance Alert
+## Attendance Alert
 
 > [!caution] Dangerously Low Attendance
 > If any subject falls below **75%**, you CANNOT appear for final exams.
@@ -96,4 +99,4 @@ date: 2026-06-16
 - If you miss 15+ lectures, you are in danger zone!
 
 ---
-*[[Lab-Tracker|← Lab Tracker]] | [[Home| Dashboard]] | [[Study-Hours|Study Hours →]]*
+*[[Lab-Tracker|← Lab Tracker]] | [[Home| Dashboard]] | [[Subject-Tracker|Study Hours →]]*

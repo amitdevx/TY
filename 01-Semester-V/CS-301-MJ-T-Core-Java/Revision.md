@@ -13,13 +13,16 @@ aliases:
 created: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # CS-301 Core Java - Revision Notes
 
 > [!important] Last-minute revision guide. Read these notes 1 day before exam!
 
 ---
 
-##  Unit 1 - Introduction to Java
+## Unit 1 - Introduction to Java
 
 > [!note] Unit 1 Summary (5 Hours)
 
@@ -69,7 +72,7 @@ break (exits loop) | continue (skips iteration) | labeled break (exits outer loo
 
 ---
 
-##  Unit 2 - Objects and Classes
+## Unit 2 - Objects and Classes
 
 > [!note] Unit 2 Summary (6 Hours)
 
@@ -126,7 +129,7 @@ parseInt("42") → 42 | valueOf(42) → Integer object
 
 ---
 
-##  Unit 3 - Inheritance and Interface
+## Unit 3 - Inheritance and Interface
 
 > [!note] Unit 3 Summary (6 Hours)
 
@@ -186,7 +189,7 @@ Example: Runnable r = () -> System.out.println("Run!");
 
 ---
 
-##  Unit 4 - Exception and File Handling
+## Unit 4 - Exception and File Handling
 
 > [!note] Unit 4 Summary (5 Hours)
 
@@ -244,7 +247,7 @@ Bridge Streams:
 
 ---
 
-##  Unit 5 - User Interface with JavaFX
+## Unit 5 - User Interface with JavaFX
 
 > [!note] Unit 5 Summary (8 Hours)
 
@@ -297,7 +300,7 @@ btn.removeEventHandler(ActionEvent.ACTION, handler);   // remove handler
 
 ---
 
-##  Key Terms Glossary
+## Key Terms Glossary
 
 | Term | Subject | Definition |
 |------|---------|-----------|
@@ -314,7 +317,7 @@ btn.removeEventHandler(ActionEvent.ACTION, handler);   // remove handler
 
 ---
 
-## ️ Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 > [!warning] Don't make these errors in exams!
 
@@ -331,7 +334,7 @@ btn.removeEventHandler(ActionEvent.ACTION, handler);   // remove handler
 
 ---
 
-##  Last-Minute Tips
+## Last-Minute Tips
 
 > [!tip] 30 Minutes Before Exam
 
@@ -348,7 +351,7 @@ btn.removeEventHandler(ActionEvent.ACTION, handler);   // remove handler
 
 ---
 
-##  One-Page Summary
+## One-Page Summary
 
 ```mermaid
 mindmap
@@ -392,7 +395,7 @@ mindmap
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview| Subject Overview]]
 - [[Syllabus| Syllabus]]

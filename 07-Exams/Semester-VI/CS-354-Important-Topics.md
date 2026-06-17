@@ -18,14 +18,17 @@ created: 2026-06-16
 type: important-topics
 ---
 
-#  CS-354 Compiler Construction - Important Topics
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-354 Compiler Construction - Important Topics
 
 > [!important] Exam Focus
 > Compiler is the most numerical paper in Sem VI. FIRST/FOLLOW computation and LL(1) table construction alone can carry 15-20 marks. Master the algorithms before anything else.
 
 ---
 
-##  Top 10 Most Important Topics
+## Top 10 Most Important Topics
 
 | # | Topic | Description | Probability |
 |---|-------|-------------|-------------|
@@ -42,7 +45,7 @@ type: important-topics
 
 ---
 
-##  "Definitely Going to Come" Section
+## "Definitely Going to Come" Section
 
 > [!warning] Near-Certain Exam Questions
 > 1. **Compute FIRST and FOLLOW** for a given grammar (5-6 productions) - numerical
@@ -55,7 +58,7 @@ type: important-topics
 
 ---
 
-##  Must-Know Definitions
+## Must-Know Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -76,7 +79,7 @@ type: important-topics
 
 ---
 
-##  Key Algorithms to Remember
+## Key Algorithms to Remember
 
 ### Algorithm: FIRST Set Computation
 ```
@@ -125,7 +128,7 @@ While True:
 
 ---
 
-##  Quick Formulas & Key Facts
+## Quick Formulas & Key Facts
 
 | Fact | Detail |
 |------|--------|
@@ -139,7 +142,7 @@ While True:
 
 ---
 
-##  FIRST & FOLLOW Practice Template
+## FIRST & FOLLOW Practice Template
 
 **Standard Grammar to Practice:**
 ```
@@ -161,7 +164,7 @@ FIRST(E') = {+, ε}      FOLLOW(E') = {), $}
 
 ---
 
-##  TAC Generation from Code
+## TAC Generation from Code
 
 ```
 Expression: a = -b + c * d
@@ -182,7 +185,7 @@ L2: ...
 
 ---
 
-##  Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 > [!warning] Critical Errors to Avoid
 > - **FIRST of non-terminal:** Don't put the non-terminal itself - always drill down to terminals.
@@ -195,7 +198,7 @@ L2: ...
 
 ---
 
-## ️ Phases of Compiler - Quick Reference
+## Phases of Compiler - Quick Reference
 
 | Phase | Input | Output | Key Activity |
 |-------|-------|--------|-------------|
@@ -208,4 +211,4 @@ L2: ...
 
 ---
 
-*Tags: CS-354 Compiler Construction | Semester VI | [[07-Exams]]*
+*Tags: CS-354 Compiler Construction | Semester VI | [[07-Exams/Exams-Dashboard|Exams]]*

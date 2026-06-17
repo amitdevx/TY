@@ -16,14 +16,17 @@ created: 2026-06-16
 type: important-topics
 ---
 
-#  CS-307 Data Science - Important Topics
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-307 Data Science - Important Topics
 
 > [!important] Exam Focus
 > Data Science is a mix of theory and coding. Focus on preprocessing, visualization, ML algorithms, and evaluation metrics. Expect numerical problems on Linear Regression and confusion matrix.
 
 ---
 
-##  Top 10 Most Important Topics
+## Top 10 Most Important Topics
 
 | # | Topic | Description | Probability |
 |---|-------|-------------|-------------|
@@ -40,7 +43,7 @@ type: important-topics
 
 ---
 
-##  "Definitely Going to Come" Section
+## "Definitely Going to Come" Section
 
 > [!warning] Near-Certain Exam Questions
 > 1. **Data preprocessing** - handle missing values + normalize data (code)
@@ -52,7 +55,7 @@ type: important-topics
 
 ---
 
-##  Must-Know Definitions
+## Must-Know Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -71,7 +74,7 @@ type: important-topics
 
 ---
 
-##  Quick Formulas to Remember
+## Quick Formulas to Remember
 
 | Formula | Expression |
 |---------|-----------|
@@ -83,7 +86,7 @@ type: important-topics
 | **β₀** | ȳ - β₁x̄ |
 | **R² Score** | 1 - SS_res/SS_tot |
 | **Entropy** | H(S) = -Σ pᵢ log₂(pᵢ) |
-| **Information Gain** | IG = H(S) - Σ(\|Sv\|/\|S\|)H(Sv) |
+| **Information Gain** | IG = H(S) - Σ(|Sv|/|S|)H(Sv) |
 | **Precision** | TP / (TP + FP) |
 | **Recall** | TP / (TP + FN) |
 | **F1-Score** | 2 × P × R / (P + R) |
@@ -91,7 +94,7 @@ type: important-topics
 
 ---
 
-##  Quick Code Patterns
+## Quick Code Patterns
 
 ### Data Preprocessing Pipeline
 ```python
@@ -152,7 +155,7 @@ y_pred = knn.predict(X_test)
 
 ---
 
-##  Visualization Cheat Sheet
+## Visualization Cheat Sheet
 
 | Chart Type | When to Use | Code |
 |------------|-------------|------|
@@ -166,7 +169,7 @@ y_pred = knn.predict(X_test)
 
 ---
 
-##  Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 > [!warning] Mistakes to Avoid
 > - **Fitting scaler on test data:** ALWAYS fit scaler on training data only, then transform both train and test.
@@ -179,7 +182,7 @@ y_pred = knn.predict(X_test)
 
 ---
 
-##  Numerical Problem Template - Linear Regression
+## Numerical Problem Template - Linear Regression
 
 **Given table: Calculate β₀, β₁, and predict y for given x**
 
@@ -195,4 +198,4 @@ y_pred = knn.predict(X_test)
 
 ---
 
-*Tags: CS-307 Data Science | Semester V | [[07-Exams]]*
+*Tags: CS-307 Data Science | Semester V | [[07-Exams/Exams-Dashboard|Exams]]*

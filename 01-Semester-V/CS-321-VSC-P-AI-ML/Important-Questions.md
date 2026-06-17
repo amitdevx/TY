@@ -14,14 +14,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-321: Foundation of AI & ML - Important Questions
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-321: Foundation of AI & ML - Important Questions
 
 > [!warning] Exam Focus
 > As a VSC Practical subject, expect both theory questions AND hands-on Python coding. Know how to implement algorithms from scratch and using Scikit-learn/Keras.
 
 ---
 
-##  Pattern Analysis
+## Pattern Analysis
 
 | Marks | Type | Strategy |
 |-------|------|---------|
@@ -32,7 +35,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit 1: Introduction to AI
+## Unit 1: Introduction to AI
 
 ### 2-Mark Questions
 1. What is the Turing Test? Who proposed it?
@@ -66,7 +69,7 @@ from collections import deque
 
 ---
 
-##  Unit 2: Machine Learning Fundamentals
+## Unit 2: Machine Learning Fundamentals
 
 ### 2-Mark Questions
 1. Define overfitting and underfitting.
@@ -103,7 +106,7 @@ F1        = 2×P×R/(P+R)
 
 ---
 
-##  Unit 3: Supervised Learning
+## Unit 3: Supervised Learning
 
 ### 2-Mark Questions
 1. What is the sigmoid function? Give its formula and range.
@@ -135,7 +138,7 @@ $$d_{Euclidean} = \sqrt{\sum(p_i-q_i)^2}, \quad P(C|X) = \frac{P(X|C)P(C)}{P(X)}
 
 ---
 
-##  Unit 4: Unsupervised Learning & Neural Networks
+## Unit 4: Unsupervised Learning & Neural Networks
 
 ### 2-Mark Questions
 1. What is the objective function of K-Means?
@@ -165,7 +168,7 @@ where a = mean intra-cluster distance, b = mean nearest-cluster distance
 
 ---
 
-##  Unit 5: Deep Learning & Applications
+## Unit 5: Deep Learning & Applications
 
 ### 2-Mark Questions
 1. What is the key advantage of deep learning over traditional ML?
@@ -196,7 +199,7 @@ $$O = \left\lfloor\frac{I - K + 2P}{S}\right\rfloor + 1$$
 
 ---
 
-##  Most Important Practical Questions
+## Most Important Practical Questions
 
 > [!warning] High probability for practicals!
 
@@ -233,7 +236,7 @@ for k in range(2, 11):
 
 ---
 
-##  Quick Formula Reference
+## Quick Formula Reference
 
 | Formula | Expression |
 |---------|-----------|
@@ -246,11 +249,11 @@ for k in range(2, 11):
 | ReLU | $\max(0, z)$ |
 | Entropy | $-\sum p_i\log_2(p_i)$ |
 | Gini | $1 - \sum p_i^2$ |
-| WCSS | $\sum_j\sum_{x_i\in C_j}\|x_i-\mu_j\|^2$ |
+| WCSS | $\sum_j\sum_{x_i\in C_j}|x_i-\mu_j|^2$ |
 | Backprop | $W = W - \alpha \frac{\partial L}{\partial W}$ |
-| L1 Loss | $J + \lambda\sum\|\theta_j\|$ |
+| L1 Loss | $J + \lambda\sum|\theta_j|$ |
 | L2 Loss | $J + \lambda\sum\theta_j^2$ |
-| Bayes | $P(C\|X) = \frac{P(X\|C)P(C)}{P(X)}$ |
+| Bayes | $P(C|X) = \frac{P(X|C)P(C)}{P(X)}$ |
 | CNN Output | $\lfloor\frac{I-K+2P}{S}\rfloor + 1$ |
 
 ---

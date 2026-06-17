@@ -16,14 +16,17 @@ type: unit-notes
 last_reviewed: 2026-06-16
 ---
 
-# ️ Unit 5 - Turing Machine
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 5 - Turing Machine
 
 > [!note] Navigation
 > [[Overview|CS-304 Overview]] | ← [[Unit-4]] | **Unit 5** (Final Unit) → [[Important-Questions|CS-304 Important-Questions]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Describe the Turing Machine model formally
 - Design TMs for specific computations
@@ -244,10 +247,10 @@ TM M
 graph TD
     A["All Languages (uncountable)"]
     B["Non-RE: No TM can recognize"]
-    C["RE (Recursively Enumerable)\nTM accepts all members\n(may loop on non-members)"]
-    D["Recursive (Decidable)\nTM always halts with YES/NO"]
-    E["Context-Free\n(PDA)"]
-    F["Regular\n(DFA/NFA)"]
+    C["RE (Recursively Enumerable)<br/>TM accepts all members<br/>(may loop on non-members)"]
+    D["Recursive (Decidable)<br/>TM always halts with YES/NO"]
+    E["Context-Free<br/>(PDA)"]
+    F["Regular<br/>(DFA/NFA)"]
     
     A --> B
     A --> C
@@ -341,7 +344,7 @@ Now run D on ⟨D⟩:
 
 ---
 
-##  Interview Questions - Unit 5
+## Interview Questions - Unit 5
 
 > [!question] Key Interview/Exam Questions
 
@@ -371,7 +374,7 @@ Now run D on ⟨D⟩:
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 5 Key Takeaways
 >

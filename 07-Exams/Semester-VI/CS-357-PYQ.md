@@ -20,14 +20,17 @@ created: 2026-06-16
 type: pyq
 ---
 
-#  CS-357 Android Development - Expected PYQ
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-357 Android Development - Expected PYQ
 
 > [!important] Exam Strategy
 > Android is concept-heavy with practical coding. Focus on Activity lifecycle, Intents, UI components (RecyclerView, Fragments), SQLite, and permissions. Architecture patterns (MVP/MVVM) are theory.
 
 ---
 
-## ️ Unit-wise Distribution
+## Unit-wise Distribution
 
 | Unit | Topic | Weightage |
 |------|-------|-----------|
@@ -39,7 +42,7 @@ type: pyq
 
 ---
 
-## ️ Section A - Short Answer (2 Marks)
+## Section A - Short Answer (2 Marks)
 
 1. **What is Android? What is the Android architecture stack?**
 2. **What is an Activity? List the Activity lifecycle methods.**
@@ -64,7 +67,7 @@ type: pyq
 
 ---
 
-##  Section B - Long Answer (5–7 Marks)
+## Section B - Long Answer (5–7 Marks)
 
 ---
 
@@ -359,7 +362,7 @@ public void onRequestPermissionsResult(int requestCode, String[] perms, int[] re
 
 ---
 
-##  Most Expected Questions
+## Most Expected Questions
 
 > [!tip] High Probability
 > 1.  Activity lifecycle - all 7 methods with diagram
@@ -372,4 +375,4 @@ public void onRequestPermissionsResult(int requestCode, String[] perms, int[] re
 
 ---
 
-*Tags: CS-357 Android Development | Semester VI | [[07-Exams]]*
+*Tags: CS-357 Android Development | Semester VI | [[07-Exams/Exams-Dashboard|Exams]]*

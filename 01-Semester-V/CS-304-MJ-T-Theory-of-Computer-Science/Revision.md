@@ -11,7 +11,10 @@ type: revision
 last_reviewed: 2026-06-16
 ---
 
-#  CS-304 Theory of Computer Science - Revision Notes
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-304 Theory of Computer Science - Revision Notes
 
 > [!note] Navigation
 > [[Overview|CS-304 Overview]] | [[Important-Questions|CS-304 Important-Questions]] | [[Interview-Prep|CS-304 Interview-Prep]]
@@ -23,7 +26,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-##  Chapter 1 - Finite Automata
+## Chapter 1 - Finite Automata
 
 ### Core Definitions (Must Know)
 ```
@@ -90,7 +93,7 @@ Output length = |w|
 
 ---
 
-##  Chapter 2 - Regular Expressions & Languages
+## Chapter 2 - Regular Expressions & Languages
 
 ### RE Definition (Recursive)
 ```
@@ -133,7 +136,7 @@ NOT closed under: ??? (all operations close regular!)
 
 ---
 
-##  Chapter 3 - Context-Free Grammars
+## Chapter 3 - Context-Free Grammars
 
 ### CFG = (V, T, P, S)
 ```
@@ -190,7 +193,7 @@ Balanced parens:    S → SS | (S) | ε
 
 ---
 
-##  Chapter 4 - Push Down Automata
+## Chapter 4 - Push Down Automata
 
 ### PDA = (Q, Σ, Γ, δ, q₀, Z₀, F)
 ```
@@ -234,7 +237,7 @@ Start: (q, w, S), accept by empty stack
 
 ---
 
-##  Chapter 5 - Turing Machine
+## Chapter 5 - Turing Machine
 
 ### TM = (Q, Σ, Γ, δ, q₀, B, F)
 ```
@@ -292,7 +295,7 @@ Proof: Diagonalization - assume TM H decides HALT,
 
 ---
 
-##  Master Comparison Table
+## Master Comparison Table
 
 | Machine | Memory | δ Return | Input | Language Class |
 |---------|--------|----------|-------|---------------|
@@ -310,7 +313,7 @@ Proof: Diagonalization - assume TM H decides HALT,
 
 ---
 
-##  Exam Tips
+## Exam Tips
 
 > [!warning] Common Mistakes to Avoid
 >

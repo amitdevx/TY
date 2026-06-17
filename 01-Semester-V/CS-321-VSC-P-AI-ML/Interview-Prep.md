@@ -14,14 +14,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-321: Foundation of AI & ML - Interview Preparation
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-321: Foundation of AI & ML - Interview Preparation
 
 > [!important] 40+ Interview Questions
 > Covers AI fundamentals, all ML algorithms, deep learning, and practical Python. Ideal for campus placements, internships, and academic exams.
 
 ---
 
-##  Section 1: AI Fundamentals (Q1–Q6)
+## Section 1: AI Fundamentals (Q1–Q6)
 
 > [!question] Q1: What is Artificial Intelligence? What are the different types?
 > **Answer**: AI is the simulation of human intelligence processes by machines, especially computer systems. Processes include: learning, reasoning, problem-solving, perception, and language understanding.
@@ -58,7 +61,7 @@ updated: 2026-06-16
 
 ---
 
-##  Section 2: ML Fundamentals (Q7–Q15)
+## Section 2: ML Fundamentals (Q7–Q15)
 
 > [!question] Q7: What is machine learning? How does it differ from rule-based programming?
 > **Answer**: ML is a paradigm where algorithms learn patterns from data without explicit programming. **Rule-based**: Human experts write explicit IF-THEN rules (brittle, hard to maintain). **ML**: System learns rules from data automatically (adaptable, scalable). Example: Rule-based spam filter has hand-crafted rules; ML spam filter learns from labeled emails. ML excels when: rules are too complex, data is abundant, patterns change over time.
@@ -111,7 +114,7 @@ updated: 2026-06-16
 
 ---
 
-##  Section 3: Supervised Learning Algorithms (Q16–Q25)
+## Section 3: Supervised Learning Algorithms (Q16–Q25)
 
 > [!question] Q16: Explain Linear Regression. What are its assumptions?
 > **Answer**: Linear Regression models linear relationship between features and continuous target: ŷ = β₀ + β₁x₁ + ... + βₙxₙ. Coefficients found by OLS (minimizing MSE) or gradient descent.
@@ -161,7 +164,7 @@ updated: 2026-06-16
 
 ---
 
-##  Section 4: Unsupervised Learning (Q26–Q30)
+## Section 4: Unsupervised Learning (Q26–Q30)
 
 > [!question] Q26: Explain K-Means. What are its limitations and how to overcome them?
 > **Answer**: K-Means: Initialize K centroids → Assign points to nearest centroid → Recompute centroids → Repeat. Minimizes WCSS.
@@ -189,7 +192,7 @@ updated: 2026-06-16
 
 ---
 
-##  Section 5: Deep Learning (Q31–Q40)
+## Section 5: Deep Learning (Q31–Q40)
 
 > [!question] Q31: What is deep learning? Why does it work well for images and text?
 > **Answer**: Deep Learning uses neural networks with many layers to automatically learn hierarchical feature representations. For images: early layers learn edges/textures, middle layers learn parts (eyes, noses), deep layers learn objects (faces). This hierarchical representation is hard to engineer manually. For text: layers learn characters → words → phrases → sentences → semantics. Deep learning removes the need for manual feature engineering that traditional ML requires.
@@ -260,7 +263,7 @@ updated: 2026-06-16
 
 ---
 
-##  Quick Answer Cheatsheet
+## Quick Answer Cheatsheet
 
 | Question | One-Line Answer |
 |----------|----------------|

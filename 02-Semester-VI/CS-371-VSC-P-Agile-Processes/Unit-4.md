@@ -23,7 +23,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 4: Quality Assurance *(Assignment 6)*
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 4: Quality Assurance *(Assignment 6)*
 
 > [!important] Learning Objectives
 > After this unit, you should be able to:
@@ -36,7 +39,7 @@ updated: 2026-06-16
 
 ---
 
-##  Topics at a Glance
+## Topics at a Glance
 
 ```mermaid
 mindmap
@@ -81,16 +84,16 @@ mindmap
 
 ## 6.1 Unit Testing Fundamentals
 
-###  What is Unit Testing?
+### What is Unit Testing?
 
 A ==unit test== verifies that an **individual, isolated unit** of code (function, method, class) behaves as expected under specific conditions.
 
 **Testing Pyramid:**
 ```mermaid
 graph TD
-    E2E[End-to-End Tests\n- Slow, expensive\n- Few tests\n- Tests entire app] 
-    INT[Integration Tests\n- Medium speed\n- Some tests\n- Tests component interaction]
-    UNIT[Unit Tests\n- Fast, cheap\n- Many tests\n- Tests individual functions]
+    E2E[End-to-End Tests<br/>- Slow, expensive<br/>- Few tests<br/>- Tests entire app] 
+    INT[Integration Tests<br/>- Medium speed<br/>- Some tests<br/>- Tests component interaction]
+    UNIT[Unit Tests<br/>- Fast, cheap<br/>- Many tests<br/>- Tests individual functions]
     
     style E2E fill:#FF5722
     style INT fill:#FF9800
@@ -102,7 +105,7 @@ graph TD
 
 ---
 
-###  Arrange-Act-Assert (AAA) Pattern
+### Arrange-Act-Assert (AAA) Pattern
 
 ```
 // Structure of every unit test:
@@ -118,7 +121,7 @@ void testMethod() {
 }
 ```
 
-###  F.I.R.S.T Principles for Good Tests
+### F.I.R.S.T Principles for Good Tests
 
 | Letter | Principle | Meaning |
 |--------|-----------|---------|
@@ -132,7 +135,7 @@ void testMethod() {
 
 ## 6.2 JUnit 5 (Java)
 
-###  Setup
+### Setup
 
 ```xml
 <!-- Maven pom.xml -->
@@ -144,7 +147,7 @@ void testMethod() {
 </dependency>
 ```
 
-###  Basic JUnit 5 Tests
+### Basic JUnit 5 Tests
 
 ```java
 import org.junit.jupiter.api.*;
@@ -211,7 +214,7 @@ class CalculatorTest {
 }
 ```
 
-###  Common JUnit 5 Assertions
+### Common JUnit 5 Assertions
 
 ```java
 assertEquals(expected, actual);
@@ -232,7 +235,7 @@ assertArrayEquals(expectedArray, actualArray);
 assertIterableEquals(expectedList, actualList);
 ```
 
-###  Parameterized Tests
+### Parameterized Tests
 
 ```java
 import org.junit.jupiter.params.ParameterizedTest;
@@ -277,13 +280,13 @@ class MathTest {
 
 ## 6.3 PyTest (Python)
 
-###  Setup
+### Setup
 
 ```bash
 pip install pytest pytest-cov
 ```
 
-###  Basic PyTest Tests
+### Basic PyTest Tests
 
 ```python
 # test_calculator.py
@@ -358,7 +361,7 @@ def test_known_bug():
     assert 1 == 2
 ```
 
-###  Running PyTest
+### Running PyTest
 
 ```bash
 pytest                          # Run all tests
@@ -373,7 +376,7 @@ pytest -x                       # Stop after first failure
 
 ## 6.4 Test Coverage
 
-###  Types of Coverage
+### Types of Coverage
 
 | Type | Description | Example |
 |------|-------------|---------|
@@ -384,7 +387,7 @@ pytest -x                       # Stop after first failure
 
 **Target:** ≥80% line coverage for production code
 
-###  Generating Coverage Reports
+### Generating Coverage Reports
 
 **Python (pytest-cov):**
 ```bash
@@ -425,7 +428,7 @@ pytest --cov=src --cov-report=html
 
 ## 6.5 CI/CD Basics
 
-###  What is CI/CD?
+### What is CI/CD?
 
 | Term | Stands For | Meaning |
 |------|-----------|---------|
@@ -455,7 +458,7 @@ graph LR
 
 ## 6.6 GitHub Actions
 
-###  What is GitHub Actions?
+### What is GitHub Actions?
 
 ==GitHub Actions== is a CI/CD platform built into GitHub that automates workflows triggered by events.
 
@@ -466,7 +469,7 @@ graph LR
 - **Step**: Individual task (run command, use action)
 - **Runner**: Machine that runs the job (ubuntu-latest, windows-latest)
 
-###  Basic CI Workflow
+### Basic CI Workflow
 
 ```yaml
 # .github/workflows/ci.yml
@@ -507,7 +510,7 @@ jobs:
           file: ./coverage.xml
 ```
 
-###  Node.js / Express CI Workflow
+### Node.js / Express CI Workflow
 
 ```yaml
 # .github/workflows/node-ci.yml
@@ -573,11 +576,11 @@ jobs:
 
 ## 6.7 Code Review
 
-###  Why Code Review?
+### Why Code Review?
 
 Code review improves code quality, spreads knowledge, catches bugs early, and enforces coding standards.
 
-###  Pull Request Process
+### Pull Request Process
 
 ```
 Feature Branch → [PR created] → Code Review → [Approved] → Merge to develop
@@ -585,7 +588,7 @@ Feature Branch → [PR created] → Code Review → [Approved] → Merge to deve
                               [Changes requested] → Author fixes → Re-review
 ```
 
-###  Code Review Checklist
+### Code Review Checklist
 
 > [!tip] Reviewer Checklist
 > - [ ] **Correctness**: Does the code do what it's supposed to?
@@ -599,7 +602,7 @@ Feature Branch → [PR created] → Code Review → [Approved] → Merge to deve
 > - [ ] **Documentation**: Are complex parts commented/documented?
 > - [ ] **Dependencies**: Are new dependencies justified?
 
-###  Constructive Feedback
+### Constructive Feedback
 
 ```
  BAD: "This is wrong"
@@ -615,7 +618,7 @@ Feature Branch → [PR created] → Code Review → [Approved] → Merge to deve
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -634,7 +637,7 @@ Feature Branch → [PR created] → Code Review → [Approved] → Merge to deve
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 > [!question] Short Answer Questions
 > 1. What is unit testing? What is the AAA pattern?
@@ -650,7 +653,7 @@ Feature Branch → [PR created] → Code Review → [Approved] → Merge to deve
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Unit-3|← Unit 3: Sprint Execution]]
 - [[Syllabus| Syllabus]]

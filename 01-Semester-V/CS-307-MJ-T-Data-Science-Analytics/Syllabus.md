@@ -13,7 +13,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-307-MJ-T: Data Science and Analytics - Syllabus
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-307-MJ-T: Data Science and Analytics - Syllabus
 
 > [!note] University: Savitribai Phule Pune University (SPPU) | Semester V
 
@@ -170,7 +173,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit-wise Hours Distribution
+## Unit-wise Hours Distribution
 
 | Unit | Title | Hours |
 |------|-------|-------|
@@ -183,12 +186,12 @@ updated: 2026-06-16
 
 ---
 
-##  Text Books
+## Text Books
 1. *Python for Data Analysis*, 2nd Ed - Wes McKinney (O'Reilly)
 2. *Data Science from Scratch* - Joel Grus (O'Reilly)
 3. *Hands-On Machine Learning with Scikit-Learn & TensorFlow* - Aurélien Géron
 
-##  Reference Books
+## Reference Books
 1. *Introduction to Data Mining* - Tan, Steinbach, Kumar
 2. *The Art of Data Science* - Roger Peng & Elizabeth Matsui
 3. *Statistics for Data Scientists* - Bruce & Bruce

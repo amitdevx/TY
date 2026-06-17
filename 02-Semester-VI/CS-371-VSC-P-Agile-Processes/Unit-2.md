@@ -24,7 +24,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 2: Planning & Estimation *(Assignments 3 & 4)*
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 2: Planning & Estimation *(Assignments 3 & 4)*
 
 > [!important] Learning Objectives
 > After this unit, you should be able to:
@@ -38,7 +41,7 @@ updated: 2026-06-16
 
 ---
 
-##  Topics at a Glance
+## Topics at a Glance
 
 ```mermaid
 mindmap
@@ -68,7 +71,7 @@ mindmap
 
 ## 3.1 Product Backlog
 
-###  What is a Product Backlog?
+### What is a Product Backlog?
 
 The ==Product Backlog== is an **ordered, prioritized list** of everything that might be needed in the product - features, bug fixes, technical improvements, and knowledge acquisition.
 
@@ -172,8 +175,8 @@ CoD = User Business Value + Time Criticality + Risk Reduction/Opportunity Enable
 
 ```mermaid
 graph LR
-    A[All Features\nFull Vision] --> B[Should Have\n+Must Have]
-    B --> C[Must Have Only\n= MVP]
+    A[All Features<br/>Full Vision] --> B[Should Have<br/>+Must Have]
+    B --> C[Must Have Only<br/>= MVP]
     C --> D[Ship!]
     D --> E[Gather Feedback]
     E --> F[Refine & Expand]
@@ -208,7 +211,7 @@ Sprint 6:    Bug fixes, polish, release    ~30 SP
 
 ## 4.1 Story Points
 
-###  What are Story Points?
+### What are Story Points?
 
 ==Story Points== are a **relative unit of measure** for the effort, complexity, and risk of a user story. They are NOT hours - they express effort relative to other stories.
 
@@ -218,7 +221,7 @@ Sprint 6:    Bug fixes, polish, release    ~30 SP
 - Team-specific (a team's "5" may differ from another team's "5")
 - Tracked as velocity over time
 
-###  Fibonacci Scale
+### Fibonacci Scale
 
 Stories are estimated using the ==Fibonacci sequence== because the gaps naturally represent uncertainty - larger stories have proportionally larger uncertainty.
 
@@ -245,7 +248,7 @@ Modified:  0, 0.5, 1, 2, 3, 5, 8, 13, 20, 40, 100, ∞, ?
 
 ==Planning Poker== is a consensus-based estimation technique for Agile teams.
 
-###  How Planning Poker Works
+### How Planning Poker Works
 
 ```mermaid
 sequenceDiagram
@@ -272,7 +275,7 @@ sequenceDiagram
     Note over All: Consensus! Final estimate: 8 SP
 ```
 
-###  Planning Poker Rules
+### Planning Poker Rules
 
 1. Product Owner reads and explains a user story
 2. Team members ask clarifying questions
@@ -313,7 +316,7 @@ sequenceDiagram
 
 ## 4.4 Velocity
 
-###  What is Velocity?
+### What is Velocity?
 
 ==Velocity== is the **average story points completed per sprint**, measured over the last 3-5 sprints.
 
@@ -345,7 +348,7 @@ Estimated completion: 7-8 sprints × 2 weeks = 14-16 weeks
 
 ## 4.5 Sprint Planning
 
-###  Sprint Planning Meeting
+### Sprint Planning Meeting
 
 ==Sprint Planning== is a time-boxed event (≤8 hours for a 4-week sprint) where the team selects backlog items and plans how to deliver them.
 
@@ -353,7 +356,7 @@ Estimated completion: 7-8 sprints × 2 weeks = 14-16 weeks
 1. **What**: Product Owner presents top backlog items; team selects stories for the sprint
 2. **How**: Team breaks selected stories into tasks
 
-###  Sprint Capacity
+### Sprint Capacity
 
 ```
 Team: 4 developers × 2 weeks
@@ -366,7 +369,7 @@ If average velocity = 30 SP/sprint:
 → Commit to ~30 SP for this sprint
 ```
 
-###  Sprint Backlog
+### Sprint Backlog
 
 The ==Sprint Backlog== is the set of **selected Product Backlog items** + a plan for delivering them (tasks).
 
@@ -396,14 +399,14 @@ Sprint 3 Backlog:
 └────────────────────────────────────────────────────┴────┴──────────────────────────┘
 ```
 
-###  Sprint Goal
+### Sprint Goal
 
 The ==Sprint Goal== is a single objective for the sprint. Example:
 > *"By end of this sprint, users can add and manage items in their shopping cart."*
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -422,7 +425,7 @@ The ==Sprint Goal== is a single objective for the sprint. Example:
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 > [!question] Short Answer Questions
 > 1. What is MoSCoW prioritization? Give an example for each category.
@@ -438,7 +441,7 @@ The ==Sprint Goal== is a single objective for the sprint. Example:
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Unit-1|← Unit 1: Agile Fundamentals]]
 - [[Syllabus| Syllabus]]

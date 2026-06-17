@@ -11,7 +11,10 @@ type: important-questions
 last_reviewed: 2026-06-16
 ---
 
-#  CS-304 Theory of Computer Science - Important Questions
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-304 Theory of Computer Science - Important Questions
 
 > [!note] Navigation
 > [[Overview|CS-304 Overview]] | [[Revision|CS-304 Revision]] | [[Interview-Prep|CS-304 Interview-Prep]]
@@ -23,7 +26,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-##  Chapter 1 - Finite Automata (8H)
+## Chapter 1 - Finite Automata (8H)
 
 ### Short Answer (2-3 marks)
 
@@ -79,7 +82,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-##  Chapter 2 - Regular Expressions and Languages (6H)
+## Chapter 2 - Regular Expressions and Languages (6H)
 
 ### Short Answer (2-3 marks)
 
@@ -115,7 +118,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-##  Chapter 3 - Context-Free Grammars and Languages (5H)
+## Chapter 3 - Context-Free Grammars and Languages (5H)
 
 ### Short Answer (2-3 marks)
 
@@ -160,7 +163,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-##  Chapter 4 - Push Down Automata (5H)
+## Chapter 4 - Push Down Automata (5H)
 
 ### Short Answer (2-3 marks)
 
@@ -191,7 +194,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-## ️ Chapter 5 - Turing Machine (6H)
+## Chapter 5 - Turing Machine (6H)
 
 ### Short Answer (2-3 marks)
 
@@ -227,7 +230,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-##  Cross-Chapter Questions
+## Cross-Chapter Questions
 
 61.  Draw the Chomsky Hierarchy diagram. Explain where each language class fits.
 62. Given a language L, describe how you would determine which class it belongs to (approach for each class).
@@ -242,7 +245,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-##  Exam-Style Questions (Previous Year Pattern)
+## Exam-Style Questions (Previous Year Pattern)
 
 ### 5-Mark Questions
 1.  Construct DFA for strings over {a,b} ending with "aba". Give transition table.

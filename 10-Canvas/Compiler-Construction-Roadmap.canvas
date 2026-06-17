@@ -1,181 +1,37 @@
 {
-  "nodes": [
-    {
-      "id": "cc_title",
-      "type": "text",
-      "x": -100,
-      "y": -900,
-      "width": 200,
-      "height": 80,
-      "text": "#  Compiler Construction\nCS-354 Roadmap",
-      "color": "3"
-    },
-    {
-      "id": "cc_source",
-      "type": "text",
-      "x": -100,
-      "y": -760,
-      "width": 200,
-      "height": 70,
-      "text": "##  Source Code\nHigh-level language\n(Java, C, Python...)",
-      "color": "0"
-    },
-    {
-      "id": "cc_lexical",
-      "type": "text",
-      "x": -500,
-      "y": -620,
-      "width": 220,
-      "height": 160,
-      "text": "## Phase 1: Lexical Analysis\n **Scanner / Tokenizer**\n Input: Source code\n Output: Token stream\n Tokens: keywords, identifiers, operators, literals\n Removes whitespace & comments\n Tools: LEX / FLEX\n Uses: Regular Expressions & DFA",
-      "color": "5"
-    },
-    {
-      "id": "cc_token",
-      "type": "text",
-      "x": -780,
-      "y": -620,
-      "width": 200,
-      "height": 120,
-      "text": "**Token Structure:**\n`<token_type, value>`\n\nExamples:\n`<ID, \"x\">` \n`<INT, 5>`\n`<OP, \"+\">`\n`<KW, \"if\">`",
-      "color": "5"
-    },
-    {
-      "id": "cc_syntax",
-      "type": "text",
-      "x": -500,
-      "y": -380,
-      "width": 220,
-      "height": 180,
-      "text": "## Phase 2: Syntax Analysis\n **Parser**\n Input: Token stream\n Output: Parse Tree / AST\n Uses: Context-Free Grammar (CFG)\n\n**Top-Down:** LL(1), Recursive Descent\n**Bottom-Up:** LR(0), SLR(1), LALR(1), CLR(1)\n\n Tools: YACC / Bison",
-      "color": "6"
-    },
-    {
-      "id": "cc_parsing_table",
-      "type": "text",
-      "x": -780,
-      "y": -380,
-      "width": 200,
-      "height": 120,
-      "text": "**Parser Types:**\nLL(1): top-down, predictive\nLR(0): bottom-up, shift-reduce\nSLR(1): LR(0) + FOLLOW sets\nLALR(1): practical, used by YACC\nCLR(1): most powerful",
-      "color": "6"
-    },
-    {
-      "id": "cc_semantic",
-      "type": "text",
-      "x": 200,
-      "y": -620,
-      "width": 220,
-      "height": 160,
-      "text": "## Phase 3: Semantic Analysis\n Input: AST\n Output: Annotated AST\n **Type Checking**\n **Symbol Table** management\n   - Scope analysis\n   - Variable declaration check\n Semantic error detection\n Type coercion rules",
-      "color": "2"
-    },
-    {
-      "id": "cc_symtable",
-      "type": "text",
-      "x": 440,
-      "y": -620,
-      "width": 200,
-      "height": 120,
-      "text": "**Symbol Table:**\nStores: identifier name,\ntype, scope, memory address\n\nOperations:\ninsert(), lookup(), delete()\n\nImplemented as:\nHash table or linked list",
-      "color": "2"
-    },
-    {
-      "id": "cc_ir",
-      "type": "text",
-      "x": 200,
-      "y": -380,
-      "width": 220,
-      "height": 160,
-      "text": "## Phase 4: Intermediate Code Gen\n Input: Annotated AST\n Output: IR Code\n **3-Address Code:**\n   `t1 = a + b`\n **Quadruples:** (op, arg1, arg2, result)\n **Triples:** implicit temp\n DAG representation\n Machine-independent",
-      "color": "1"
-    },
-    {
-      "id": "cc_3ac",
-      "type": "text",
-      "x": 440,
-      "y": -380,
-      "width": 200,
-      "height": 120,
-      "text": "**3-Address Code Example:**\na = b + c * d\n↓\nt1 = c * d\nt2 = b + t1\na  = t2\n\nEach instruction has\nat most 3 addresses",
-      "color": "1"
-    },
-    {
-      "id": "cc_optimize",
-      "type": "text",
-      "x": -500,
-      "y": -120,
-      "width": 220,
-      "height": 180,
-      "text": "## Phase 5: Code Optimization\n Input: IR Code\n Output: Optimized IR\n **Machine-independent:**\n   - Constant folding\n   - Dead code elimination\n   - Common subexpression elimination\n   - Loop optimization (invariant code motion)\n **Machine-dependent:**\n   - Register allocation\n   - Instruction scheduling",
-      "color": "4"
-    },
-    {
-      "id": "cc_codegen",
-      "type": "text",
-      "x": 200,
-      "y": -120,
-      "width": 220,
-      "height": 160,
-      "text": "## Phase 6: Code Generation\n Input: Optimized IR\n Output: Target machine code\n **Register Allocation**\n **Instruction Selection**\n Assembly code generation\n Linker & Loader interaction\n Target: x86, ARM, MIPS\n Tools: GCC backend",
-      "color": "3"
-    },
-    {
-      "id": "cc_target",
-      "type": "text",
-      "x": -100,
-      "y": 120,
-      "width": 200,
-      "height": 70,
-      "text": "## ️ Target Code\nMachine code / Assembly\n(Executable Program)",
-      "color": "0"
-    },
-    {
-      "id": "cc_symtable_global",
-      "type": "text",
-      "x": -100,
-      "y": -250,
-      "width": 200,
-      "height": 80,
-      "text": "## ️ Symbol Table\n(Used by ALL phases)\nShared data structure",
-      "color": "2"
-    },
-    {
-      "id": "cc_error",
-      "type": "text",
-      "x": -100,
-      "y": -160,
-      "width": 200,
-      "height": 80,
-      "text": "## ️ Error Handler\nLexical • Syntax\nSemantic • Runtime\nError recovery strategies",
-      "color": "6"
-    },
-    {
-      "id": "cc_complete",
-      "type": "text",
-      "x": -100,
-      "y": 260,
-      "width": 200,
-      "height": 80,
-      "text": "##  Compiler Done!\nBuild your own compiler\nwith Flex + Bison",
-      "color": "4"
-    }
-  ],
-  "edges": [
-    {"id": "e1", "fromNode": "cc_title", "toNode": "cc_source"},
-    {"id": "e2", "fromNode": "cc_source", "toNode": "cc_lexical", "label": "Phase 1"},
-    {"id": "e3", "fromNode": "cc_source", "toNode": "cc_semantic", "label": "Phase 3"},
-    {"id": "e4", "fromNode": "cc_lexical", "toNode": "cc_token"},
-    {"id": "e5", "fromNode": "cc_lexical", "toNode": "cc_syntax", "label": "Tokens"},
-    {"id": "e6", "fromNode": "cc_syntax", "toNode": "cc_parsing_table"},
-    {"id": "e7", "fromNode": "cc_syntax", "toNode": "cc_symtable_global"},
-    {"id": "e8", "fromNode": "cc_semantic", "toNode": "cc_symtable"},
-    {"id": "e9", "fromNode": "cc_semantic", "toNode": "cc_ir", "label": "Phase 4"},
-    {"id": "e10", "fromNode": "cc_ir", "toNode": "cc_3ac"},
-    {"id": "e11", "fromNode": "cc_ir", "toNode": "cc_optimize", "label": "Phase 5"},
-    {"id": "e12", "fromNode": "cc_optimize", "toNode": "cc_codegen", "label": "Phase 6"},
-    {"id": "e13", "fromNode": "cc_codegen", "toNode": "cc_target"},
-    {"id": "e14", "fromNode": "cc_target", "toNode": "cc_complete"},
-    {"id": "e15", "fromNode": "cc_symtable_global", "toNode": "cc_error"}
-  ]
+	"nodes":[
+		{"id":"cc_title","type":"text","text":"#  Compiler Construction\nCS-354 Roadmap","x":-100,"y":-900,"width":200,"height":80,"color":"3"},
+		{"id":"cc_source","type":"text","text":"##  Source Code\nHigh-level language\n(Java, C, Python...)","x":-100,"y":-760,"width":200,"height":70,"color":"0"},
+		{"id":"cc_lexical","type":"text","text":"## Phase 1: Lexical Analysis\n **Scanner / Tokenizer**\n Input: Source code\n Output: Token stream\n Tokens: keywords, identifiers, operators, literals\n Removes whitespace & comments\n Tools: LEX / FLEX\n Uses: Regular Expressions & DFA","x":-500,"y":-620,"width":220,"height":160,"color":"5"},
+		{"id":"cc_token","type":"text","text":"**Token Structure:**\n`<token_type, value>`\n\nExamples:\n`<ID, \"x\">` \n`<INT, 5>`\n`<OP, \"+\">`\n`<KW, \"if\">`","x":-780,"y":-620,"width":200,"height":120,"color":"5"},
+		{"id":"cc_syntax","type":"text","text":"## Phase 2: Syntax Analysis\n **Parser**\n Input: Token stream\n Output: Parse Tree / AST\n Uses: Context-Free Grammar (CFG)\n\n**Top-Down:** LL(1), Recursive Descent\n**Bottom-Up:** LR(0), SLR(1), LALR(1), CLR(1)\n\n Tools: YACC / Bison","x":-500,"y":-380,"width":220,"height":180,"color":"6"},
+		{"id":"cc_parsing_table","type":"text","text":"**Parser Types:**\nLL(1): top-down, predictive\nLR(0): bottom-up, shift-reduce\nSLR(1): LR(0) + FOLLOW sets\nLALR(1): practical, used by YACC\nCLR(1): most powerful","x":-780,"y":-380,"width":200,"height":120,"color":"6"},
+		{"id":"cc_semantic","type":"text","text":"## Phase 3: Semantic Analysis\n Input: AST\n Output: Annotated AST\n **Type Checking**\n **Symbol Table** management\n   - Scope analysis\n   - Variable declaration check\n Semantic error detection\n Type coercion rules","x":200,"y":-620,"width":220,"height":160,"color":"2"},
+		{"id":"cc_symtable","type":"text","text":"**Symbol Table:**\nStores: identifier name,\ntype, scope, memory address\n\nOperations:\ninsert(), lookup(), delete()\n\nImplemented as:\nHash table or linked list","x":440,"y":-620,"width":200,"height":120,"color":"2"},
+		{"id":"cc_ir","type":"text","text":"## Phase 4: Intermediate Code Gen\n Input: Annotated AST\n Output: IR Code\n **3-Address Code:**\n   `t1 = a + b`\n **Quadruples:** (op, arg1, arg2, result)\n **Triples:** implicit temp\n DAG representation\n Machine-independent","x":200,"y":-380,"width":220,"height":160,"color":"1"},
+		{"id":"cc_3ac","type":"text","text":"**3-Address Code Example:**\na = b + c * d\n↓\nt1 = c * d\nt2 = b + t1\na  = t2\n\nEach instruction has\nat most 3 addresses","x":440,"y":-380,"width":200,"height":120,"color":"1"},
+		{"id":"cc_optimize","type":"text","text":"## Phase 5: Code Optimization\n Input: IR Code\n Output: Optimized IR\n **Machine-independent:**\n   - Constant folding\n   - Dead code elimination\n   - Common subexpression elimination\n   - Loop optimization (invariant code motion)\n **Machine-dependent:**\n   - Register allocation\n   - Instruction scheduling","x":-500,"y":-120,"width":220,"height":180,"color":"4"},
+		{"id":"cc_codegen","type":"text","text":"## Phase 6: Code Generation\n Input: Optimized IR\n Output: Target machine code\n **Register Allocation**\n **Instruction Selection**\n Assembly code generation\n Linker & Loader interaction\n Target: x86, ARM, MIPS\n Tools: GCC backend","x":200,"y":-120,"width":220,"height":160,"color":"3"},
+		{"id":"cc_target","type":"text","text":"## ️ Target Code\nMachine code / Assembly\n(Executable Program)","x":-100,"y":120,"width":200,"height":70,"color":"0"},
+		{"id":"cc_symtable_global","type":"text","text":"## ️ Symbol Table\n(Used by ALL phases)\nShared data structure","x":-100,"y":-250,"width":200,"height":80,"color":"2"},
+		{"id":"cc_error","type":"text","text":"## ️ Error Handler\nLexical • Syntax\nSemantic • Runtime\nError recovery strategies","x":-100,"y":-160,"width":200,"height":80,"color":"6"},
+		{"id":"cc_complete","type":"text","text":"##  Compiler Done!\nBuild your own compiler\nwith Flex + Bison","x":-100,"y":260,"width":200,"height":80,"color":"4"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"cc_title","fromSide":"bottom","toNode":"cc_source","toSide":"top"},
+		{"id":"e2","fromNode":"cc_source","fromSide":"bottom","toNode":"cc_lexical","toSide":"right","label":"Phase 1"},
+		{"id":"e3","fromNode":"cc_source","fromSide":"bottom","toNode":"cc_semantic","toSide":"left","label":"Phase 3"},
+		{"id":"e4","fromNode":"cc_lexical","fromSide":"left","toNode":"cc_token","toSide":"right"},
+		{"id":"e5","fromNode":"cc_lexical","fromSide":"bottom","toNode":"cc_syntax","toSide":"top","label":"Tokens"},
+		{"id":"e6","fromNode":"cc_syntax","fromSide":"left","toNode":"cc_parsing_table","toSide":"right"},
+		{"id":"e7","fromNode":"cc_syntax","fromSide":"right","toNode":"cc_symtable_global","toSide":"left"},
+		{"id":"e8","fromNode":"cc_semantic","fromSide":"right","toNode":"cc_symtable","toSide":"left"},
+		{"id":"e9","fromNode":"cc_semantic","fromSide":"bottom","toNode":"cc_ir","toSide":"top","label":"Phase 4"},
+		{"id":"e10","fromNode":"cc_ir","fromSide":"right","toNode":"cc_3ac","toSide":"left"},
+		{"id":"e11","fromNode":"cc_ir","fromSide":"left","toNode":"cc_optimize","toSide":"right","label":"Phase 5"},
+		{"id":"e12","fromNode":"cc_optimize","fromSide":"right","toNode":"cc_codegen","toSide":"left","label":"Phase 6"},
+		{"id":"e13","fromNode":"cc_codegen","fromSide":"left","toNode":"cc_target","toSide":"top"},
+		{"id":"e14","fromNode":"cc_target","fromSide":"bottom","toNode":"cc_complete","toSide":"top"},
+		{"id":"e15","fromNode":"cc_symtable_global","fromSide":"bottom","toNode":"cc_error","toSide":"top"}
+	]
 }

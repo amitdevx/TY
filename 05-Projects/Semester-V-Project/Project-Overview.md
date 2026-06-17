@@ -12,14 +12,17 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
-#  Semester V Project - Overview
+[[00-Dashboard/Home|Home]] | [[05-Projects/Projects-Dashboard|Projects Dashboard]]
+
+
+# Semester V Project - Overview
 
 > [!important] Project Status
 > **Status:**  Planning Phase | **Semester:** V | **Academic Year:** 2026–27
 
 ---
 
-##  Problem Statement
+## Problem Statement
 
 > *Define the core problem your project aims to solve.*
 
@@ -31,7 +34,7 @@ and mobile accessibility, leading to inefficiencies in academic tracking."
 
 ---
 
-##  Project Objectives
+## Project Objectives
 
 - [ ] **Primary Objective:** _________________________
 - [ ] **Secondary Objective 1:** _________________________
@@ -43,7 +46,7 @@ and mobile accessibility, leading to inefficiencies in academic tracking."
 
 ---
 
-## ️ Tech Stack
+## Tech Stack
 
 | Layer | Technology | Version | Purpose |
 |-------|-----------|---------|---------|
@@ -56,7 +59,7 @@ and mobile accessibility, leading to inefficiencies in academic tracking."
 
 ---
 
-##  Team Details
+## Team Details
 
 | Role | Name | Roll No | Responsibilities |
 |------|------|---------|-----------------|
@@ -71,9 +74,9 @@ and mobile accessibility, leading to inefficiencies in academic tracking."
 
 ---
 
-##  Requirements
+## Requirements
 
-###  Functional Requirements
+### Functional Requirements
 
 1. **FR-01:** The system shall allow users to _______________
 2. **FR-02:** The system shall provide _______________
@@ -81,7 +84,7 @@ and mobile accessibility, leading to inefficiencies in academic tracking."
 4. **FR-04:** The system shall generate _______________
 5. **FR-05:** Admin shall be able to _______________
 
-### ️ Non-Functional Requirements
+### Non-Functional Requirements
 
 | Category | Requirement |
 |----------|------------|
@@ -94,7 +97,7 @@ and mobile accessibility, leading to inefficiencies in academic tracking."
 
 ---
 
-##  Timeline & Milestones
+## Timeline & Milestones
 
 ```mermaid
 gantt
@@ -115,7 +118,7 @@ gantt
     Documentation            :d2, after d1, 1w
 ```
 
-###  Milestones Table
+### Milestones Table
 
 | # | Milestone | Target Date | Status |
 |---|-----------|-------------|--------|
@@ -130,7 +133,7 @@ gantt
 
 ---
 
-##  Deliverables Checklist
+## Deliverables Checklist
 
 ### Documentation
 - [ ] Project Proposal / Synopsis
@@ -154,7 +157,7 @@ gantt
 
 ---
 
-##  Learning Notes
+## Learning Notes
 
 > [!note] Key Concepts Learned During This Project
 > Add new learnings here as the project progresses.
@@ -169,15 +172,15 @@ gantt
 
 ---
 
-##  Related Notes
+## Related Notes
 
 - [[Progress-Tracker]] - Project progress tracking
-- [[01-Semester-V/Overview]] - Semester V overview
+- [[01-Semester-V/CS-302-MJ-T-Operating-Systems/Overview|Overview]] - Semester V overview
 - [[06-Revision/Final-Revision/Semester-V-Final]] - Semester V final revision
 
 ---
 
-##  References
+## References
 
 1. _________________________
 2. _________________________

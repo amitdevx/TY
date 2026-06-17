@@ -20,14 +20,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 4: Statistics for Data Science
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 4: Statistics for Data Science
 
 > [!note] Navigation
 > ← [[Unit-3]] | [[Overview]] | [[Unit-5]] →
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Calculate and interpret measures of central tendency and dispersion
 - [ ] Apply probability distributions to data problems
@@ -418,7 +421,7 @@ plt.show()
 
 ---
 
-##  Interview Questions - Unit 4
+## Interview Questions - Unit 4
 
 > [!question] Q1: What is the Central Limit Theorem and why is it important?
 > **Answer**: CLT states that the sampling distribution of the sample mean approaches a normal distribution as sample size increases (n≥30), regardless of the underlying population distribution. Importance: Allows us to use z-tests and t-tests even when we don't know the population distribution. Foundation of statistical inference.
@@ -444,7 +447,7 @@ plt.show()
 
 ---
 
-##  Key Formulas Quick Reference
+## Key Formulas Quick Reference
 
 | Formula | Expression |
 |---------|-----------|
@@ -459,7 +462,7 @@ plt.show()
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 4 Key Points
 > 1. **Central tendency**: Mean (normal) > Median (skewed) > Mode (categorical)

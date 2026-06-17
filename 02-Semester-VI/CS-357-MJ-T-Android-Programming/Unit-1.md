@@ -19,7 +19,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 1: Introduction to Android
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 1: Introduction to Android
 
 > [!important] Learning Objectives
 > After this unit, you should be able to:
@@ -31,7 +34,7 @@ updated: 2026-06-16
 
 ---
 
-##  Topics at a Glance
+## Topics at a Glance
 
 ```mermaid
 mindmap
@@ -79,7 +82,7 @@ mindmap
 
 ## 1.1 Android History & Introduction
 
-###  What is Android?
+### What is Android?
 
 ==Android== is an open-source, **Linux-based mobile operating system** developed by Google and released in 2008. It is maintained by the **Open Handset Alliance (OHA)** - a consortium of hardware, software, and telecom companies.
 
@@ -88,7 +91,7 @@ mindmap
 - Market share: ~72% of global mobile OS market
 - App distribution: **Google Play Store**
 
-###  Android Version History (Key Milestones)
+### Android Version History (Key Milestones)
 
 | Version | Name | API Level | Year |
 |---------|------|-----------|------|
@@ -112,12 +115,12 @@ The Android architecture consists of **5 layers** (bottom to top):
 
 ```mermaid
 graph TD
-    L5[" Layer 5: Applications\n(Phone, Contacts, Browser, Maps, Your App)"] 
-    L4[" Layer 4: Application Framework\n(Activity Manager, Window Manager, Content Providers,\nView System, Package Manager, Notification Manager)"]
-    L3a[" Layer 3a: Android Runtime - ART\n(Core Libraries + ART VM)"]
-    L3b[" Layer 3b: Native C/C++ Libraries\n(libc, OpenGL ES, SQLite, WebKit, SSL)"]
-    L2[" Layer 2: Hardware Abstraction Layer (HAL)\n(Camera, Bluetooth, Audio, GPS)"]
-    L1[" Layer 1: Linux Kernel\n(Drivers: Display, Camera, Wi-Fi, Audio, Binder IPC, Power Management)"]
+    L5[" Layer 5: Applications<br/>(Phone, Contacts, Browser, Maps, Your App)"] 
+    L4[" Layer 4: Application Framework<br/>(Activity Manager, Window Manager, Content Providers,<br/>View System, Package Manager, Notification Manager)"]
+    L3a[" Layer 3a: Android Runtime - ART<br/>(Core Libraries + ART VM)"]
+    L3b[" Layer 3b: Native C/C++ Libraries<br/>(libc, OpenGL ES, SQLite, WebKit, SSL)"]
+    L2[" Layer 2: Hardware Abstraction Layer (HAL)<br/>(Camera, Bluetooth, Audio, GPS)"]
+    L1[" Layer 1: Linux Kernel<br/>(Drivers: Display, Camera, Wi-Fi, Audio, Binder IPC, Power Management)"]
     
     L5 --> L4
     L4 --> L3a
@@ -127,7 +130,7 @@ graph TD
     L2 --> L1
 ```
 
-###  Layer Details
+### Layer Details
 
 | Layer | Components | Purpose |
 |-------|-----------|---------|
@@ -138,7 +141,7 @@ graph TD
 | ==Application Framework== | Activity Manager, Content Providers, View System | APIs for app development |
 | ==Applications== | Built-in + user apps | The apps users interact with |
 
-###  ART vs Dalvik
+### ART vs Dalvik
 
 | Feature | Dalvik (old) | ART (Android 5.0+) |
 |---------|-------------|-------------------|
@@ -152,14 +155,14 @@ graph TD
 
 ## 1.3 Android Studio Setup
 
-###  Installation
+### Installation
 
 1. Download Android Studio from **developer.android.com/studio**
 2. Run installer, install with default settings
 3. Launch → Complete Setup Wizard (downloads Android SDK)
 4. Accept SDK licenses
 
-###  SDK Manager
+### SDK Manager
 
 Access via: **Tools → SDK Manager**
 
@@ -170,7 +173,7 @@ Access via: **Tools → SDK Manager**
 | Android SDK Platform-Tools | `adb` (Android Debug Bridge) |
 | Android SDK Build-Tools | Build tools, `aapt`, `dx` |
 
-###  AVD - Android Virtual Device
+### AVD - Android Virtual Device
 
 ==AVD== is a software emulator of an Android device.
 
@@ -209,7 +212,7 @@ MyApp/
 └── gradle.properties
 ```
 
-###  AndroidManifest.xml
+### AndroidManifest.xml
 
 ==AndroidManifest.xml== is the **central configuration file** of every Android app. It declares:
 
@@ -256,7 +259,7 @@ MyApp/
 - Hardware features required (`uses-feature`)
 - Minimum and target SDK versions
 
-###  build.gradle (Module level)
+### build.gradle (Module level)
 
 ```groovy
 android {
@@ -293,7 +296,7 @@ dependencies {
 
 ## 1.5 Activity Lifecycle
 
-###  What is an Activity?
+### What is an Activity?
 
 ==Activity== represents a **single screen** in an Android application. It has a well-defined lifecycle managed by the Android OS.
 
@@ -303,14 +306,14 @@ stateDiagram-v2
     Created --> Started: onCreate() called
     Started --> Resumed: onStart() called
     Resumed --> Paused: onResume() called
-    Paused --> Resumed: onPause() called\n(another activity partially covers)
-    Paused --> Stopped: onStop() called\n(activity fully hidden)
+    Paused --> Resumed: onPause() called<br/>(another activity partially covers)
+    Paused --> Stopped: onStop() called<br/>(activity fully hidden)
     Stopped --> Resumed: onRestart() → onStart()
     Stopped --> Destroyed: onDestroy() called
     Destroyed --> [*]
 ```
 
-###  Lifecycle Callback Methods
+### Lifecycle Callback Methods
 
 | Method | Triggered When | Common Usage |
 |--------|---------------|-------------|
@@ -322,7 +325,7 @@ stateDiagram-v2
 | `onRestart()` | Activity returning from stopped state | Refresh data before becoming visible |
 | `onDestroy()` | Activity is about to be destroyed | Final cleanup, release all resources |
 
-###  MainActivity.kt Example
+### MainActivity.kt Example
 
 ```kotlin
 class MainActivity : AppCompatActivity() {
@@ -368,7 +371,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 1.6 Layouts
 
-###  LinearLayout
+### LinearLayout
 
 ==LinearLayout== arranges children **linearly** - either horizontally or vertically.
 
@@ -400,7 +403,7 @@ class MainActivity : AppCompatActivity() {
 
 ---
 
-###  RelativeLayout
+### RelativeLayout
 
 ==RelativeLayout== positions children **relative to each other** or to the parent.
 
@@ -441,7 +444,7 @@ class MainActivity : AppCompatActivity() {
 
 ---
 
-###  ConstraintLayout
+### ConstraintLayout
 
 ==ConstraintLayout== is the most **flexible and recommended** layout. Each view is positioned using **constraints** to parent or sibling views.
 
@@ -482,7 +485,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 1.7 Basic Views (Widgets)
 
-###  Common Views
+### Common Views
 
 ```xml
 <!-- TextView -->
@@ -546,7 +549,7 @@ class MainActivity : AppCompatActivity() {
 </RadioGroup>
 ```
 
-###  Accessing Views in Kotlin
+### Accessing Views in Kotlin
 
 ```kotlin
 // Modern approach - ViewBinding (recommended)
@@ -579,7 +582,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 }
 ```
 
-###  Important View Attributes
+### Important View Attributes
 
 | Attribute | Values | Description |
 |-----------|--------|-------------|
@@ -594,7 +597,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -611,7 +614,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 > [!question] Short Answer Questions
 > 1. Draw and explain the Android architecture layers.
@@ -627,7 +630,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview|← Overview]]
 - [[Syllabus| Syllabus]]

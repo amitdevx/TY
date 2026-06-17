@@ -20,14 +20,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 2: Machine Learning Fundamentals
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 2: Machine Learning Fundamentals
 
 > [!note] Navigation
 > ← [[Unit-1]] | [[Overview]] | [[Unit-3]] →
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Define and distinguish types of machine learning
 - [ ] Explain the complete ML workflow
@@ -416,7 +419,7 @@ print(f"R²:   {r2_score(y_true_reg, y_pred_reg):.4f}")
 
 ---
 
-##  Interview Questions - Unit 2
+## Interview Questions - Unit 2
 
 > [!question] Q1: What is the Bias-Variance Tradeoff?
 > **Answer**: Total prediction error = Bias² + Variance + Irreducible Noise.
@@ -442,7 +445,7 @@ print(f"R²:   {r2_score(y_true_reg, y_pred_reg):.4f}")
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 2 Key Points
 > 1. **ML Types**: Supervised (labelled), Unsupervised (unlabelled), Reinforcement (rewards)

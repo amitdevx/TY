@@ -11,14 +11,17 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
-#  Daily Revision - [DATE]
+[[00-Dashboard/Home|Home]] | [[06-Revision/Revision-Dashboard|Revision Dashboard]]
+
+
+# Daily Revision - [DATE]
 
 > [!tip] How to use this template
 > Copy this file, rename it to the date (e.g., `2026-07-01.md`), and fill in each section every day. Consistency is key! 
 
 ---
 
-## ️ Date & Context
+## Date & Context
 
 - **Date:** 
 - **Day:** Monday / Tuesday / Wednesday / Thursday / Friday / Saturday / Sunday
@@ -29,7 +32,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Subjects Revised Today
+## Subjects Revised Today
 
 | # | Subject | Topic/Chapter | Time Spent | Completion |
 |---|---------|--------------|-----------|-----------|
@@ -41,7 +44,7 @@ last_modified: 2026-06-16
 
 ---
 
-## ️ Topics Covered (5–10 Min Quick Review)
+## Topics Covered (5–10 Min Quick Review)
 
 > [!note] Quick Review Protocol
 > Spend 5–10 minutes per topic. Use active recall - close notes and try to recall from memory first!
@@ -76,7 +79,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  3 Things I Learned Today
+## 3 Things I Learned Today
 
 > [!important] New Insights
 > Write in your own words - this cements memory!
@@ -87,7 +90,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  3 Things I Need to Revisit
+## 3 Things I Need to Revisit
 
 > [!warning] Weak Areas
 > Flag these for tomorrow's or this week's review.
@@ -101,7 +104,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Quick Quiz - Self Test
+## Quick Quiz - Self Test
 
 > [!tip] Self-Testing Strategy
 > Write 3–5 questions from today's material. Answer without looking at notes first!
@@ -130,7 +133,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Tomorrow's Plan
+## Tomorrow's Plan
 
 > [!note] Plan for Tomorrow
 > Be specific - vague plans fail!
@@ -147,7 +150,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Today's Study Metrics
+## Today's Study Metrics
 
 | Metric | Value |
 |--------|-------|
@@ -159,7 +162,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Reflection
+## Reflection
 
 > *One word to describe today's study session:* _______________
 > *What can I improve tomorrow?* _______________

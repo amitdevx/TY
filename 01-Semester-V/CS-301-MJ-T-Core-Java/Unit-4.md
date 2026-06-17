@@ -20,13 +20,16 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # Unit 4 - Exception and File Handling
 > [!important] **Hours:** 5 | **Subject:** CS-301-MJ-T Core Java | **Semester:** V
 > **Previous:** [[Unit-3|Unit 3: Inheritance and Interface]] | **Next:** [[Unit-5|Unit 5: User Interface with JavaFX]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Distinguish between errors and exceptions
 - Understand the exception class hierarchy
@@ -60,20 +63,20 @@ last_modified: 2026-06-16
 graph TD
     Object["java.lang.Object"] --> Throwable["java.lang.Throwable"]
     
-    Throwable --> Error["java.lang.Error\n(Don't catch these!)"]
-    Throwable --> Exception["java.lang.Exception\n(Handle these!)"]
+    Throwable --> Error["java.lang.Error<br/>(Don't catch these!)"]
+    Throwable --> Exception["java.lang.Exception<br/>(Handle these!)"]
     
     Error --> OOM["OutOfMemoryError"]
     Error --> SOE["StackOverflowError"]
     Error --> VE["VirtualMachineError"]
     
-    Exception --> RE["RuntimeException\n(Unchecked)"]
+    Exception --> RE["RuntimeException<br/>(Unchecked)"]
     Exception --> CE["Checked Exceptions"]
     
     RE --> NPE["NullPointerException"]
     RE --> AIOOB["ArrayIndexOutOfBoundsException"]
     RE --> CCE["ClassCastException"]
-    RE --> AE["ArithmeticException\n(/ by zero)"]
+    RE --> AE["ArithmeticException<br/>(/ by zero)"]
     RE --> NSEE["NumberFormatException"]
     RE --> ISE["IllegalArgumentException"]
     RE --> IIOB["IllegalStateException"]
@@ -295,24 +298,24 @@ public class LogDemo {
 ```mermaid
 graph TD
     subgraph Byte["Byte Streams (binary data)"]
-        IS["InputStream\n(abstract)"] --> FIS["FileInputStream"]
+        IS["InputStream<br/>(abstract)"] --> FIS["FileInputStream"]
         IS --> BIS["BufferedInputStream"]
         IS --> DIS["DataInputStream"]
         IS --> OIS["ObjectInputStream"]
         
-        OS["OutputStream\n(abstract)"] --> FOS["FileOutputStream"]
+        OS["OutputStream<br/>(abstract)"] --> FOS["FileOutputStream"]
         OS --> BOS["BufferedOutputStream"]
         OS --> DOS["DataOutputStream"]
         OS --> OOS["ObjectOutputStream"]
     end
     
     subgraph Char["Character Streams (text data)"]
-        R["Reader\n(abstract)"] --> FR["FileReader"]
+        R["Reader<br/>(abstract)"] --> FR["FileReader"]
         R --> BR["BufferedReader"]
         R --> ISR["InputStreamReader"]
         R --> SR["StringReader"]
         
-        W["Writer\n(abstract)"] --> FW["FileWriter"]
+        W["Writer<br/>(abstract)"] --> FW["FileWriter"]
         W --> BW["BufferedWriter"]
         W --> OSW["OutputStreamWriter"]
         W --> PW["PrintWriter"]
@@ -487,7 +490,7 @@ String line = userInput.readLine();
 
 ---
 
-##  Interview Questions
+## Interview Questions
 
 1. **What is the difference between checked and unchecked exceptions?**
    - Checked: compiler forces handling (IOException, SQLException). Unchecked: RuntimeException subclasses, optional handling (NPE, ArrayIndexOutOfBounds).
@@ -525,7 +528,7 @@ String line = userInput.readLine();
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!note] Quick Revision - Unit 4
 > 
@@ -551,8 +554,8 @@ String line = userInput.readLine();
 
 ---
 
-##  Navigation
+## Navigation
 
 | Previous | Current | Next |
 |----------|---------|------|
-| [[Unit-3\|Unit 3: Inheritance and Interface]] | **Unit 4: Exception and File Handling** | [[Unit-5\|Unit 5: User Interface with JavaFX]] |
+| [[Unit-3|Unit 3: Inheritance and Interface]] | **Unit 4: Exception and File Handling** | [[Unit-5|Unit 5: User Interface with JavaFX]] |

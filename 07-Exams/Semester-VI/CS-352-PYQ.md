@@ -20,14 +20,17 @@ created: 2026-06-16
 type: pyq
 ---
 
-#  CS-352 Angular - Expected PYQ
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-352 Angular - Expected PYQ
 
 > [!important] Exam Strategy
 > Angular is TypeScript + framework concepts. Focus on components, directives, routing, both reactive and template-driven forms, and services with HttpClient. Know the lifecycle hooks.
 
 ---
 
-## ️ Unit-wise Distribution
+## Unit-wise Distribution
 
 | Unit | Topic | Weightage |
 |------|-------|-----------|
@@ -39,7 +42,7 @@ type: pyq
 
 ---
 
-## ️ Section A - Short Answer (2 Marks)
+## Section A - Short Answer (2 Marks)
 
 1. **What is Angular? How is it different from AngularJS?**
 2. **What is a component in Angular? List its parts.**
@@ -64,7 +67,7 @@ type: pyq
 
 ---
 
-##  Section B - Long Answer (5–7 Marks)
+## Section B - Long Answer (5-7 Marks)
 
 ---
 
@@ -397,7 +400,7 @@ export class ChildComponent {
 
 ---
 
-##  Most Expected Questions
+## Most Expected Questions
 
 > [!tip] High Probability
 > 1.  Data binding - all 4 types with code
@@ -410,4 +413,4 @@ export class ChildComponent {
 
 ---
 
-*Tags: [[Angular|CS-352 Angular]] | Semester VI | [[07-Exams]]*
+*Tags: [[02-Semester-VI/CS-352-MJ-T-Design-Framework/Overview|Design Framework Overview]] | Semester VI | [[07-Exams/Exams-Dashboard|Exams]]*

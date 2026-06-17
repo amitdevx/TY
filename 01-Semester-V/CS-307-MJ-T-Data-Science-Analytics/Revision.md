@@ -14,14 +14,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-307: Data Science - Rapid Revision
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-307: Data Science - Rapid Revision
 
 > [!tip] How to Use
 > Read through all sections 48 hours before exam. Focus on ==highlighted terms== and formulas in boxes.
 
 ---
 
-##  Unit 1: Introduction to Data Science
+## Unit 1: Introduction to Data Science
 
 > [!summary] Must Know
 > - ==Data Science== = Statistics + Programming + Domain Knowledge
@@ -37,7 +40,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit 2: Data Preprocessing
+## Unit 2: Data Preprocessing
 
 > [!summary] Must Know Formulas
 
@@ -56,13 +59,13 @@ $$\text{Z-score Outlier: } |z| > 3$$
 | Skewed / Outliers | Median imputation |
 | Categorical data | Mode imputation |
 | Complex patterns | KNN imputation |
-| <5% missing | Deletion |
+| < 5% missing | Deletion |
 
 **Normalization vs. Standardization:**
 - Normalization: Use when bounds are known, no extreme outliers (KNN, Neural Networks)
 - Standardization: Use when distribution is unknown or has outliers (SVM, Linear Regression)
 
-**️ ALWAYS**: `fit_transform()` on train, `transform()` only on test!
+** ALWAYS**: `fit_transform()` on train, `transform()` only on test!
 
 **Binning:**
 - Equal-Width: `width = (max - min) / k`
@@ -70,7 +73,7 @@ $$\text{Z-score Outlier: } |z| > 3$$
 
 ---
 
-##  Unit 3: Data Visualization
+## Unit 3: Data Visualization
 
 > [!summary] Chart Selection Guide
 
@@ -100,7 +103,7 @@ $$\text{Z-score Outlier: } |z| > 3$$
 
 ---
 
-##  Unit 4: Statistics for Data Science
+## Unit 4: Statistics for Data Science
 
 > [!summary] Must Know Formulas
 
@@ -137,11 +140,11 @@ $$\bar{x} = \frac{\sum x_i}{n}, \quad s^2 = \frac{\sum(x_i-\bar{x})^2}{n-1}, \qu
 - Spearman: Rank-based, robust → $r_s = 1 - \frac{6\sum d^2}{n(n^2-1)}$
 - Range: [-1, +1] | 0 = no correlation | 1 = perfect positive
 
-**️ Correlation ≠ Causation!**
+** Correlation ≠ Causation!**
 
 ---
 
-##  Unit 5: Data Mining & Machine Learning
+## Unit 5: Data Mining & Machine Learning
 
 > [!summary] KDD Process
 > Selection → Preprocessing → Transformation → Data Mining → Interpretation/Evaluation
@@ -182,7 +185,7 @@ $$Lift = \frac{Confidence(A\rightarrow B)}{Support(B)} \quad \begin{cases} >1 & 
 
 ---
 
-##  All Formulas in One Place
+## All Formulas in One Place
 
 | Formula | Expression |
 |---------|-----------|
@@ -202,11 +205,11 @@ $$Lift = \frac{Confidence(A\rightarrow B)}{Support(B)} \quad \begin{cases} >1 & 
 | Confidence | $\frac{Support(A\cup B)}{Support(A)}$ |
 | Lift | $\frac{Confidence(A\rightarrow B)}{Support(B)}$ |
 | R² | $1 - \frac{SS_{res}}{SS_{tot}}$ |
-| WCSS (K-Means) | $\sum_j\sum_{x_i\in C_j}\|x_i-\mu_j\|^2$ |
+| WCSS (K-Means) | $\sum_j\sum_{x_i\in C_j}|x_i-\mu_j|^2$ |
 
 ---
 
-##  Last-Hour Checklist
+## Last-Hour Checklist
 
 - [ ] Know the difference: Data Science / ML / AI
 - [ ] Can write CRISP-DM phases from memory

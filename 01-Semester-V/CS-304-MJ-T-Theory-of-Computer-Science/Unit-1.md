@@ -18,14 +18,17 @@ type: unit-notes
 last_reviewed: 2026-06-16
 ---
 
-#  Unit 1 - Finite Automata
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 1 - Finite Automata
 
 > [!note] Navigation
 > [[Overview|CS-304 Overview]] | [[Syllabus|CS-304 Syllabus]] | **Unit 1** → [[Unit-2]] → [[Unit-3]] → [[Unit-4]] → [[Unit-5]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Define and use basic terminology: symbol, alphabet, string, language
 - Construct DFAs from problem descriptions
@@ -49,10 +52,10 @@ last_reviewed: 2026-06-16
 | ==Alphabet== (Σ) | Finite, non-empty set of symbols | Σ = {a, b}, Σ = {0, 1} |
 | ==String (Word)== | Finite sequence of symbols from Σ | `ab`, `aab`, `bba` |
 | ==Empty String== (ε) | String with zero symbols; length = 0 | ε |
-| ==Length of String== \|w\| | Number of symbols in string w | \|aba\| = 3, \|ε\| = 0 |
+| ==Length of String== |w| | Number of symbols in string w | |aba| = 3, |ε| = 0 |
 | ==Kleene Star== (Σ*) | Set of ALL strings over Σ including ε | Σ={a,b}: {ε, a, b, aa, ab, ...} |
 | ==Σ⁺== | Σ* minus ε (all non-empty strings) | Σ* \ {ε} |
-| ==Language== (L) | Any subset of Σ* | L = {aⁿbⁿ \| n ≥ 1} |
+| ==Language== (L) | Any subset of Σ* | L = {aⁿbⁿ | n ≥ 1} |
 
 ### String Operations
 
@@ -329,7 +332,7 @@ stateDiagram-v2
 | Output depends on | State only | State + Input |
 | Output function | λ: Q → Δ | λ: Q × Σ → Δ |
 | Output timing | On entering state | On taking transition |
-| Output sequence length | \|w\| + 1 | \|w\| |
+| Output sequence length | |w| + 1 | |w| |
 | States needed | More (generally) | Fewer (generally) |
 
 ### Moore Machine Example: Detect 'a' in input over Σ={a,b}, output 1 if last input was 'a'
@@ -450,7 +453,7 @@ Check unmarked pairs:
 
 ---
 
-##  Numerical Problem Types for Exams
+## Numerical Problem Types for Exams
 
 > [!tip] Common Exam Problem Patterns
 
@@ -481,7 +484,7 @@ Check unmarked pairs:
 
 ---
 
-##  Interview Questions - Unit 1
+## Interview Questions - Unit 1
 
 > [!question] Key Interview/Exam Questions
 
@@ -511,7 +514,7 @@ Check unmarked pairs:
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 1 Key Takeaways
 >

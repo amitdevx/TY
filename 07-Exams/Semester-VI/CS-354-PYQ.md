@@ -21,14 +21,17 @@ created: 2026-06-16
 type: pyq
 ---
 
-#  CS-354 Compiler Construction - Expected PYQ
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-354 Compiler Construction - Expected PYQ
 
 > [!important] Exam Strategy
 > Compiler is highly numerical! FIRST & FOLLOW computation, LL(1) table construction, and SLR parsing are guaranteed. Lexical analysis theory, ambiguous grammar, and code optimization are important for theory marks. Master the algorithms step by step.
 
 ---
 
-## ️ Unit-wise Distribution
+## Unit-wise Distribution
 
 | Unit | Topic | Weightage |
 |------|-------|-----------|
@@ -40,7 +43,7 @@ type: pyq
 
 ---
 
-## ️ Section A - Short Answer (2 Marks)
+## Section A - Short Answer (2 Marks)
 
 1. **What are the phases of a compiler? List them in order.**
 2. **What is a token? Give examples of token types.**
@@ -65,7 +68,7 @@ type: pyq
 
 ---
 
-##  Section B - Long Answer / Numerical Problems (5–7 Marks)
+## Section B - Long Answer / Numerical Problems (5–7 Marks)
 
 ---
 
@@ -404,7 +407,7 @@ a  = t3
 
 ---
 
-##  Most Expected Questions
+## Most Expected Questions
 
 > [!tip] These questions MUST be prepared
 > 1.  FIRST and FOLLOW sets computation (numerical)
@@ -420,7 +423,7 @@ a  = t3
 
 ---
 
-##  FIRST & FOLLOW Quick Rules
+## FIRST & FOLLOW Quick Rules
 
 **FIRST Rules:**
 - FIRST(terminal) = {terminal}
@@ -435,4 +438,4 @@ a  = t3
 
 ---
 
-*Tags: CS-354 Compiler Construction | Semester VI | [[07-Exams]]*
+*Tags: CS-354 Compiler Construction | Semester VI | [[07-Exams/Exams-Dashboard|Exams]]*

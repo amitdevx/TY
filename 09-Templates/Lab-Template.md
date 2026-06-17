@@ -22,6 +22,9 @@ aliases:
   - "Exp {{experiment_no}} - {{subject_code}}"
 ---
 
+[[00-Dashboard/Home|Home]] | [[09-Templates/Templates-Dashboard|Templates Dashboard]]
+
+
 # Experiment {{experiment_no}}: {{title}}
 
 > [!note]  Experiment Info
@@ -31,7 +34,7 @@ aliases:
 
 ---
 
-##  Aim
+## Aim
 
 > State the aim of the experiment clearly in one or two sentences.
 
@@ -39,7 +42,7 @@ aliases:
 
 ---
 
-##  Objectives
+## Objectives
 
 After completing this experiment, you will be able to:
 
@@ -49,7 +52,7 @@ After completing this experiment, you will be able to:
 
 ---
 
-##  Theory
+## Theory
 
 > [!important] Theoretical Background
 > Write the theory relevant to this experiment. Include definitions, concepts, and background knowledge needed to understand the experiment.
@@ -72,7 +75,7 @@ After completing this experiment, you will be able to:
 
 ---
 
-##  Algorithm / Flowchart
+## Algorithm / Flowchart
 
 ### Algorithm
 
@@ -100,7 +103,7 @@ flowchart TD
 
 ---
 
-##  Program / Code
+## Program / Code
 
 > [!tip] Source Code
 > Write your complete, well-commented program below.
@@ -117,7 +120,7 @@ flowchart TD
 
 ---
 
-##  Expected Output
+## Expected Output
 
 ```
 [Write expected output here]
@@ -125,7 +128,7 @@ flowchart TD
 
 ---
 
-##  Actual Output
+## Actual Output
 
 ```
 [Paste actual output / screenshot description here]
@@ -137,7 +140,7 @@ flowchart TD
 
 ---
 
-## ️ Viva Questions
+## Viva Questions
 
 > [!warning] Prepare these questions before viva!
 
@@ -166,7 +169,7 @@ flowchart TD
 
 ---
 
-##  Result / Conclusion
+## Result / Conclusion
 
 > [!tip]  Conclusion
 > The experiment **"{{title}}"** was successfully / unsuccessfully completed.
@@ -177,7 +180,7 @@ flowchart TD
 
 ---
 
-##  Marks
+## Marks
 
 | Component | Max Marks | Marks Obtained |
 |---|---|---|
@@ -192,12 +195,12 @@ flowchart TD
 
 ---
 
-##  Navigation
+## Navigation
 
 | | Link |
 |---|---|
-| ⬅️ Previous Experiment | [[Experiment {{experiment_no - 1}}]] |
-| ️ Next Experiment | [[Experiment {{experiment_no + 1}}]] |
+| ⬅ Previous Experiment | [[Experiment {{experiment_no - 1}}]] |
+|  Next Experiment | [[Experiment {{experiment_no + 1}}]] |
 |  Lab Overview | [[{{subject_code}} Lab Overview]] |
 |  Dashboard | [[00-Dashboard/Home]] |
 

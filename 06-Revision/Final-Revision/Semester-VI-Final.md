@@ -12,7 +12,10 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
-#  Semester VI - Final Revision
+[[00-Dashboard/Home|Home]] | [[06-Revision/Revision-Dashboard|Revision Dashboard]]
+
+
+# Semester VI - Final Revision
 
 > [!important] Last-Minute Strategy
 > - Read in the last 48–72 hours before exam
@@ -21,7 +24,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  CS-351 - Advanced Java
+## CS-351 - Advanced Java
 
 ### Critical Topics
 1. **JDBC** - Connection, Statement, PreparedStatement, ResultSet
@@ -84,7 +87,7 @@ List<String> filtered = list.stream()
 
 ---
 
-##  CS-352 - Computer Networks
+## CS-352 - Computer Networks
 
 ### Critical Topics
 1. **OSI Model** - 7 layers, functions, protocols
@@ -150,7 +153,7 @@ Throughput = min(send_rate, receive_rate, bottleneck_link)
 
 ---
 
-##  CS-353 - Web Technology-II
+## CS-353 - Web Technology-II
 
 ### Critical Topics
 1. **React.js** - components, props, state, hooks, lifecycle
@@ -214,7 +217,7 @@ function authMiddleware(req, res, next) {
 
 ---
 
-##  CS-354 - Compiler Construction
+## CS-354 - Compiler Construction
 
 ### Critical Topics
 1. **Compiler Phases** - Lexical → Syntax → Semantic → IR → Optimization → Code Gen
@@ -287,7 +290,7 @@ Three-Address Code example:
 
 ---
 
-##  CS-357 - Cloud Computing
+## CS-357 - Cloud Computing
 
 ### Critical Topics
 1. **Cloud Fundamentals** - characteristics, deployment models, service models
@@ -331,7 +334,7 @@ Three-Address Code example:
 
 ---
 
-##  CS-371 - Android Development
+## CS-371 - Android Development
 
 ### Critical Topics
 1. **Android Architecture** - Linux Kernel, HAL, ART, Framework, Apps
@@ -417,7 +420,7 @@ class MyAdapter(private val items: List<String>)
 
 ---
 
-##  Formula Quick Reference - Semester VI
+## Formula Quick Reference - Semester VI
 
 | Formula | Subject | Context |
 |---------|---------|---------|
@@ -430,7 +433,7 @@ class MyAdapter(private val items: List<String>)
 
 ---
 
-##  Last-Minute 48-Hour Checklist - Semester VI
+## Last-Minute 48-Hour Checklist - Semester VI
 
 ### 48 Hours Before Exam
 - [ ] Review all one-line summaries
@@ -453,7 +456,7 @@ class MyAdapter(private val items: List<String>)
 
 ---
 
-##  Related Notes
+## Related Notes
 
 - [[06-Revision/Final-Revision/Semester-V-Final]] - Semester V reference
 - [[06-Revision/Monthly/Monthly-Review]] - Monthly progress

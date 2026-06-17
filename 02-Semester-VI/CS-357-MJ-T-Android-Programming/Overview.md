@@ -22,7 +22,9 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-357 Android Programming - Overview
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+# CS-357 Android Programming - Overview
 
 > [!important] Subject at a Glance
 > **Code:** CS-357-MJ-T | **Type:** Major Theory | **Semester:** VI
@@ -31,7 +33,7 @@ updated: 2026-06-16
 
 ---
 
-##  Quick Navigation
+## Quick Navigation
 
 | File | Description |
 |------|-------------|
@@ -39,7 +41,7 @@ updated: 2026-06-16
 | [[Unit-1]] | Introduction to Android - architecture, lifecycle, layouts, views |
 | [[Unit-2]] | Activities and Intents - explicit/implicit intents, fragments, RecyclerView |
 | [[Unit-3]] | Data Storage - SharedPreferences, SQLite, Room, Content Providers |
-| [[Unit-4]] | Networking & Web Services - Retrofit, Gson, Coroutines, Glide |
+| [[Unit-4]] | Networking and Web Services - Retrofit, Gson, Coroutines, Glide |
 | [[Unit-5]] | Advanced Android - Services, BroadcastReceivers, MVVM, Material Design |
 | [[Important-Questions]] | Chapter-wise important questions for exam |
 | [[Revision]] | Quick revision notes and cheat sheets |
@@ -47,7 +49,7 @@ updated: 2026-06-16
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 By the end of this course, you will be able to:
 
@@ -63,7 +65,7 @@ By the end of this course, you will be able to:
 
 ---
 
-## ️ Subject Mind Map
+## Subject Mind Map
 
 ```mermaid
 mindmap
@@ -71,7 +73,7 @@ mindmap
     Unit 1: Basics
       Architecture
       Activity Lifecycle
-      Layouts & Views
+      Layouts and Views
       AndroidManifest
     Unit 2: Intents
       Explicit Intent
@@ -103,7 +105,7 @@ mindmap
 
 ---
 
-##  Android Architecture Layers
+## Android Architecture Layers
 
 ```mermaid
 graph TD
@@ -123,19 +125,19 @@ graph TD
 
 ---
 
-##  Unit Summary
+## Unit Summary
 
 | # | Unit | Key Topics |
 |---|------|------------|
 | 1 | Introduction to Android | History, Architecture, Studio setup, Activity lifecycle, Layouts, Basic Views |
 | 2 | Activities and Intents | Explicit/Implicit Intents, Data passing, Fragments, RecyclerView, Navigation |
 | 3 | Data Storage | SharedPreferences, SQLite, Room DB, File storage, Content Providers |
-| 4 | Networking & Web Services | HTTP, Retrofit, Gson, Coroutines, Glide/Picasso, Permissions |
+| 4 | Networking and Web Services | HTTP, Retrofit, Gson, Coroutines, Glide/Picasso, Permissions |
 | 5 | Advanced Android | Services, BroadcastReceivers, Notifications, MVVM, Material Design, Play Store |
 
 ---
 
-##  Key Terms Glossary
+## Key Terms Glossary
 
 | Term | Definition |
 |------|-----------|
@@ -153,7 +155,7 @@ graph TD
 
 ---
 
-##  Reference Materials
+## Reference Materials
 
 | # | Resource | Notes |
 |---|----------|-------|
@@ -169,9 +171,9 @@ graph TD
 
 ---
 
-##  Backlinks
+## Backlinks
 
-- [[../README|Semester VI Home]]
+- [[00-Dashboard/Home|Semester VI Home]]
 - [[Important-Questions]]
 - [[Revision]]
 - [[Interview-Prep]]

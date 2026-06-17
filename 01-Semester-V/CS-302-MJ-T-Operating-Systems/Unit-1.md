@@ -17,13 +17,16 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # Unit 1 - Introduction to Operating Systems
 > [!important] **Hours:** 3 | **Subject:** CS-302-MJ-T Operating Systems | **Semester:** V
 > **Previous:** [[Overview]] | **Next:** [[Unit-2|Unit 2: Process and CPU Scheduling]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Define an operating system and state its goals
 - Describe the functions and services provided by an OS
@@ -52,14 +55,14 @@ last_modified: 2026-06-16
 
 ```mermaid
 graph TD
-    User[" User / Applications"] <--> OS["️ Operating System"]
-    OS <--> HW[" Hardware\n(CPU, Memory, Disk, I/O)"]
+    User[" User / Applications"] <--> OS[" Operating System"]
+    OS <--> HW[" Hardware<br/>(CPU, Memory, Disk, I/O)"]
     
-    OS --> PM["Process\nManagement"]
-    OS --> MM["Memory\nManagement"]
-    OS --> FM["File\nManagement"]
-    OS --> IO["I/O\nManagement"]
-    OS --> SEC["Security &\nProtection"]
+    OS --> PM["Process<br/>Management"]
+    OS --> MM["Memory<br/>Management"]
+    OS --> FM["File<br/>Management"]
+    OS --> IO["I/O<br/>Management"]
+    OS --> SEC["Security &<br/>Protection"]
 ```
 
 ---
@@ -110,7 +113,7 @@ Different OS designs have evolved over time:
 
 ```mermaid
 graph TD
-    A["Application Programs"] --> B["Monolithic OS Kernel\n(all services together)"]
+    A["Application Programs"] --> B["Monolithic OS Kernel<br/>(all services together)"]
     B --> C["Hardware"]
 ```
 
@@ -128,8 +131,8 @@ graph TD
 
 ```mermaid
 graph TD
-    A["User Apps"] --> B["File Server | Device Server | Network Server\n(User Space)"]
-    B --> C["Microkernel\n(IPC, Basic Process Mgmt, Basic Memory)"]
+    A["User Apps"] --> B["File Server | Device Server | Network Server<br/>(User Space)"]
+    B --> C["Microkernel<br/>(IPC, Basic Process Mgmt, Basic Memory)"]
     C --> D["Hardware"]
 ```
 
@@ -278,13 +281,13 @@ sequenceDiagram
 
 ```mermaid
 flowchart TD
-    A[" Power ON"] --> B["BIOS / UEFI\n(Power-On Self Test - POST)"]
-    B --> C["Read MBR / GPT\n(Master Boot Record from Boot Disk)"]
-    C --> D["Bootloader Executes\n(GRUB, Windows Boot Manager)"]
-    D --> E["OS Kernel Loaded\ninto RAM"]
-    E --> F["Init / Systemd Started\n(PID 1 - first process)"]
-    F --> G["System Services Started\n(drivers, network, display)"]
-    G --> H["Login Screen /\nUser Interface"]
+    A[" Power ON"] --> B["BIOS / UEFI<br/>(Power-On Self Test - POST)"]
+    B --> C["Read MBR / GPT<br/>(Master Boot Record from Boot Disk)"]
+    C --> D["Bootloader Executes<br/>(GRUB, Windows Boot Manager)"]
+    D --> E["OS Kernel Loaded<br/>into RAM"]
+    E --> F["Init / Systemd Started<br/>(PID 1 - first process)"]
+    F --> G["System Services Started<br/>(drivers, network, display)"]
+    G --> H["Login Screen /<br/>User Interface"]
 ```
 
 | Step | Component | Description |
@@ -303,7 +306,7 @@ flowchart TD
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|------------|
@@ -321,7 +324,7 @@ flowchart TD
 
 ---
 
-##  Interview Questions
+## Interview Questions
 
 > [!tip] Commonly Asked Questions
 
@@ -359,7 +362,7 @@ flowchart TD
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!note] Quick Revision - Unit 1
 > 
@@ -377,8 +380,8 @@ flowchart TD
 
 ---
 
-##  Navigation
+## Navigation
 
 | Previous | Current | Next |
 |----------|---------|------|
-| [[Overview\|Subject Overview]] | **Unit 1: Introduction to OS** | [[Unit-2\|Unit 2: Process and CPU Scheduling]] |
+| [[Overview|Subject Overview]] | **Unit 1: Introduction to OS** | [[Unit-2|Unit 2: Process and CPU Scheduling]] |

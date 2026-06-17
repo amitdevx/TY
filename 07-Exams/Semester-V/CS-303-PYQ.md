@@ -19,14 +19,17 @@ created: 2026-06-16
 type: pyq
 ---
 
-#  CS-303 Web Technology-I - Expected PYQ
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-303 Web Technology-I - Expected PYQ
 
 > [!important] Exam Strategy
 > Web Tech-I is a practical-heavy paper. Expect at least 2 coding/programming questions. Focus on HTML5 semantic elements, CSS Flexbox/Grid, ES6 features, and Node.js file handling. Short answers on definitions fetch easy marks.
 
 ---
 
-## ️ Unit-wise Question Distribution
+## Unit-wise Question Distribution
 
 | Unit | Topic | Weightage |
 |------|-------|-----------|
@@ -38,7 +41,7 @@ type: pyq
 
 ---
 
-## ️ Section A - Short Answer Questions (2 Marks Each)
+## Section A - Short Answer Questions (2 Marks Each)
 
 ### Unit I: HTML5 & CSS3
 
@@ -77,7 +80,7 @@ type: pyq
 
 ---
 
-##  Section B - Long Answer Questions (5–7 Marks Each)
+## Section B - Long Answer Questions (5–7 Marks Each)
 
 ### Q1. Registration Form with HTML5 Validation ( HIGH PROBABILITY)
 
@@ -308,7 +311,7 @@ npm uninstall express     # Remove
 
 ---
 
-##  Most Expected Questions (High Probability)
+## Most Expected Questions (High Probability)
 
 > [!tip] These topics have very high chance of appearing
 > 1.  Responsive webpage with Flexbox/Grid
@@ -322,7 +325,7 @@ npm uninstall express     # Remove
 
 ---
 
-##  Quick Revision Definitions
+## Quick Revision Definitions
 
 | Term | One-line Definition |
 |------|---------------------|
@@ -336,4 +339,4 @@ npm uninstall express     # Remove
 
 ---
 
-*Tags: CS-303 Web Technology-I | Semester V | [[07-Exams]]*
+*Tags: CS-303 Web Technology-I | Semester V | [[07-Exams/Exams-Dashboard|Exams]]*

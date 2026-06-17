@@ -13,14 +13,17 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
-#  Semester VI - OJT (On-Job Training) Overview
+[[00-Dashboard/Home|Home]] | [[05-Projects/Projects-Dashboard|Projects Dashboard]]
+
+
+# Semester VI - OJT (On-Job Training) Overview
 
 > [!important] OJT Status
 > **Status:**  Pending | **Semester:** VI | **Duration:** ___ weeks
 
 ---
 
-## ️ Organization Details
+## Organization Details
 
 | Field | Details |
 |-------|---------|
@@ -39,7 +42,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 By the end of this OJT, I aim to:
 
@@ -60,7 +63,7 @@ By the end of this OJT, I aim to:
 
 ---
 
-##  Project/Work Assigned
+## Project/Work Assigned
 
 ### Project Title
 > _______________
@@ -80,7 +83,7 @@ By the end of this OJT, I aim to:
 
 ---
 
-##  Daily Log Template
+## Daily Log Template
 
 > [!tip] Fill this every working day
 > Copy this template for each day and fill it consistently.
@@ -109,7 +112,7 @@ Supervisor Feedback :
 
 ---
 
-##  OJT Deliverables
+## OJT Deliverables
 
 ### Weekly Deliverables
 - [ ] Week 1 Report submitted
@@ -128,7 +131,7 @@ Supervisor Feedback :
 
 ---
 
-##  Final Report Structure
+## Final Report Structure
 
 The OJT final report should include:
 
@@ -165,10 +168,10 @@ The OJT final report should include:
 
 ---
 
-##  Related Notes
+## Related Notes
 
 - [[Progress-Tracker]] - OJT weekly progress
-- [[02-Semester-VI/Overview]] - Semester VI overview
+- [[02-Semester-VI/CS-351-MJ-T-Advanced-Java/Overview|Overview]] - Semester VI overview
 - [[06-Revision/Final-Revision/Semester-VI-Final]] - Semester VI final revision
 
 ---

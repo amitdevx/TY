@@ -18,14 +18,17 @@ type: unit-notes
 last_reviewed: 2026-06-16
 ---
 
-#  Unit 4 - File Handling with Node.js
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 4 - File Handling with Node.js
 
 > [!note] Navigation
 > [[Overview|CS-303 Overview]] | ← [[Unit-3]] | **Unit 4** (Final Unit)
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Perform file read, write, append, and delete operations in Node.js
 - Differentiate between synchronous (blocking) and asynchronous (non-blocking) file operations
@@ -874,7 +877,7 @@ main();
 
 ---
 
-##  Interview Questions - Unit 4
+## Interview Questions - Unit 4
 
 > [!question] Key Interview/Exam Questions
 
@@ -910,7 +913,7 @@ main();
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 4 Key Takeaways
 >

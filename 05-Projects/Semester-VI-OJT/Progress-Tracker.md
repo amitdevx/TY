@@ -10,14 +10,17 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
-#  OJT - Weekly Progress Tracker
+[[00-Dashboard/Home|Home]] | [[05-Projects/Projects-Dashboard|Projects Dashboard]]
+
+
+# OJT - Weekly Progress Tracker
 
 > [!note] Quick Links
 > [[OJT-Overview]] | [[06-Revision/Final-Revision/Semester-VI-Final]]
 
 ---
 
-## ️ Week-by-Week Progress
+## Week-by-Week Progress
 
 ### Week 1
 - **Dates:** _____ to _____
@@ -99,7 +102,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Overall OJT Summary Table
+## Overall OJT Summary Table
 
 | Week | Focus | Tasks Done | Report | Rating |
 |------|-------|-----------|--------|--------|
@@ -112,7 +115,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Skill Tracker
+## Skill Tracker
 
 | Skill | Before OJT | After OJT | Improvement |
 |-------|-----------|-----------|-------------|
@@ -124,7 +127,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Issues / Blockers During OJT
+## Issues / Blockers During OJT
 
 | Date | Issue | Resolution | Status |
 |------|-------|-----------|--------|
@@ -133,7 +136,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  OJT Final Checklist
+## OJT Final Checklist
 
 - [ ] All daily logs completed
 - [ ] All weekly reports submitted
@@ -145,7 +148,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Reflections
+## Reflections
 
 > *What was the most valuable thing I learned during this OJT?*
 

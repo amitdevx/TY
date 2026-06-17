@@ -14,6 +14,9 @@ aliases:
 created: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # CS-302 Operating Systems - Important Questions
 
 > [!important] Exam Strategy
@@ -21,7 +24,7 @@ created: 2026-06-16
 
 ---
 
-##  Unit 1 - Introduction to OS
+## Unit 1 - Introduction to OS
 
 ### Short Answer (2 Marks)
 
@@ -46,7 +49,7 @@ created: 2026-06-16
 
 ---
 
-##  Unit 2 - Process and CPU Scheduling
+## Unit 2 - Process and CPU Scheduling
 
 ### Short Answer (2 Marks)
 
@@ -92,7 +95,7 @@ Solve: FCFS, SJF, Round Robin (q=2). Which has minimum average WT?
 
 ---
 
-##  Unit 3 - Memory Management
+## Unit 3 - Memory Management
 
 ### Short Answer (2 Marks)
 
@@ -132,7 +135,7 @@ Reference string: 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 | Frames: 3
 
 ---
 
-##  Unit 4 - Deadlock
+## Unit 4 - Deadlock
 
 ### Short Answer (2 Marks)
 
@@ -184,7 +187,7 @@ Find: Need matrix, Available, safe sequence, whether P2 requesting [1,0,0] can b
 
 ---
 
-##  Unit 5 - File System and Disk Scheduling
+## Unit 5 - File System and Disk Scheduling
 
 ### Short Answer (2 Marks)
 
@@ -228,7 +231,7 @@ Calculate total head movement for FCFS, SSTF, SCAN (moving toward 0), LOOK.
 
 ---
 
-##  Tricky Conceptual Questions
+## Tricky Conceptual Questions
 
 > [!warning] These questions test deeper understanding
 
@@ -263,7 +266,7 @@ Calculate total head movement for FCFS, SSTF, SCAN (moving toward 0), LOOK.
 
 ---
 
-##  One-liner Answers (Quick Review)
+## One-liner Answers (Quick Review)
 
 | Question | Answer |
 |----------|--------|

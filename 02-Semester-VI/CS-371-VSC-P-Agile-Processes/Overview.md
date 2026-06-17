@@ -22,7 +22,9 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-371 Agile Processes - Overview
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+# CS-371 Agile Processes - Overview
 
 > [!important] Subject at a Glance
 > **Code:** CS-371-VSC-P | **Type:** Vocational/Skill Course (Practical) | **Semester:** VI
@@ -31,23 +33,23 @@ updated: 2026-06-16
 
 ---
 
-##  Quick Navigation
+## Quick Navigation
 
 | File | Description |
 |------|-------------|
 | [[Syllabus]] | Full syllabus, all 8 assignments, reference books |
 | [[Unit-1]] | Agile Fundamentals - Manifesto, Principles, Git, Agile Boards |
-| [[Unit-2]] | Planning & Estimation - Backlog, MoSCoW, Story Points, Planning Poker |
+| [[Unit-2]] | Planning and Estimation - Backlog, MoSCoW, Story Points, Planning Poker |
 | [[Unit-3]] | Sprint Execution - Daily Scrum, Burndown Charts, Velocity |
 | [[Unit-4]] | Quality Assurance - Unit Testing, CI/CD, Code Reviews |
-| [[Unit-5]] | Review, Retrospective & CI - Sprint Demo, Feedback, Retrospective formats |
+| [[Unit-5]] | Review, Retrospective and CI - Sprint Demo, Feedback, Retrospective formats |
 | [[Important-Questions]] | Topic-wise important questions for exam |
 | [[Revision]] | Quick revision notes and cheat sheets |
 | [[Interview-Prep]] | 30+ Agile/Scrum interview Q&A |
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 By the end of this course, you will be able to:
 
@@ -63,40 +65,40 @@ By the end of this course, you will be able to:
 
 ---
 
-## ️ Assignment → Unit Mapping
+## Assignment - Unit Mapping
 
 ```mermaid
 graph LR
     A1[Assignment 1: Agile Fundamentals] --> U1[Unit 1: Agile Fundamentals]
     A2[Assignment 2: User Stories] --> U1
-    A3[Assignment 3: Backlog Prioritization] --> U2[Unit 2: Planning & Estimation]
-    A4[Assignment 4: Estimation & Sprint Planning] --> U2
+    A3[Assignment 3: Backlog Prioritization] --> U2[Unit 2: Planning and Estimation]
+    A4[Assignment 4: Estimation and Sprint Planning] --> U2
     A5[Assignment 5: Sprint Execution] --> U3[Unit 3: Sprint Execution]
-    A6[Assignment 6: Testing & Quality] --> U4[Unit 4: Quality Assurance]
-    A7[Assignment 7: Sprint Review] --> U5[Unit 5: Review & Retrospective]
+    A6[Assignment 6: Testing and Quality] --> U4[Unit 4: Quality Assurance]
+    A7[Assignment 7: Sprint Review] --> U5[Unit 5: Review and Retrospective]
     A8[Assignment 8: Retrospective] --> U5
 ```
 
 ---
 
-##  Unit Summary
+## Unit Summary
 
 | # | Unit | Assignments | Key Topics |
 |---|------|-------------|------------|
 | 1 | Agile Fundamentals | 1, 2 | Manifesto, 12 Principles, Git, User Stories, DoR/DoD |
-| 2 | Planning & Estimation | 3, 4 | MoSCoW, WSJF, Story Points, Planning Poker, Sprint Planning |
+| 2 | Planning and Estimation | 3, 4 | MoSCoW, WSJF, Story Points, Planning Poker, Sprint Planning |
 | 3 | Sprint Execution | 5 | Daily Scrum, Burndown Charts, Velocity, Sprint Backlog |
 | 4 | Quality Assurance | 6 | Unit Tests, CI/CD, GitHub Actions, Code Review |
-| 5 | Review, Retro & CI | 7, 8 | Sprint Review, Demo, Backlog Refinement, Retrospective formats |
+| 5 | Review, Retro and CI | 7, 8 | Sprint Review, Demo, Backlog Refinement, Retrospective formats |
 
 ---
 
-## ️ Tools Used
+## Tools Used
 
 ```mermaid
 graph TD
-    T1[Git/GitHub] -->|Version Control & CI| P[Agile Project]
-    T2[Jira / Azure DevOps] -->|Backlog & Sprint Boards| P
+    T1[Git/GitHub] -->|Version Control and CI| P[Agile Project]
+    T2[Jira / Azure DevOps] -->|Backlog and Sprint Boards| P
     T3[JUnit / PyTest] -->|Unit Testing| P
     T4[GitHub Actions] -->|CI/CD Pipeline| P
     style T1 fill:#F05032,color:#fff
@@ -107,13 +109,13 @@ graph TD
 
 ---
 
-##  Key Terms Glossary
+## Key Terms Glossary
 
 | Term | Definition |
 |------|-----------|
 | ==Agile== | Iterative, incremental software development methodology |
 | ==Scrum== | Framework implementing Agile with sprints, roles, and ceremonies |
-| ==Sprint== | Time-boxed iteration (typically 1–4 weeks) |
+| ==Sprint== | Time-boxed iteration (typically 1-4 weeks) |
 | ==Product Backlog== | Prioritized list of all desired features/work |
 | ==User Story== | Short description of a feature from the user's perspective |
 | ==Story Points== | Relative measure of effort/complexity |
@@ -127,14 +129,14 @@ graph TD
 
 ---
 
-##  Reference Books
+## Reference Books
 
 | # | Title | Author |
 |---|-------|--------|
 | 1 | Agile Estimating and Planning | Mike Cohn |
 | 2 | Scrum: The Art of Doing Twice the Work in Half the Time | Jeff Sutherland |
 | 3 | Succeeding with Agile | Mike Cohn |
-| 4 | Agile Testing | Lisa Crispin & Janet Gregory |
+| 4 | Agile Testing | Lisa Crispin and Janet Gregory |
 
 ---
 
@@ -143,9 +145,9 @@ graph TD
 
 ---
 
-##  Backlinks
+## Backlinks
 
-- [[../README|Semester VI Home]]
+- [[00-Dashboard/Home|Semester VI Home]]
 - [[Important-Questions]]
 - [[Revision]]
 - [[Interview-Prep]]

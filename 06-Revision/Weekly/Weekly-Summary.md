@@ -11,14 +11,17 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
-#  Weekly Revision Summary - Week [NUMBER]
+[[00-Dashboard/Home|Home]] | [[06-Revision/Revision-Dashboard|Revision Dashboard]]
+
+
+# Weekly Revision Summary - Week [NUMBER]
 
 > [!tip] Usage
 > Fill this every Sunday evening. Review what worked, what didn't, and plan the next week smartly.
 
 ---
 
-##  Week Overview
+## Week Overview
 
 - **Week Number:** Week ___
 - **Dates:** ___________ to ___________
@@ -27,7 +30,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Subjects Covered This Week
+## Subjects Covered This Week
 
 | Subject | Topics Covered | Hours Spent | Sessions | Avg. Confidence |
 |---------|---------------|-------------|----------|----------------|
@@ -41,7 +44,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Topics Mastered This Week
+## Topics Mastered This Week
 
 > [!note] Mastered = Can recall, explain, and solve related questions without notes
 
@@ -53,7 +56,7 @@ last_modified: 2026-06-16
 
 ---
 
-## ️ Topics Still Pending / Weak
+## Topics Still Pending / Weak
 
 > [!warning] These topics need attention next week!
 
@@ -65,7 +68,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Lab Progress
+## Lab Progress
 
 | Lab | Subject | Exercises Done | Pending | Status |
 |-----|---------|---------------|---------|--------|
@@ -76,7 +79,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Next Week Goals
+## Next Week Goals
 
 > [!important] Be SMART with goals - Specific, Measurable, Achievable, Relevant, Time-bound!
 
@@ -90,7 +93,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Study Hours This Week
+## Study Hours This Week
 
 | Day | Hours Studied | Subjects | Notes |
 |-----|--------------|---------|-------|
@@ -109,7 +112,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Weekly Metrics
+## Weekly Metrics
 
 | Metric | This Week | Last Week | Change |
 |--------|-----------|-----------|--------|
@@ -121,7 +124,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Week Highlights
+## Week Highlights
 
 > *Best study day of the week:* _______________  
 > *Topic I'm most proud of mastering:* _______________  
@@ -130,11 +133,11 @@ last_modified: 2026-06-16
 
 ---
 
-##  Related Notes
+## Related Notes
 
 - [[06-Revision/Daily/Daily-Revision-Template]] - Daily logs for this week
 - [[06-Revision/Monthly/Monthly-Review]] - Monthly overview
-- [[11-Tracking/Revision-Tasks]] - Revision task database
+- [[11-Tracking/Revision-Tasks.base|Revision Tasks]] - Revision task database
 
 ---
 

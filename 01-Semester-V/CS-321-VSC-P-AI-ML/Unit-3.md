@@ -22,14 +22,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 3: Supervised Learning
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 3: Supervised Learning
 
 > [!note] Navigation
 > ← [[Unit-2]] | [[Overview]] | [[Unit-4]] →
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Implement and interpret Linear and Logistic Regression
 - [ ] Build and prune Decision Trees
@@ -321,13 +324,13 @@ plt.show()
 $$\mathbf{w}^T \mathbf{x} + b = 0$$
 
 **Margin:**
-$$\text{Margin} = \frac{2}{\|\mathbf{w}\|}$$
+$$\text{Margin} = \frac{2}{|\mathbf{w}|}$$
 
 **Optimization (Hard Margin):**
-$$\min_{\mathbf{w}, b} \frac{1}{2}\|\mathbf{w}\|^2 \quad \text{subject to} \quad y_i(\mathbf{w}^T \mathbf{x}_i + b) \geq 1$$
+$$\min_{\mathbf{w}, b} \frac{1}{2}|\mathbf{w}|^2 \quad \text{subject to} \quad y_i(\mathbf{w}^T \mathbf{x}_i + b) \geq 1$$
 
 **Soft Margin (with slack variables ξ):**
-$$\min_{\mathbf{w}, b, \xi} \frac{1}{2}\|\mathbf{w}\|^2 + C\sum_{i=1}^{n}\xi_i$$
+$$\min_{\mathbf{w}, b, \xi} \frac{1}{2}|\mathbf{w}|^2 + C\sum_{i=1}^{n}\xi_i$$
 
 - **C**: Regularization (small C = soft margin, large C = hard margin)
 
@@ -337,7 +340,7 @@ $$\min_{\mathbf{w}, b, \xi} \frac{1}{2}\|\mathbf{w}\|^2 + C\sum_{i=1}^{n}\xi_i$$
 |--------|---------|----------|
 | Linear | $K(x, z) = x^Tz$ | Linearly separable |
 | Polynomial | $K(x, z) = (x^Tz + c)^d$ | Non-linear |
-| RBF (Gaussian) | $K(x, z) = e^{-\gamma\|x-z\|^2}$ | Most common |
+| RBF (Gaussian) | $K(x, z) = e^{-\gamma|x-z|^2}$ | Most common |
 | Sigmoid | $K(x, z) = \tanh(\kappa x^Tz + c)$ | Neural networks |
 
 ```python
@@ -493,7 +496,7 @@ print(f"MultinomialNB Text Accuracy: {mnb.score(X_test_text, newsgroups_test.tar
 
 ---
 
-##  Interview Questions - Unit 3
+## Interview Questions - Unit 3
 
 > [!question] Q1: What is the difference between Gradient Descent and OLS in Linear Regression?
 > **Answer**: 
@@ -514,7 +517,7 @@ print(f"MultinomialNB Text Accuracy: {mnb.score(X_test_text, newsgroups_test.tar
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 3 Key Points
 > 1. **Linear Regression**: OLS, y = β₀ + β₁x, MSE cost function, R² measure

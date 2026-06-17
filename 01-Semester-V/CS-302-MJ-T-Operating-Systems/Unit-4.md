@@ -19,13 +19,16 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # Unit 4 - Deadlock
 > [!important] **Hours:** 7 | **Subject:** CS-302-MJ-T Operating Systems | **Semester:** V
 > **Previous:** [[Unit-3|Unit 3: Memory Management]] | **Next:** [[Unit-5|Unit 5: File System and Disk Scheduling]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Define deadlock and understand the system model
 - Draw and analyze Resource Allocation Graphs (RAG)
@@ -113,12 +116,12 @@ graph LR
 
 ```mermaid
 graph TD
-    DL["️ DEADLOCK\nOccurs when ALL 4\nconditions hold simultaneously"]
+    DL[" DEADLOCK<br/>Occurs when ALL 4<br/>conditions hold simultaneously"]
     
-    ME["1️⃣ Mutual Exclusion\nAt least one resource must be\nheld in non-sharable mode"] --> DL
-    HW["2️⃣ Hold and Wait\nProcess holding resources while\nwaiting for additional resources"] --> DL
-    NP["3️⃣ No Preemption\nResources cannot be forcibly\ntaken from a process"] --> DL
-    CW["4️⃣ Circular Wait\nCircular chain of processes each\nwaiting for resource held by next"] --> DL
+    ME["1 Mutual Exclusion<br/>At least one resource must be<br/>held in non-sharable mode"] --> DL
+    HW["2 Hold and Wait<br/>Process holding resources while<br/>waiting for additional resources"] --> DL
+    NP["3 No Preemption<br/>Resources cannot be forcibly<br/>taken from a process"] --> DL
+    CW["4 Circular Wait<br/>Circular chain of processes each<br/>waiting for resource held by next"] --> DL
 ```
 
 | Condition | Description | Example |
@@ -187,8 +190,8 @@ Unsafe State → Does NOT mean deadlock, but MIGHT lead to deadlock
 
 ```mermaid
 graph LR
-    Safe["Safe State\n No deadlock guaranteed"] --> Unsafe["Unsafe State\n️ May or may not deadlock"]
-    Unsafe --> Deadlock["Deadlock State\n Processes permanently blocked"]
+    Safe["Safe State<br/> No deadlock guaranteed"] --> Unsafe["Unsafe State<br/> May or may not deadlock"]
+    Unsafe --> Deadlock["Deadlock State<br/> Processes permanently blocked"]
 ```
 
 ---
@@ -256,7 +259,7 @@ When Process Pi makes request Request_i[m]:
    If UNSAFE → Deny request, restore previous state, Pi waits
 ```
 
-###  Banker's Algorithm Example
+### Banker's Algorithm Example
 
 **System: 5 Processes (P0-P4), 3 Resource Types (A, B, C)**
 **Total Resources: A=10, B=5, C=7**
@@ -348,7 +351,7 @@ Once deadlock detected, recovery options:
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|------------|
@@ -364,7 +367,7 @@ Once deadlock detected, recovery options:
 
 ---
 
-##  Interview Questions
+## Interview Questions
 
 1. **What are the four necessary conditions for deadlock?**
    - Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait - ALL must hold.
@@ -399,7 +402,7 @@ Once deadlock detected, recovery options:
 
 ---
 
-##  Summary - Deadlock Handling Strategies
+## Summary - Deadlock Handling Strategies
 
 | Strategy | When Applied | Method | Cost |
 |----------|-------------|--------|------|
@@ -410,7 +413,7 @@ Once deadlock detected, recovery options:
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!note] Quick Revision - Unit 4
 > 
@@ -432,8 +435,8 @@ Once deadlock detected, recovery options:
 
 ---
 
-##  Navigation
+## Navigation
 
 | Previous | Current | Next |
 |----------|---------|------|
-| [[Unit-3\|Unit 3: Memory Management]] | **Unit 4: Deadlock** | [[Unit-5\|Unit 5: File System and Disk Scheduling]] |
+| [[Unit-3|Unit 3: Memory Management]] | **Unit 4: Deadlock** | [[Unit-5|Unit 5: File System and Disk Scheduling]] |

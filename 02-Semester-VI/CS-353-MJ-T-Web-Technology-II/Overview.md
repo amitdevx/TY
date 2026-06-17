@@ -23,32 +23,34 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-353 Web Technology II - Overview
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+# CS-353 Web Technology II - Overview
 
 > [!important] Subject at a Glance
 > **Code:** CS-353-MJ-T | **Type:** Major Theory | **Semester:** VI
 > **Credits:** 3 | **Hours:** ~30 hours theory
-> This subject extends Web Technology I by covering **server-side development with Node.js/Express**, **PostgreSQL database connectivity**, **React.js frontend**, and **authentication with JWT & bcrypt**.
+> This subject extends Web Technology I by covering **server-side development with Node.js/Express**, **PostgreSQL database connectivity**, **React.js frontend**, and **authentication with JWT and bcrypt**.
 
 ---
 
-##  Quick Navigation
+## Quick Navigation
 
 | File | Description |
 |------|-------------|
 | [[Syllabus]] | Full syllabus, chapter-wise hours, reference books |
 | [[Unit-1]] | Database Connectivity - PostgreSQL, pg module, pooling, SQL injection |
-| [[Unit-2]] | CRUD Operations & REST API - Express, routing, middleware, Postman |
+| [[Unit-2]] | CRUD Operations and REST API - Express, routing, middleware, Postman |
 | [[Unit-3]] | Introduction to React - Components, Hooks, JSX, routing |
-| [[Unit-4]] | Forms, Sessions & Cookies - express-session, cookies, validation |
-| [[Unit-5]] | Authentication & Authorization - bcrypt, JWT, RBAC, protected routes |
+| [[Unit-4]] | Forms, Sessions and Cookies - express-session, cookies, validation |
+| [[Unit-5]] | Authentication and Authorization - bcrypt, JWT, RBAC, protected routes |
 | [[Important-Questions]] | Chapter-wise important questions for exam |
 | [[Revision]] | Quick revision notes and cheat sheets |
 | [[Interview-Prep]] | 30+ interview Q&A for placements |
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 By the end of this course, you will be able to:
 
@@ -62,7 +64,7 @@ By the end of this course, you will be able to:
 
 ---
 
-## ️ Subject Mind Map
+## Subject Mind Map
 
 ```mermaid
 mindmap
@@ -79,18 +81,18 @@ mindmap
       CRUD + Pagination
       Postman / Swagger
     Unit 3: React
-      Components & JSX
+      Components and JSX
       Virtual DOM
-      State & Props
+      State and Props
       Hooks
       Client-side Routing
-    Unit 4: Sessions & Cookies
+    Unit 4: Sessions and Cookies
       express-session
       Cookie flags
       Login/Logout
       Server-side Validation
     Unit 5: Auth
-      bcrypt & Salting
+      bcrypt and Salting
       JWT Structure
       Role-based Auth
       Protected Routes
@@ -98,7 +100,7 @@ mindmap
 
 ---
 
-##  Technology Stack
+## Technology Stack
 
 ```mermaid
 graph TD
@@ -112,31 +114,31 @@ graph TD
 
 ---
 
-##  Chapter Summary
+## Chapter Summary
 
 | # | Chapter | Hours | Key Topics |
 |---|---------|-------|------------|
 | 1 | Database Connectivity | 4H | PostgreSQL, pg, pooling, env vars, SQL injection |
-| 2 | CRUD & REST API | 6H | REST, Express, routing, middleware, Swagger |
+| 2 | CRUD and REST API | 6H | REST, Express, routing, middleware, Swagger |
 | 3 | Introduction to React | 10H | JSX, components, hooks, routing, API fetch |
-| 4 | Forms, Sessions & Cookies | 7H | express-session, cookies, validation, login |
-| 5 | Authentication & Authorization | 3H | bcrypt, JWT, RBAC, protected routes |
+| 4 | Forms, Sessions and Cookies | 7H | express-session, cookies, validation, login |
+| 5 | Authentication and Authorization | 3H | bcrypt, JWT, RBAC, protected routes |
 
 ---
 
-##  Reference Books
+## Reference Books
 
 | # | Title | Author(s) |
 |---|-------|-----------|
 | 1 | Web Development with Node and Express | Ethan Brown |
 | 2 | Node.js in Action | Cantelon et al. |
-| 3 | Learning React | Alex Banks & Eve Porcello |
+| 3 | Learning React | Alex Banks and Eve Porcello |
 | 4 | You Don't Know JS | Kyle Simpson |
 | 5 | Mastering PostgreSQL | - |
 
 ---
 
-##  Key Terms Glossary
+## Key Terms Glossary
 
 | Term | Definition |
 |------|-----------|
@@ -153,7 +155,7 @@ graph TD
 
 ---
 
-##  Exam Preparation Timeline
+## Exam Preparation Timeline
 
 > [!tip] Suggested Study Plan
 > - **Week 1:** Unit 1 (DB Connectivity) + Unit 2 (REST API)
@@ -163,9 +165,9 @@ graph TD
 
 ---
 
-##  Backlinks
+## Backlinks
 
-- [[../README|Semester VI Home]]
+- [[00-Dashboard/Home|Semester VI Home]]
 - [[Important-Questions]]
 - [[Revision]]
 - [[Interview-Prep]]

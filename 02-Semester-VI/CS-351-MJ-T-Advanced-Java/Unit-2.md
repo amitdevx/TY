@@ -19,12 +19,15 @@ updated: 2026-06-16
 hours: 6
 ---
 
-#  Unit 2 - Multithreading
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 2 - Multithreading
 
 > [!important] Critical Unit
 > Multithreading is one of the **most frequently asked** topics in Java interviews. Understanding race conditions, synchronization, and the Executor framework is essential for any professional Java developer.
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Create threads using `Thread` class and `Runnable` interface
 - [ ] Describe all states in the thread lifecycle
@@ -400,7 +403,7 @@ Thread t2 = new Thread(() -> {
 
 ---
 
-##  Key Terms Summary
+## Key Terms Summary
 
 | Term | Definition |
 |------|------------|
@@ -416,7 +419,7 @@ Thread t2 = new Thread(() -> {
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 1. What is the difference between `Thread` class and `Runnable` interface? Which is preferred?
 2. Explain all states of a thread's lifecycle with a diagram.
@@ -431,7 +434,7 @@ Thread t2 = new Thread(() -> {
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview]] | [[Syllabus]]
 - ← Previous: [[Unit-1|Unit-1 - Collections Framework]]

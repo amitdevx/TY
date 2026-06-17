@@ -18,7 +18,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-321-VSC-P: Foundation of Artificial Intelligence and Machine Learning
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-321-VSC-P: Foundation of Artificial Intelligence and Machine Learning
 
 > [!important] Subject Information
 > **Subject Code:** CS-321-VSC-P  
@@ -29,7 +32,7 @@ updated: 2026-06-16
 
 ---
 
-## ️ Subject Map
+## Subject Map
 
 ```mermaid
 mindmap
@@ -64,19 +67,19 @@ mindmap
 
 ---
 
-##  Units at a Glance
+## Units at a Glance
 
 | Unit | Title | Key Topics | Weight |
 |------|-------|------------|--------|
-| [[Unit-1\|Unit 1]] | Introduction to AI | History, Search algorithms, Logic |  |
-| [[Unit-2\|Unit 2]] | ML Fundamentals | Types of ML, Evaluation metrics, Bias-Variance |  |
-| [[Unit-3\|Unit 3]] | Supervised Learning | Regression, Trees, SVM, KNN, Naive Bayes |  |
-| [[Unit-4\|Unit 4]] | Unsupervised & Neural Networks | Clustering, PCA, Perceptron, Backprop |  |
-| [[Unit-5\|Unit 5]] | Deep Learning & Applications | CNN, RNN, NLP, TensorFlow |  |
+| [[Unit-1|Unit 1]] | Introduction to AI | History, Search algorithms, Logic |  |
+| [[Unit-2|Unit 2]] | ML Fundamentals | Types of ML, Evaluation metrics, Bias-Variance |  |
+| [[Unit-3|Unit 3]] | Supervised Learning | Regression, Trees, SVM, KNN, Naive Bayes |  |
+| [[Unit-4|Unit 4]] | Unsupervised & Neural Networks | Clustering, PCA, Perceptron, Backprop |  |
+| [[Unit-5|Unit 5]] | Deep Learning & Applications | CNN, RNN, NLP, TensorFlow |  |
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 By the end of this course, students will be able to:
 
@@ -92,7 +95,7 @@ By the end of this course, students will be able to:
 
 ---
 
-##  Quick Navigation
+## Quick Navigation
 
 | Document | Purpose |
 |----------|---------|
@@ -108,7 +111,7 @@ By the end of this course, students will be able to:
 
 ---
 
-##  Exam Blueprint
+## Exam Blueprint
 
 > [!tip] Exam Strategy
 > As a VSC Practical subject, focus on **coding implementations** in Python. Units 3 and 5 are highest priority for practicals. Know all evaluation metrics cold for Unit 2.
@@ -124,7 +127,7 @@ pie title Approximate Exam Weightage
 
 ---
 
-## ️ Practical Tools & Libraries
+## Practical Tools & Libraries
 
 | Tool/Library | Version | Purpose |
 |-------------|---------|---------|
@@ -139,7 +142,7 @@ pie title Approximate Exam Weightage
 
 ---
 
-##  Reference Books
+## Reference Books
 
 1. *Artificial Intelligence: A Modern Approach* - Russell & Norvig (AIMA)
 2. *Pattern Recognition and Machine Learning* - Bishop
@@ -149,10 +152,10 @@ pie title Approximate Exam Weightage
 
 ---
 
-##  Related Subjects
+## Related Subjects
 
-- [[../CS-307-MJ-T-Data-Science-Analytics/Overview|CS-307 Data Science]] - Shares ML concepts, preprocessing
-- [[../CS-302-Database/Overview|CS-302 Database]] - Data foundation
+- [[01-Semester-V/CS-307-MJ-T-Data-Science-Analytics/Overview|CS-307 Data Science]] - Shares ML concepts, preprocessing
+- [[01-Semester-V/CS-302-MJ-T-Operating-Systems/Overview|CS-302 Database]] - Data foundation
 
 ---
 

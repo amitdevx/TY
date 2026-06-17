@@ -19,14 +19,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 1: Introduction to Data Science
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 1: Introduction to Data Science
 
 > [!note] Navigation
 > ← [[Syllabus]] | [[Overview]] | [[Unit-2]] →
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Define data science and differentiate it from related fields
 - [ ] Identify the roles within a data science team
@@ -248,7 +251,7 @@ with open('text.txt', 'r') as f:
 
 ---
 
-##  Key Terms Summary
+## Key Terms Summary
 
 | Term | Definition |
 |------|-----------|
@@ -262,7 +265,7 @@ with open('text.txt', 'r') as f:
 
 ---
 
-##  Interview Questions - Unit 1
+## Interview Questions - Unit 1
 
 > [!question] Q1: What is the difference between data science and machine learning?
 > **Answer**: Data Science is a broader field that encompasses data collection, cleaning, visualization, statistical analysis, and ML. Machine Learning is a *subset* of data science that focuses specifically on building predictive models that learn from data.
@@ -284,7 +287,7 @@ with open('text.txt', 'r') as f:
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 1 Key Points
 > 1. Data Science = Statistics + Programming + Domain Knowledge

@@ -11,7 +11,10 @@ type: important-questions
 last_reviewed: 2026-06-16
 ---
 
-#  CS-303 Web Technology-I - Important Questions
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-303 Web Technology-I - Important Questions
 
 > [!note] Navigation
 > [[Overview|CS-303 Overview]] | [[Revision|CS-303 Revision]] | [[Interview-Prep|CS-303 Interview-Prep]]
@@ -26,7 +29,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-##  Chapter 1 - Web Basics (HTML5 & CSS3)
+## Chapter 1 - Web Basics (HTML5 & CSS3)
 
 ### Short Answer Questions
 
@@ -56,7 +59,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-##  Chapter 2 - Advanced JavaScript ES6+
+## Chapter 2 - Advanced JavaScript ES6+
 
 ### Short Answer Questions
 
@@ -91,7 +94,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-##  Chapter 3 - Node.js Fundamentals
+## Chapter 3 - Node.js Fundamentals
 
 ### Short Answer Questions
 
@@ -121,7 +124,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-##  Chapter 4 - File Handling with Node.js
+## Chapter 4 - File Handling with Node.js
 
 ### Short Answer Questions
 
@@ -155,7 +158,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-##  Previous Year-Style Questions (Most Important)
+## Previous Year-Style Questions (Most Important)
 
 > [!warning] These types of questions appear most frequently
 

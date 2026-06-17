@@ -22,7 +22,10 @@ aliases:
   - "{{subject}} {{exam_type}} Prep"
 ---
 
-#  Exam Prep: {{subject}} - {{exam_type}}
+[[00-Dashboard/Home|Home]] | [[09-Templates/Templates-Dashboard|Templates Dashboard]]
+
+
+# Exam Prep: {{subject}} - {{exam_type}}
 
 > [!warning]  Exam Countdown
 > **Subject:** {{subject}} (`{{subject_code}}`)
@@ -32,7 +35,7 @@ aliases:
 
 ---
 
-##  High-Priority Units
+## High-Priority Units
 
 > [!important] Focus These Units First!
 
@@ -46,7 +49,7 @@ aliases:
 
 ---
 
-##  Important Topics Checklist
+## Important Topics Checklist
 
 ### Unit 1: 
 - [ ] 
@@ -85,7 +88,7 @@ aliases:
 
 ---
 
-##  Expected / Predicted Questions
+## Expected / Predicted Questions
 
 > [!tip] These questions are highly likely based on syllabus and past patterns.
 
@@ -125,7 +128,7 @@ aliases:
 
 ---
 
-##  Formula / Definitions Quick Sheet
+## Formula / Definitions Quick Sheet
 
 > [!important]  Quick Reference - Memorize These!
 
@@ -161,7 +164,7 @@ aliases:
 
 ---
 
-##  Last Minute Revision Checklist
+## Last Minute Revision Checklist
 
 > [!warning]  Do this the night before / morning of exam!
 
@@ -183,7 +186,7 @@ aliases:
 
 ---
 
-##  Past Year Question Patterns
+## Past Year Question Patterns
 
 ### Year: 20__
 
@@ -211,7 +214,7 @@ aliases:
 
 ---
 
-##  Preparation Timeline
+## Preparation Timeline
 
 | Day | Date | Plan | Done? |
 |---|---|---|---|
@@ -224,7 +227,7 @@ aliases:
 
 ---
 
-##  Mock Test / Practice Attempts
+## Mock Test / Practice Attempts
 
 | Attempt # | Date | Score | Time Taken | Weak Areas |
 |---|---|---|---|---|
@@ -234,7 +237,7 @@ aliases:
 
 ---
 
-##  Exam Strategy
+## Exam Strategy
 
 > [!tip]  My Exam Strategy
 >
@@ -254,7 +257,7 @@ aliases:
 
 ---
 
-##  Related Notes
+## Related Notes
 
 - [[{{subject}} Overview]]
 - [[{{subject}} Unit 1 Notes]]

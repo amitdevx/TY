@@ -12,7 +12,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-308-MJ-P - Data Science Lab
+[[00-Dashboard/Home|Home]] | [[04-Labs/Labs-Dashboard|Labs Dashboard]]
+
+
+# CS-308-MJ-P - Data Science Lab
 
 > [!important] Lab Info
 > **Code:** CS-308-MJ-P | **Based On:** CS-307-MJ-T Data Science
@@ -21,7 +24,7 @@ updated: 2026-06-16
 
 ---
 
-## ️ Lab Navigation
+## Lab Navigation
 
 | Assignment | Topic | Link | Status |
 |-----------|-------|------|--------|
@@ -34,7 +37,7 @@ updated: 2026-06-16
 
 ---
 
-##  Assignment Details
+## Assignment Details
 
 ### Assignment 1 - Data Processing & Cleaning (2 slots)
 
@@ -146,7 +149,7 @@ print(confusion_matrix(y_test, y_pred))
 
 ---
 
-##  Completion Tracker
+## Completion Tracker
 
 - [ ] **Exp-01 - Data Processing**
   - [ ] Load and explore dataset
@@ -181,7 +184,7 @@ print(confusion_matrix(y_test, y_pred))
 
 ---
 
-## ️ Setup Guide
+## Setup Guide
 
 ### Environment Setup
 
@@ -226,7 +229,7 @@ plt.rcParams['figure.figsize'] = (10, 6)
 
 ---
 
-##  Algorithm Comparison
+## Algorithm Comparison
 
 | Algorithm | Type | Hyperparameters | Best For |
 |-----------|------|----------------|---------|
@@ -240,9 +243,9 @@ plt.rcParams['figure.figsize'] = (10, 6)
 
 ---
 
-##  Related
+## Related
 
-- [[../../../11-Tracking/Lab-Tracker|Lab Tracker]]
+- [[11-Tracking/Lab-Tracker|Lab Tracker]]
 
 ---
 

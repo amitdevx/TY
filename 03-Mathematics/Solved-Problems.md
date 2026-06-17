@@ -9,7 +9,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Solved Problems - Mathematics (Operations Research)
+[[00-Dashboard/Home|Home]] | [[03-Mathematics/Mathematics-Dashboard|Mathematics]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Formula-Sheet]] | [[PYQ]]
+
+
+# Solved Problems - Mathematics (Operations Research)
 
 > [!tip] How to Use This File
 > Work through each problem yourself FIRST, then verify with the solution. Focus on the **process** not just the answer. Time yourself - exam expects 15-20 mins per problem.
@@ -106,7 +109,7 @@ $$= [1, 0, 2/5, -1/5, 2]$$
 
 All $c_j - z_j \leq 0$ → **OPTIMAL!** 
 
-###  Final Answer
+### Final Answer
 
 $$\boxed{x_1 = 2, \quad x_2 = 3, \quad Z_{\max} = 5(2) + 4(3) = \mathbf{22}}$$
 
@@ -196,7 +199,7 @@ $$[1/3,1,0,-1/3,2] - (1/3)[1,0,3/2,1/2,3] = [0,1,-1/2,-1/2,1]$$
 | $z_j$ | | 2 | 3 | 3/2-3/2=0? | ... | **Z=9** |
 | $c_j-z_j$ | | 0 | 0 | $\leq 0$ | $\leq 0$ | |
 
-###  Final Answer
+### Final Answer
 
 $$\boxed{x_1 = 3, \quad x_2 = 1, \quad Z_{\max} = 2(3) + 3(1) = \mathbf{9}}$$
 
@@ -343,7 +346,7 @@ $$d_{33} = c_{33} - u_3 - v_3 = 7 - 2 - 0 = 5 \geq 0 $$
 
 **All $d_{ij} \geq 0$ → Solution is OPTIMAL!** 
 
-###  Final Answer
+### Final Answer
 
 $$\boxed{x_{11}=5, x_{21}=2, x_{22}=2, x_{23}=4, x_{32}=7; \quad Z_{\min} = \mathbf{54}}$$
 

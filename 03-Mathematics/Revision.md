@@ -9,14 +9,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Mathematics Revision Notes - MTC-341
+[[00-Dashboard/Home|Home]] | [[03-Mathematics/Mathematics-Dashboard|Mathematics]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Formula-Sheet]] | [[PYQ]]
+
+
+# Mathematics Revision Notes - MTC-341
 
 > [!warning] Exam Ready Reference
 > This file contains **concise summaries** for last-day revision. For full theory, see [[Unit-1]], [[Unit-2]], [[Unit-3]]. For formulas, see [[Formula-Sheet]].
 
 ---
 
-##  UNIT 1 LIGHTNING REVIEW - LPP
+## UNIT 1 LIGHTNING REVIEW - LPP
 
 ### Core Concept in 3 Lines
 
@@ -61,13 +64,13 @@ updated: 2026-06-16
 
 ---
 
-##  UNIT 2 LIGHTNING REVIEW - Transportation
+## UNIT 2 LIGHTNING REVIEW - Transportation
 
 ### Core Concept in 3 Lines
 
 > Transportation: ship from $m$ sources to $n$ destinations at min cost.
 > Need $m+n-1$ basic allocations (non-degenerate BFS).
-> Find initial BFS → test with MODI → improve if $d_{ij}<0$.
+> Find initial BFS → test with MODI → improve if $d_{ij}< 0$.
 
 ### Three Methods for Initial BFS
 
@@ -101,7 +104,7 @@ $$\sum a_i = \sum b_j? \quad \text{YES → solve directly. NO → add dummy (cos
 
 ---
 
-##  UNIT 3 LIGHTNING REVIEW - Assignment
+## UNIT 3 LIGHTNING REVIEW - Assignment
 
 ### Core Concept in 2 Lines
 
@@ -138,7 +141,7 @@ $$\sum a_i = \sum b_j? \quad \text{YES → solve directly. NO → add dummy (cos
 
 ---
 
-##  Master Formula Reference
+## Master Formula Reference
 
 ### LPP
 $$Z = \sum c_j x_j, \quad z_j = \sum c_{Bi} a_{ij}, \quad c_j - z_j = c_j - z_j$$
@@ -153,7 +156,7 @@ $$\text{Maximize: } c^*_{ij} = \max(C) - c_{ij}$$
 
 ---
 
-##  Exam Day Checklist
+## Exam Day Checklist
 
 ### Before Starting Each Problem
 
@@ -187,7 +190,7 @@ $$\text{Maximize: } c^*_{ij} = \max(C) - c_{ij}$$
 
 ---
 
-##  Common Abbreviations
+## Common Abbreviations
 
 | Term | Full Form |
 |------|-----------|
@@ -203,7 +206,7 @@ $$\text{Maximize: } c^*_{ij} = \max(C) - c_{ij}$$
 
 ---
 
-##  Marks Distribution Guide
+## Marks Distribution Guide
 
 | Unit | Expected Marks | Key Topics |
 |------|---------------|-----------|
@@ -219,7 +222,7 @@ $$\text{Maximize: } c^*_{ij} = \max(C) - c_{ij}$$
 
 ---
 
-##  Key Numbers to Remember
+## Key Numbers to Remember
 
 | Concept | Number/Formula |
 |---------|---------------|

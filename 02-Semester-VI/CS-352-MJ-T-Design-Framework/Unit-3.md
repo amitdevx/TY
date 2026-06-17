@@ -18,12 +18,15 @@ updated: 2026-06-16
 hours: 7
 ---
 
-# ️ Unit 3 - Angular Routing
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 3 - Angular Routing
 
 > [!note] Unit Overview
 > Angular Router enables navigation between views in a Single Page Application without page reloads. This unit covers route configuration, parameters, child routes, guards for authentication, and lazy loading for performance optimization.
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Configure routes using `RouterModule`
 - [ ] Navigate using `routerLink` and programmatic navigation
@@ -360,12 +363,12 @@ export class ProductsRoutingModule { }
 ```mermaid
 graph LR
   subgraph Without Lazy Loading
-    ALL[Load ALL modules at start\n600KB bundle] --> SLOW[Slow initial load]
+    ALL[Load ALL modules at start<br/>600KB bundle] --> SLOW[Slow initial load]
   end
   subgraph With Lazy Loading
-    CORE[Load core modules\n200KB] --> FAST[Fast initial load]
-    FAST -->|Navigate to /products| PROD[Load products module\n150KB]
-    FAST -->|Navigate to /admin| ADM[Load admin module\n250KB]
+    CORE[Load core modules<br/>200KB] --> FAST[Fast initial load]
+    FAST -->|Navigate to /products| PROD[Load products module<br/>150KB]
+    FAST -->|Navigate to /admin| ADM[Load admin module<br/>250KB]
   end
 ```
 
@@ -413,7 +416,7 @@ const routes: Routes = [
 
 ---
 
-##  Key Terms Summary
+## Key Terms Summary
 
 | Term | Definition |
 |------|------------|
@@ -430,7 +433,7 @@ const routes: Routes = [
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 1. What is `RouterModule`? What is the difference between `forRoot()` and `forChild()`?
 2. What is `<router-outlet>`? How does it work in Angular navigation?
@@ -445,7 +448,7 @@ const routes: Routes = [
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview]] | [[Syllabus]]
 - ← Previous: [[Unit-2|Unit-2 - Components & Data Binding]]

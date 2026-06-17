@@ -1,42 +1,5 @@
-filters:
-  and:
-    - file.inFolder("06-Revision")
-    - file.ext == "md"
-
-properties:
-  revision_type:
-    displayName: "Type"
-  status:
-    displayName: "Status"
-  tags:
-    displayName: "Tags"
-
+version: 1
+rows: []
 views:
-  - type: list
-    name: "Revision Notes"
-    order:
-      - file.name
-      - revision_type
-      - file.mtime
   - type: table
-    name: "All Revision Files"
-    order:
-      - file.name
-      - revision_type
-      - status
-      - file.ctime
-      - file.mtime
-  - type: table
-    name: "Daily Logs"
-    filters:
-      file.inFolder("06-Revision/Daily")
-    order:
-      - file.name
-      - file.ctime
-  - type: table
-    name: "Final Revision"
-    filters:
-      file.inFolder("06-Revision/Final-Revision")
-    order:
-      - file.name
-      - status
+    name: Table

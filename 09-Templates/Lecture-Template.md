@@ -19,6 +19,9 @@ aliases:
   - "Lecture {{lecture_number}} - {{subject}}"
 ---
 
+[[00-Dashboard/Home|Home]] | [[09-Templates/Templates-Dashboard|Templates Dashboard]]
+
+
 # Lecture {{lecture_number}}: {{title}}
 
 > [!note]  Lecture Info
@@ -28,7 +31,7 @@ aliases:
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 By the end of this lecture, you should be able to:
 
@@ -40,7 +43,7 @@ By the end of this lecture, you should be able to:
 
 ---
 
-##  Key Concepts
+## Key Concepts
 
 > [!important] Core Ideas
 > List the most critical concepts introduced in this lecture.
@@ -53,7 +56,7 @@ By the end of this lecture, you should be able to:
 
 ---
 
-##  Definitions
+## Definitions
 
 | Term | Definition |
 |---|---|
@@ -65,7 +68,7 @@ By the end of this lecture, you should be able to:
 
 ---
 
-##  Main Content
+## Main Content
 
 ### Topic 1: 
 
@@ -91,7 +94,7 @@ graph TD
 
 ---
 
-##  Examples
+## Examples
 
 ### Example 1: 
 
@@ -113,7 +116,7 @@ graph TD
 
 ---
 
-## ️ Diagrams / Flowcharts
+## Diagrams / Flowcharts
 
 <!-- Insert images, hand-drawn notes, or Mermaid diagrams here -->
 
@@ -128,7 +131,7 @@ flowchart LR
 
 ---
 
-##  Summary
+## Summary
 
 > [!tip]  Lecture Summary
 > **In this lecture, we covered:**
@@ -140,7 +143,7 @@ flowchart LR
 
 ---
 
-##  Questions & Doubts
+## Questions & Doubts
 
 > [!warning]  Questions to Clarify
 > Note any doubts from this lecture for follow-up.
@@ -151,7 +154,7 @@ flowchart LR
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 1. 
 2. 
@@ -161,19 +164,19 @@ flowchart LR
 
 ---
 
-##  Navigation
+## Navigation
 
 | | Link |
 |---|---|
-| ⬅️ Previous Lecture | [[Lecture {{lecture_number - 1}}]] |
-| ️ Next Lecture | [[Lecture {{lecture_number + 1}}]] |
+| ⬅ Previous Lecture | [[Lecture {{lecture_number - 1}}]] |
+|  Next Lecture | [[Lecture {{lecture_number + 1}}]] |
 |  Unit Overview | [[Unit {{unit_number}} Overview]] |
 |  Subject Overview | [[{{subject}} Overview]] |
 |  Dashboard | [[00-Dashboard/Home]] |
 
 ---
 
-##  References
+## References
 
 - **Textbook:** 
 - **Chapter/Page:** 

@@ -19,12 +19,15 @@ updated: 2026-06-16
 hours: 5
 ---
 
-#  Unit 3 - Lexical Analysis
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 3 - Lexical Analysis
 
 > [!note] Unit Overview
 > Lexical Analysis (scanning) is the **first phase** of a compiler. It reads the source program character by character and groups them into meaningful tokens using patterns defined by regular expressions and recognized by finite automata.
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Distinguish between tokens, lexemes, and patterns
 - [ ] Draw transition diagrams for token recognition
@@ -85,7 +88,7 @@ These three concepts are closely related but distinct:
 | Token | Pattern (Informal) | Sample Lexemes |
 |-------|--------------------|----------------|
 | `KEYWORD` | Reserved words | `if`, `while`, `for`, `int`, `class` |
-| `IDENTIFIER` | Letter (letter\|digit\|_)* | `count`, `myVar`, `_name` |
+| `IDENTIFIER` | Letter (letter|digit|_)* | `count`, `myVar`, `_name` |
 | `INTEGER_LITERAL` | Digit+ | `42`, `100`, `0` |
 | `FLOAT_LITERAL` | Digit+ . Digit* (Digit+) | `3.14`, `2.5`, `100.0` |
 | `STRING_LITERAL` | " any-chars " | `"hello"`, `"world"` |
@@ -361,7 +364,7 @@ function retract():
 
 ---
 
-##  Key Terms Summary
+## Key Terms Summary
 
 | Term | Definition |
 |------|------------|
@@ -378,7 +381,7 @@ function retract():
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 1. What is the role of a Lexical Analyzer in a compiler?
 2. Distinguish between a token, a lexeme, and a pattern. Give examples for each.
@@ -393,7 +396,7 @@ function retract():
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview]] | [[Syllabus]]
 - ← Previous: [[Unit-2|Unit-2 - Introduction to Compiler]]

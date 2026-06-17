@@ -13,7 +13,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-351-MJ-T - Advanced Java Syllabus
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-351-MJ-T - Advanced Java Syllabus
 
 > [!note] Official Syllabus
 > This document contains the complete chapter-wise syllabus as prescribed. Total contact hours: **30H**.
@@ -109,7 +112,7 @@ updated: 2026-06-16
 
 ---
 
-##  Syllabus Weightage
+## Syllabus Weightage
 
 ```mermaid
 pie title Chapter-wise Hours
@@ -120,7 +123,7 @@ pie title Chapter-wise Hours
     "Hibernate/Spring" : 6
 ```
 
-##  Recommended Reading
+## Recommended Reading
 
 | Book | Author | Best For |
 |------|--------|----------|
@@ -130,7 +133,7 @@ pie title Chapter-wise Hours
 | Hibernate in Action | Bauer & King | Unit 5 |
 | Effective Java | Joshua Bloch | Best practices |
 
-##  Navigation
+## Navigation
 
 - [[Overview]] - Subject overview
 - [[Unit-1|Unit-1 - Collections Framework]]

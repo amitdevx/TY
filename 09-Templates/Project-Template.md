@@ -31,7 +31,10 @@ aliases:
   - "{{project_name}}"
 ---
 
-# ️ Project: {{project_name}}
+[[00-Dashboard/Home|Home]] | [[09-Templates/Templates-Dashboard|Templates Dashboard]]
+
+
+# Project: {{project_name}}
 
 > [!note]  Project Info
 > **Type:** {{project_type}} | **Semester:** {{semester}} | **Subject:** {{subject_code}}
@@ -41,7 +44,7 @@ aliases:
 
 ---
 
-##  Project Overview
+## Project Overview
 
 > Write a brief 3–5 sentence overview of what this project is about, its purpose, and its significance.
 
@@ -49,7 +52,7 @@ aliases:
 
 ---
 
-##  Problem Statement
+## Problem Statement
 
 > [!important] Problem Being Solved
 > State the problem clearly. What gap or need does this project address?
@@ -65,7 +68,7 @@ aliases:
 
 ---
 
-##  Objectives
+## Objectives
 
 By the end of this project, we aim to:
 
@@ -82,7 +85,7 @@ By the end of this project, we aim to:
 
 ---
 
-## ️ Technology Stack
+## Technology Stack
 
 | Layer | Technology | Version | Purpose |
 |---|---|---|---|
@@ -105,7 +108,7 @@ graph TB
 
 ---
 
-##  Requirements
+## Requirements
 
 ### Functional Requirements
 
@@ -127,7 +130,7 @@ graph TB
 
 ---
 
-## ️ Timeline / Milestones
+## Timeline / Milestones
 
 | Phase | Milestone | Start | End | Status | Deliverable |
 |---|---|---|---|---|---|
@@ -160,7 +163,7 @@ gantt
 
 ---
 
-##  Progress Tracker
+## Progress Tracker
 
 ### Phase 1: Planning & Requirements
 - [ ] Define project scope
@@ -203,7 +206,7 @@ gantt
 
 ---
 
-##  Team Members & Roles
+## Team Members & Roles
 
 | Member | Role | Responsibilities | Contact |
 |---|---|---|---|
@@ -213,7 +216,7 @@ gantt
 
 ---
 
-##  Meeting Notes
+## Meeting Notes
 
 ### Meeting 1 - {{start_date}}
 
@@ -236,7 +239,7 @@ gantt
 
 ---
 
-##  Learning Notes
+## Learning Notes
 
 > [!tip] What We Learned Building This Project
 
@@ -261,7 +264,7 @@ gantt
 
 ---
 
-##  Evaluation
+## Evaluation
 
 | Component | Max Marks | Marks Obtained | Remarks |
 |---|---|---|---|
@@ -276,7 +279,7 @@ gantt
 
 ---
 
-##  References & Resources
+## References & Resources
 
 | Resource | Type | Link / Details |
 |---|---|---|
@@ -288,9 +291,9 @@ gantt
 
 ---
 
-##  Navigation
+## Navigation
 
-- [[05-Projects/Overview| Projects Overview]]
+- [[01-Semester-V/CS-302-MJ-T-Operating-Systems/Overview| Projects Overview]]
 - [[00-Dashboard/Home| Dashboard]]
 - Repository: [{{project_name}}]({{repo_url}})
 

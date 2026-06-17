@@ -21,24 +21,27 @@ aliases:
 status: "not-started"
 ---
 
-#  CS-303 Web Technology-I - Complete Syllabus
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-303 Web Technology-I - Complete Syllabus
 
 > [!info] Course Information
 > **Semester:** V | **Credits:** 2 | **IE:** 15 | **EE:** 35
 > **Teaching:** 2 Hours/Week | **Total:** 30 Hours
 
-##  Prerequisites
+## Prerequisites
 - Knowledge of Programming Fundamentals
 - Basic knowledge of Computer Fundamentals
 - Familiarity with basic web browser and web applications
 
-##  Course Objectives
+## Course Objectives
 - Introduction to scripting languages
 - Development of interactive and dynamic client-side applications
 - Analyze asynchronous programming concepts for backend development
 - Design and implement basic server-side applications and file handling
 
-##  Course Outcomes (COs)
+## Course Outcomes (COs)
 
 | CO | Description |
 |----|-------------|
@@ -47,7 +50,7 @@ status: "not-started"
 | CO3 | Analyze asynchronous programming and Node.js execution model |
 | CO4 | Design and implement basic backend apps with HTTP server and file handling |
 
-##  Chapter-wise Syllabus
+## Chapter-wise Syllabus
 
 ### Chapter 1: Frontend Fundamentals *(9 Hours)*
 → [[Unit-1|Unit 1 Notes]]
@@ -105,7 +108,7 @@ status: "not-started"
 | 4.3 | **Directory Management**: Creating, listing, renaming, deleting folders |
 | 4.4 | **File Upload Basics**: Upload middleware intro, handling uploaded file storage |
 
-##  Reference Books
+## Reference Books
 
 | # | Book | Author |
 |---|------|--------|
@@ -118,7 +121,7 @@ status: "not-started"
 | R7 | Practical Node.js | Azat Mardan |
 | R8 | Learning Node.js Development | Andrew Mead |
 
-##  Most Important Topics for Exam
+## Most Important Topics for Exam
 
 > [!warning] Key Topics to Master
 > 1. **Flexbox vs Grid** - layout differences and use cases
@@ -129,13 +132,13 @@ status: "not-started"
 > 6. **HTTP server creation** with Node.js
 > 7. **File operations** (sync vs async) using `fs` module
 
-## ️ Quick Navigation
+## Quick Navigation
 
 | File | Purpose |
 |------|---------|
 | [[Overview|Overview.md]] | Subject overview |
 | [[Unit-1|Unit 1: Frontend Fundamentals]] | HTML5, CSS3, Core JS |
-| [[Unit-2|Unit 2: Advanced JavaScript ES6+]] | Modern JS features, async |
+| [[Unit-2|Unit 2: Advanced JavaScript ES6]] | Modern JS features, async |
 | [[Unit-3|Unit 3: Node.js Fundamentals]] | Server-side JavaScript |
 | [[Unit-4|Unit 4: File Handling with Node.js]] | fs module, JSON, directories |
 | [[Important-Questions|Important Questions]] | Exam Q&A |

@@ -20,7 +20,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 2: Activities and Intents
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 2: Activities and Intents
 
 > [!important] Learning Objectives
 > After this unit, you should be able to:
@@ -33,7 +36,7 @@ updated: 2026-06-16
 
 ---
 
-##  Topics at a Glance
+## Topics at a Glance
 
 ```mermaid
 mindmap
@@ -70,7 +73,7 @@ mindmap
 
 ## 2.1 Intents
 
-###  What is an Intent?
+### What is an Intent?
 
 An ==Intent== is a messaging object that can be used to request an action from another **Android component** (Activity, Service, BroadcastReceiver, ContentProvider).
 
@@ -91,7 +94,7 @@ graph LR
 
 ---
 
-###  Explicit Intents
+### Explicit Intents
 
 ```kotlin
 // Starting another activity in your app
@@ -119,7 +122,7 @@ finish()  // removes current activity from back stack
 
 ---
 
-###  Implicit Intents
+### Implicit Intents
 
 Implicit intents specify an **action** and optional data - the system finds the right component.
 
@@ -159,7 +162,7 @@ intent.setPackage("com.google.android.apps.maps")
 startActivity(intent)
 ```
 
-###  Intent Filters (in Manifest)
+### Intent Filters (in Manifest)
 
 ```xml
 <!-- Making your activity respond to implicit intents -->
@@ -186,7 +189,7 @@ startActivity(intent)
 
 ## 2.2 Passing Data Between Activities
 
-###  Sending Data with putExtra()
+### Sending Data with putExtra()
 
 ```kotlin
 // MainActivity.kt - sending data
@@ -208,7 +211,7 @@ intent.putStringArrayListExtra("list_key", ArrayList(listOf("x", "y")))
 startActivity(intent)
 ```
 
-###  Receiving Data with getExtra()
+### Receiving Data with getExtra()
 
 ```kotlin
 // DetailActivity.kt - receiving data
@@ -234,7 +237,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 }
 ```
 
-###  Parcelable (Passing Objects)
+### Parcelable (Passing Objects)
 
 ```kotlin
 // Data class implementing Parcelable (use @Parcelize)
@@ -323,18 +326,18 @@ val toast = Toast.makeText(this, "Hello!", Toast.LENGTH_SHORT)
 
 ## 2.5 Fragments
 
-###  What is a Fragment?
+### What is a Fragment?
 
 A ==Fragment== represents a **reusable portion** of your app's UI. Fragments can be combined in a single activity to build multi-pane UIs and be reused across multiple activities.
 
-###  Fragment Lifecycle
+### Fragment Lifecycle
 
 ```mermaid
 stateDiagram-v2
     [*] --> Attached: onAttach()
     Attached --> Created: onCreate()
     Created --> ViewCreated: onCreateView()
-    ViewCreated --> Started: onViewCreated()\nonStart()
+    ViewCreated --> Started: onViewCreated()<br/>onStart()
     Started --> Resumed: onResume()
     Resumed --> Paused: onPause()
     Paused --> Stopped: onStop()
@@ -344,7 +347,7 @@ stateDiagram-v2
     Detached --> [*]
 ```
 
-###  Creating a Fragment
+### Creating a Fragment
 
 ```kotlin
 // MyFragment.kt
@@ -392,7 +395,7 @@ class MyFragment : Fragment() {
 }
 ```
 
-###  Adding Fragment to Activity
+### Adding Fragment to Activity
 
 ```kotlin
 // Dynamic - programmatic
@@ -406,7 +409,7 @@ supportFragmentManager.beginTransaction()
 // <fragment android:name="com.example.MyFragment" ... />
 ```
 
-###  Fragment Communication
+### Fragment Communication
 
 ```kotlin
 // Fragment to Activity - via ViewModel (recommended)
@@ -440,7 +443,7 @@ class DetailFragment : Fragment() {
 
 ## 2.6 RecyclerView and Adapter Pattern
 
-###  Why RecyclerView?
+### Why RecyclerView?
 
 ==RecyclerView== efficiently displays large lists/grids by **recycling** views that are no longer visible, instead of creating new views for each item.
 
@@ -450,10 +453,10 @@ graph LR
     Adapter --> VH[ViewHolder]
     VH --> RV[RecyclerView]
     RV --> Screen
-    Note["When item scrolls off screen:\nViewHolder is recycled and reused\nfor the next item"] 
+    Note["When item scrolls off screen:<br/>ViewHolder is recycled and reused<br/>for the next item"] 
 ```
 
-###  Implementation Steps
+### Implementation Steps
 
 **1. Add dependency (build.gradle):**
 ```groovy
@@ -606,7 +609,7 @@ findNavController().navigateUp()
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -624,7 +627,7 @@ findNavController().navigateUp()
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 > [!question] Short Answer Questions
 > 1. What is the difference between explicit and implicit intents? Give examples.
@@ -640,7 +643,7 @@ findNavController().navigateUp()
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Unit-1|← Unit 1: Introduction to Android]]
 - [[Syllabus| Syllabus]]

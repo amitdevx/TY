@@ -11,7 +11,10 @@ type: interview-prep
 last_reviewed: 2026-06-16
 ---
 
-#  CS-303 Web Technology-I - Interview Preparation
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-303 Web Technology-I - Interview Preparation
 
 > [!note] Navigation
 > [[Overview|CS-303 Overview]] | [[Revision|CS-303 Revision]] | [[Important-Questions|CS-303 Important-Questions]]
@@ -23,7 +26,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-##  HTML5 & CSS Interview Questions
+## HTML5 & CSS Interview Questions
 
 ### Q1: What are semantic HTML elements? Why should you use them?
 **Answer:**
@@ -120,7 +123,7 @@ Responsive Design ensures a website adapts to all screen sizes using:
 
 ---
 
-##  JavaScript ES6+ Interview Questions
+## JavaScript ES6+ Interview Questions
 
 ### Q7: `var` vs `let` vs `const` - which should you use and why?
 **Answer:**
@@ -236,7 +239,7 @@ import Calculator, { PI } from './math.js';  // both
 
 ---
 
-##  Node.js Interview Questions
+## Node.js Interview Questions
 
 ### Q12: What is Node.js? Why is it used for web servers?
 **Answer:**
@@ -300,7 +303,7 @@ Callback Queue → Call Stack
 
 ---
 
-##  File Handling Interview Questions
+## File Handling Interview Questions
 
 ### Q16: Sync vs Async file operations - when to use each?
 **Answer:**
@@ -365,7 +368,7 @@ const upload = multer({
 
 ---
 
-##  Behavioral / Conceptual Questions
+## Behavioral / Conceptual Questions
 
 ### Q19: Explain the difference between CFL and JavaScript at runtime.
 **Answer:** "CFL" (Context-Free Language) is a theory concept. JavaScript itself is not a CFL - it requires more powerful parsers. The question likely means: JavaScript is parsed using LR/LALR parsers (more powerful than PDA) because of complex grammar rules.
@@ -383,7 +386,7 @@ const upload = multer({
 
 ---
 
-##  Quick Answer Reference (Viva)
+## Quick Answer Reference (Viva)
 
 | Question | One-Line Answer |
 |----------|----------------|

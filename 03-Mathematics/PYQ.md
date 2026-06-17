@@ -9,7 +9,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Past Year Questions - Mathematics (MTC-341)
+[[00-Dashboard/Home|Home]] | [[03-Mathematics/Mathematics-Dashboard|Mathematics]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Formula-Sheet]] | [[PYQ]]
+
+
+# Past Year Questions - Mathematics (MTC-341)
 
 > [!important] Exam Strategy
 > Focus on **Problems 3, 4, 5** (Transportation & Assignment) - they carry maximum marks.
@@ -172,7 +175,7 @@ Using (i) VAM for initial BFS and (ii) MODI for optimality.
 | W3 | 10 | 7 | 2 | 2 |
 | W4 | 7 | 11 | 9 | 14 |
 
-> **Hint:** Row reduce → col reduce → cover zeros → if <4 lines apply θ step. Expected: W1→M2, W2→M1, W3→M4, W4→M3 or similar.
+> **Hint:** Row reduce → col reduce → cover zeros → if < 4 lines apply θ step. Expected: W1→M2, W2→M1, W3→M4, W4→M3 or similar.
 
 ---
 

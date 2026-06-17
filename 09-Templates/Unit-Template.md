@@ -20,6 +20,9 @@ aliases:
   - "Unit {{unit_number}} {{subject}}"
 ---
 
+[[00-Dashboard/Home|Home]] | [[09-Templates/Templates-Dashboard|Templates Dashboard]]
+
+
 # Unit {{unit_number}}: {{title}}
 
 > [!note]  Unit Info
@@ -29,7 +32,7 @@ aliases:
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 > From the official syllabus - master all of these!
 
@@ -44,7 +47,7 @@ By the end of this unit, you should be able to:
 
 ---
 
-##  Topics Covered (Syllabus Checklist)
+## Topics Covered (Syllabus Checklist)
 
 > Check off each topic as you study it.
 
@@ -67,7 +70,7 @@ By the end of this unit, you should be able to:
 
 ---
 
-##  Key Concepts
+## Key Concepts
 
 > [!important] Core Ideas of This Unit
 > Master these before moving on.
@@ -97,7 +100,7 @@ mindmap
 
 ---
 
-##  Detailed Notes
+## Detailed Notes
 
 ### 1. 
 
@@ -137,7 +140,7 @@ mindmap
 
 ---
 
-## ️ Diagrams / Flowcharts
+## Diagrams / Flowcharts
 
 ### Diagram 1: 
 
@@ -163,7 +166,7 @@ sequenceDiagram
 
 ---
 
-##  Definitions Table
+## Definitions Table
 
 | Term | Definition | Related Concept |
 |---|---|---|
@@ -176,7 +179,7 @@ sequenceDiagram
 
 ---
 
-## ️ Important Theorems / Properties / Algorithms
+## Important Theorems / Properties / Algorithms
 
 | # | Name | Statement / Description |
 |---|---|---|
@@ -186,7 +189,7 @@ sequenceDiagram
 
 ---
 
-##  Code Examples
+## Code Examples
 
 > (If applicable for this unit)
 
@@ -197,7 +200,7 @@ sequenceDiagram
 
 ---
 
-##  Interview Questions
+## Interview Questions
 
 > [!tip]  Frequently Asked Interview Questions from this Unit
 
@@ -226,7 +229,7 @@ sequenceDiagram
 
 ---
 
-##  Practice Problems
+## Practice Problems
 
 | # | Problem | Difficulty | Status |
 |---|---|---|---|
@@ -238,7 +241,7 @@ sequenceDiagram
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!tip]  Unit {{unit_number}} - Revision Summary
 >
@@ -258,7 +261,7 @@ sequenceDiagram
 
 ---
 
-##  References
+## References
 
 | Resource | Type | Details |
 |---|---|---|
@@ -269,12 +272,12 @@ sequenceDiagram
 
 ---
 
-##  Navigation
+## Navigation
 
 | | Link |
 |---|---|
-| ⬅️ Previous Unit | [[Unit {{unit_number - 1}} Overview]] |
-| ️ Next Unit | [[Unit {{unit_number + 1}} Overview]] |
+| ⬅ Previous Unit | [[Unit {{unit_number - 1}} Overview]] |
+|  Next Unit | [[Unit {{unit_number + 1}} Overview]] |
 |  Subject Overview | [[{{subject}} Overview]] |
 |  Dashboard | [[00-Dashboard/Home]] |
 

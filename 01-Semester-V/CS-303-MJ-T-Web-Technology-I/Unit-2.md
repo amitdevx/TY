@@ -17,14 +17,17 @@ type: unit-notes
 last_reviewed: 2026-06-16
 ---
 
-#  Unit 2 - Advanced JavaScript ES6+
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 2 - Advanced JavaScript ES6+
 
 > [!note] Navigation
 > [[Overview|CS-303 Overview]] | ← [[Unit-1]] | **Unit 2** → [[Unit-3]] → [[Unit-4]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Understand `var`, `let`, `const` and their scope differences
 - Write arrow functions and understand lexical `this`
@@ -829,7 +832,7 @@ console.log(add(1, 2)(3));  // 6
 
 ---
 
-##  Interview Questions - Unit 2
+## Interview Questions - Unit 2
 
 > [!question] Key Interview/Exam Questions
 
@@ -870,7 +873,7 @@ console.log(add(1, 2)(3));  // 6
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 2 Key Takeaways
 >

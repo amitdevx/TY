@@ -19,13 +19,16 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # Unit 5 - File System and Disk Scheduling
 > [!important] **Hours:** 5 | **Subject:** CS-302-MJ-T Operating Systems | **Semester:** V
 > **Previous:** [[Unit-4|Unit 4: Deadlock]] | **Next:** [[Important-Questions]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Define files and describe their attributes and operations
 - Understand directory structures
@@ -251,9 +254,9 @@ graph TD
     inode["inode (Index Node)"] --> D1["Direct Block 1"]
     inode --> D2["Direct Block 2"]
     inode --> D12["... Direct Blocks (12)"]
-    inode --> SI["Single Indirect\nBlock"]
-    inode --> DI["Double Indirect\nBlock"]
-    inode --> TI["Triple Indirect\nBlock"]
+    inode --> SI["Single Indirect<br/>Block"]
+    inode --> DI["Double Indirect<br/>Block"]
+    inode --> TI["Triple Indirect<br/>Block"]
     
     SI --> P1["→ Data Block"]
     DI --> SI2["Single Indirect"] --> P2["→ Data Block"]
@@ -323,11 +326,11 @@ Free blocks: 1, 2, 4, 7
 ```mermaid
 graph LR
     subgraph Disk["Hard Disk Drive Structure"]
-        PLATTER["Platter\n(magnetic disk)"]
-        TRACK["Track\n(concentric circles on platter)"]
-        SECTOR["Sector\n(smallest storage unit, 512B or 4KB)"]
-        CYLINDER["Cylinder\n(same track on all platters)"]
-        HEAD["Read/Write Head\n(one per platter surface)"]
+        PLATTER["Platter<br/>(magnetic disk)"]
+        TRACK["Track<br/>(concentric circles on platter)"]
+        SECTOR["Sector<br/>(smallest storage unit, 512B or 4KB)"]
+        CYLINDER["Cylinder<br/>(same track on all platters)"]
+        HEAD["Read/Write Head<br/>(one per platter surface)"]
     end
 ```
 
@@ -353,7 +356,7 @@ graph LR
 > [!note] Goal
 > Minimize **total head movement** (total seek distance) to improve disk I/O performance.
 
-###  Example Setup
+### Example Setup
 
 **Initial head position:** 53
 **Request queue:** 98, 183, 37, 122, 14, 124, 65, 67
@@ -485,7 +488,7 @@ Movement: (183-53) + (37-14) = 130 + 23 = 153 cylinders (not counting jump)
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|------------|
@@ -505,7 +508,7 @@ Movement: (183-53) + (37-14) = 130 + 23 = 153 cylinders (not counting jump)
 
 ---
 
-##  Interview Questions
+## Interview Questions
 
 1. **What are the different file allocation methods? Compare them.**
    - Contiguous: consecutive blocks, fast access, external fragmentation; Linked: linked list, no frag, no random access; Indexed: index block, fast + no frag, overhead.
@@ -539,7 +542,7 @@ Movement: (183-53) + (37-14) = 130 + 23 = 153 cylinders (not counting jump)
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!note] Quick Revision - Unit 5
 > 
@@ -561,8 +564,8 @@ Movement: (183-53) + (37-14) = 130 + 23 = 153 cylinders (not counting jump)
 
 ---
 
-##  Navigation
+## Navigation
 
 | Previous | Current | Next |
 |----------|---------|------|
-| [[Unit-4\|Unit 4: Deadlock]] | **Unit 5: File System and Disk Scheduling** | [[Important-Questions\|Important Questions]] |
+| [[Unit-4|Unit 4: Deadlock]] | **Unit 5: File System and Disk Scheduling** | [[Important-Questions|Important Questions]] |

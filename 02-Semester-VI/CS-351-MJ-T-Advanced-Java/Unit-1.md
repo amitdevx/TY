@@ -18,12 +18,15 @@ updated: 2026-06-16
 hours: 6
 ---
 
-#  Unit 1 - Collections Framework
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 1 - Collections Framework
 
 > [!note] Unit Overview
 > The Java Collections Framework provides a unified architecture for storing and manipulating groups of objects. This unit covers all major collection types, iterators, ordering mechanisms, and generics.
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Distinguish between List, Set, Map, and Queue interfaces
 - [ ] Choose the appropriate collection class for a given use case
@@ -500,7 +503,7 @@ public double sumList(List<? extends Number> list) {
 
 ---
 
-##  Key Terms Summary
+## Key Terms Summary
 
 | Term | Definition |
 |------|------------|
@@ -517,7 +520,7 @@ public double sumList(List<? extends Number> list) {
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 1. What is the difference between `ArrayList` and `LinkedList`? When would you prefer each?
 2. How does `HashSet` prevent duplicate elements internally?
@@ -532,7 +535,7 @@ public double sumList(List<? extends Number> list) {
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview]] | [[Syllabus]]
 - ← Previous: (Start)

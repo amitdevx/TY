@@ -17,7 +17,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-307-MJ-T: Data Science and Analytics
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-307-MJ-T: Data Science and Analytics
 
 > [!important] Subject Information
 > **Subject Code:** CS-307-MJ-T  
@@ -28,7 +31,7 @@ updated: 2026-06-16
 
 ---
 
-## ️ Subject Map
+## Subject Map
 
 ```mermaid
 mindmap
@@ -60,19 +63,19 @@ mindmap
 
 ---
 
-##  Units at a Glance
+## Units at a Glance
 
 | Unit | Title | Key Topics | Weight |
 |------|-------|------------|--------|
-| [[Unit-1\|Unit 1]] | Introduction to Data Science | DS definition, roles, data types, pipeline |  |
-| [[Unit-2\|Unit 2]] | Data Preprocessing | Cleaning, normalization, outliers, missing values |  |
-| [[Unit-3\|Unit 3]] | Data Visualization | Charts, plots, Matplotlib, Seaborn, Plotly |  |
-| [[Unit-4\|Unit 4]] | Statistics for Data Science | Descriptive stats, probability, hypothesis testing |  |
-| [[Unit-5\|Unit 5]] | Data Mining & Machine Learning | KDD, regression, classification, clustering |  |
+| [[Unit-1|Unit 1]] | Introduction to Data Science | DS definition, roles, data types, pipeline |  |
+| [[Unit-2|Unit 2]] | Data Preprocessing | Cleaning, normalization, outliers, missing values |  |
+| [[Unit-3|Unit 3]] | Data Visualization | Charts, plots, Matplotlib, Seaborn, Plotly |  |
+| [[Unit-4|Unit 4]] | Statistics for Data Science | Descriptive stats, probability, hypothesis testing |  |
+| [[Unit-5|Unit 5]] | Data Mining & Machine Learning | KDD, regression, classification, clustering |  |
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 By the end of this course, students will be able to:
 
@@ -86,7 +89,7 @@ By the end of this course, students will be able to:
 
 ---
 
-##  Quick Navigation
+## Quick Navigation
 
 | Document | Purpose |
 |----------|---------|
@@ -102,7 +105,7 @@ By the end of this course, students will be able to:
 
 ---
 
-##  Exam Blueprint
+## Exam Blueprint
 
 > [!tip] Exam Strategy
 > Focus heavily on **Unit 4 (Statistics)** and **Unit 5 (ML)** - these typically carry 40–50% of exam marks. Units 2 and 3 are highly practical and coding-based.
@@ -118,7 +121,7 @@ pie title Approximate Exam Weightage
 
 ---
 
-## ️ Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |------|---------|
@@ -133,7 +136,7 @@ pie title Approximate Exam Weightage
 
 ---
 
-##  Reference Books
+## Reference Books
 
 1. *Data Science from Scratch* - Joel Grus
 2. *Python for Data Analysis* - Wes McKinney
@@ -143,10 +146,10 @@ pie title Approximate Exam Weightage
 
 ---
 
-##  Related Subjects
+## Related Subjects
 
-- [[../CS-321-VSC-P-AI-ML/Overview|CS-321 AI/ML]] - Closely related; ML concepts overlap
-- [[../CS-302-Database/Overview|CS-302 Database]] - Data storage foundation
+- [[01-Semester-V/CS-321-VSC-P-AI-ML/Overview|CS-321 AI/ML]] - Closely related; ML concepts overlap
+- [[01-Semester-V/CS-302-MJ-T-Operating-Systems/Overview|CS-302 Database]] - Data storage foundation
 
 ---
 

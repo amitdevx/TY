@@ -18,12 +18,15 @@ updated: 2026-06-16
 hours: 4
 ---
 
-# ️ Unit 2 - Introduction to Compiler
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 2 - Introduction to Compiler
 
 > [!note] Unit Overview
 > This unit provides a holistic understanding of what compilers do, how they are structured into phases, and the different types of compilers. This is the conceptual foundation for the detailed analysis in later units.
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Define a compiler and distinguish it from an interpreter
 - [ ] Explain all six phases of a compiler with data flow
@@ -105,12 +108,12 @@ A compiler works in **six major phases**, each transforming the source program:
 ```mermaid
 flowchart TD
   A["Source Program: 'position = initial + rate * 60'"] --> B
-  B["Lexical Analyzer\n↓\nToken stream:\nid₁ = id₂ + id₃ * 60"] --> C
-  C["Syntax Analyzer\n↓\nSyntax tree (AST)"] --> D
-  D["Semantic Analyzer\n↓\nAnnotated tree\n(types checked)"] --> E
-  E["Intermediate Code Gen\n↓\nt1 = inttofloat(60)\nt2 = id₃ * t1\nt3 = id₂ + t2\nid₁ = t3"] --> F
-  F["Code Optimizer\n↓\nt1 = id₃ * 60.0\nid₁ = id₂ + t1"] --> G
-  G["Code Generator\n↓\nLDF R2, id₃\nMULF R2, #60.0\nLDF R1, id₂\nADDF R1, R2\nSTF id₁, R1"] --> H
+  B["Lexical Analyzer<br/>↓<br/>Token stream:<br/>id₁ = id₂ + id₃ * 60"] --> C
+  C["Syntax Analyzer<br/>↓<br/>Syntax tree (AST)"] --> D
+  D["Semantic Analyzer<br/>↓<br/>Annotated tree<br/>(types checked)"] --> E
+  E["Intermediate Code Gen<br/>↓<br/>t1 = inttofloat(60)<br/>t2 = id₃ * t1<br/>t3 = id₂ + t2<br/>id₁ = t3"] --> F
+  F["Code Optimizer<br/>↓<br/>t1 = id₃ * 60.0<br/>id₁ = id₂ + t1"] --> G
+  G["Code Generator<br/>↓<br/>LDF R2, id₃<br/>MULF R2, #60.0<br/>LDF R1, id₂<br/>ADDF R1, R2<br/>STF id₁, R1"] --> H
   H["Target Machine Code"]
 ```
 
@@ -281,7 +284,7 @@ The ==Error Handler== detects and reports errors encountered during compilation 
 
 ---
 
-##  Key Terms Summary
+## Key Terms Summary
 
 | Term | Definition |
 |------|------------|
@@ -298,7 +301,7 @@ The ==Error Handler== detects and reports errors encountered during compilation 
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 1. Define a compiler. How does it differ from an interpreter?
 2. Draw and explain the structure of a compiler showing front-end and back-end phases.
@@ -313,7 +316,7 @@ The ==Error Handler== detects and reports errors encountered during compilation 
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview]] | [[Syllabus]]
 - ← Previous: [[Unit-1|Unit-1 - CFG and Languages]]

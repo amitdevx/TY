@@ -18,12 +18,15 @@ updated: 2026-06-16
 hours: 4
 ---
 
-# ️ Unit 1 - Introduction to Angular
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 1 - Introduction to Angular
 
 > [!note] Unit Overview
 > This unit establishes the foundation for Angular development - understanding the framework's architecture, the SPA paradigm, and TypeScript fundamentals that power Angular applications.
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Explain Angular's architecture and core building blocks
 - [ ] Distinguish Angular from AngularJS
@@ -381,7 +384,7 @@ class Example {
 
 ---
 
-##  Key Terms Summary
+## Key Terms Summary
 
 | Term | Definition |
 |------|------------|
@@ -396,7 +399,7 @@ class Example {
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 1. What is Angular? List its key features.
 2. What is a Single Page Application (SPA)? How does it differ from a Multi-Page Application?
@@ -411,7 +414,7 @@ class Example {
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview]] | [[Syllabus]]
 - ← Previous: (Start)

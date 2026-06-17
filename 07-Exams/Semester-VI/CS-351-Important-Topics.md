@@ -18,14 +18,17 @@ created: 2026-06-16
 type: important-topics
 ---
 
-#  CS-351 Advanced Java - Important Topics
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-351 Advanced Java - Important Topics
 
 > [!important] Exam Focus
 > Advanced Java is broad and practical. Collections and Multithreading are foundational. JDBC programs are guaranteed. Servlet lifecycle + JSP implicit objects are easy marks.
 
 ---
 
-##  Top 10 Most Important Topics
+## Top 10 Most Important Topics
 
 | # | Topic | Description | Probability |
 |---|-------|-------------|-------------|
@@ -42,7 +45,7 @@ type: important-topics
 
 ---
 
-##  "Definitely Going to Come" Section
+## "Definitely Going to Come" Section
 
 > [!warning] Near-Certain Questions
 > 1. **Write a Java program using Collections** - ArrayList operations + HashMap iteration
@@ -55,7 +58,7 @@ type: important-topics
 
 ---
 
-##  Must-Know Definitions
+## Must-Know Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -76,7 +79,7 @@ type: important-topics
 
 ---
 
-##  Quick Code Patterns
+## Quick Code Patterns
 
 ### ArrayList + HashMap
 ```java
@@ -125,7 +128,7 @@ public class MyServlet extends HttpServlet {
 
 ---
 
-##  Collections Comparison Quick Reference
+## Collections Comparison Quick Reference
 
 | Collection | Duplicate | Order | Null | Thread-Safe |
 |------------|-----------|-------|------|-------------|
@@ -141,7 +144,7 @@ public class MyServlet extends HttpServlet {
 
 ---
 
-##  Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 > [!warning] Avoid These Errors
 > - **ConcurrentModificationException:** Don't modify a collection while iterating with for-each. Use Iterator.remove() instead.
@@ -153,7 +156,7 @@ public class MyServlet extends HttpServlet {
 
 ---
 
-##  JSP Implicit Objects Reference
+## JSP Implicit Objects Reference
 
 | Object | Type | Scope |
 |--------|------|-------|
@@ -169,4 +172,4 @@ public class MyServlet extends HttpServlet {
 
 ---
 
-*Tags: CS-351 Advanced Java | Semester VI | [[07-Exams]]*
+*Tags: CS-351 Advanced Java | Semester VI | [[07-Exams/Exams-Dashboard|Exams]]*

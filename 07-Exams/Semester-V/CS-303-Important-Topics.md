@@ -18,14 +18,17 @@ created: 2026-06-16
 type: important-topics
 ---
 
-#  CS-303 Web Technology-I - Important Topics
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-303 Web Technology-I - Important Topics
 
 > [!important] Exam Focus
 > This subject is highly practical. Prioritize writing code. Theory questions are short - definitions and comparisons.
 
 ---
 
-##  Top 10 Most Important Topics
+## Top 10 Most Important Topics
 
 | # | Topic | Description | Probability |
 |---|-------|-------------|-------------|
@@ -42,7 +45,7 @@ type: important-topics
 
 ---
 
-##  "Definitely Going to Come" Section
+## "Definitely Going to Come" Section
 
 > [!warning] Exam Guaranteed Topics
 > These have near 100% probability based on syllabus pattern:
@@ -66,7 +69,7 @@ type: important-topics
 
 ---
 
-##  Must-Know Definitions
+## Must-Know Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -83,7 +86,7 @@ type: important-topics
 
 ---
 
-##  Quick Code Patterns to Remember
+## Quick Code Patterns to Remember
 
 ### CSS Flexbox Template
 ```css
@@ -148,7 +151,7 @@ app.listen(3000);
 
 ---
 
-##  Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 > [!warning] Mistakes Students Commonly Make
 > - **Flexbox vs Grid confusion:** Flexbox = 1D (row OR column), Grid = 2D (rows AND columns)
@@ -161,7 +164,7 @@ app.listen(3000);
 
 ---
 
-##  Key HTML5 Attributes Cheatsheet
+## Key HTML5 Attributes Cheatsheet
 
 ```html
 <!-- Input types -->
@@ -177,19 +180,19 @@ app.listen(3000);
 
 ---
 
-##  CSS Properties Quick Reference
+## CSS Properties Quick Reference
 
 | Property | Use |
 |----------|-----|
-| `flex-direction` | row \| column \| row-reverse \| column-reverse |
-| `justify-content` | flex-start \| center \| flex-end \| space-between \| space-around |
-| `align-items` | stretch \| center \| flex-start \| flex-end \| baseline |
-| `grid-template-columns` | repeat(3, 1fr) \| 200px auto 200px |
+| `flex-direction` | row | column | row-reverse | column-reverse |
+| `justify-content` | flex-start | center | flex-end | space-between | space-around |
+| `align-items` | stretch | center | flex-start | flex-end | baseline |
+| `grid-template-columns` | repeat(3, 1fr) | 200px auto 200px |
 | `grid-gap` / `gap` | Spacing between grid items |
 | `@media` | `@media (max-width: 768px) { }` |
-| `position` | static \| relative \| absolute \| fixed \| sticky |
+| `position` | static | relative | absolute | fixed | sticky |
 | `z-index` | Stacking order (higher = on top) |
 
 ---
 
-*Tags: CS-303 Web Technology-I | Semester V | [[07-Exams]]*
+*Tags: CS-303 Web Technology-I | Semester V | [[07-Exams/Exams-Dashboard|Exams]]*

@@ -15,14 +15,17 @@ credits: 4
 last_reviewed: 2026-06-16
 ---
 
-#  CS-304-MJ-T - Theory of Computer Science
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-304-MJ-T - Theory of Computer Science
 
 > [!important] Subject at a Glance
 > Theory of Computer Science (TOC / TCS) is the mathematical foundation of computing - studying what problems computers **can** and **cannot** solve, and how efficiently. It covers automata, formal languages, grammars, and Turing machines.
 
 ---
 
-##  Subject Information
+## Subject Information
 
 | Field           | Details                                  |
 |-----------------|------------------------------------------|
@@ -35,7 +38,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-## ️ Chapter Overview
+## Chapter Overview
 
 ```mermaid
 mindmap
@@ -70,7 +73,7 @@ mindmap
 
 ---
 
-##  Unit Notes
+## Unit Notes
 
 | Unit | Topic | Hours | Notes | Status |
 |------|-------|-------|-------|--------|
@@ -82,7 +85,7 @@ mindmap
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 By the end of this course, students will be able to:
 
@@ -100,17 +103,17 @@ By the end of this course, students will be able to:
 
 ---
 
-##  Chomsky Hierarchy - Big Picture
+## Chomsky Hierarchy - Big Picture
 
 > [!note] The Chomsky Hierarchy
 > All formal languages are classified in a hierarchy of expressive power:
 
 ```mermaid
 graph TD
-    A["Type 0: Recursively Enumerable Languages\n(Turing Machines)"]
-    B["Type 1: Context-Sensitive Languages\n(Linear-Bounded Automata)"]
-    C["Type 2: Context-Free Languages\n(Push-Down Automata)"]
-    D["Type 3: Regular Languages\n(Finite Automata)"]
+    A["Type 0: Recursively Enumerable Languages<br/>(Turing Machines)"]
+    B["Type 1: Context-Sensitive Languages<br/>(Linear-Bounded Automata)"]
+    C["Type 2: Context-Free Languages<br/>(Push-Down Automata)"]
+    D["Type 3: Regular Languages<br/>(Finite Automata)"]
     A --> B --> C --> D
 ```
 
@@ -123,7 +126,7 @@ graph TD
 
 ---
 
-##  Quick Links
+## Quick Links
 
 - [[Syllabus|CS-304 Syllabus]] - Full syllabus with reference books
 - [[Unit-1]] - Finite Automata (DFA, NFA, Moore, Mealy)
@@ -137,7 +140,7 @@ graph TD
 
 ---
 
-##  Reference Books
+## Reference Books
 
 | # | Book | Author |
 |---|------|--------|
@@ -148,7 +151,7 @@ graph TD
 
 ---
 
-##  Study Plan
+## Study Plan
 
 ```mermaid
 gantt

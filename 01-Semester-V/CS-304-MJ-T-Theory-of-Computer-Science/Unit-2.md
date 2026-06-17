@@ -17,14 +17,17 @@ type: unit-notes
 last_reviewed: 2026-06-16
 ---
 
-#  Unit 2 - Regular Expressions and Languages
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 2 - Regular Expressions and Languages
 
 > [!note] Navigation
 > [[Overview|CS-304 Overview]] | ← [[Unit-1]] | **Unit 2** → [[Unit-3]] → [[Unit-4]] → [[Unit-5]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Define regular expressions formally and informally
 - Understand what constitutes a regular language
@@ -51,7 +54,7 @@ If `r` and `s` are regular expressions:
 
 | Operation | RE Notation | Language | Example |
 |-----------|------------|---------|---------|
-| Union | `r + s` or `r \| s` | L(r) ∪ L(s) | `a + b` = {a, b} |
+| Union | `r + s` or `r | s` | L(r) ∪ L(s) | `a + b` = {a, b} |
 | Concatenation | `rs` | L(r) · L(s) | `ab` = {ab} |
 | Kleene Star | `r*` | L(r)* = {ε} ∪ L(r) ∪ L(r)² ∪ ... | `a*` = {ε, a, aa, ...} |
 | Kleene Plus | `r+` | L(r)⁺ = L(r) · L(r)* | `a+` = {a, aa, aaa, ...} |
@@ -337,7 +340,7 @@ and still be in the same state!
 
 ---
 
-##  Numerical Problem Types for Exams
+## Numerical Problem Types for Exams
 
 > [!tip] Common Exam Problem Patterns
 
@@ -357,7 +360,7 @@ and still be in the same state!
 
 ---
 
-##  Interview Questions - Unit 2
+## Interview Questions - Unit 2
 
 > [!question] Key Interview/Exam Questions
 
@@ -387,7 +390,7 @@ and still be in the same state!
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 2 Key Takeaways
 >

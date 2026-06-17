@@ -14,12 +14,15 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-351-MJ-T - Important Questions
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-351-MJ-T - Important Questions
 
 > [!warning] Exam Focus
 > These questions are frequently asked in university examinations. Questions marked  are highly likely. Practice all code-based questions by writing actual programs.
 
-##  Unit 1 - Collections Framework
+## Unit 1 - Collections Framework
 
 ### 2-Mark Questions
 1. What is the Java Collections Framework?
@@ -41,7 +44,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit 2 - Multithreading
+## Unit 2 - Multithreading
 
 ### 2-Mark Questions
 1. What is a thread? How is it different from a process?
@@ -63,7 +66,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit 3 - JDBC
+## Unit 3 - JDBC
 
 ### 2-Mark Questions
 1. What is JDBC? What does it stand for?
@@ -85,7 +88,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit 4 - Servlet & JSP
+## Unit 4 - Servlet & JSP
 
 ### 2-Mark Questions
 1. What is a Servlet? Where does it run?
@@ -107,7 +110,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit 5 - Hibernate / Spring
+## Unit 5 - Hibernate / Spring
 
 ### 2-Mark Questions
 1. What is ORM?
@@ -129,7 +132,7 @@ updated: 2026-06-16
 
 ---
 
-##  Previous Year Pattern
+## Previous Year Pattern
 
 ```
 Section A: 10 × 2 marks = 20 marks (one from each unit × 2)
@@ -138,7 +141,7 @@ Section C: 2 × 10 marks = 20 marks (choice from 2 questions per 2-unit group)
 Optional: 15 marks
 ```
 
-##  Most Important Topics
+## Most Important Topics
 
 1. **Collections**: ArrayList vs LinkedList, HashMap vs TreeMap, Comparable vs Comparator, Generics
 2. **Multithreading**: Thread lifecycle, synchronized/wait/notify, deadlock, ExecutorService

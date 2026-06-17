@@ -14,7 +14,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-321-VSC-P: Foundation of AI and ML - Syllabus
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-321-VSC-P: Foundation of AI and ML - Syllabus
 
 > [!note] University: Savitribai Phule Pune University (SPPU) | Semester V | VSC Practical
 
@@ -211,7 +214,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit-wise Hours Distribution
+## Unit-wise Hours Distribution
 
 | Unit | Title | Hours |
 |------|-------|-------|
@@ -224,12 +227,12 @@ updated: 2026-06-16
 
 ---
 
-##  Text Books
+## Text Books
 1. *Artificial Intelligence: A Modern Approach*, 4th Ed - Russell & Norvig
 2. *Hands-On Machine Learning* - Aurélien Géron (O'Reilly)
 3. *Deep Learning* - Goodfellow, Bengio, Courville (MIT Press)
 
-##  Reference Books
+## Reference Books
 1. *Pattern Recognition and Machine Learning* - Bishop
 2. *Machine Learning* - Tom Mitchell
 3. *Python Machine Learning* - Sebastian Raschka

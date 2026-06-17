@@ -18,14 +18,17 @@ created: 2026-06-16
 type: important-topics
 ---
 
-#  CS-352 Angular - Important Topics
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-352 Angular - Important Topics
 
 > [!important] Exam Focus
 > Angular requires knowing both concepts and TypeScript code. Data binding, directives, services, and routing are the core. Reactive Forms with validation and lifecycle hooks are high-value topics.
 
 ---
 
-##  Top 10 Most Important Topics
+## Top 10 Most Important Topics
 
 | # | Topic | Description | Probability |
 |---|-------|-------------|-------------|
@@ -42,7 +45,7 @@ type: important-topics
 
 ---
 
-##  "Definitely Going to Come" Section
+## Definitely Going to Come
 
 > [!warning] Near-Certain Questions
 > 1. **Data binding** - show all 4 types with code snippets
@@ -55,7 +58,7 @@ type: important-topics
 
 ---
 
-##  Must-Know Definitions
+## Must-Know Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -72,7 +75,7 @@ type: important-topics
 
 ---
 
-##  Quick Code Patterns
+## Quick Code Patterns
 
 ### Component Skeleton
 ```typescript
@@ -116,7 +119,7 @@ form = this.fb.group({
 
 ---
 
-##  Angular Directives Quick Reference
+## Angular Directives Quick Reference
 
 | Directive | Type | Purpose |
 |-----------|------|---------|
@@ -131,7 +134,7 @@ form = this.fb.group({
 
 ---
 
-##  Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 > [!warning] Avoid These Errors
 > - **Forgetting to import HttpClientModule** in AppModule - `http.get()` won't work!
@@ -144,7 +147,7 @@ form = this.fb.group({
 
 ---
 
-##  Angular CLI Commands
+## Angular CLI Commands
 
 ```bash
 ng new my-app                        # Create new Angular app
@@ -158,4 +161,4 @@ ng test                              # Run unit tests
 
 ---
 
-*Tags: [[Angular|CS-352 Angular]] | Semester VI | [[07-Exams]]*
+*Tags: [[02-Semester-VI/CS-352-MJ-T-Design-Framework/Overview|Design Framework Overview]] | Semester VI | [[07-Exams/Exams-Dashboard|Exams]]*

@@ -18,13 +18,16 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # Unit 2 - Objects and Classes
 > [!important] **Hours:** 6 | **Subject:** CS-301-MJ-T Core Java | **Semester:** V
 > **Previous:** [[Unit-1|Unit 1: Introduction to Java]] | **Next:** [[Unit-3|Unit 3: Inheritance and Interface]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Define classes with fields and methods
 - Use access specifiers to control visibility
@@ -337,9 +340,9 @@ s = s + " World";  // Creates new String "Hello World"; old "Hello" is garbage
 
 ```mermaid
 graph LR
-    A["String s1 = \"Hello\""] --> P["String Pool\n\"Hello\""]
+    A["String s1 = \"Hello\""] --> P["String Pool<br/>\"Hello\""]
     B["String s2 = \"Hello\""] --> P
-    C["String s3 = new String(\"Hello\")"] --> H["Heap\n\"Hello\" (separate object)"]
+    C["String s3 = new String(\"Hello\")"] --> H["Heap<br/>\"Hello\" (separate object)"]
 ```
 
 - String literals go into the **String Pool** (interning)
@@ -583,7 +586,7 @@ Boolean.parseBoolean("hello")    // false (anything else = false)
 
 ---
 
-##  Key Concepts
+## Key Concepts
 
 ```mermaid
 mindmap
@@ -624,7 +627,7 @@ mindmap
 
 ---
 
-##  Interview Questions
+## Interview Questions
 
 > [!tip] Commonly Asked in Exams and Interviews
 
@@ -671,7 +674,7 @@ mindmap
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!note] Quick Revision - Unit 2
 > 
@@ -693,8 +696,8 @@ mindmap
 
 ---
 
-##  Navigation
+## Navigation
 
 | Previous                                 | Current                         | Next                                          |
 | ---------------------------------------- | ------------------------------- | --------------------------------------------- |
-| [[Unit-1\|Unit 1: Introduction to Java]] | **Unit 2: Objects and Classes** | [[Unit-3\|Unit 3: Inheritance and Interface]] |
+| [[Unit-1|Unit 1: Introduction to Java]] | **Unit 2: Objects and Classes** | [[Unit-3|Unit 3: Inheritance and Interface]] |

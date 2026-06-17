@@ -22,14 +22,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 5: Deep Learning & Applications
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 5: Deep Learning & Applications
 
 > [!note] Navigation
 > ← [[Unit-4]] | [[Overview]] | [[Important-Questions]] →
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Explain deep learning vs. shallow ML
 - [ ] Describe CNN architecture and its applications
@@ -641,7 +644,7 @@ loaded_model = keras.models.load_model('my_model.keras')
 
 ---
 
-##  Interview Questions - Unit 5
+## Interview Questions - Unit 5
 
 > [!question] Q1: What is the difference between CNN and fully-connected neural networks?
 > **Answer**: Fully-connected networks connect every neuron to all neurons in the next layer - expensive for images (28×28 image = 784 inputs per neuron). CNNs use local connectivity (filters look at small regions), weight sharing (same filter reused across image), and pooling (reduce spatial dimensions). This gives translation invariance and massively reduces parameters.
@@ -665,7 +668,7 @@ loaded_model = keras.models.load_model('my_model.keras')
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 5 Key Points
 > 1. **Deep Learning**: Automatic feature hierarchy; needs GPU + big data

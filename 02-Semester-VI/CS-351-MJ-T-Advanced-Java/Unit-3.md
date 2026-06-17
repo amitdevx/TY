@@ -19,12 +19,15 @@ updated: 2026-06-16
 hours: 6
 ---
 
-# ️ Unit 3 - JDBC (Java Database Connectivity)
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 3 - JDBC (Java Database Connectivity)
 
 > [!note] Unit Overview
 > JDBC is the standard Java API for interacting with relational databases. This unit covers the complete JDBC workflow from driver loading to transaction management and connection pooling.
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Describe JDBC architecture with all components
 - [ ] Connect Java to a database using `DriverManager`
@@ -45,7 +48,7 @@ graph TD
   DM --> D2[Type 2: Native API Driver]
   DM --> D3[Type 3: Network Protocol Driver]
   DM --> D4[Type 4: Thin Driver ]
-  D4 --> DB[(Database Server\nMySQL/Oracle/PostgreSQL)]
+  D4 --> DB[(Database Server<br/>MySQL/Oracle/PostgreSQL)]
 ```
 
 ### JDBC Components
@@ -383,7 +386,7 @@ try (Connection conn = ConnectionPoolDemo.getConnection()) {
 
 ---
 
-##  Key Terms Summary
+## Key Terms Summary
 
 | Term | Definition |
 |------|------------|
@@ -401,7 +404,7 @@ try (Connection conn = ConnectionPoolDemo.getConnection()) {
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 1. What is JDBC? Explain its architecture with a diagram.
 2. List and explain the four types of JDBC drivers.
@@ -416,7 +419,7 @@ try (Connection conn = ConnectionPoolDemo.getConnection()) {
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview]] | [[Syllabus]]
 - ← Previous: [[Unit-2|Unit-2 - Multithreading]]

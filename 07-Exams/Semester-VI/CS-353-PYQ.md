@@ -19,14 +19,17 @@ created: 2026-06-16
 type: pyq
 ---
 
-#  CS-353 Web Technology-II - Expected PYQ
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-353 Web Technology-II - Expected PYQ
 
 > [!important] Exam Strategy
 > Web Tech-II covers full-stack MERN-like development with PostgreSQL. Focus on PostgreSQL queries, REST API design with Express, React Hooks (useState/useEffect), and JWT authentication.
 
 ---
 
-## ️ Unit-wise Distribution
+## Unit-wise Distribution
 
 | Unit | Topic | Weightage |
 |------|-------|-----------|
@@ -38,7 +41,7 @@ type: pyq
 
 ---
 
-## ️ Section A - Short Answer (2 Marks)
+## Section A - Short Answer (2 Marks)
 
 1. **What is PostgreSQL? How does it differ from MySQL?**
 2. **What is a foreign key? How is it defined in PostgreSQL?**
@@ -63,7 +66,7 @@ type: pyq
 
 ---
 
-##  Section B - Long Answer (5–7 Marks)
+## Section B - Long Answer (5–7 Marks)
 
 ---
 
@@ -412,7 +415,7 @@ function StudentDetail() {
 
 ---
 
-##  Most Expected Questions
+## Most Expected Questions
 
 > [!tip] High Probability
 > 1.  PostgreSQL JOIN queries - INNER, LEFT, RIGHT
@@ -425,4 +428,4 @@ function StudentDetail() {
 
 ---
 
-*Tags: CS-353 Web Technology-II | Semester VI | [[07-Exams]]*
+*Tags: CS-353 Web Technology-II | Semester VI | [[07-Exams/Exams-Dashboard|Exams]]*

@@ -21,13 +21,16 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # Unit 3 - Memory Management
 > [!important] **Hours:** 8 | **Subject:** CS-302-MJ-T Operating Systems | **Semester:** V
 > **Previous:** [[Unit-2|Unit 2: Process and CPU Scheduling]] | **Next:** [[Unit-4|Unit 4: Deadlock]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Explain address binding and the role of the MMU
 - Distinguish logical and physical addresses
@@ -47,13 +50,13 @@ last_modified: 2026-06-16
 
 ```mermaid
 flowchart LR
-    A["Source Code\n(symbolic addresses)"] -->|"Compiler"| B["Object Code\n(relocatable addresses)"]
-    B -->|"Linker"| C["Executable\n(absolute/relocatable)"]
-    C -->|"Loader"| D["Process in Memory\n(physical addresses)"]
+    A["Source Code<br/>(symbolic addresses)"] -->|"Compiler"| B["Object Code<br/>(relocatable addresses)"]
+    B -->|"Linker"| C["Executable<br/>(absolute/relocatable)"]
+    C -->|"Loader"| D["Process in Memory<br/>(physical addresses)"]
     
-    CT["Compile-time binding\n(absolute addresses\nfixed at compile time)"] -.-> B
-    LT["Load-time binding\n(final addresses fixed\nwhen loaded into memory)"] -.-> D
-    RT["Execution-time binding\n(addresses can change\nduring execution - needs MMU)"] -.-> D
+    CT["Compile-time binding<br/>(absolute addresses<br/>fixed at compile time)"] -.-> B
+    LT["Load-time binding<br/>(final addresses fixed<br/>when loaded into memory)"] -.-> D
+    RT["Execution-time binding<br/>(addresses can change<br/>during execution - needs MMU)"] -.-> D
 ```
 
 | Binding Time | When | Description | Example |
@@ -71,11 +74,11 @@ flowchart LR
 
 ```mermaid
 graph LR
-    CPU["CPU\ngenerates logical\naddress 346"] --> MMU["MMU\n(base register = 14000)"]
-    MMU --> RAM["Physical Memory\naddress 14346\n(14000 + 346)"]
+    CPU["CPU<br/>generates logical<br/>address 346"] --> MMU["MMU<br/>(base register = 14000)"]
+    MMU --> RAM["Physical Memory<br/>address 14346<br/>(14000 + 346)"]
     
-    BASE["Base Register\n14000"] --> MMU
-    LIMIT["Limit Register\n400"] --> MMU
+    BASE["Base Register<br/>14000"] --> MMU
+    LIMIT["Limit Register<br/>400"] --> MMU
     
     MMU -->|"if 346 >= 400"| TRAP["TRAP: Segmentation Fault!"]
 ```
@@ -141,10 +144,10 @@ graph LR
 ```mermaid
 graph LR
     subgraph LA["Logical Address Space (Process)"]
-        P0["Page 0\n(0-3)"]
-        P1["Page 1\n(4-7)"]
-        P2["Page 2\n(8-11)"]
-        P3["Page 3\n(12-15)"]
+        P0["Page 0<br/>(0-3)"]
+        P1["Page 1<br/>(4-7)"]
+        P2["Page 2<br/>(8-11)"]
+        P3["Page 3<br/>(12-15)"]
     end
     
     subgraph PT["Page Table"]
@@ -181,7 +184,7 @@ f = page_table[p]
 Physical Address = f × page_size + d
 ```
 
-####  Paging Example
+#### Paging Example
 
 **Given:** Page size = 4 bytes, Physical memory = 32 bytes (8 frames)
 **Logical address:** 12 (binary: 1100)
@@ -217,11 +220,11 @@ Physical Address = f × page_size + d
 
 ```mermaid
 graph TD
-    CPU["CPU generates\nlogical address (p, d)"] --> TLB{"TLB Lookup\npage p?"}
-    TLB -->|"TLB Hit \n(page in TLB)"| PA["Physical Address\nf × size + d\n(1 memory access)"]
-    TLB -->|"TLB Miss \n(page NOT in TLB)"| PT["Access Page Table\nin main memory"]
-    PT --> TLB2["Update TLB\nwith new entry"]
-    TLB2 --> PA2["Physical Address\n(2 memory accesses)"]
+    CPU["CPU generates<br/>logical address (p, d)"] --> TLB{"TLB Lookup<br/>page p?"}
+    TLB -->|"TLB Hit <br/>(page in TLB)"| PA["Physical Address<br/>f × size + d<br/>(1 memory access)"]
+    TLB -->|"TLB Miss <br/>(page NOT in TLB)"| PT["Access Page Table<br/>in main memory"]
+    PT --> TLB2["Update TLB<br/>with new entry"]
+    TLB2 --> PA2["Physical Address<br/>(2 memory accesses)"]
 ```
 
 ### Effective Memory Access Time (EAT)
@@ -287,15 +290,15 @@ graph LR
 
 ```mermaid
 flowchart TD
-    A["Process references page"] --> B{"Valid bit\nin page table?"}
-    B -->|"Valid (in memory)"| G["Access granted\n"]
-    B -->|"Invalid (on disk)"| C["PAGE FAULT TRAP\n(interrupt to OS)"]
-    C --> D["Check if valid reference\nor out-of-bounds?"]
-    D -->|"Out of bounds"| E["Terminate process\n(Segmentation Fault)"]
+    A["Process references page"] --> B{"Valid bit<br/>in page table?"}
+    B -->|"Valid (in memory)"| G["Access granted<br/>"]
+    B -->|"Invalid (on disk)"| C["PAGE FAULT TRAP<br/>(interrupt to OS)"]
+    C --> D["Check if valid reference<br/>or out-of-bounds?"]
+    D -->|"Out of bounds"| E["Terminate process<br/>(Segmentation Fault)"]
     D -->|"Valid reference"| F["Find free frame in memory"]
-    F --> H["Read page from disk\ninto free frame"]
-    H --> I["Update page table:\nset valid bit = 1"]
-    I --> J["Restart the\nfaulting instruction"]
+    F --> H["Read page from disk<br/>into free frame"]
+    H --> I["Update page table:<br/>set valid bit = 1"]
+    I --> J["Restart the<br/>faulting instruction"]
     J --> G
 ```
 
@@ -318,7 +321,7 @@ When a page fault occurs and **no free frames** are available, the OS must **rep
 
 **Problem:** ==Belady's Anomaly== - increasing number of frames can **increase** page faults (counter-intuitive!).
 
-####  FIFO Example
+#### FIFO Example
 
 **Reference String:** 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5
 **Number of Frames:** 3
@@ -350,7 +353,7 @@ When a page fault occurs and **no free frames** are available, the OS must **rep
 - **Not implementable** in practice (requires future knowledge)
 - Used as a **benchmark** to compare other algorithms
 
-####  OPT Example
+#### OPT Example
 
 **Reference String:** 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 | **Frames:** 3
 
@@ -381,7 +384,7 @@ When a page fault occurs and **no free frames** are available, the OS must **rep
 - No Belady's anomaly
 - Implementation: **Stack** or **Counter** method
 
-####  LRU Example
+#### LRU Example
 
 **Reference String:** 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2 | **Frames:** 3
 
@@ -418,7 +421,7 @@ When a page fault occurs and **no free frames** are available, the OS must **rep
 
 | Algorithm | Optimal? | Belady's Anomaly | Implementable? | Performance |
 |-----------|----------|-----------------|---------------|-------------|
-| FIFO | No | YES ️ | Yes (easy) | Poor |
+| FIFO | No | YES  | Yes (easy) | Poor |
 | OPT | YES  | No | No (needs future) | Best (theoretical) |
 | LRU | No | No | Complex | Good |
 | MFU/LFU | No | No | Yes | Moderate |
@@ -434,10 +437,10 @@ When a page fault occurs and **no free frames** are available, the OS must **rep
 
 ```mermaid
 graph LR
-    MPD["Increase degree of\nmultiprogramming"] --> CPU_UTIL["CPU Utilization\nincreases initially"]
+    MPD["Increase degree of<br/>multiprogramming"] --> CPU_UTIL["CPU Utilization<br/>increases initially"]
     CPU_UTIL --> THRESH["Threshold reached"]
-    THRESH --> THRASH["THRASHING\nCPU utilization drops sharply"]
-    THRASH --> SLOW["System grinds\nto a halt"]
+    THRESH --> THRASH["THRASHING<br/>CPU utilization drops sharply"]
+    THRASH --> SLOW["System grinds<br/>to a halt"]
 ```
 
 ### Solutions to Thrashing
@@ -450,7 +453,7 @@ graph LR
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|------------|
@@ -469,7 +472,7 @@ graph LR
 
 ---
 
-##  Interview Questions
+## Interview Questions
 
 1. **What is the difference between logical and physical address?**
    - Logical: generated by CPU (virtual); Physical: actual RAM address after MMU translation.
@@ -503,7 +506,7 @@ graph LR
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!note] Quick Revision - Unit 3
 > 
@@ -519,14 +522,14 @@ graph LR
 > 
 > **Virtual Memory:** Only needed pages in RAM; demand paging on page fault
 > 
-> **Page Replacement:** FIFO (Belady's anomaly ️), OPT (best, not practical), LRU (good, complex), MFU
+> **Page Replacement:** FIFO (Belady's anomaly ), OPT (best, not practical), LRU (good, complex), MFU
 > 
 > **Thrashing:** Too many page faults; solution: working set model, page fault frequency
 
 ---
 
-##  Navigation
+## Navigation
 
 | Previous | Current | Next |
 |----------|---------|------|
-| [[Unit-2\|Unit 2: Process and CPU Scheduling]] | **Unit 3: Memory Management** | [[Unit-4\|Unit 4: Deadlock]] |
+| [[Unit-2|Unit 2: Process and CPU Scheduling]] | **Unit 3: Memory Management** | [[Unit-4|Unit 4: Deadlock]] |

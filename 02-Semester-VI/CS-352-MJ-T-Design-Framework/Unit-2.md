@@ -20,12 +20,15 @@ updated: 2026-06-16
 hours: 7
 ---
 
-#  Unit 2 - Components & Data Binding
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 2 - Components & Data Binding
 
 > [!important] Core Angular Unit
 > Components are the **fundamental building blocks** of Angular applications. This unit covers everything about creating, configuring, and communicating between components - the most heavily tested area in Angular exams and interviews.
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Use Angular CLI to create components and projects
 - [ ] Understand Angular project structure
@@ -496,7 +499,7 @@ userName: string = '';  // Automatically synced with input field
 
 ---
 
-##  Key Terms Summary
+## Key Terms Summary
 
 | Term | Definition |
 |------|------------|
@@ -513,7 +516,7 @@ userName: string = '';  // Automatically synced with input field
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 1. What is a component in Angular? How do you create one using CLI?
 2. Explain all four types of data binding in Angular with examples.
@@ -528,7 +531,7 @@ userName: string = '';  // Automatically synced with input field
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview]] | [[Syllabus]]
 - ← Previous: [[Unit-1|Unit-1 - Introduction to Angular]]

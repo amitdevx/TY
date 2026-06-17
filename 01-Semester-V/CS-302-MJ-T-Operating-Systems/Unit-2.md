@@ -19,13 +19,16 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # Unit 2 - Process and CPU Scheduling
 > [!important] **Hours:** 7 | **Subject:** CS-302-MJ-T Operating Systems | **Semester:** V
 > **Previous:** [[Unit-1|Unit 1: Introduction to OS]] | **Next:** [[Unit-3|Unit 3: Memory Management]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Define a process and describe its components
 - Draw and explain the process state diagram
@@ -57,10 +60,10 @@ last_modified: 2026-06-16
 graph TD
     subgraph Process["Process Memory Layout"]
         direction TB
-        A["⬆️ Stack\n(function calls, local vars)\nGrows downward"]
-        B["⬇️ Heap\n(dynamic allocation - malloc/new)\nGrows upward"]
-        C["Data Segment\n(global & static variables)"]
-        D["Text/Code Segment\n(program instructions - READ ONLY)"]
+        A["⬆ Stack<br/>(function calls, local vars)<br/>Grows downward"]
+        B["⬇ Heap<br/>(dynamic allocation - malloc/new)<br/>Grows upward"]
+        C["Data Segment<br/>(global & static variables)"]
+        D["Text/Code Segment<br/>(program instructions - READ ONLY)"]
     end
     A -.->|"grows ↓"| B
     B -.->|"grows ↑"| A
@@ -116,13 +119,13 @@ stateDiagram-v2
 ```mermaid
 graph TD
     PCB[" Process Control Block"] --> PID["Process ID (PID)"]
-    PCB --> PS["Process State\n(New/Ready/Running/Waiting/Terminated)"]
-    PCB --> PC["Program Counter\n(address of next instruction)"]
-    PCB --> REG["CPU Registers\n(accumulator, index, stack pointer)"]
-    PCB --> MEM["Memory Management Info\n(base/limit registers, page tables)"]
-    PCB --> IO["I/O Status Info\n(open files, I/O devices)"]
-    PCB --> SCHED["Scheduling Info\n(priority, queue pointers)"]
-    PCB --> ACC["Accounting Info\n(CPU used, time limits, job ID)"]
+    PCB --> PS["Process State<br/>(New/Ready/Running/Waiting/Terminated)"]
+    PCB --> PC["Program Counter<br/>(address of next instruction)"]
+    PCB --> REG["CPU Registers<br/>(accumulator, index, stack pointer)"]
+    PCB --> MEM["Memory Management Info<br/>(base/limit registers, page tables)"]
+    PCB --> IO["I/O Status Info<br/>(open files, I/O devices)"]
+    PCB --> SCHED["Scheduling Info<br/>(priority, queue pointers)"]
+    PCB --> ACC["Accounting Info<br/>(CPU used, time limits, job ID)"]
 ```
 
 | PCB Field | Description |
@@ -238,7 +241,7 @@ sequenceDiagram
 
 **Problem:** ==Convoy Effect== - short processes wait behind a long process.
 
-####  FCFS Example
+#### FCFS Example
 
 | Process | AT (Arrival) | BT (Burst) |
 |---------|-------------|-----------|
@@ -273,7 +276,7 @@ sequenceDiagram
 **Problem:** **Starvation** - long processes may never get CPU if short ones keep arriving.
 **Solution:** **Aging** - gradually increase priority of waiting processes over time.
 
-####  SJF (Non-preemptive) Example
+#### SJF (Non-preemptive) Example
 
 | Process | AT | BT |
 |---------|----|----|
@@ -311,7 +314,7 @@ At t=8: P2(4), P3(2), P4(1) all arrived → shortest = P4(1)
 - **Problem:** Starvation of low-priority processes
 - **Solution:** Aging (increase priority with wait time)
 
-####  Priority Scheduling Example (Non-preemptive)
+#### Priority Scheduling Example (Non-preemptive)
 
 | Process | AT | BT | Priority |
 |---------|----|----|---------|
@@ -340,7 +343,7 @@ At t=10: P2(priority 1), P4(priority 2), P3(priority 4) → P2 first
 - **Too small q:** High context switch overhead
 - **Too large q:** Degenerates to FCFS
 
-####  Round Robin Example (q = 2)
+#### Round Robin Example (q = 2)
 
 | Process | AT | BT |
 |---------|----|----|
@@ -377,7 +380,7 @@ Gantt Chart:
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|------------|
@@ -395,7 +398,7 @@ Gantt Chart:
 
 ---
 
-##  Interview Questions
+## Interview Questions
 
 1. **What is a process? How is it different from a program?**
    - Program = passive executable; Process = active execution with resources and state.
@@ -429,7 +432,7 @@ Gantt Chart:
 
 ---
 
-##  Numerical Solved Example - All Algorithms
+## Numerical Solved Example - All Algorithms
 
 > [!tip] Practice Problem
 > Given processes: P1(AT=0,BT=6), P2(AT=1,BT=4), P3(AT=2,BT=2), P4(AT=3,BT=3)
@@ -457,7 +460,7 @@ WT: P1=0, P3=4, P4=5, P2=10 → Avg WT = 4.75
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!note] Quick Revision - Unit 2
 > 
@@ -481,8 +484,8 @@ WT: P1=0, P3=4, P4=5, P2=10 → Avg WT = 4.75
 
 ---
 
-##  Navigation
+## Navigation
 
 | Previous | Current | Next |
 |----------|---------|------|
-| [[Unit-1\|Unit 1: Introduction to OS]] | **Unit 2: Process and CPU Scheduling** | [[Unit-3\|Unit 3: Memory Management]] |
+| [[Unit-1|Unit 1: Introduction to OS]] | **Unit 2: Process and CPU Scheduling** | [[Unit-3|Unit 3: Memory Management]] |

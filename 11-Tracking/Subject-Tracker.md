@@ -9,13 +9,18 @@ tags:
 date: 2026-06-16
 ---
 
-#  Subject Progress Tracker
+[[00-Dashboard/Home|Home]] | [[11-Tracking/Tracking-Dashboard|Tracking Dashboard]]
+
+
+# Subject Progress Tracker
+
+> [!tip] 🗄️ **[[11-Tracking/Subjects-Database.base|Open Subjects Database]]**
 
 > [!tip] How to Track
 > Mark each completed item with `[x]`. Update percentages manually.
 > **Status legend:**  Not Started |  In Progress |  Completed
 
-##  Semester V Progress
+## Semester V Progress
 
 ### CS-301 - Core Java
 | Item | Status | Notes |
@@ -96,7 +101,7 @@ date: 2026-06-16
 
 ---
 
-##  Semester VI Progress
+## Semester VI Progress
 
 ### CS-351 - Advanced Java
 | Item | Status | Notes |
@@ -178,7 +183,7 @@ date: 2026-06-16
 
 ---
 
-##  Overall Progress Summary
+## Overall Progress Summary
 
 | Semester | Total Items | Completed | Percentage |
 |----------|------------|-----------|------------|
@@ -188,11 +193,11 @@ date: 2026-06-16
 
 ---
 
-##  Quick Links
+## Quick Links
 
 - [[Lab-Tracker|Lab Progress →]]
-- [[Project-Tracker|Project Tracker →]]
+- [[Projects-Dashboard|Project Tracker →]]
 - [[Attendance|Attendance →]]
-- [[Study-Hours|Study Hours →]]
-- [[Exam-Preparation|Exam Preparation →]]
+- [[Tracking-Dashboard|Study Hours →]]
+- [[07-Exams/Exams-Dashboard|Exam Prep →]]
 - [[Home| Dashboard →]]

@@ -21,14 +21,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 4: Unsupervised Learning & Neural Networks
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 4: Unsupervised Learning & Neural Networks
 
 > [!note] Navigation
 > ← [[Unit-3]] | [[Overview]] | [[Unit-5]] →
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Implement K-Means clustering and choose optimal K
 - [ ] Build and interpret hierarchical clustering with dendrograms
@@ -51,7 +54,7 @@ updated: 2026-06-16
 4. Repeat until convergence (no assignment changes or max iterations)
 
 **Objective Function:**
-$$J = \sum_{j=1}^{K}\sum_{x_i \in C_j} \|x_i - \mu_j\|^2$$
+$$J = \sum_{j=1}^{K}\sum_{x_i \in C_j} |x_i - \mu_j|^2$$
 
 **K-Means++ Initialization** (smarter):
 - Choose first centroid randomly
@@ -531,7 +534,7 @@ for xi, yi, pred in zip(X, y, predictions):
 
 ---
 
-##  Interview Questions - Unit 4
+## Interview Questions - Unit 4
 
 > [!question] Q1: What is the difference between K-Means and Hierarchical Clustering?
 > **Answer**: K-Means: requires K upfront, iterative, scalable, stochastic, assumes spherical clusters. Hierarchical: no K needed, builds tree (dendrogram), O(n²) space, deterministic. Use K-Means for large datasets, Hierarchical when you don't know K or need to visualize cluster structure via dendrogram.
@@ -559,7 +562,7 @@ for xi, yi, pred in zip(X, y, predictions):
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 4 Key Points
 > 1. **K-Means**: K centroids; assign-update loop; Elbow method + Silhouette to choose K

@@ -14,14 +14,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-321: Foundation of AI & ML - Rapid Revision
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-321: Foundation of AI & ML - Rapid Revision
 
 > [!tip] How to Use
 > Read all sections 48 hours before exam. Know every formula, comparison table, and Python snippet below.
 
 ---
 
-##  Unit 1: Introduction to AI
+## Unit 1: Introduction to AI
 
 > [!summary] Must Know
 
@@ -62,7 +65,7 @@ Fix: Random restart hill climbing
 
 ---
 
-##  Unit 2: ML Fundamentals
+## Unit 2: ML Fundamentals
 
 > [!summary] Must Know
 
@@ -99,7 +102,7 @@ $$F1 = \frac{2 \cdot P \cdot R}{P + R}, \quad FPR = \frac{FP}{FP+TN}, \quad TPR 
 
 ---
 
-##  Unit 3: Supervised Learning
+## Unit 3: Supervised Learning
 
 > [!summary] Must Know Algorithms
 
@@ -145,7 +148,7 @@ $$F1 = \frac{2 \cdot P \cdot R}{P + R}, \quad FPR = \frac{FP}{FP+TN}, \quad TPR 
 
 ---
 
-##  Unit 4: Unsupervised Learning & Neural Networks
+## Unit 4: Unsupervised Learning & Neural Networks
 
 > [!summary] Must Know
 
@@ -155,7 +158,7 @@ $$F1 = \frac{2 \cdot P \cdot R}{P + R}, \quad FPR = \frac{FP}{FP+TN}, \quad TPR 
 3. Recompute centroids
 4. Repeat until convergence
 
-Objective: Minimize WCSS = $\sum_j\sum_{x_i\in C_j}\|x_i-\mu_j\|^2$
+Objective: Minimize WCSS = $\sum_j\sum_{x_i\in C_j}|x_i-\mu_j|^2$
 
 Choose K: **Elbow method** (inertia vs K) + **Silhouette score** (range [-1,1], higher=better)
 
@@ -200,7 +203,7 @@ Perceptron: $z = \mathbf{w}^T\mathbf{x} + b$, then apply activation f(z)
 
 ---
 
-##  Unit 5: Deep Learning & Applications
+## Unit 5: Deep Learning & Applications
 
 > [!summary] Must Know
 
@@ -242,7 +245,7 @@ model.evaluate(X_test, y_test)
 
 ---
 
-##  All Formulas in One Place
+## All Formulas in One Place
 
 | Formula | Expression |
 |---------|-----------|
@@ -256,16 +259,16 @@ model.evaluate(X_test, y_test)
 | ReLU | $\max(0,z)$ |
 | Entropy | $-\sum p_i\log_2 p_i$ |
 | Gini | $1-\sum p_i^2$ |
-| WCSS | $\sum_j\sum_{x\in C_j}\|x-\mu_j\|^2$ |
+| WCSS | $\sum_j\sum_{x\in C_j}|x-\mu_j|^2$ |
 | Silhouette | $(b-a)/\max(a,b)$ |
-| Bayes | $P(C\|X) \propto P(C)\prod P(x_i\|C)$ |
+| Bayes | $P(C|X) \propto P(C)\prod P(x_i|C)$ |
 | CNN size | $\lfloor(I-K+2P)/S\rfloor+1$ |
 | Weight update | $W = W - \alpha\nabla L$ |
 | L2 Loss | $J + \lambda\sum\theta_j^2$ |
 
 ---
 
-##  Last-Hour Checklist
+## Last-Hour Checklist
 
 - [ ] BFS=Queue, DFS=Stack, A*=PriorityQueue + f(n)=g(n)+h(n)
 - [ ] A* admissible heuristic → never overestimates

@@ -20,12 +20,15 @@ updated: 2026-06-16
 hours: 6
 ---
 
-#  Unit 4 - Servlet & JSP
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 4 - Servlet & JSP
 
 > [!note] Unit Overview
 > Servlets and JSP are the foundation of Java web development. Even with modern frameworks like Spring Boot, understanding these technologies provides essential context for web layer concepts.
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Describe the Servlet lifecycle with all three phases
 - [ ] Handle HTTP GET and POST requests
@@ -489,7 +492,7 @@ ${header['User-Agent']}      <%-- Request header --%>
 
 ---
 
-##  Key Terms Summary
+## Key Terms Summary
 
 | Term | Definition |
 |------|------------|
@@ -507,7 +510,7 @@ ${header['User-Agent']}      <%-- Request header --%>
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 1. Explain the Servlet lifecycle with all three phases and their methods.
 2. What is the difference between `doGet()` and `doPost()`?
@@ -522,7 +525,7 @@ ${header['User-Agent']}      <%-- Request header --%>
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview]] | [[Syllabus]]
 - ← Previous: [[Unit-3|Unit-3 - JDBC]]

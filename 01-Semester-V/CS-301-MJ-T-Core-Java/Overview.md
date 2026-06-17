@@ -21,11 +21,14 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # CS-301-MJ-T - Core Java
 > [!important] Subject Info
 > **Subject Code:** CS-301-MJ-T | **Credits:** 2 | **IE:** 15 Marks | **EE:** 35 Marks | **Total:** 50 Marks
 
-##  Subject Description
+## Subject Description
 
 ==Core Java== is the foundational programming language subject that introduces students to **Object-Oriented Programming** using Java. The subject covers the complete lifecycle from basic syntax to GUI development using JavaFX. Java is a **platform-independent**, **strongly typed**, **object-oriented** language widely used in enterprise applications, Android development, and backend services.
 
@@ -34,7 +37,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Course Objectives
+## Course Objectives
 
 1. **CO-Obj-1:** Understand core **OOP concepts** (Encapsulation, Inheritance, Polymorphism, Abstraction) and apply them using Java.
 2. **CO-Obj-2:** Learn to design and use **Classes, Objects, Interfaces**, and **Abstract Classes**.
@@ -45,7 +48,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Course Outcomes (COs)
+## Course Outcomes (COs)
 
 | CO | Description | Bloom's Level |
 |----|-------------|--------------|
@@ -58,20 +61,20 @@ last_modified: 2026-06-16
 
 ---
 
-##  Unit-wise Content
+## Unit-wise Content
 
 | Unit | Topic | Hours | Notes |
 |------|-------|-------|-------|
-| 1 | [[Unit-1\|Introduction to Java]] | 5 | OOP, History, Features, JVM, Data Types, Arrays |
-| 2 | [[Unit-2\|Objects and Classes]] | 6 | Classes, Constructors, String, Packages, Wrappers |
-| 3 | [[Unit-3\|Inheritance and Interface]] | 6 | extends, super, abstract, interface, lambda |
-| 4 | [[Unit-4\|Exception and File Handling]] | 5 | try-catch, User-defined exceptions, File I/O |
-| 5 | [[Unit-5\|User Interface with JavaFX]] | 8 | JavaFX, Layouts, Controls, Charts, Events |
+| 1 | [[Unit-1|Introduction to Java]] | 5 | OOP, History, Features, JVM, Data Types, Arrays |
+| 2 | [[Unit-2|Objects and Classes]] | 6 | Classes, Constructors, String, Packages, Wrappers |
+| 3 | [[Unit-3|Inheritance and Interface]] | 6 | extends, super, abstract, interface, lambda |
+| 4 | [[Unit-4|Exception and File Handling]] | 5 | try-catch, User-defined exceptions, File I/O |
+| 5 | [[Unit-5|User Interface with JavaFX]] | 8 | JavaFX, Layouts, Controls, Charts, Events |
 | | **Total** | **30** | |
 
 ---
 
-## ️ Quick Navigation
+## Quick Navigation
 
 - [[Syllabus| Complete Syllabus]]
 - [[Unit-1| Unit 1: Introduction to Java]]
@@ -85,7 +88,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Reference Books
+## Reference Books
 
 | # | Title | Author | Publisher |
 |---|-------|--------|-----------|
@@ -97,7 +100,7 @@ last_modified: 2026-06-16
 
 ---
 
-## ️ Exam Pattern
+## Exam Pattern
 
 > [!warning] Exam Weightage
 > - **Internal Exam (IE):** 15 Marks - Unit tests, assignments, practicals
@@ -106,7 +109,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Key Themes
+## Key Themes
 
 ```mermaid
 mindmap
@@ -142,6 +145,6 @@ mindmap
 
 ---
 
-##  Backlinks
-- [[../Semester-V-Overview|Semester V Overview]]
-- [[CS-302-MJ-T-Operating-Systems/Overview|CS-302 Operating Systems]]
+## Backlinks
+- [[00-Dashboard/Home|Main Dashboard]]
+- [[01-Semester-V/CS-302-MJ-T-Operating-Systems/Overview|CS-302 Operating Systems]]

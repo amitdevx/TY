@@ -22,14 +22,17 @@ created: 2026-06-16
 type: pyq
 ---
 
-#  CS-304 Theory of Computer Science - Expected PYQ
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-304 Theory of Computer Science - Expected PYQ
 
 > [!important] Exam Strategy
 > TCS is highly numerical. Expect DFA/NFA construction, CFG problems, FIRST & FOLLOW, PDA, and Turing Machine design. Pumping Lemma is a MUST. Memorize conversion algorithms step by step.
 
 ---
 
-## ️ Unit-wise Distribution
+## Unit-wise Distribution
 
 | Unit | Topic | Marks Weightage |
 |------|-------|----------------|
@@ -41,7 +44,7 @@ type: pyq
 
 ---
 
-## ️ Section A - Short Answer (2 Marks)
+## Section A - Short Answer (2 Marks)
 
 1. **Define DFA. What are its 5 components?**
    > M = (Q, Σ, δ, q₀, F) - States, Alphabet, Transition function, Start state, Accept states
@@ -82,7 +85,7 @@ type: pyq
 
 ---
 
-##  Section B - Long Answer / Numerical Problems (5–7 Marks)
+## Section B - Long Answer / Numerical Problems (5–7 Marks)
 
 ---
 
@@ -346,7 +349,7 @@ Simply scan to end and add one more 1:
 
 ---
 
-##  Most Expected Questions
+## Most Expected Questions
 
 > [!tip] High Probability
 > 1.  DFA construction (ending pattern, count of symbols)
@@ -360,7 +363,7 @@ Simply scan to end and add one more 1:
 
 ---
 
-##  Key Theorems to Remember
+## Key Theorems to Remember
 
 1. **Kleene's Theorem:** Regular languages = languages recognized by FA = languages defined by RE
 2. **Pumping Lemma:** Used to prove a language is NOT regular / NOT CFL
@@ -370,4 +373,4 @@ Simply scan to end and add one more 1:
 
 ---
 
-*Tags: CS-304 Theory of Computer Science | Semester V | [[07-Exams]]*
+*Tags: CS-304 Theory of Computer Science | Semester V | [[07-Exams/Exams-Dashboard|Exams]]*

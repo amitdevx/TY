@@ -10,7 +10,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-306-MJ-P - Java and Web Lab
+[[00-Dashboard/Home|Home]] | [[04-Labs/Labs-Dashboard|Labs Dashboard]]
+
+
+# CS-306-MJ-P - Java and Web Lab
 
 > [!important] Lab Info
 > **Code:** CS-306-MJ-P | **Based On:** CS-301 Core Java & CS-303 Web Technology
@@ -19,7 +22,7 @@ updated: 2026-06-16
 
 ---
 
-## ️ Lab Navigation
+## Lab Navigation
 
 | Part | Topic | Status |
 |------|-------|--------|
@@ -33,7 +36,7 @@ updated: 2026-06-16
 
 ---
 
-##  Syllabus - Java Section
+## Syllabus - Java Section
 
 ### Part A: Object-Oriented Programming
 
@@ -78,7 +81,7 @@ updated: 2026-06-16
 
 ---
 
-##  Syllabus - Web Section
+## Syllabus - Web Section
 
 ### Part E: HTML & CSS
 
@@ -115,7 +118,7 @@ updated: 2026-06-16
 
 ---
 
-##  Completion Tracker
+## Completion Tracker
 
 ### Java Programs
 
@@ -140,7 +143,7 @@ updated: 2026-06-16
 
 ---
 
-## ️ Setup Guide
+## Setup Guide
 
 ### Java Setup
 
@@ -198,7 +201,7 @@ my-api/
 
 ---
 
-##  Quick Reference
+## Quick Reference
 
 ### Java Collections Cheat Sheet
 
@@ -223,10 +226,10 @@ my-api/
 
 ---
 
-##  Related
+## Related
 
-- [[../../../01-Core-Subjects/Semester-V/CS-301-Core-Java/Dashboard|CS-301 Core Java Dashboard]]
-- [[../../../11-Tracking/Lab-Tracker|Lab Tracker]]
+- [[01-Semester-V/CS-301-MJ-T-Core-Java/Overview|CS-301 Core Java Dashboard]]
+- [[11-Tracking/Lab-Tracker|Lab Tracker]]
 
 ---
 

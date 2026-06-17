@@ -10,14 +10,17 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
-#  Semester V Project - Progress Tracker
+[[00-Dashboard/Home|Home]] | [[05-Projects/Projects-Dashboard|Projects Dashboard]]
+
+
+# Semester V Project - Progress Tracker
 
 > [!note] Quick Links
 > [[Project-Overview]] | [[06-Revision/Final-Revision/Semester-V-Final]]
 
 ---
 
-## ️ Phase-Wise Progress
+## Phase-Wise Progress
 
 ### Phase 1: Planning
 - [ ] Problem statement finalized
@@ -78,7 +81,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Weekly Milestone Checkboxes
+## Weekly Milestone Checkboxes
 
 | Week | Dates | Planned Goal | Done? |
 |------|-------|-------------|-------|
@@ -98,7 +101,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Sprint Planning
+## Sprint Planning
 
 ### Sprint 1 (Week 1–2)
 | Task | Assignee | Story Points | Status |
@@ -130,7 +133,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Issues / Blockers Log
+## Issues / Blockers Log
 
 | Date | Issue Description | Severity | Assigned To | Resolved? |
 |------|------------------|----------|-------------|-----------|
@@ -143,7 +146,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Overall Progress
+## Overall Progress
 
 ```
 Planning:    [          ] 0%
@@ -157,7 +160,7 @@ TOTAL:       [          ] 0%
 
 ---
 
-## ️ Meeting Notes
+## Meeting Notes
 
 ### Mentor Meeting 1
 - **Date:**

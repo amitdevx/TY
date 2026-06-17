@@ -22,7 +22,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 3: Sprint Execution *(Assignment 5)*
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 3: Sprint Execution *(Assignment 5)*
 
 > [!important] Learning Objectives
 > After this unit, you should be able to:
@@ -35,7 +38,7 @@ updated: 2026-06-16
 
 ---
 
-##  Topics at a Glance
+## Topics at a Glance
 
 ```mermaid
 mindmap
@@ -73,7 +76,7 @@ mindmap
 
 ## 5.1 Daily Scrum (Daily Standup)
 
-###  What is Daily Scrum?
+### What is Daily Scrum?
 
 The ==Daily Scrum== is a **15-minute time-boxed** event for the Development Team. It is held at the **same time and place** every day to reduce complexity.
 
@@ -83,7 +86,7 @@ The ==Daily Scrum== is a **15-minute time-boxed** event for the Development Team
 > 2. **What will I do today** to help the Development Team meet the Sprint Goal?
 > 3. **Are there any impediments** that block me or the team?
 
-###  Rules and Format
+### Rules and Format
 
 | Rule | Description |
 |------|-------------|
@@ -94,7 +97,7 @@ The ==Daily Scrum== is a **15-minute time-boxed** event for the Development Team
 | **Not a status meeting** | For the Dev Team, not management |
 | **Problems discussed offline** | "Take it offline" after standup |
 
-###  Good vs Bad Standup
+### Good vs Bad Standup
 
 ```
  GOOD Daily Scrum:
@@ -111,7 +114,7 @@ No blockers."
 - Not mentioning impediments
 ```
 
-###  Sample Daily Scrum Dialogue
+### Sample Daily Scrum Dialogue
 
 ```
 Scrum Master: "It's time for our daily standup. Let's go around the room."
@@ -135,7 +138,7 @@ SM:            "Thanks everyone. Alice, let's connect Bob and you right after th
 
 ## 5.2 Sprint Tracking
 
-###  Task Board Management
+### Task Board Management
 
 The sprint task board shows the status of every task:
 
@@ -163,7 +166,7 @@ WIP Limit:     Max 2 per column
 
 ## 5.3 Burndown Chart
 
-###  What is a Burndown Chart?
+### What is a Burndown Chart?
 
 A ==Burndown Chart== tracks the amount of **work remaining** (Y-axis) over **time** (X-axis) during a sprint.
 
@@ -182,12 +185,12 @@ Remaining|  \  ← Ideal line
                       Days
 ```
 
-###  Reading the Burndown Chart
+### Reading the Burndown Chart
 
 | Chart Pattern | Interpretation |
 |--------------|----------------|
 | Actual below ideal line | Team is ahead of schedule  |
-| Actual above ideal line | Team is behind schedule ️ |
+| Actual above ideal line | Team is behind schedule  |
 | Flat line (no burn) | No work being completed - investigate |
 | Steep drop | Batch completion - work completed at end |
 | Line goes UP | Scope added to sprint mid-sprint |
@@ -196,15 +199,15 @@ Remaining|  \  ← Ideal line
 - ==Ideal Burndown Line==: Straight diagonal from total SP on Day 0 to 0 on last day
 - ==Actual Burndown Line==: Actual remaining SP updated each day
 
-###  Burndown Data Example
+### Burndown Data Example
 
 | Day | Ideal Remaining (SP) | Actual Remaining (SP) | Status |
 |-----|---------------------|-----------------------|--------|
 | Day 0 | 30 | 30 | Start |
-| Day 2 | 24 | 28 | Behind ️ |
-| Day 4 | 18 | 22 | Behind ️ |
-| Day 6 | 12 | 18 | Behind ️ |
-| Day 8 | 6 | 10 | Behind ️ |
+| Day 2 | 24 | 28 | Behind  |
+| Day 4 | 18 | 22 | Behind  |
+| Day 6 | 12 | 18 | Behind  |
+| Day 8 | 6 | 10 | Behind  |
 | Day 10 | 0 | 5 | Not done!  |
 
 **Response to being behind:**
@@ -217,7 +220,7 @@ Remaining|  \  ← Ideal line
 
 ## 5.4 Burnup Chart
 
-###  What is a Burnup Chart?
+### What is a Burnup Chart?
 
 A ==Burnup Chart== tracks **work completed** (Y-axis) against **total scope** (Y-axis, second line) over time.
 
@@ -247,7 +250,7 @@ Done   |                 ____●
 
 ## 5.5 Velocity Metrics
 
-###  Calculating and Using Velocity
+### Calculating and Using Velocity
 
 ```
 Historical velocity data:
@@ -267,13 +270,13 @@ Use 27 SP for next sprint planning
 
 ```mermaid
 graph LR
-    A[Increasing Velocity] -->|Indicates| B[Team improving,\ncollaboration growing]
+    A[Increasing Velocity] -->|Indicates| B[Team improving,<br/>collaboration growing]
     C[Stable Velocity] -->|Indicates| D[Predictable, healthy team]
-    E[Decreasing Velocity] -->|Indicates| F[Technical debt,\nteam issues,\nexternal blockers]
-    G[Erratic Velocity] -->|Indicates| H[Poor estimation,\nchanging priorities,\nteam instability]
+    E[Decreasing Velocity] -->|Indicates| F[Technical debt,<br/>team issues,<br/>external blockers]
+    G[Erratic Velocity] -->|Indicates| H[Poor estimation,<br/>changing priorities,<br/>team instability]
 ```
 
-###  Predictability Metric
+### Predictability Metric
 
 ```
 Predictability = (Actual Velocity / Committed Velocity) × 100%
@@ -292,7 +295,7 @@ Target: 80-100% (consistently)
 
 ## 5.6 WIP Limits (Kanban)
 
-###  What are WIP Limits?
+### What are WIP Limits?
 
 ==WIP (Work In Progress) Limits== restrict the number of items that can be in any one stage of the workflow at a time.
 
@@ -322,7 +325,7 @@ Mantra: "Stop Starting, Start Finishing"
 
 ## 5.7 Impediment Management
 
-###  Types of Impediments
+### Types of Impediments
 
 | Type | Examples |
 |------|---------|
@@ -331,15 +334,15 @@ Mantra: "Stop Starting, Start Finishing"
 | External | Dependency on another team, waiting for hardware |
 | Organizational | Policy conflicts, budget approval needed |
 
-###  Scrum Master's Role
+### Scrum Master's Role
 
 ```mermaid
 graph TD
-    B[Blocker Identified\nin Daily Scrum] --> SM[Scrum Master]
+    B[Blocker Identified<br/>in Daily Scrum] --> SM[Scrum Master]
     SM --> A1[Can resolve internally?]
-    A1 -->|Yes| R1[Resolve directly:\n- Fix build, procure tools,\n- Schedule meeting, clarify reqs]
+    A1 -->|Yes| R1[Resolve directly:<br/>- Fix build, procure tools,<br/>- Schedule meeting, clarify reqs]
     A1 -->|No| A2[Escalate to management]
-    A2 --> R2[Escalate:\n- Remove organizational obstacles\n- Negotiate with external teams]
+    A2 --> R2[Escalate:<br/>- Remove organizational obstacles<br/>- Negotiate with external teams]
     R1 --> T[Track in impediment log]
     R2 --> T
     T --> DS[Report in next Daily Scrum]
@@ -355,7 +358,7 @@ graph TD
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -371,7 +374,7 @@ graph TD
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 > [!question] Short Answer Questions
 > 1. What are the three questions answered in a Daily Scrum?
@@ -387,7 +390,7 @@ graph TD
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Unit-2|← Unit 2: Planning & Estimation]]
 - [[Syllabus| Syllabus]]

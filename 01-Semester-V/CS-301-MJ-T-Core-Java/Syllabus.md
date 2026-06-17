@@ -21,22 +21,25 @@ aliases:
 status: "not-started"
 ---
 
-#  CS-301 Core Java - Complete Syllabus
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-301 Core Java - Complete Syllabus
 
 > [!info] Course Information
 > **University:** Savitribai Phule Pune University (NEP CBCS 2026-27)
 > **Semester:** V | **Credits:** 2 | **IE:** 15 Marks | **EE:** 35 Marks
 > **Teaching:** 2 Hours/Week | **Total:** ~30 Hours
 
-##  Prerequisites
+## Prerequisites
 - Knowledge of C Programming language
 
-##  Course Objectives
+## Course Objectives
 - To learn **Object Oriented Programming** language (Java)
 - To study various Java programming concepts like Interface, File and Exception Handling
 - To design User Interface using **JavaFX**
 
-##  Course Outcomes (COs)
+## Course Outcomes (COs)
 
 | CO | Description |
 |----|-------------|
@@ -47,10 +50,10 @@ status: "not-started"
 | CO5 | Implement application using abstract classes and adapter classes |
 | CO6 | Develop **GUI-based applications** |
 
-##  Chapter-wise Syllabus
+## Chapter-wise Syllabus
 
 ### Chapter 1: An Introduction to Java *(5 Hours)*
-→ [[CS-301-MJ-T-Core-Java/Unit-1|Unit 1 Notes]]
+→ [[01-Semester-V/CS-301-MJ-T-Core-Java/Unit-1|Unit 1 Notes]]
 
 | Section | Topics |
 |---------|--------|
@@ -65,7 +68,7 @@ status: "not-started"
 | 1.9 | Accepting Input (Command Line, BufferedReader, Scanner) |
 
 ### Chapter 2: Objects and Classes *(6 Hours)*
-→ [[CS-301-MJ-T-Core-Java/Unit-2|Unit 2 Notes]]
+→ [[01-Semester-V/CS-301-MJ-T-Core-Java/Unit-2|Unit 2 Notes]]
 
 | Section | Topics |
 |---------|--------|
@@ -79,7 +82,7 @@ status: "not-started"
 | 2.8 | Wrapper Classes |
 
 ### Chapter 3: Inheritance and Interface *(6 Hours)*
-→ [[CS-301-MJ-T-Core-Java/Unit-3|Unit 3 Notes]]
+→ [[01-Semester-V/CS-301-MJ-T-Core-Java/Unit-3|Unit 3 Notes]]
 
 | Section | Topics |
 |---------|--------|
@@ -94,7 +97,7 @@ status: "not-started"
 | 3.9 | Adapters and Anonymous Inner Class |
 
 ### Chapter 4: Exception and File Handling *(5 Hours)*
-→ [[CS-301-MJ-T-Core-Java/Unit-4|Unit 4 Notes]]
+→ [[01-Semester-V/CS-301-MJ-T-Core-Java/Unit-4|Unit 4 Notes]]
 
 | Section | Topics |
 |---------|--------|
@@ -103,7 +106,7 @@ status: "not-started"
 | 4.3 | Introduction to Files and Streams (I/O streams, Reader/Writer) |
 
 ### Chapter 5: User Interface with JavaFX *(8 Hours)*
-→ [[CS-301-MJ-T-Core-Java/Unit-5|Unit 5 Notes]]
+→ [[01-Semester-V/CS-301-MJ-T-Core-Java/Unit-5|Unit 5 Notes]]
 
 | Section | Topics |
 |---------|--------|
@@ -115,7 +118,7 @@ status: "not-started"
 | 5.6 | JavaFX Charts (Pie, Line, Area, Bar) |
 | 5.7 | Event Handling |
 
-##  Reference Books
+## Reference Books
 
 | # | Book | Author | Edition |
 |---|------|--------|---------|
@@ -124,20 +127,20 @@ status: "not-started"
 | R3 | Programming with Java: A Primer | E. Balagurusamy | 4th Edition |
 | R4 | Core Java Volume-I - Fundamentals | Cay S. Horstmann, Gary Cornell | 8th Edition |
 
-## ️ Quick Navigation
+## Quick Navigation
 
 | File | Purpose |
 |------|---------|
-| [[Overview\|Overview.md]] | Subject overview and course outcomes |
-| [[Unit-1\|Unit 1: Introduction to Java]] | OOP, Java basics, arrays, input |
-| [[Unit-2\|Unit 2: Objects and Classes]] | Classes, constructors, String, packages |
-| [[Unit-3\|Unit 3: Inheritance and Interface]] | Polymorphism, abstract, interface |
-| [[Unit-4\|Unit 4: Exception and File Handling]] | try-catch, streams, file I/O |
-| [[Unit-5\|Unit 5: User Interface with JavaFX]] | GUI programming |
-| [[Important-Questions\|Important Questions]] | Exam-focused Q&A |
-| [[Revision\|Revision Notes]] | Quick revision summaries |
-| [[Interview-Prep\|Interview Prep]] | Job interview Q&A |
-| [[Home\| Dashboard]] | Main vault dashboard |
+| [[Overview|Overview.md]] | Subject overview and course outcomes |
+| [[Unit-1|Unit 1: Introduction to Java]] | OOP, Java basics, arrays, input |
+| [[Unit-2|Unit 2: Objects and Classes]] | Classes, constructors, String, packages |
+| [[Unit-3|Unit 3: Inheritance and Interface]] | Polymorphism, abstract, interface |
+| [[Unit-4|Unit 4: Exception and File Handling]] | try-catch, streams, file I/O |
+| [[Unit-5|Unit 5: User Interface with JavaFX]] | GUI programming |
+| [[Important-Questions|Important Questions]] | Exam-focused Q&A |
+| [[Revision|Revision Notes]] | Quick revision summaries |
+| [[Interview-Prep|Interview Prep]] | Job interview Q&A |
+| [[Home| Dashboard]] | Main vault dashboard |
 
 ---
 *Back to [[Home| Dashboard]] | [[01-Semester-V/CS-302-MJ-T-Operating-Systems/Syllabus|CS-302 OS →]]*

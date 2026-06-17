@@ -12,7 +12,10 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
-#  Semester V - Final Revision
+[[00-Dashboard/Home|Home]] | [[06-Revision/Revision-Dashboard|Revision Dashboard]]
+
+
+# Semester V - Final Revision
 
 > [!important] Last-Minute Strategy
 > - Read this in the last 48–72 hours before exam
@@ -21,7 +24,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  CS-301 - Core Java
+## CS-301 - Core Java
 
 ### Critical Topics
 1. **OOP Concepts** - Encapsulation, Inheritance, Polymorphism, Abstraction
@@ -78,7 +81,7 @@ list.forEach(item -> System.out.println(item));
 
 ---
 
-##  CS-302 - Operating Systems
+## CS-302 - Operating Systems
 
 ### Critical Topics
 1. **OS Types & Structure** - Monolithic, microkernel, layered
@@ -134,7 +137,7 @@ Effective Access Time (EAT) = (1-p) × memory access time + p × page fault time
 
 ---
 
-##  CS-303 - Web Technology-I
+## CS-303 - Web Technology-I
 
 ### Critical Topics
 1. **HTML5** - Semantic tags, forms, media, tables
@@ -183,7 +186,7 @@ app.listen(3000);
 
 ---
 
-##  CS-304 - Theory of Computer Science
+## CS-304 - Theory of Computer Science
 
 ### Critical Topics
 1. **Automata** - DFA, NFA, ε-NFA construction and conversion
@@ -229,7 +232,7 @@ CFL Pumping Lemma: For s ∈ L, |s| ≥ p, s = uvxyz where:
 
 ---
 
-##  CS-307 - Data Science
+## CS-307 - Data Science
 
 ### Critical Topics
 1. **Data Science Lifecycle** - CRISP-DM model
@@ -277,7 +280,7 @@ F1        = 2 × (Precision × Recall) / (Precision + Recall)
 
 ---
 
-##  CS-321 - AI/ML (VSC)
+## CS-321 - AI/ML (VSC)
 
 ### Critical Topics
 1. **AI Fundamentals** - agents, rationality, PEAS
@@ -321,7 +324,7 @@ Softmax: P(class_i) = e^(z_i) / Σ e^(z_j)
 
 ---
 
-##  Formula Quick Reference - All Subjects
+## Formula Quick Reference - All Subjects
 
 | Formula | Subject | Context |
 |---------|---------|---------|
@@ -335,7 +338,7 @@ Softmax: P(class_i) = e^(z_i) / Σ e^(z_j)
 
 ---
 
-##  Last-Minute 48-Hour Checklist
+## Last-Minute 48-Hour Checklist
 
 ### 48 Hours Before Exam
 - [ ] Review all one-line summaries above
@@ -358,7 +361,7 @@ Softmax: P(class_i) = e^(z_i) / Σ e^(z_j)
 
 ---
 
-##  Related Notes
+## Related Notes
 
 - [[06-Revision/Monthly/Monthly-Review]] - Monthly progress
 - [[06-Revision/Weekly/Weekly-Summary]] - Weekly breakdown

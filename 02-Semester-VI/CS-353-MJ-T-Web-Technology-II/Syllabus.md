@@ -13,7 +13,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-353 Web Technology II - Syllabus
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-353 Web Technology II - Syllabus
 
 > [!note] Course Details
 > **Subject Code:** CS-353-MJ-T | **Type:** Major Theory
@@ -22,7 +25,7 @@ updated: 2026-06-16
 
 ---
 
-##  Chapter-wise Syllabus
+## Chapter-wise Syllabus
 
 ### Chapter 1: Database Connectivity *(4 Hours)*
 
@@ -109,7 +112,7 @@ updated: 2026-06-16
 
 ---
 
-##  Detailed Chapter Hours
+## Detailed Chapter Hours
 
 ```mermaid
 pie title Hours Distribution
@@ -122,7 +125,7 @@ pie title Hours Distribution
 
 ---
 
-##  Reference Books
+## Reference Books
 
 | # | Book Title | Author | Publisher |
 |---|-----------|--------|-----------|
@@ -134,7 +137,7 @@ pie title Hours Distribution
 
 ---
 
-##  Online Resources
+## Online Resources
 
 - **Node.js Docs:** https://nodejs.org/docs
 - **Express.js:** https://expressjs.com
@@ -145,7 +148,7 @@ pie title Hours Distribution
 
 ---
 
-##  Related Notes
+## Related Notes
 
 - [[Overview|Subject Overview]]
 - [[Unit-1|Unit 1: Database Connectivity]]

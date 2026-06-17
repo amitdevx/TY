@@ -8,13 +8,16 @@ tags:
 date: 2026-06-16
 ---
 
-#  Lab Progress Tracker
+[[00-Dashboard/Home|Home]] | [[11-Tracking/Tracking-Dashboard|Tracking Dashboard]]
+
+
+# Lab Progress Tracker
 
 > [!info] Lab Assessment
 > Each lab: **IE: 15 Marks | UE: 35 Marks | Total: 50**
 > Required: Complete journal, viva, and practical assignments
 
-##  Semester V Labs
+## Semester V Labs
 
 ### CS-305-MJ-P - Operating Systems Lab
 **Based on:** CS-302-MJ-T | **Language:** C | **OS:** Linux | **Total Slots:** 12
@@ -77,7 +80,7 @@ date: 2026-06-16
 
 ---
 
-##  Semester VI Labs
+## Semester VI Labs
 
 ### CS-355-MJ-P - Angular (Design Framework) Lab
 **Based on:** CS-352-MJ-T | **Framework:** Angular latest | **Runtime:** Node.js
@@ -94,7 +97,7 @@ date: 2026-06-16
 | 8 | Reactive forms with FormGroup/FormControl |  | - | - |
 
 **Progress: 0/8 assignments (0%)**
-→ [[04-Labs/Semester-VI/CS-355-MJ-P/Lab-Overview|Angular Lab Overview]]
+→ [[04-Labs/Semester-V/CS-306-MJ-P/Lab-Overview|Angular Lab Overview]]
 
 ---
 
@@ -113,7 +116,7 @@ date: 2026-06-16
 | 8 | JWT authentication implementation |  | - | - |
 
 **Progress: 0/8 assignments (0%)**
-→ [[04-Labs/Semester-VI/CS-356-MJ-P/Lab-Overview|Adv Java+Web II Lab Overview]]
+→ [[04-Labs/Semester-V/CS-306-MJ-P/Lab-Overview|Adv Java+Web II Lab Overview]]
 
 ---
 
@@ -132,11 +135,11 @@ date: 2026-06-16
 | 8 | Notifications and Services |  | - | - |
 
 **Progress: 0/8 assignments (0%)**
-→ [[04-Labs/Semester-VI/CS-358-MJ-P/Lab-Overview|Android Lab Overview]]
+→ [[04-Labs/Semester-V/CS-306-MJ-P/Lab-Overview|Android Lab Overview]]
 
 ---
 
-##  Lab Summary
+## Lab Summary
 
 | Lab | Total | Completed | % |
 |-----|-------|-----------|---|
@@ -149,4 +152,4 @@ date: 2026-06-16
 | **Total** | - | **0** | **0%** |
 
 ---
-*[[Subject-Tracker|← Subject Tracker]] | [[Home| Dashboard]] | [[Project-Tracker|Project Tracker →]]*
+*[[Subject-Tracker|← Subject Tracker]] | [[Home| Dashboard]] | [[Projects-Dashboard|Project Tracker →]]*

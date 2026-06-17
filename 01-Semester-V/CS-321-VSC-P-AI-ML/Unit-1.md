@@ -21,14 +21,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 1: Introduction to Artificial Intelligence
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 1: Introduction to Artificial Intelligence
 
 > [!note] Navigation
 > ← [[Syllabus]] | [[Overview]] | [[Unit-2]] →
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Trace the history of AI from Turing to modern deep learning
 - [ ] Explain the Turing Test and its significance
@@ -458,7 +461,7 @@ FOL: ∃x [Student(x) ∧ IsGenius(x)]
 
 ---
 
-##  Interview Questions - Unit 1
+## Interview Questions - Unit 1
 
 > [!question] Q1: What is the Turing Test? Is it a good measure of intelligence?
 > **Answer**: The Turing Test (1950) proposes that if a machine can converse in natural language indistinguishably from a human, it can be said to exhibit intelligence. Limitations: John Searle's "Chinese Room" shows that symbol manipulation doesn't imply understanding. ELIZA passed early versions through tricks.
@@ -485,7 +488,7 @@ FOL: ∃x [Student(x) ∧ IsGenius(x)]
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 1 Key Points
 > 1. **AI coined** at Dartmouth Conference 1956 by John McCarthy

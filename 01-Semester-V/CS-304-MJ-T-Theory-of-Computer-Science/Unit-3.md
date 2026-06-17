@@ -18,14 +18,17 @@ type: unit-notes
 last_reviewed: 2026-06-16
 ---
 
-#  Unit 3 - Context-Free Grammars and Languages
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 3 - Context-Free Grammars and Languages
 
 > [!note] Navigation
 > [[Overview|CS-304 Overview]] | ← [[Unit-2]] | **Unit 3** → [[Unit-4]] → [[Unit-5]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Define context-free grammar (CFG) and its components
 - Write CFGs for given context-free languages
@@ -57,7 +60,7 @@ last_reviewed: 2026-06-16
 | ⇒* | "Derives in zero or more steps" | S ⇒* aabb |
 | Sentential form | Any string derived from S | S, aSb, aaSbb |
 | Sentence | Sentential form with only terminals | aabb |
-| L(G) | Language of grammar G: {w ∈ T* \| S ⇒* w} | |
+| L(G) | Language of grammar G: {w ∈ T* | S ⇒* w} | |
 | Parse tree | Tree showing derivation structure | |
 
 ^cfg-definition
@@ -383,7 +386,7 @@ Verify: every production starts with terminal
 
 ---
 
-##  Interview Questions - Unit 3
+## Interview Questions - Unit 3
 
 > [!question] Key Interview/Exam Questions
 
@@ -413,7 +416,7 @@ Verify: every production starts with terminal
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 3 Key Takeaways
 >

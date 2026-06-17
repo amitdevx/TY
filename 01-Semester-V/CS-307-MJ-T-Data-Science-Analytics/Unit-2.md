@@ -20,14 +20,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 2: Data Preprocessing
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 2: Data Preprocessing
 
 > [!note] Navigation
 > ← [[Unit-1]] | [[Overview]] | [[Unit-3]] →
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Identify and handle missing values using appropriate techniques
 - [ ] Detect and treat outliers using Z-score and IQR methods
@@ -413,12 +416,12 @@ X_test_processed = preprocessor.transform(X_test)  # Only transform!
 
 ---
 
-##  Key Formulas Quick Reference
+## Key Formulas Quick Reference
 
 | Technique | Formula |
 |-----------|---------|
 | Z-Score | $z = \frac{x - \mu}{\sigma}$ |
-| Outlier (Z) | $\|z\| > 3$ |
+| Outlier (Z) | $|z| > 3$ |
 | IQR | $IQR = Q_3 - Q_1$ |
 | Outlier (IQR) | $x < Q_1 - 1.5\cdot IQR$ or $x > Q_3 + 1.5\cdot IQR$ |
 | Min-Max | $\frac{x - x_{min}}{x_{max} - x_{min}}$ |
@@ -427,7 +430,7 @@ X_test_processed = preprocessor.transform(X_test)  # Only transform!
 
 ---
 
-##  Interview Questions - Unit 2
+## Interview Questions - Unit 2
 
 > [!question] Q1: What is the difference between normalization and standardization?
 > **Answer**: 
@@ -459,7 +462,7 @@ X_test_processed = preprocessor.transform(X_test)  # Only transform!
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 2 Key Points
 > 1. **Missing values**: Delete (small %) or Impute (Mean/Median/Mode/KNN)

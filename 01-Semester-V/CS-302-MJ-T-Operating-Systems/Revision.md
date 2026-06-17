@@ -13,13 +13,16 @@ aliases:
 created: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # CS-302 Operating Systems - Revision Notes
 
 > [!important] Last-minute revision guide. Focus on numericals - they give full marks in OS!
 
 ---
 
-##  Unit 1 - Introduction to OS
+## Unit 1 - Introduction to OS
 
 > [!note] Unit 1 Summary (3 Hours)
 
@@ -67,7 +70,7 @@ Boot: POST → BIOS/UEFI → MBR/GPT → Bootloader (GRUB) → Kernel → Init/S
 
 ---
 
-##  Unit 2 - Process and CPU Scheduling
+## Unit 2 - Process and CPU Scheduling
 
 > [!note] Unit 2 Summary (7 Hours)
 
@@ -117,7 +120,7 @@ Avg TAT=8.33 | Avg WT=4.33
 
 ---
 
-##  Unit 3 - Memory Management
+## Unit 3 - Memory Management
 
 > [!note] Unit 3 Summary (8 Hours) - Heaviest Unit!
 
@@ -165,7 +168,7 @@ Solution: Working Set Model | Page Fault Frequency | Reduce multiprogramming
 
 ---
 
-##  Unit 4 - Deadlock
+## Unit 4 - Deadlock
 
 > [!note] Unit 4 Summary (7 Hours)
 
@@ -219,7 +222,7 @@ Need[n×m] = Max - Allocation  ← KEY FORMULA
 
 ---
 
-##  Unit 5 - File System and Disk Scheduling
+## Unit 5 - File System and Disk Scheduling
 
 > [!note] Unit 5 Summary (5 Hours)
 
@@ -243,7 +246,7 @@ Counting: (start, count) pairs
 | Algorithm | Total Movement (std ex.) | Starvation? | Notes |
 |-----------|--------------------------|-------------|-------|
 | FCFS | 640 | No | Fair, inefficient |
-| SSTF | 236 | YES ️ | Greedy, closest first |
+| SSTF | 236 | YES  | Greedy, closest first |
 | SCAN | 236 | No | Elevator - reverses at end |
 | C-SCAN | 183 | No | One direction, jump back |
 | LOOK | 208 | No | Like SCAN, stops at last req |
@@ -257,7 +260,7 @@ Goal: Minimize total head movement = minimize seek time
 
 ---
 
-##  Key Terms Glossary
+## Key Terms Glossary
 
 | Term | Definition |
 |------|------------|
@@ -280,7 +283,7 @@ Goal: Minimize total head movement = minimize seek time
 
 ---
 
-## ️ Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 > [!warning] Don't make these errors in exams!
 
@@ -306,7 +309,7 @@ Goal: Minimize total head movement = minimize seek time
 
 ---
 
-##  Last-Minute Tips
+## Last-Minute Tips
 
 > [!tip] 30 Minutes Before OS Exam
 
@@ -323,7 +326,7 @@ Goal: Minimize total head movement = minimize seek time
 
 ---
 
-##  One-Page Summary
+## One-Page Summary
 
 ```mermaid
 mindmap
@@ -366,7 +369,7 @@ mindmap
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview| Subject Overview]]
 - [[Syllabus| Syllabus]]

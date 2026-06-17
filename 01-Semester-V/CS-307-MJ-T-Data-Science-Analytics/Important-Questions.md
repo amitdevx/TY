@@ -13,14 +13,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-307: Data Science - Important Questions
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-307: Data Science - Important Questions
 
 > [!warning] Exam Focus
 > These questions are based on common SPPU exam patterns. Focus especially on 8-mark and 10-mark questions requiring both theory AND diagrams/code.
 
 ---
 
-##  Pattern Analysis
+## Pattern Analysis
 
 | Marks | Type | Strategy |
 |-------|------|---------|
@@ -31,7 +34,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit 1: Introduction to Data Science
+## Unit 1: Introduction to Data Science
 
 ### 2-Mark Questions
 1. Define Data Science. How is it different from Data Mining?
@@ -54,7 +57,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit 2: Data Preprocessing
+## Unit 2: Data Preprocessing
 
 ### 2-Mark Questions
 1. What is data cleaning? Why is it necessary?
@@ -83,7 +86,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit 3: Data Visualization
+## Unit 3: Data Visualization
 
 ### 2-Mark Questions
 1. When would you use a box plot vs histogram?
@@ -118,7 +121,7 @@ sns.regplot(data=df, x='total_bill', y='tip')
 
 ---
 
-##  Unit 4: Statistics for Data Science
+## Unit 4: Statistics for Data Science
 
 ### 2-Mark Questions
 1. What is the Central Limit Theorem? What is the significance of n≥30?
@@ -145,7 +148,7 @@ $$\bar{x} = \frac{\sum x_i}{n}, \quad s^2 = \frac{\sum(x_i-\bar{x})^2}{n-1}, \qu
 
 ---
 
-##  Unit 5: Data Mining & Machine Learning
+## Unit 5: Data Mining & Machine Learning
 
 ### 2-Mark Questions
 1. What is the KDD process? Name its steps.
@@ -188,7 +191,7 @@ Lift(Milk→Bread) = 0.75/0.8 = 0.9375
 
 ---
 
-##  Most Important 10-Mark Questions (High Probability)
+## Most Important 10-Mark Questions (High Probability)
 
 > [!warning] Prepare these thoroughly - very likely to appear!
 
@@ -204,7 +207,7 @@ Lift(Milk→Bread) = 0.75/0.8 = 0.9375
 
 ---
 
-##  Quick Formula Sheet
+## Quick Formula Sheet
 
 | Concept | Formula |
 |---------|---------|

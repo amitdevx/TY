@@ -23,14 +23,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 5: Introduction to Data Mining & Machine Learning
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 5: Introduction to Data Mining & Machine Learning
 
 > [!note] Navigation
 > ← [[Unit-4]] | [[Overview]] | [[Important-Questions]] →
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Explain the KDD process and distinguish data mining from ML
 - [ ] Implement the ML modelling process end-to-end
@@ -326,7 +329,7 @@ print(f"Random Forest Test Accuracy: {best_rf.score(X_test, y_test):.4f}")
 > 4. **Repeat**: Steps 2–3 until convergence (no change)
 
 **Objective (minimize inertia/WCSS):**
-$$J = \sum_{j=1}^{K}\sum_{x_i \in C_j} \|x_i - \mu_j\|^2$$
+$$J = \sum_{j=1}^{K}\sum_{x_i \in C_j} |x_i - \mu_j|^2$$
 
 **Elbow Method to choose K:**
 
@@ -505,7 +508,7 @@ for name, model in models.items():
 
 ---
 
-##  Interview Questions - Unit 5
+## Interview Questions - Unit 5
 
 > [!question] Q1: What is the difference between Data Mining and Machine Learning?
 > **Answer**: Data Mining is a process of discovering patterns in large datasets from databases (KDD process). ML is a method/technique used in data mining to build models that learn from data. ML is a *subset* of DM's toolkit. Data Mining also includes statistics, database queries, and visualization. Machine Learning focuses specifically on algorithmic learning from data.
@@ -542,7 +545,7 @@ for name, model in models.items():
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 5 Key Points
 > 1. **KDD**: Selection → Preprocessing → Transformation → Mining → Interpretation

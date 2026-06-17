@@ -19,13 +19,16 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # Unit 3 - Inheritance and Interface
 > [!important] **Hours:** 6 | **Subject:** CS-301-MJ-T Core Java | **Semester:** V
 > **Previous:** [[Unit-2|Unit 2: Objects and Classes]] | **Next:** [[Unit-4|Unit 4: Exception and File Handling]]
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - Implement single, multilevel, and hierarchical inheritance using `extends`
 - Use `super` keyword for parent class access
@@ -87,7 +90,7 @@ graph TD
         A3 --> D6["Horse"]
     end
 
-    subgraph Multiple["Multiple Inheritance\n(via Interfaces only)"]
+    subgraph Multiple["Multiple Inheritance<br/>(via Interfaces only)"]
         I1["Flyable"] --> D7["Duck"]
         I2["Swimmable"] --> D7
     end
@@ -572,34 +575,34 @@ class MyWindow extends WindowAdapter {
 
 ---
 
-##  Key Concepts Diagram
+## Key Concepts Diagram
 
 ```mermaid
 graph TD
-    INH["Inheritance\nextends"] --> SINGLE["Single"]
+    INH["Inheritance<br/>extends"] --> SINGLE["Single"]
     INH --> MULTI["Multilevel"]
     INH --> HIER["Hierarchical"]
-    INH --> NO_MULTI["Multiple (classes) \nDiamond Problem"]
+    INH --> NO_MULTI["Multiple (classes) <br/>Diamond Problem"]
     
-    IFACE["Interface\nimplements"] --> MULTI_IFACE["Multiple Interface "]
-    IFACE --> DEFAULT["default methods\nJava 8+"]
-    IFACE --> FUNC["Functional Interface\n@FunctionalInterface"]
-    FUNC --> LAMBDA["Lambda Expressions\n(params) -> body"]
+    IFACE["Interface<br/>implements"] --> MULTI_IFACE["Multiple Interface "]
+    IFACE --> DEFAULT["default methods<br/>Java 8+"]
+    IFACE --> FUNC["Functional Interface<br/>@FunctionalInterface"]
+    FUNC --> LAMBDA["Lambda Expressions<br/>(params) -> body"]
     
-    POLY["Polymorphism"] --> OVR["Overriding\nRuntime"]
-    POLY --> OVL["Overloading\nCompile-time"]
+    POLY["Polymorphism"] --> OVR["Overriding<br/>Runtime"]
+    POLY --> OVL["Overloading<br/>Compile-time"]
     
-    FINAL["final"] --> FV["final variable\n(constant)"]
-    FINAL --> FM["final method\n(not overrideable)"]
-    FINAL --> FC["final class\n(not extendable)"]
+    FINAL["final"] --> FV["final variable<br/>(constant)"]
+    FINAL --> FM["final method<br/>(not overrideable)"]
+    FINAL --> FC["final class<br/>(not extendable)"]
     
-    ABS["abstract"] --> AC["abstract class\n(not instantiable)"]
-    ABS --> AM["abstract method\n(no body, must override)"]
+    ABS["abstract"] --> AC["abstract class<br/>(not instantiable)"]
+    ABS --> AM["abstract method<br/>(no body, must override)"]
 ```
 
 ---
 
-##  Interview Questions
+## Interview Questions
 
 1. **What is the difference between method overloading and method overriding?**
    - Overloading: same name, different params, same class, compile-time polymorphism
@@ -636,7 +639,7 @@ graph TD
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!note] Quick Revision - Unit 3
 > 
@@ -662,8 +665,8 @@ graph TD
 
 ---
 
-##  Navigation
+## Navigation
 
 | Previous | Current | Next |
 |----------|---------|------|
-| [[Unit-2\|Unit 2: Objects and Classes]] | **Unit 3: Inheritance and Interface** | [[Unit-4\|Unit 4: Exception and File Handling]] |
+| [[Unit-2|Unit 2: Objects and Classes]] | **Unit 3: Inheritance and Interface** | [[Unit-4|Unit 4: Exception and File Handling]] |

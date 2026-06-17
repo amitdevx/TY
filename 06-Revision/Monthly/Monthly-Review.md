@@ -11,14 +11,17 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
-#  Monthly Review - [MONTH YEAR]
+[[00-Dashboard/Home|Home]] | [[06-Revision/Revision-Dashboard|Revision Dashboard]]
+
+
+# Monthly Review - [MONTH YEAR]
 
 > [!tip] When to fill this
 > Fill at the end of every month. Use weekly summaries as input. Reflect deeply - this shapes your long-term strategy.
 
 ---
 
-##  Month Overview
+## Month Overview
 
 - **Month:** _______________
 - **Year:** 2026
@@ -28,7 +31,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Subjects Completion Percentage
+## Subjects Completion Percentage
 
 > [!note] Completion = (Chapters/Units Covered ÷ Total Chapters/Units) × 100
 
@@ -60,7 +63,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Exam Readiness Self-Assessment
+## Exam Readiness Self-Assessment
 
 > Rate yourself from 1–10 for each subject (10 = fully ready, 1 = barely started)
 
@@ -79,7 +82,7 @@ last_modified: 2026-06-16
 
 ---
 
-## ️ Adjustments to Study Plan
+## Adjustments to Study Plan
 
 > [!important] Based on this month's performance, I will:
 
@@ -103,7 +106,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Study Hours This Month
+## Study Hours This Month
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Week Total |
 |------|-----|-----|-----|-----|-----|-----|-----|-----------|
@@ -119,7 +122,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Progress Over Time
+## Progress Over Time
 
 | Month | Sem V % | Sem VI % | Study Hrs | Key Achievement |
 |-------|---------|---------|-----------|----------------|
@@ -130,7 +133,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Next Month Focus Areas
+## Next Month Focus Areas
 
 | Priority | Subject | Target Completion | Action |
 |----------|---------|------------------|--------|
@@ -141,7 +144,7 @@ last_modified: 2026-06-16
 
 ---
 
-##  Monthly Highlights & Reflections
+## Monthly Highlights & Reflections
 
 > *Biggest achievement this month:* _______________  
 > *Topic I struggled with most:* _______________  
@@ -150,12 +153,12 @@ last_modified: 2026-06-16
 
 ---
 
-##  Related Notes
+## Related Notes
 
 - [[06-Revision/Weekly/Weekly-Summary]] - Weekly breakdown
 - [[06-Revision/Final-Revision/Semester-V-Final]] - Semester V final revision
 - [[06-Revision/Final-Revision/Semester-VI-Final]] - Semester VI final revision
-- [[11-Tracking/Revision-Tasks]] - Revision database
+- [[11-Tracking/Revision-Tasks.base|Revision Tasks]] - Revision database
 
 ---
 

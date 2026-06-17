@@ -13,7 +13,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-# ️ CS-305-MJ-P - Operating Systems Lab
+[[00-Dashboard/Home|Home]] | [[04-Labs/Labs-Dashboard|Labs Dashboard]]
+
+
+# CS-305-MJ-P - Operating Systems Lab
 
 > [!important] Lab Info
 > **Code:** CS-305-MJ-P | **Based On:** CS-302-MJ-T Operating Systems
@@ -22,7 +25,7 @@ updated: 2026-06-16
 
 ---
 
-## ️ Lab Navigation
+## Lab Navigation
 
 | Experiment | Topic | Link | Status |
 |-----------|-------|------|--------|
@@ -35,7 +38,7 @@ updated: 2026-06-16
 
 ---
 
-##  Syllabus Overview
+## Syllabus Overview
 
 ### Assignment 1 - Process Operations (2 slots)
 - **Topics:** `fork()`, `exec()`, `wait()`, `getpid()`, `getppid()`
@@ -88,7 +91,7 @@ updated: 2026-06-16
 
 ---
 
-##  Completion Tracker
+## Completion Tracker
 
 ### Assignment Completion
 
@@ -130,7 +133,7 @@ updated: 2026-06-16
 
 ---
 
-## ️ Setup & Environment
+## Setup and Environment
 
 ### Prerequisites
 
@@ -172,7 +175,7 @@ gcc -o output_name program.c
 
 ---
 
-##  Journal Format
+## Journal Format
 
 ### Page Layout for Each Assignment
 
@@ -187,11 +190,11 @@ gcc -o output_name program.c
 
 ---
 
-##  Related Resources
+## Related Resources
 
-- [[../../Semester-V/CS-302-MJ-T-Operating-Systems/Dashboard|CS-302 OS Theory Dashboard]]
-- [[../../../07-Exams/Semester-V/CS-302-PYQ|CS-302 PYQ]]
-- [[../../../11-Tracking/Lab-Tracker|Lab Completion Tracker]]
+- [[01-Semester-V/CS-302-MJ-T-Operating-Systems/Overview|CS-302 OS Theory Dashboard]]
+- [[07-Exams/Exams-Dashboard|Exam Prep]]
+- [[11-Tracking/Lab-Tracker|Lab Completion Tracker]]
 
 ---
 

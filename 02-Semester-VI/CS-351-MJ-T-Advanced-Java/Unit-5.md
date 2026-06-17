@@ -21,12 +21,15 @@ updated: 2026-06-16
 hours: 6
 ---
 
-#  Unit 5 - Hibernate / Spring Basics
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 5 - Hibernate / Spring Basics
 
 > [!important] Industry-Critical Unit
 > Spring Boot + Hibernate is the most widely used Java enterprise stack. Virtually every Java backend role requires knowledge of Spring MVC, Spring Boot REST APIs, and Hibernate ORM.
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Explain ORM and the impedance mismatch problem
 - [ ] Describe Hibernate architecture with SessionFactory and Session
@@ -79,14 +82,14 @@ User user = session.get(User.class, userId);  // Done! No SQL, no mapping!
 
 ```mermaid
 graph TD
-  APP[Java Application] --> SF[SessionFactory\n Immutable, thread-safe]
-  SF --> S[Session\n Lightweight, not thread-safe]
+  APP[Java Application] --> SF[SessionFactory<br/> Immutable, thread-safe]
+  SF --> S[Session<br/> Lightweight, not thread-safe]
   S --> T[Transaction]
   S --> Q[Query / HQL]
   S --> DB[(Database)]
   
-  CF[Configuration\nhibernate.cfg.xml] --> SF
-  MP[Mapping\n@Entity annotations] --> SF
+  CF[Configuration<br/>hibernate.cfg.xml] --> SF
+  MP[Mapping<br/>@Entity annotations] --> SF
 ```
 
 ### Hibernate Core Components
@@ -623,7 +626,7 @@ spring.application.name=student-api
 
 ---
 
-##  Key Terms Summary
+## Key Terms Summary
 
 | Term | Definition |
 |------|------------|
@@ -641,7 +644,7 @@ spring.application.name=student-api
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 1. What is ORM? What problem does it solve (impedance mismatch)?
 2. Explain Hibernate architecture with SessionFactory and Session.
@@ -656,7 +659,7 @@ spring.application.name=student-api
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview]] | [[Syllabus]]
 - ← Previous: [[Unit-4|Unit-4 - Servlet & JSP]]

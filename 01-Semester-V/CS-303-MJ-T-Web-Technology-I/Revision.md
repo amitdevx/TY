@@ -11,7 +11,10 @@ type: revision
 last_reviewed: 2026-06-16
 ---
 
-#  CS-303 Web Technology-I - Revision Notes
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-303 Web Technology-I - Revision Notes
 
 > [!note] Navigation
 > [[Overview|CS-303 Overview]] | [[Important-Questions|CS-303 Important-Questions]] | [[Interview-Prep|CS-303 Interview-Prep]]
@@ -23,7 +26,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-##  Chapter 1 - HTML5 & CSS3
+## Chapter 1 - HTML5 & CSS3
 
 ### HTML5 Semantic Elements (Must Memorize)
 ```
@@ -112,7 +115,7 @@ transition: property duration timing delay;
 
 ---
 
-##  Chapter 2 - JavaScript ES6+
+## Chapter 2 - JavaScript ES6+
 
 ### Variable Scoping
 ```javascript
@@ -179,7 +182,7 @@ const [a, b] = await Promise.all([op1(), op2()]);
 
 ---
 
-##  Chapter 3 - Node.js Fundamentals
+## Chapter 3 - Node.js Fundamentals
 
 ### Key Facts
 ```
@@ -229,7 +232,7 @@ server.listen(3000);
 
 ---
 
-##  Chapter 4 - File Handling
+## Chapter 4 - File Handling
 
 ### File Operations - Quick Reference
 ```javascript
@@ -298,7 +301,7 @@ app.post('/upload', upload.single('photo'), (req, res) => {
 
 ---
 
-##  Exam Tips
+## Exam Tips
 
 > [!tip] Last-Minute Exam Tips
 >
@@ -313,7 +316,7 @@ app.post('/upload', upload.single('photo'), (req, res) => {
 
 ---
 
-##  Key Comparisons Table
+## Key Comparisons Table
 
 | Topic | Option A | Option B |
 |-------|----------|----------|

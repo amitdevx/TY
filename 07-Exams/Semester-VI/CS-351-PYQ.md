@@ -22,14 +22,17 @@ created: 2026-06-16
 type: pyq
 ---
 
-#  CS-351 Advanced Java - Expected PYQ
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-351 Advanced Java - Expected PYQ
 
 > [!important] Exam Strategy
 > Advanced Java is broad. Focus on Collections (List/Set/Map), Multithreading (lifecycle, synchronization), JDBC steps, and Servlets/JSP. Hibernate and Spring are theory-heavy - know annotations.
 
 ---
 
-## ️ Unit-wise Distribution
+## Unit-wise Distribution
 
 | Unit | Topic | Weightage |
 |------|-------|-----------|
@@ -41,7 +44,7 @@ type: pyq
 
 ---
 
-## ️ Section A - Short Answer (2 Marks)
+## Section A - Short Answer (2 Marks)
 
 1. **What is the Java Collections Framework? Name the main interfaces.**
 2. **Difference between ArrayList and LinkedList.**
@@ -66,7 +69,7 @@ type: pyq
 
 ---
 
-##  Section B - Long Answer (5–7 Marks)
+## Section B - Long Answer (5–7 Marks)
 
 ---
 
@@ -427,7 +430,7 @@ public class App {
 
 ---
 
-##  Most Expected Questions
+## Most Expected Questions
 
 > [!tip] High Probability
 > 1.  ArrayList vs LinkedList vs Vector comparison
@@ -440,4 +443,4 @@ public class App {
 
 ---
 
-*Tags: CS-351 Advanced Java | Semester VI | [[07-Exams]]*
+*Tags: CS-351 Advanced Java | Semester VI | [[07-Exams/Exams-Dashboard|Exams]]*

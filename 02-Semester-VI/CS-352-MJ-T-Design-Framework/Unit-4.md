@@ -19,12 +19,15 @@ updated: 2026-06-16
 hours: 6
 ---
 
-#  Unit 4 - Services & Dependency Injection
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 4 - Services & Dependency Injection
 
 > [!note] Unit Overview
 > Services encapsulate business logic and data access, while Angular's DI framework provides them to components without tight coupling. This unit covers service creation, the DI hierarchy, HTTP communication, and provider configurations.
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Create and inject Angular services
 - [ ] Use `HttpClient` to communicate with REST APIs
@@ -72,7 +75,7 @@ graph TD
 # Angular CLI command
 ng generate service services/user
 # Creates: src/app/services/user.service.ts
-#          src/app/services/user.service.spec.ts
+# src/app/services/user.service.spec.ts
 ```
 
 ```typescript
@@ -276,8 +279,8 @@ Angular has a **tree of injectors** corresponding to the component tree:
 
 ```mermaid
 graph TD
-  ROOT[Root Injector\n providedIn: 'root' \nSingleton across app] --> MOD[Module Injector\n @NgModule providers \nShared in module]
-  MOD --> COMP[Component Injector\n @Component providers \nNew instance per component]
+  ROOT[Root Injector<br/> providedIn: 'root' <br/>Singleton across app] --> MOD[Module Injector<br/> @NgModule providers <br/>Shared in module]
+  MOD --> COMP[Component Injector<br/> @Component providers <br/>New instance per component]
   COMP --> CHILD[Child Component Injector]
 ```
 
@@ -483,7 +486,7 @@ export class ProductService {
 
 ---
 
-##  Key Terms Summary
+## Key Terms Summary
 
 | Term | Definition |
 |------|------------|
@@ -500,7 +503,7 @@ export class ProductService {
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 1. What is a service in Angular? Why are services used instead of putting logic in components?
 2. How do you create an Angular service using CLI? Write a basic service example.
@@ -515,7 +518,7 @@ export class ProductService {
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Overview]] | [[Syllabus]]
 - ← Previous: [[Unit-3|Unit-3 - Angular Routing]]

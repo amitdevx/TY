@@ -21,11 +21,14 @@ created: 2026-06-16
 last_modified: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # CS-302-MJ-T - Operating Systems
 > [!important] Subject Info
 > **Subject Code:** CS-302-MJ-T | **Credits:** 2 | **IE:** 15 Marks | **EE:** 35 Marks | **Total:** 50 Marks
 
-##  Subject Description
+## Subject Description
 
 An ==Operating System== (OS) is system software that manages computer hardware and software resources, providing common services for computer programs. This subject covers the **core concepts** of OS design including **process management**, **memory management**, **deadlock handling**, and **file systems**. Understanding OS is fundamental to computer science as it bridges hardware and user applications.
 
@@ -34,7 +37,7 @@ An ==Operating System== (OS) is system software that manages computer hardware a
 
 ---
 
-##  Course Objectives
+## Course Objectives
 
 1. **CO-Obj-1:** Understand the fundamental concepts, structure, and types of operating systems.
 2. **CO-Obj-2:** Analyze CPU **scheduling algorithms** and understand process management and context switching.
@@ -45,7 +48,7 @@ An ==Operating System== (OS) is system software that manages computer hardware a
 
 ---
 
-##  Course Outcomes (COs)
+## Course Outcomes (COs)
 
 | CO | Description | Bloom's Level |
 |----|-------------|--------------|
@@ -58,20 +61,20 @@ An ==Operating System== (OS) is system software that manages computer hardware a
 
 ---
 
-##  Unit-wise Content
+## Unit-wise Content
 
 | Unit | Topic | Hours | Notes |
 |------|-------|-------|-------|
-| 1 | [[Unit-1\|Introduction to Operating Systems]] | 3 | Definition, Types, Structure, Booting |
-| 2 | [[Unit-2\|Process and CPU Scheduling]] | 7 | PCB, States, FCFS, SJF, RR, Priority |
-| 3 | [[Unit-3\|Memory Management]] | 8 | Paging, Segmentation, Virtual Memory, Page Replacement |
-| 4 | [[Unit-4\|Deadlock]] | 7 | RAG, Conditions, Banker's Algorithm, Recovery |
-| 5 | [[Unit-5\|File System and Disk Scheduling]] | 5 | Allocation, Free Space, FCFS, SSTF, SCAN, LOOK |
+| 1 | [[Unit-1|Introduction to Operating Systems]] | 3 | Definition, Types, Structure, Booting |
+| 2 | [[Unit-2|Process and CPU Scheduling]] | 7 | PCB, States, FCFS, SJF, RR, Priority |
+| 3 | [[Unit-3|Memory Management]] | 8 | Paging, Segmentation, Virtual Memory, Page Replacement |
+| 4 | [[Unit-4|Deadlock]] | 7 | RAG, Conditions, Banker's Algorithm, Recovery |
+| 5 | [[Unit-5|File System and Disk Scheduling]] | 5 | Allocation, Free Space, FCFS, SSTF, SCAN, LOOK |
 | | **Total** | **30** | |
 
 ---
 
-## ️ Quick Navigation
+## Quick Navigation
 
 - [[Syllabus| Complete Syllabus]]
 - [[Unit-1| Unit 1: Introduction to OS]]
@@ -85,7 +88,7 @@ An ==Operating System== (OS) is system software that manages computer hardware a
 
 ---
 
-##  Reference Books
+## Reference Books
 
 | # | Title | Author | Publisher |
 |---|-------|--------|-----------|
@@ -96,7 +99,7 @@ An ==Operating System== (OS) is system software that manages computer hardware a
 
 ---
 
-## ️ Exam Pattern
+## Exam Pattern
 
 > [!warning] Exam Weightage
 > - **Internal Exam (IE):** 15 Marks - Unit tests, assignments
@@ -105,7 +108,7 @@ An ==Operating System== (OS) is system software that manages computer hardware a
 
 ---
 
-##  Key Themes
+## Key Themes
 
 ```mermaid
 mindmap
@@ -137,6 +140,6 @@ mindmap
 
 ---
 
-##  Backlinks
-- [[../Semester-V-Overview|Semester V Overview]]
-- [[../CS-301-MJ-T-Core-Java/Overview|CS-301 Core Java]]
+## Backlinks
+- [[00-Dashboard/Home|Main Dashboard]]
+- [[01-Semester-V/CS-301-MJ-T-Core-Java/Overview|CS-301 Core Java]]

@@ -20,14 +20,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 3: Data Visualization
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 3: Data Visualization
 
 > [!note] Navigation
 > ← [[Unit-2]] | [[Overview]] | [[Unit-4]] →
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 - [ ] Choose the right chart type for each data scenario
 - [ ] Create histograms, bar charts, scatter plots, line charts, pie charts
@@ -499,7 +502,7 @@ fig.show()
 
 ---
 
-##  Interview Questions - Unit 3
+## Interview Questions - Unit 3
 
 > [!question] Q1: When would you use a boxplot over a histogram?
 > **Answer**: Use a boxplot when comparing distributions across multiple categories (e.g., sales by department), or when you specifically want to see Q1, Q3, IQR, and outliers. Use a histogram when you want to see the detailed shape of a single distribution.
@@ -518,7 +521,7 @@ fig.show()
 
 ---
 
-##  Revision Summary
+## Revision Summary
 
 > [!summary] Unit 3 Key Points
 > 1. **Histogram**: Single variable distribution

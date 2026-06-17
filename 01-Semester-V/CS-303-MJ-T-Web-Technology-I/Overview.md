@@ -15,14 +15,17 @@ credits: 4
 last_reviewed: 2026-06-16
 ---
 
-#  CS-303-MJ-T - Web Technology-I
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-303-MJ-T - Web Technology-I
 
 > [!important] Subject at a Glance
 > This subject bridges frontend web development with server-side JavaScript, covering HTML5/CSS3, ES6+ JavaScript, and Node.js fundamentals - skills required for full-stack web development.
 
 ---
 
-##  Subject Information
+## Subject Information
 
 | Field            | Details                          |
 |------------------|----------------------------------|
@@ -35,7 +38,7 @@ last_reviewed: 2026-06-16
 
 ---
 
-## ️ Chapter Overview
+## Chapter Overview
 
 ```mermaid
 mindmap
@@ -68,7 +71,7 @@ mindmap
 
 ---
 
-##  Unit Notes
+## Unit Notes
 
 | Unit | Topic | Notes | Status |
 |------|-------|-------|--------|
@@ -79,7 +82,7 @@ mindmap
 
 ---
 
-##  Learning Objectives
+## Learning Objectives
 
 By the end of this course, students will be able to:
 
@@ -95,7 +98,7 @@ By the end of this course, students will be able to:
 
 ---
 
-##  Key Themes
+## Key Themes
 
 > [!tip] The Full Stack Journey
 > This subject takes you from **static HTML pages** → **dynamic client-side JS** → **server-side Node.js**, forming the foundation for full-stack development.
@@ -108,7 +111,7 @@ By the end of this course, students will be able to:
 
 ---
 
-##  Study Plan
+## Study Plan
 
 ```mermaid
 gantt
@@ -128,7 +131,7 @@ gantt
 
 ---
 
-##  Quick Links
+## Quick Links
 
 - [[Syllabus|CS-303 Syllabus]] - Full syllabus with reference books
 - [[Unit-1]] - Web Basics: HTML5 & CSS3
@@ -141,7 +144,7 @@ gantt
 
 ---
 
-##  Reference Books
+## Reference Books
 
 | # | Book | Author |
 |---|------|--------|

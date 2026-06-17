@@ -13,14 +13,17 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-307: Data Science - Interview Preparation
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-307: Data Science - Interview Preparation
 
 > [!tip] Strategy
 > Read each question aloud and answer it fully before checking the answer below. The goal is to be able to explain clearly, not just recognize.
 
 ---
 
-##  Category 1: Data Science Fundamentals (Q1–Q8)
+## Category 1: Data Science Fundamentals (Q1–Q8)
 
 > [!question] Q1: What is data science? How is it different from machine learning and statistics?
 > **Answer**: Data Science is an interdisciplinary field that extracts knowledge from data using scientific methods, algorithms, and systems. **Statistics** focuses on mathematical analysis of data. **Machine Learning** is a technique where algorithms learn patterns from data without explicit programming. **Data Science** is broader - it encompasses data engineering, EDA, statistics, and ML to drive business decisions. Statistics = math; ML = algorithms that learn; Data Science = full pipeline from business problem to insights.
@@ -73,11 +76,11 @@ updated: 2026-06-16
 
 ---
 
-##  Category 2: Data Preprocessing (Q9–Q15)
+## Category 2: Data Preprocessing (Q9–Q15)
 
 > [!question] Q9: How do you handle missing values?
 > **Answer**:
-> - **Deletion**: Listwise (row) or Pairwise deletion - only if <5% missing and random
+> - **Deletion**: Listwise (row) or Pairwise deletion - only if < 5% missing and random
 > - **Mean imputation**: For normally distributed numerical features
 > - **Median imputation**: For skewed distributions or outlier-prone data
 > - **Mode imputation**: For categorical features
@@ -99,7 +102,7 @@ updated: 2026-06-16
 
 > [!question] Q12: What is the difference between Label Encoding and One-Hot Encoding?
 > **Answer**:
-> - **Label Encoding**: Assigns integer to each category (A=0, B=1, C=2). Implies ordinal order. Use only for ordinal data (e.g., education: High School<Bachelor<Master<PhD). Risk: Misleads algorithms into thinking there's numerical ordering.
+> - **Label Encoding**: Assigns integer to each category (A=0, B=1, C=2). Implies ordinal order. Use only for ordinal data (e.g., education: `High School < Bachelor < Master < PhD`). Risk: Misleads algorithms into thinking there's numerical ordering.
 > - **One-Hot Encoding**: Creates binary column for each category. No ordinal implication. Use for nominal data (colors, cities). Drawback: High cardinality → many columns (curse of dimensionality). Solution: Target encoding for high-cardinality features.
 
 > [!question] Q13: What is data discretization? Give examples.
@@ -118,7 +121,7 @@ updated: 2026-06-16
 
 ---
 
-##  Category 3: Statistics (Q16–Q22)
+## Category 3: Statistics (Q16–Q22)
 
 > [!question] Q16: Explain the Central Limit Theorem and its importance.
 > **Answer**: CLT states that the sampling distribution of the sample mean approaches a normal distribution as sample size n → ∞, regardless of the underlying population distribution (when n ≥ 30 in practice). **Importance**: (1) Allows use of z-tests and t-tests even when population distribution is unknown; (2) Foundation of confidence intervals; (3) Explains why so many things in nature are normally distributed; (4) Enables statistical inference from samples to populations.
@@ -159,7 +162,7 @@ updated: 2026-06-16
 
 ---
 
-##  Category 4: Machine Learning & Data Mining (Q23–Q30)
+## Category 4: Machine Learning & Data Mining (Q23–Q30)
 
 > [!question] Q23: What is the KDD process? How is it different from CRISP-DM?
 > **Answer**: KDD (Knowledge Discovery in Databases) has 5 steps: Data Selection → Preprocessing → Transformation → Data Mining → Interpretation/Evaluation. KDD is older, more database-focused, and academic. CRISP-DM is more comprehensive, includes Business Understanding, is iterative, and is industry-oriented. Both describe the data science workflow but at different abstraction levels. CRISP-DM is more widely used in industry.
@@ -195,7 +198,7 @@ updated: 2026-06-16
 
 ---
 
-##  Category 5: Python & Tools (Q31–Q35)
+## Category 5: Python & Tools (Q31–Q35)
 
 > [!question] Q31: What is the difference between Pandas, NumPy, and Scikit-learn?
 > **Answer**:
@@ -226,7 +229,7 @@ updated: 2026-06-16
 
 ---
 
-##  Quick Answer Reference Table
+## Quick Answer Reference Table
 
 | Question | 5-Second Answer |
 |----------|----------------|

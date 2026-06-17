@@ -24,7 +24,10 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  Unit 2: CRUD Operations and REST API *(6 Hours)*
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# Unit 2: CRUD Operations and REST API *(6 Hours)*
 
 > [!important] Learning Objectives
 > After this unit, you should be able to:
@@ -36,7 +39,7 @@ updated: 2026-06-16
 
 ---
 
-##  Topics at a Glance
+## Topics at a Glance
 
 ```mermaid
 mindmap
@@ -67,13 +70,13 @@ mindmap
 
 ## 2.1 REST Architecture
 
-###  What is REST?
+### What is REST?
 
 ==REST== (Representational State Transfer) is an **architectural style** for designing networked applications. It was defined by **Roy Fielding** in his 2000 doctoral dissertation.
 
 A RESTful API uses **HTTP requests** to perform CRUD operations on resources.
 
-###  The 6 REST Constraints
+### The 6 REST Constraints
 
 | Constraint | Description |
 |-----------|-------------|
@@ -89,7 +92,7 @@ A RESTful API uses **HTTP requests** to perform CRUD operations on resources.
 
 ---
 
-###  REST Resource Design
+### REST Resource Design
 
 **Resources are nouns, not verbs:**
 
@@ -111,7 +114,7 @@ Query:       /products?category=electronics&sort=price&page=2
 
 ---
 
-###  HTTP Methods (Verbs)
+### HTTP Methods (Verbs)
 
 | Method | CRUD | Safe? | Idempotent? | Usage |
 |--------|------|-------|-------------|-------|
@@ -127,7 +130,7 @@ Query:       /products?category=electronics&sort=price&page=2
 
 ---
 
-###  HTTP Status Codes
+### HTTP Status Codes
 
 | Range | Category | Common Codes |
 |-------|---------|-------------|
@@ -151,7 +154,7 @@ POST /users (unauthorized) → 401 Unauthorized
 
 ## 2.2 Express Framework
 
-###  Setup
+### Setup
 
 ```bash
 npm init -y
@@ -169,7 +172,7 @@ npm install --save-dev nodemon
 }
 ```
 
-###  Basic Express Application
+### Basic Express Application
 
 ```javascript
 // server.js
@@ -205,7 +208,7 @@ app.listen(PORT, () => {
 
 ---
 
-###  Express Routing
+### Express Routing
 
 ```javascript
 // routes/users.js
@@ -239,7 +242,7 @@ module.exports = router;
 
 ---
 
-###  Middleware
+### Middleware
 
 ==Middleware== functions have access to `(req, res, next)` and can:
 1. Execute any code
@@ -305,7 +308,7 @@ module.exports = authMiddleware;
 
 ---
 
-###  MVC Pattern in Express
+### MVC Pattern in Express
 
 ==MVC (Model-View-Controller)== separates an application into three components:
 
@@ -391,7 +394,7 @@ exports.getUserById = async (req, res, next) => {
 
 ## 2.3 CRUD Implementation
 
-###  Complete CRUD Example (Products API)
+### Complete CRUD Example (Products API)
 
 ```javascript
 // controllers/productController.js
@@ -505,7 +508,7 @@ exports.deleteProduct = async (req, res, next) => {
 
 ## 2.4 Pagination & Filtering
 
-###  Pagination Strategy
+### Pagination Strategy
 
 ==Pagination== divides large datasets into smaller pages.
 
@@ -540,7 +543,7 @@ GET /api/products?category=electronics&minPrice=100&maxPrice=500&search=laptop&s
 
 ## 2.5 API Documentation
 
-###  Postman
+### Postman
 
 ==Postman== is a collaboration platform for API development and testing.
 
@@ -568,7 +571,7 @@ Body (raw JSON):
 
 ---
 
-###  Swagger / OpenAPI
+### Swagger / OpenAPI
 
 ==Swagger/OpenAPI== is a specification for describing REST APIs in a machine-readable format (YAML/JSON).
 
@@ -620,7 +623,7 @@ router.get('/', userController.getAllUsers);
 
 ---
 
-##  Key Definitions
+## Key Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -639,7 +642,7 @@ router.get('/', userController.getAllUsers);
 
 ---
 
-##  Practice Questions
+## Practice Questions
 
 > [!question] Short Answer Questions
 > 1. What are the 6 constraints of REST architecture?
@@ -655,7 +658,7 @@ router.get('/', userController.getAllUsers);
 
 ---
 
-##  Navigation
+## Navigation
 
 - [[Unit-1|← Unit 1: Database Connectivity]]
 - [[Syllabus| Syllabus]]

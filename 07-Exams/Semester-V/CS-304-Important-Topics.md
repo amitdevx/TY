@@ -17,14 +17,17 @@ created: 2026-06-16
 type: important-topics
 ---
 
-#  CS-304 Theory of Computer Science - Important Topics
+[[00-Dashboard/Home|Home]] | [[07-Exams/Exams-Dashboard|Exams Dashboard]]
+
+
+# CS-304 Theory of Computer Science - Important Topics
 
 > [!important] Exam Focus
 > TCS is 80% numerical. Master DFA construction, NFA→DFA conversion, CFG→CNF, Pumping Lemma, and Turing Machine design. Definitions fetch marks in short answers.
 
 ---
 
-##  Top 10 Most Important Topics
+## Top 10 Most Important Topics
 
 | # | Topic | Description | Probability |
 |---|-------|-------------|-------------|
@@ -41,7 +44,7 @@ type: important-topics
 
 ---
 
-##  "Definitely Going to Come" Section
+## "Definitely Going to Come" Section
 
 > [!warning] Almost Certain Exam Questions
 > 1. **Construct DFA** for: strings ending in '01', strings with even 0s & even 1s
@@ -54,7 +57,7 @@ type: important-topics
 
 ---
 
-##  Must-Know Definitions
+## Must-Know Definitions
 
 | Term | Definition |
 |------|-----------|
@@ -74,7 +77,7 @@ type: important-topics
 
 ---
 
-##  Key Algorithms to Remember
+## Key Algorithms to Remember
 
 ### Algorithm 1: NFA → DFA (Subset Construction)
 ```
@@ -129,21 +132,21 @@ Accept when stack empty and input empty
 
 ---
 
-##  Quick Formulas & Key Facts
+## Quick Formulas & Key Facts
 
 | Fact | Detail |
 |------|--------|
 | DFA components | M = (Q, Σ, δ, q₀, F) - 5 components |
 | CFG components | G = (V, T, P, S) - 4 components |
 | TM components | M = (Q, Σ, Γ, δ, q₀, B, F) - 7 components |
-| CFL Pumping Lemma | w = uvxyz; \|vxy\| ≤ p; \|vy\| ≥ 1 |
-| Regular PL | w = xyz; \|y\| ≥ 1; \|xy\| ≤ p |
+| CFL Pumping Lemma | w = uvxyz; |vxy| ≤ p; |vy| ≥ 1 |
+| Regular PL | w = xyz; |y| ≥ 1; |xy| ≤ p |
 | Kleene's Theorem | FA ↔ RE ↔ Regular Language |
 | Church-Turing | Any effective computation ≡ Turing Machine |
 
 ---
 
-##  Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 > [!warning] Don't Make These Errors
 > - **DFA must be complete:** Every state must have a transition for every input symbol. Add a dead/trap state if needed.
@@ -156,18 +159,18 @@ Accept when stack empty and input empty
 
 ---
 
-##  Chomsky Hierarchy Quick Reference
+## Chomsky Hierarchy Quick Reference
 
 | Type | Name | Grammar | Automaton | Language Example |
 |------|------|---------|-----------|-----------------|
-| Type 0 | Unrestricted | αAβ → γ | Turing Machine | {ww \| w ∈ Σ*} |
-| Type 1 | Context-Sensitive | αAβ → αγβ | LBA | {aⁿbⁿcⁿ \| n≥1} |
-| Type 2 | Context-Free | A → γ | PDA | {aⁿbⁿ \| n≥1} |
+| Type 0 | Unrestricted | αAβ → γ | Turing Machine | {ww | w ∈ Σ*} |
+| Type 1 | Context-Sensitive | αAβ → αγβ | LBA | {aⁿbⁿcⁿ | n≥1} |
+| Type 2 | Context-Free | A → γ | PDA | {aⁿbⁿ | n≥1} |
 | Type 3 | Regular | A → aB or A → a | DFA/NFA | (ab)* |
 
 ---
 
-##  DFA Construction Tips
+## DFA Construction Tips
 
 ### Recognizing String Patterns:
 - **Ending in "ab":** Need states tracking recent chars seen
@@ -177,4 +180,4 @@ Accept when stack empty and input empty
 
 ---
 
-*Tags: CS-304 Theory of Computer Science | Semester V | [[07-Exams]]*
+*Tags: CS-304 Theory of Computer Science | Semester V | [[07-Exams/Exams-Dashboard|Exams]]*

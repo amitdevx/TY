@@ -14,12 +14,15 @@ created: 2026-06-16
 updated: 2026-06-16
 ---
 
-#  CS-354-MJ-T - Compiler Construction Important Questions
+[[00-Dashboard/Home|Home]] | [[02-Semester-VI/Semester-VI-Dashboard|Semester VI]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
+# CS-354-MJ-T - Compiler Construction Important Questions
 
 > [!warning] Exam Focus
 > Unit 4 (Parser) carries the most weight. FIRST/FOLLOW computation, LL(1) table construction, and SLR table construction are **almost always in exams**. Always show full working.
 
-##  Unit 1 - CFG and Languages
+## Unit 1 - CFG and Languages
 
 ### 2-Mark Questions
 1. Define Context-Free Grammar (CFG).
@@ -41,7 +44,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit 2 - Introduction to Compiler
+## Unit 2 - Introduction to Compiler
 
 ### 2-Mark Questions
 1. Define a compiler. How is it different from an interpreter?
@@ -63,7 +66,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit 3 - Lexical Analysis
+## Unit 3 - Lexical Analysis
 
 ### 2-Mark Questions
 1. Define token, lexeme, and pattern with one example each.
@@ -85,7 +88,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit 4 - Syntax Analysis (Largest Unit - Most Questions)
+## Unit 4 - Syntax Analysis (Largest Unit - Most Questions)
 
 ### 2-Mark Questions
 1. What is left recursion? Give an example.
@@ -128,7 +131,7 @@ updated: 2026-06-16
 
 ---
 
-##  Unit 5 - Code Generation & Optimization
+## Unit 5 - Code Generation & Optimization
 
 ### 2-Mark Questions
 1. What is postfix notation?
@@ -150,7 +153,7 @@ updated: 2026-06-16
 
 ---
 
-##  Most Critical Problems (Must Practice)
+## Most Critical Problems (Must Practice)
 
 > [!important] These 5 problems appear EVERY YEAR
 > 1. **FIRST & FOLLOW** computation for given grammar

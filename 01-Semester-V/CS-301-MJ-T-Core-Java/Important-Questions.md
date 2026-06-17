@@ -14,6 +14,9 @@ aliases:
 created: 2026-06-16
 ---
 
+[[00-Dashboard/Home|Home]] | [[01-Semester-V/Semester-V-Dashboard|Semester V]] | [[Overview]] | [[Syllabus]] | [[Unit-1]] | [[Unit-2]] | [[Unit-3]] | [[Unit-4]] | [[Unit-5]] | [[Important-Questions|Imp. Qs]] | [[Revision]] | [[Interview-Prep]]
+
+
 # CS-301 Core Java - Important Questions
 
 > [!important] Exam Strategy
@@ -22,7 +25,7 @@ created: 2026-06-16
 
 ---
 
-##  Unit 1 - Introduction to Java
+## Unit 1 - Introduction to Java
 
 ### Short Answer (2 Marks)
 
@@ -59,7 +62,7 @@ created: 2026-06-16
 
 ---
 
-##  Unit 2 - Objects and Classes
+## Unit 2 - Objects and Classes
 
 ### Short Answer (2 Marks)
 
@@ -97,7 +100,7 @@ created: 2026-06-16
 
 ---
 
-##  Unit 3 - Inheritance and Interface
+## Unit 3 - Inheritance and Interface
 
 ### Short Answer (2 Marks)
 
@@ -135,7 +138,7 @@ created: 2026-06-16
 
 ---
 
-##  Unit 4 - Exception and File Handling
+## Unit 4 - Exception and File Handling
 
 ### Short Answer (2 Marks)
 
@@ -156,7 +159,7 @@ created: 2026-06-16
 
 1. **Draw and explain the exception class hierarchy in Java. Give examples of each type.**
 2. **Explain try-catch-finally with multiple catch blocks and nested try. Write a program.**
-3. **Write a program demonstrating user-defined exceptions for invalid age (<0 or >150) and invalid salary (<0).**
+3. **Write a program demonstrating user-defined exceptions for invalid age (< 0 or >150) and invalid salary (< 0).**
 4. **Compare byte streams and character streams. Write a program to copy a text file using BufferedReader/Writer.**
 5. **Explain DataInputStream/DataOutputStream with a program that writes and reads different data types.**
 
@@ -174,7 +177,7 @@ created: 2026-06-16
 
 ---
 
-##  Unit 5 - User Interface with JavaFX
+## Unit 5 - User Interface with JavaFX
 
 ### Short Answer (2 Marks)
 
@@ -209,7 +212,7 @@ created: 2026-06-16
 
 ---
 
-##  Tricky/Conceptual Questions
+## Tricky/Conceptual Questions
 
 > [!warning] High-value questions likely in exams
 
@@ -256,7 +259,7 @@ created: 2026-06-16
 
 ---
 
-##  One-liner Answers (Quick Review)
+## One-liner Answers (Quick Review)
 
 | Question | Answer |
 |----------|--------|
