@@ -15,12 +15,12 @@ tags: [semester-vi, dashboard, ty-cs]
 
 | Code | Subject | Overview | Lab |
 |---|---|---|---|
-| CS-351-MJ-T | Advanced Java | [[02-Semester-VI/CS-351-MJ-T-Advanced-Java/Overview|Overview]] | CS-356-MJ-P |
-| CS-352-MJ-T | Design Framework (Angular) | [[02-Semester-VI/CS-352-MJ-T-Design-Framework/Overview|Overview]] | [[04-Labs/Labs-Dashboard|CS-355-MJ-P]] |
-| CS-353-MJ-T | Web Technology-II | [[02-Semester-VI/CS-353-MJ-T-Web-Technology-II/Overview|Overview]] | CS-356-MJ-P |
+| CS-351-MJ-T | Advanced Java | [[02-Semester-VI/CS-351-MJ-T-Advanced-Java/Overview|Overview]] | [[04-Labs/Semester-VI/CS-356-MJ-P/Lab-Overview|CS-356-MJ-P]] |
+| CS-352-MJ-T | Design Framework (Angular) | [[02-Semester-VI/CS-352-MJ-T-Design-Framework/Overview|Overview]] | [[04-Labs/Semester-VI/CS-355-MJ-P/Lab-Overview|CS-355-MJ-P]] |
+| CS-353-MJ-T | Web Technology-II | [[02-Semester-VI/CS-353-MJ-T-Web-Technology-II/Overview|Overview]] | [[04-Labs/Semester-VI/CS-356-MJ-P/Lab-Overview|CS-356-MJ-P]] |
 | CS-354-MJ-T | Compiler Construction | [[02-Semester-VI/CS-354-MJ-T-Compiler-Construction/Overview|Overview]] | - |
-| CS-357-MJ-T | Android Programming | [[02-Semester-VI/CS-357-MJ-T-Android-Programming/Overview|Overview]] | [[04-Labs/Labs-Dashboard|CS-358-MJ-P]] |
-| CS-371-VSC-P | Agile Processes | [[02-Semester-VI/CS-371-VSC-P-Agile-Processes/Overview|Overview]] | Practical |
+| CS-357-MJ-T | Android Programming | [[02-Semester-VI/CS-357-MJ-T-Android-Programming/Overview|Overview]] | [[04-Labs/Semester-VI/CS-358-MJ-P/Lab-Overview|CS-358-MJ-P]] |
+| CS-371-VSC-P | Agile Processes | [[02-Semester-VI/CS-371-VSC-P-Agile-Processes/Overview|Overview]] | [[04-Labs/Semester-VI/CS-371-VSC-P/Lab-Overview|CS-371-VSC-P]] |
 
 ## Subject Progress
 

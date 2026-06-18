@@ -332,6 +332,35 @@ flowchart TD
 
 ---
 
+
+## 3.6 Assignment Problem in Python Programming
+The Assignment Problem is a special case of the transportation problem. In Python, the Hungarian method is implemented directly in SciPy via `linear_sum_assignment`.
+
+```python
+import numpy as np
+from scipy.optimize import linear_sum_assignment
+
+# Cost matrix for 4 workers and 4 jobs
+cost_matrix = np.array([
+    [10, 15, 20, 18],
+    [14, 12, 16, 15],
+    [18, 17, 12, 19],
+    [15, 16, 13, 11]
+])
+
+# Apply Hungarian Algorithm
+row_ind, col_ind = linear_sum_assignment(cost_matrix)
+
+# Calculate total minimum cost
+total_cost = cost_matrix[row_ind, col_ind].sum()
+
+print("Optimal Job Assignments:")
+for i in range(len(row_ind)):
+    print(f"Worker {row_ind[i]+1} -> Job {col_ind[i]+1} (Cost: {cost_matrix[row_ind[i], col_ind[i]]})")
+    
+print("Total Minimum Cost:", total_cost)
+```
+
 ## Interview / Viva Questions
 
 > [!note] Common Viva Questions

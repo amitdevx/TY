@@ -492,6 +492,40 @@ ${header['User-Agent']}      <%-- Request header --%>
 
 ---
 
+
+## 4.8 Retrieving Data from Database to Servlet
+To connect a Servlet to a database, you typically integrate JDBC within the Servlet's `doGet` or `doPost` methods.
+
+### Steps:
+1. Load the database driver (e.g., `Class.forName("com.mysql.cj.jdbc.Driver")`).
+2. Establish a connection using `DriverManager.getConnection()`.
+3. Create a `Statement` or `PreparedStatement`.
+4. Execute the query and process the `ResultSet`.
+5. Write the retrieved data to the response using `PrintWriter`.
+
+```java
+@WebServlet("/users")
+public class UserServlet extends HttpServlet {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
+        out.println("<html><body><h2>User List</h2><ul>");
+        
+        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "user", "pass");
+             PreparedStatement ps = conn.prepareStatement("SELECT name, email FROM users");
+             ResultSet rs = ps.executeQuery()) {
+             
+            while(rs.next()) {
+                out.println("<li>" + rs.getString("name") + " - " + rs.getString("email") + "</li>");
+            }
+        } catch(SQLException e) {
+            e.printStackTrace();
+        }
+        out.println("</ul></body></html>");
+    }
+}
+```
+
 ## Key Terms Summary
 
 | Term | Definition |

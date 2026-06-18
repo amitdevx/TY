@@ -73,7 +73,7 @@ type: dashboard
 | Unit 2 | CSS3 - Selectors, Box Model, Flexbox, Grid | - | - | [[01-Semester-V/CS-303-MJ-T-Web-Technology-I/Unit-2|Unit-2]] | - |
 | Unit 3 | JavaScript - DOM, Events, Fetch API | - | - | [[01-Semester-V/CS-303-MJ-T-Web-Technology-I/Unit-3|Unit-3]] | - |
 | Unit 4 | Bootstrap / Responsive Design | - | - | [[01-Semester-V/CS-303-MJ-T-Web-Technology-I/Unit-4|Unit-4]] | - |
-| Unit 5 | PHP / Server-side basics | - | - | [[01-Semester-V/CS-302-MJ-T-Operating-Systems/Unit-5|Unit-5]] | - |
+| Unit 5 | PHP / Server-side basics | - | - | [[01-Semester-V/CS-303-MJ-T-Web-Technology-I/Unit-5|Unit-5]] | - |
 
 ### CS-304 Theory of Computer Science - Detailed Progress
 

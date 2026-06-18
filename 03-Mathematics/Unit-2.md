@@ -367,6 +367,55 @@ Add a very small positive number $\varepsilon$ (epsilon) to an **independent** e
 
 ---
 
+
+## 2.7 Transportation Problem in Python Programming
+The Transportation Problem can be solved in Python by formulating it as a linear programming problem using `scipy.optimize.linprog`.
+
+```python
+import numpy as np
+from scipy.optimize import linprog
+
+# Supply (from 3 sources) and Demand (to 4 destinations)
+supply = [20, 30, 25]
+demand = [10, 25, 15, 25]
+
+# Cost Matrix (3x4)
+costs = np.array([
+    [8, 6, 10, 9],
+    [9, 12, 13, 7],
+    [14, 9, 16, 5]
+])
+
+# Flatten the cost matrix for the objective function
+c = costs.flatten()
+
+# Equality constraints setup (A_eq * x = b_eq)
+# Constraints for supply and demand
+A_eq = []
+b_eq = supply + demand
+
+# Supply constraints
+for i in range(len(supply)):
+    row = [0] * len(c)
+    for j in range(len(demand)):
+        row[i * len(demand) + j] = 1
+    A_eq.append(row)
+
+# Demand constraints
+for j in range(len(demand)):
+    row = [0] * len(c)
+    for i in range(len(supply)):
+        row[i * len(demand) + j] = 1
+    A_eq.append(row)
+
+# Solve
+res = linprog(c, A_eq=A_eq, b_eq=b_eq, bounds=(0, None), method='highs')
+
+print("Minimum Transportation Cost:", res.fun)
+print("Allocation Matrix:")
+print(np.round(res.x).reshape((len(supply), len(demand))))
+```
+
 ## Interview / Viva Questions
 
 > [!note] Common Viva Questions

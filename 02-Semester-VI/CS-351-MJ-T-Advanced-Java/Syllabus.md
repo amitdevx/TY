@@ -94,7 +94,7 @@ updated: 2026-06-16
 
 ---
 
-## Chapter 5: Hibernate / Spring Basics (6H)
+## Chapter 5: Spring Framework and Spring Boot Data JPA (6H)
 
 ### Topics Covered
 - **ORM Concept** - Object-Relational Mapping, impedance mismatch

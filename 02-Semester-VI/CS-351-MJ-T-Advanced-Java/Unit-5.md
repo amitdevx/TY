@@ -1,5 +1,5 @@
 ---
-title: "Advanced Java - Unit 5: Hibernate & Spring Basics"
+title: "Advanced Java - Unit 5: Spring Framework & Data JPA"
 subject: "CS-351-MJ-T"
 unit: 5
 semester: VI
@@ -78,261 +78,59 @@ User user = session.get(User.class, userId);  // Done! No SQL, no mapping!
 
 ---
 
-## 5.2 Hibernate Architecture
+## 5.2 Spring Framework Modules
+The Spring Framework consists of several modules organized into different layers:
+- **Core Container:** Beans, Core, Context, SpEL (Spring Expression Language). Provides IoC and DI.
+- **Data Access / Integration:** JDBC, ORM, OXM, JMS, Transaction. Handles database interactions.
+- **Web:** Web, Web-Servlet (Spring MVC), Web-Socket. Supports web application creation.
+- **AOP & Instrumentation:** Aspect-Oriented Programming support.
+- **Test:** Supports unit and integration testing with JUnit and TestNG.
 
-```mermaid
-graph TD
-  APP[Java Application] --> SF[SessionFactory<br/> Immutable, thread-safe]
-  SF --> S[Session<br/> Lightweight, not thread-safe]
-  S --> T[Transaction]
-  S --> Q[Query / HQL]
-  S --> DB[(Database)]
-  
-  CF[Configuration<br/>hibernate.cfg.xml] --> SF
-  MP[Mapping<br/>@Entity annotations] --> SF
-```
+## 5.3 Spring Boot with Database and Data JPA
+Spring Data JPA significantly reduces boilerplate code required to implement data access layers. It abstracts away raw Hibernate and JPA configurations.
 
-### Hibernate Core Components
+### Key Concepts
+- **Entity:** A Java class mapped to a database table using `@Entity`.
+- **Repository Interface:** An interface extending `JpaRepository` or `CrudRepository` which provides built-in CRUD operations.
 
-| Component | Description |
-|-----------|-------------|
-| **Configuration** | Loads `hibernate.cfg.xml`, registers entity classes |
-| **SessionFactory** | Created once per database; creates Sessions |
-| **Session** | Single unit of work with DB; not thread-safe |
-| **Transaction** | Wraps DB operations for ACID compliance |
-| **Query / HQL** | Object-oriented query language |
-| **Criteria API** | Type-safe programmatic queries |
-
----
-
-## 5.3 Hibernate Setup and Configuration
-
-### Step 1: Maven Dependencies
-
-```xml
-<!-- pom.xml -->
-<dependency>
-    <groupId>org.hibernate</groupId>
-    <artifactId>hibernate-core</artifactId>
-    <version>5.6.15.Final</version>
-</dependency>
-<dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.33</version>
-</dependency>
-```
-
-### Step 2: Configuration File
-
-```xml
-<!-- hibernate.cfg.xml -->
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE hibernate-configuration PUBLIC ...>
-<hibernate-configuration>
-    <session-factory>
-        <!-- Database connection -->
-        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/mydb</property>
-        <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">password</property>
-        
-        <!-- Hibernate dialect -->
-        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
-        
-        <!-- Auto DDL -->
-        <property name="hibernate.hbm2ddl.auto">update</property>
-        <!-- create, create-drop, validate, update, none -->
-        
-        <!-- Show SQL -->
-        <property name="hibernate.show_sql">true</property>
-        <property name="hibernate.format_sql">true</property>
-        
-        <!-- Entity classes -->
-        <mapping class="com.example.entity.Student"/>
-        <mapping class="com.example.entity.Course"/>
-    </session-factory>
-</hibernate-configuration>
-```
-
-### Step 3: Entity Class
-
+### Implementation Steps
+**1. Entity Class:**
 ```java
-import javax.persistence.*;
-
 @Entity
-@Table(name = "students")  // Maps to "students" table
-public class Student {
-    
+public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "student_id")
-    private int id;
-    
-    @Column(name = "name", nullable = false, length = 100)
+    private Long id;
     private String name;
-    
-    @Column(name = "email", unique = true)
-    private String email;
-    
-    @Column(name = "marks")
-    private double marks;
-    
-    // Many-to-One relationship
-    @ManyToOne
-    @JoinColumn(name = "course_id")
-    private Course course;
-    
-    // Constructors, getters, setters
-    public Student() {}
-    
-    public Student(String name, String email, double marks) {
-        this.name = name;
-        this.email = email;
-        this.marks = marks;
-    }
-    
-    // Getters and setters...
-    public int getId() { return id; }
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
-    // ... etc
+    private double salary;
+    // Getters and setters
 }
 ```
 
-### Step 4: SessionFactory and CRUD
-
+**2. Repository Interface:**
 ```java
-public class HibernateUtil {
-    private static SessionFactory sessionFactory;
-    
-    static {
-        Configuration cfg = new Configuration().configure();
-        sessionFactory = cfg.buildSessionFactory();
-    }
-    
-    public static SessionFactory getSessionFactory() {
-        return sessionFactory;
-    }
-}
-
-public class StudentDAO {
-    // CREATE
-    public void save(Student student) {
-        Session session = HibernateUtil.getSessionFactory().openSession();
-        Transaction tx = null;
-        try {
-            tx = session.beginTransaction();
-            session.save(student);  // or session.persist(student)
-            tx.commit();
-        } catch (Exception e) {
-            if (tx != null) tx.rollback();
-            e.printStackTrace();
-        } finally {
-            session.close();
-        }
-    }
-    
-    // READ by ID
-    public Student findById(int id) {
-        Session session = HibernateUtil.getSessionFactory().openSession();
-        try {
-            return session.get(Student.class, id);
-        } finally {
-            session.close();
-        }
-    }
-    
-    // READ all
-    public List<Student> findAll() {
-        Session session = HibernateUtil.getSessionFactory().openSession();
-        try {
-            return session.createQuery("FROM Student", Student.class).list();
-        } finally {
-            session.close();
-        }
-    }
-    
-    // UPDATE
-    public void update(Student student) {
-        Session session = HibernateUtil.getSessionFactory().openSession();
-        Transaction tx = null;
-        try {
-            tx = session.beginTransaction();
-            session.update(student);  // or session.merge(student)
-            tx.commit();
-        } catch (Exception e) {
-            if (tx != null) tx.rollback();
-        } finally {
-            session.close();
-        }
-    }
-    
-    // DELETE
-    public void delete(int id) {
-        Session session = HibernateUtil.getSessionFactory().openSession();
-        Transaction tx = null;
-        try {
-            tx = session.beginTransaction();
-            Student student = session.get(Student.class, id);
-            if (student != null) session.delete(student);
-            tx.commit();
-        } catch (Exception e) {
-            if (tx != null) tx.rollback();
-        } finally {
-            session.close();
-        }
-    }
+public interface EmployeeRepository extends JpaRepository<Employee, Long> {
+    // Custom query methods can be defined here
+    List<Employee> findByName(String name);
 }
 ```
 
----
-
-## 5.4 HQL (Hibernate Query Language)
-
-==HQL== is an object-oriented query language, similar to SQL but operates on **entity classes and properties** rather than tables and columns.
-
+**3. Service / Controller Integration:**
 ```java
-Session session = HibernateUtil.getSessionFactory().openSession();
-
-// Basic query - use class name and field names, NOT table/column names
-List<Student> all = session.createQuery("FROM Student", Student.class).list();
-
-// WHERE clause
-List<Student> toppers = session.createQuery(
-    "FROM Student s WHERE s.marks > 80 ORDER BY s.marks DESC", 
-    Student.class
-).list();
-
-// Parameterized HQL (prevents HQL injection)
-Query<Student> q = session.createQuery("FROM Student WHERE name = :name", Student.class);
-q.setParameter("name", "Alice");
-Student alice = q.uniqueResult();
-
-// Aggregate functions
-Long count = session.createQuery("SELECT count(s) FROM Student s", Long.class).uniqueResult();
-Double avg = session.createQuery("SELECT avg(s.marks) FROM Student s", Double.class).uniqueResult();
-
-// Projection - select specific fields
-List<Object[]> data = session.createQuery(
-    "SELECT s.name, s.marks FROM Student s"
-).list();
-
-// UPDATE and DELETE
-int updated = session.createQuery(
-    "UPDATE Student SET marks = marks + 5 WHERE marks < 50"
-).executeUpdate();
-
-// JOIN
-List<Student> students = session.createQuery(
-    "FROM Student s JOIN FETCH s.course WHERE s.course.name = 'Java'",
-    Student.class
-).list();
+@RestController
+@RequestMapping("/api/employees")
+public class EmployeeController {
+    @Autowired
+    private EmployeeRepository repo;
+    
+    @GetMapping
+    public List<Employee> getAll() {
+        return repo.findAll();
+    }
+}
 ```
 
----
-
-## 5.5 Spring IoC / Dependency Injection
+## 5.4 Spring IoC / Dependency Injection
 
 ### Inversion of Control (IoC)
 

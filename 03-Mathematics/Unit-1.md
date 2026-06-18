@@ -104,39 +104,7 @@ graph TD
 
 ---
 
-## 1.3 Graphical Method
-
-> [!note] Applicable only for 2-variable LPP
-
-### Steps
-
-1. **Convert inequalities to equalities** and plot each constraint as a line
-2. **Determine feasible region**: intersection of all constraint half-planes (+ non-negativity)
-3. **Identify corner points** (vertices) of feasible region
-4. **Evaluate** $Z$ at each corner point
-5. **Select optimal**: Maximum $Z$ for maximization, minimum $Z$ for minimization
-
-### Solved Example (Graphical)
-
-Using the product mix problem above:
-
-| Corner Point | $x_1$ | $x_2$ | $Z = 5x_1 + 4x_2$ |
-|-------------|--------|--------|-------------------|
-| $O(0, 0)$ | 0 | 0 | **0** |
-| $A(20, 0)$ | 20 | 0 | **100** |
-| $B(12, 16)$ | 12 | 16 | **124** ← Maximum |
-| $C(0, 20)$ | 0 | 20 | **80** |
-
-**Optimal:** $x_1 = 12, x_2 = 16, Z = 124$
-
-### Convex Set and Extreme Points
-
-> [!note] Fundamental Theorem of LPP
-> If an optimal solution exists, it occurs at an **extreme point** (corner point) of the feasible region.
-
----
-
-## 1.4 Simplex Method
+## 1.3 Simplex Method
 
 ### Overview
 
@@ -289,23 +257,7 @@ Since $M$ is very large, $3 - 3M$ is most negative → $x_1$ enters.
 
 ---
 
-## 1.6 Two-Phase Method
-
-### Phase I: Find Initial BFS
-
-$$\text{Minimize } w = \sum A_i \quad \text{(sum of artificial variables)}$$
-Subject to original constraints.
-
-- If $w^* = 0$: feasible solution exists → proceed to Phase II
-- If $w^* > 0$: original problem is infeasible
-
-### Phase II: Optimize Original
-
-Use Phase I's optimal tableau, replace objective with original $Z$, remove artificial variable columns, continue Simplex.
-
----
-
-## 1.7 Special Cases in LPP
+## 1.6 Special Cases in LPP
 
 ### 1. Unbounded Solution
 
@@ -340,6 +292,40 @@ When **minimum ratio = 0** or multiple equal minimum ratios → **degeneracy**.
 | **Multiple Optimal** | Zero $c_j-z_j$ for non-basic | Many optimal solutions |
 
 ---
+
+
+## 1.8 Linear Programming in Python Programming
+In modern Operations Research, LPPs are often solved programmatically using Python libraries such as `scipy.optimize.linprog` or `PuLP`.
+
+### Solving LPP using SciPy
+Example: Maximize $Z = 3x_1 + 2x_2$
+Subject to:
+$x_1 + x_2 \le 4$
+$x_1 - x_2 \le 2$
+$x_1, x_2 \ge 0$
+
+```python
+from scipy.optimize import linprog
+
+# Note: linprog minimizes by default, so we negate the objective coefficients for maximization
+c = [-3, -2] 
+
+# Inequality constraints matrix (left-hand side)
+A_ub = [[1, 1],
+        [1, -1]]
+
+# Inequality constraints vector (right-hand side)
+b_ub = [4, 2]
+
+# Bounds for variables (x1 >= 0, x2 >= 0)
+x0_bounds = (0, None)
+x1_bounds = (0, None)
+
+res = linprog(c, A_ub=A_ub, b_ub=b_ub, bounds=[x0_bounds, x1_bounds], method='highs')
+
+print("Optimal value Z =", -res.fun)
+print("x1, x2 =", res.x)
+```
 
 ## Interview / Viva Questions
 

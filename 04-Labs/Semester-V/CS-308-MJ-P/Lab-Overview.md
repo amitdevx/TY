@@ -24,16 +24,25 @@ updated: 2026-06-16
 
 ---
 
+## Lab Resources
+
+- 📝 [[Universal-Assignments|Universal Assignments]]
+- 📖 [[Lab-Preparation|Lab Preparation Guide]]
+- 🗣️ [[Viva-Questions|Viva Questions]]
+- 🏦 [[Question-Bank|Question Bank]]
+
+---
+
 ## Lab Navigation
 
 | Assignment | Topic | Link | Status |
 |-----------|-------|------|--------|
-| Exp-01 | Data Processing & Cleaning | Experiments/Exp-01-Data-Processing | ⬜ |
-| Exp-02 | Basic Visualization | Experiments/Exp-02-Basic-Visualization | ⬜ |
-| Exp-03 | Advanced Visualization | Experiments/Exp-03-Advanced-Visualization | ⬜ |
-| Exp-04 | Regression (ML) | Experiments/Exp-04-Regression | ⬜ |
-| Exp-05 | Classification (ML) | Experiments/Exp-05-Classification | ⬜ |
-| Exp-06 | Unsupervised ML | Experiments/Exp-06-Unsupervised-ML | ⬜ |
+| Assignment 1 | Data Wrangling with Pandas | [[CS-308-Assignment-1]] | ⬜ |
+| Assignment 2 | Data Visualization | [[CS-308-Assignment-2]] | ⬜ |
+| Assignment 3 | Exploratory Data Analysis (EDA) | [[CS-308-Assignment-3]] | ⬜ |
+| Assignment 4 | Simple Linear Regression | [[CS-308-Assignment-4]] | ⬜ |
+| Assignment 5 | Classification using Logistic Regression | [[CS-308-Assignment-5]] | ⬜ |
+| Assignment 6 | Unsupervised ML (Clustering) | [[CS-308-Assignment-6]] | ⬜ |
 
 ---
 
@@ -250,3 +259,11 @@ plt.rcParams['figure.figsize'] = (10, 6)
 ---
 
 *Lab Overview | CS-308-MJ-P | Semester V | Last Updated: 2026-06-16*
+
+## Viva Questions
+- [[CS-308-Viva-1]]
+- [[CS-308-Viva-2]]
+- [[CS-308-Viva-3]]
+- [[CS-308-Viva-4]]
+- [[CS-308-Viva-5]]
+- [[CS-308-Viva-6]]

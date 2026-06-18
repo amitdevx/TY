@@ -29,12 +29,12 @@ updated: 2026-06-16
 
 | Experiment | Topic | Link | Status |
 |-----------|-------|------|--------|
-| Exp-01 | Process Operations (fork/exec) | Experiments/Exp-01-Process-Operations | ⬜ |
-| Exp-02 | CPU Scheduling Algorithms | Experiments/Exp-02-CPU-Scheduling | ⬜ |
-| Exp-03 | Page Replacement Algorithms | Experiments/Exp-03-Page-Replacement | ⬜ |
-| Exp-04 | Banker's Algorithm | Experiments/Exp-04-Bankers-Algorithm | ⬜ |
-| Exp-05 | File Allocation Methods | Experiments/Exp-05-File-Allocation | ⬜ |
-| Exp-06 | Disk Scheduling Algorithms | Experiments/Exp-06-Disk-Scheduling | ⬜ |
+| Exp-01 | Process Operations (fork/exec) | [[CS-305-Assignment-1]] | ⬜ |
+| Exp-02 | CPU Scheduling Algorithms | [[CS-305-Assignment-2]] | ⬜ |
+| Exp-03 | Page Replacement Algorithms | [[CS-305-Assignment-3]] | ⬜ |
+| Exp-04 | Banker's Algorithm | [[CS-305-Assignment-4]] | ⬜ |
+| Exp-05 | File Allocation Methods | [[CS-305-Assignment-5]] | ⬜ |
+| Exp-06 | Disk Scheduling Algorithms | [[CS-305-Assignment-6]] | ⬜ |
 
 ---
 
@@ -190,6 +190,15 @@ gcc -o output_name program.c
 
 ---
 
+## Lab Materials
+
+- [[Universal-Assignments]]: Comprehensive assignment sets covering all major OS concepts.
+- [[Lab-Preparation]]: Step-by-step procedures, theories, and exam tips for all experiments.
+- [[Viva-Questions]]: Topic-wise questions and answers for viva preparation.
+- [[Question-Bank]]: Short, long, practical, and programming questions for exam prep.
+
+---
+
 ## Related Resources
 
 - [[01-Semester-V/CS-302-MJ-T-Operating-Systems/Overview|CS-302 OS Theory Dashboard]]
@@ -199,3 +208,11 @@ gcc -o output_name program.c
 ---
 
 *Lab Overview | CS-305-MJ-P | Semester V | Last Updated: 2026-06-16*
+
+## Viva Questions
+- [[CS-305-Viva-1]]
+- [[CS-305-Viva-2]]
+- [[CS-305-Viva-3]]
+- [[CS-305-Viva-4]]
+- [[CS-305-Viva-5]]
+- [[CS-305-Viva-6]]
