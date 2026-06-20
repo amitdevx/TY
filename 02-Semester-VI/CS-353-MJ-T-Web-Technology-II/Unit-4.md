@@ -78,15 +78,15 @@ sequenceDiagram
     participant Server
     participant SessionStore
     
-    Browser->>Server: POST /login {credentials}
-    Server->>SessionStore: Create session {userId: 42}
-    SessionStore-->>Server: sessionId = "abc123"
-    Server-->>Browser: Set-Cookie: sessionId=abc123
+    Browser->>Server: POST /login<br/>{credentials}
+    Server->>SessionStore: Create session {userId:<br/>42}
+    SessionStore-->>Server: sessionId =<br/>"abc123"
+    Server-->>Browser: Set-Cookie:<br/>sessionId=abc123
     
-    Browser->>Server: GET /dashboard (Cookie: sessionId=abc123)
-    Server->>SessionStore: Lookup session abc123
+    Browser->>Server: GET /dashboard (Cookie:<br/>sessionId=abc123)
+    Server->>SessionStore: Lookup session<br/>abc123
     SessionStore-->>Server: {userId: 42}
-    Server-->>Browser: Dashboard for User 42
+    Server-->>Browser: Dashboard for User<br/>42
 ```
 
 ---
@@ -190,10 +190,10 @@ graph LR
     B --> C[Session ID sent<br/>in cookie]
     C --> D[User makes requests<br/>with session cookie]
     D --> E[Server looks up session<br/>by ID]
-    E --> F[Access session data]
+    E --> F[Access session<br/>data]
     F --> G{Logged out<br/>or expired?}
     G -->|Logout| H[Session destroyed]
-    G -->|Expired| I[Session auto-deleted]
+    G -->|Expired| I[Session<br/>auto-deleted]
     G -->|Active| D
 ```
 
@@ -444,14 +444,14 @@ app.get('/api/admin', requireRole('admin'), (req, res) => {
 | Use cases | Traditional web apps, monoliths | APIs, microservices, mobile apps, SPAs |
 
 ```mermaid
-graph LR
-    A[Session-based] --> A1[Server stores session data]
-    A --> A2[Cookie holds session ID only]
-    A --> A3[Stateful - server must be queried]
+graph TD
+    A[Session-based] --> A1[Server stores session<br/>data]
+    A --> A2[Cookie holds session ID<br/>only]
+    A --> A3[Stateful - server must be<br/>queried]
     
-    B[Token-based - JWT] --> B1[Server stores NOTHING]
-    B --> B2[Token holds all user data]
-    B --> B3[Stateless - server verifies signature only]
+    B[Token-based - JWT] --> B1[Server stores<br/>NOTHING]
+    B --> B2[Token holds all<br/>user data]
+    B --> B3[Stateless - server verifies<br/>signature only]
 ```
 
 ---

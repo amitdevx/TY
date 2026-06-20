@@ -407,16 +407,16 @@ graph TD
 ### 5.4.1 Classification of Optimizations
 
 ```mermaid
-graph TD
+graph LR
     A[Code Optimization] --> B[Machine-Independent]
     A --> C[Machine-Dependent]
     B --> D[Local Optimization<br/>Within a basic block]
     B --> E[Global Optimization<br/>Across basic blocks]
     E --> F[Intra-procedural]
     E --> G[Inter-procedural]
-    C --> H[Register Allocation]
-    C --> I[Instruction Selection]
-    C --> J[Peephole Optimization]
+    C --> H[Register<br/>Allocation]
+    C --> I[Instruction<br/>Selection]
+    C --> J[Peephole<br/>Optimization]
 ```
 
 > [!note] When to Optimize
@@ -648,12 +648,12 @@ To generate efficient code, the compiler tracks the ==next use== of each variabl
 ## 5.6 Summary: Compiler Back-End Pipeline
 
 ```mermaid
-graph LR
-    A[Semantic Analyzer Output] --> B["Intermediate Code Generator<br/>(3AC / Quadruples)"]
+graph TD
+    A[Semantic Analyzer<br/>Output] --> B["Intermediate Code Generator<br/>(3AC / Quadruples)"]
     B --> C["Machine-Independent Optimizer<br/>(CSE, Dead Code, Loop Optimization)"]
     C --> D["Code Generator<br/>(Instruction Selection, Register Allocation)"]
     D --> E["Peephole Optimizer<br/>(Local machine-dependent)"]
-    E --> F[Target Machine Code]
+    E --> F[Target Machine<br/>Code]
 ```
 
 ---

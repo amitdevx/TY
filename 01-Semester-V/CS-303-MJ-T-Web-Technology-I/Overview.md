@@ -43,25 +43,25 @@ last_reviewed: 2026-06-16
 ```mermaid
 mindmap
   root((Web Technology-I))
-    Ch1[Chapter 1: Web Basics]
+    Ch1[Chapter 1: Web<br/>Basics]
       HTML5 Semantics
       CSS Fundamentals
       Flexbox & Grid
       Responsive Design
       Animations
-    Ch2[Chapter 2: JavaScript ES6+]
+    Ch2[Chapter 2:<br/>JavaScript ES6+]
       Variables & Scope
       Arrow Functions
       Destructuring
       Async JS
       Classes & Modules
-    Ch3[Chapter 3: Node.js Fundamentals]
+    Ch3[Chapter 3: Node.js<br/>Fundamentals]
       Node Runtime
       npm & package.json
       Event Loop
       Core Modules
       HTTP Server
-    Ch4[Chapter 4: File Handling in Node.js]
+    Ch4[Chapter 4: File Handling in<br/>Node.js]
       File Read/Write
       Sync vs Async
       JSON Handling

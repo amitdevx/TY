@@ -117,7 +117,7 @@ The 12 principles behind the Agile Manifesto:
 
 ```mermaid
 graph LR
-    A[12 Agile Principles] --> B[Customer Focus<br/>Principles 1-3]
+    A[12 Agile<br/>Principles] --> B[Customer Focus<br/>Principles 1-3]
     A --> C[Team & Collaboration<br/>Principles 4-6]
     A --> D[Product Quality<br/>Principles 7-10]
     A --> E[Process Improvement<br/>Principles 11-12]
@@ -144,14 +144,14 @@ graph LR
 ==Scrum== is the most popular Agile framework.
 
 ```mermaid
-graph LR
+graph TD
     PB[Product Backlog] --> SP[Sprint Planning]
     SP --> SB[Sprint Backlog]
     SB --> S[Sprint<br/>1-4 weeks]
     S --> DSU[Daily Scrum<br/>15 min]
     S --> INC[Working Increment]
     INC --> SR[Sprint Review]
-    SR --> RETRO[Sprint Retrospective]
+    SR --> RETRO[Sprint<br/>Retrospective]
     RETRO --> PB
 ```
 
@@ -333,19 +333,19 @@ Good user stories satisfy the ==INVEST== criteria:
 ### Story Hierarchy
 
 ```mermaid
-graph TD
-    T[Theme: E-Commerce Platform] --> E1[Epic: User Management]
-    T --> E2[Epic: Product Catalog]
-    T --> E3[Epic: Shopping Cart]
-    E1 --> F1[Feature: Registration]
-    E1 --> F2[Feature: Authentication]
-    F1 --> US1[US-101: Register with email]
-    F1 --> US2[US-102: Email verification]
-    F2 --> US3[US-103: Login with credentials]
-    F2 --> US4[US-104: Password reset]
-    US1 --> T1[Task: Create registration form UI]
-    US1 --> T2[Task: Implement backend API]
-    US1 --> T3[Task: Write unit tests]
+graph LR
+    T[Theme: E-Commerce<br/>Platform] --> E1[Epic: User<br/>Management]
+    T --> E2[Epic: Product<br/>Catalog]
+    T --> E3[Epic: Shopping<br/>Cart]
+    E1 --> F1[Feature:<br/>Registration]
+    E1 --> F2[Feature:<br/>Authentication]
+    F1 --> US1[US-101: Register with<br/>email]
+    F1 --> US2[US-102: Email<br/>verification]
+    F2 --> US3[US-103: Login with<br/>credentials]
+    F2 --> US4[US-104: Password<br/>reset]
+    US1 --> T1[Task: Create registration form<br/>UI]
+    US1 --> T2[Task: Implement backend<br/>API]
+    US1 --> T3[Task: Write unit<br/>tests]
 ```
 
 ---

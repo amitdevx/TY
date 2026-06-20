@@ -76,7 +76,7 @@ updated: 2026-06-16
 ## 5.2 KDD Process (Knowledge Discovery in Databases)
 
 ```mermaid
-graph LR
+graph TD
     DB[("Data<br>Warehouse")] --> S[Selection]
     S --> PP[Preprocessing]
     PP --> T[Transformation]
@@ -107,7 +107,7 @@ graph LR
 ### 5.3.1 Types of ML (Review)
 
 ```mermaid
-graph TD
+graph LR
     ML[Machine Learning] --> SL[Supervised]
     ML --> UL[Unsupervised]
     ML --> RL[Reinforcement]
@@ -116,14 +116,14 @@ graph TD
     SL --> Cls[Classification]
     
     Reg --> LR[Linear Regression]
-    Reg --> PR[Polynomial Regression]
-    Reg --> LogR[Logistic Regression]
+    Reg --> PR[Polynomial<br/>Regression]
+    Reg --> LogR[Logistic<br/>Regression]
     
-    Cls --> KNN[K-Nearest Neighbors]
+    Cls --> KNN[K-Nearest<br/>Neighbors]
     Cls --> RF[Random Forest]
     
     UL --> KM[K-Means Clustering]
-    UL --> Apri[Apriori Association]
+    UL --> Apri[Apriori<br/>Association]
 ```
 
 ### 5.3.2 Feature Engineering
@@ -174,7 +174,7 @@ print("Selected features:", rfe.support_)
 ### 5.3.3 ML Modelling Process
 
 ```mermaid
-graph LR
+graph TD
     Define["1. Define<br>Problem"] --> Collect["2. Collect<br>Data"]
     Collect --> Preprocess["3. Preprocess<br>& EDA"]
     Preprocess --> Feature["4. Feature<br>Engineering"]

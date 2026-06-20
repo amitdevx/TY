@@ -41,7 +41,7 @@ hours: 6
 The ==Java Collections Framework (JCF)== is a set of classes and interfaces in `java.util` package that provides ready-made data structures.
 
 ```mermaid
-graph TD
+graph LR
   Iterable --> Collection
   Collection --> List
   Collection --> Set

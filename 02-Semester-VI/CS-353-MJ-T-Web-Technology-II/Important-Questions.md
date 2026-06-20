@@ -608,10 +608,10 @@ graph TD
     E --> F[PostgreSQL query]
     F --> G[JSON response]
     G --> H["setProducts(data)<br/>setLoading(false)"]
-    H --> I[Re-render with product list]
-    I --> J[ProductCard for each product]
+    H --> I[Re-render with product<br/>list]
+    I --> J[ProductCard for each<br/>product]
     D -->|Network error| K["setError(message)<br/>setLoading(false)"]
-    K --> L[Render ErrorMessage]
+    K --> L[Render<br/>ErrorMessage]
 ```
 
 **Code:**

@@ -42,7 +42,7 @@ After completing this subject, students will be able to:
 
 ```mermaid
 mindmap
-  root((Compiler Construction))
+  root((Compiler<br/>Construction))
     Unit 1
       CFG Basics
       Parse Trees
@@ -107,14 +107,14 @@ mindmap
 ## Compiler Pipeline Flow
 
 ```mermaid
-flowchart LR
+flowchart TD
   A[Source Code] --> B[Lexical Analyzer]
   B --> C[Tokens]
   C --> D[Syntax Analyzer]
   D --> E[Parse Tree/AST]
   E --> F[Semantic Analyzer]
   F --> G[Annotated AST]
-  G --> H[Intermediate Code Gen]
+  G --> H[Intermediate Code<br/>Gen]
   H --> I[Optimizer]
   I --> J[Code Generator]
   J --> K[Target Code]

@@ -275,13 +275,13 @@ app.use(cors({ origin: 'https://myapp.com', credentials: true }));
 sequenceDiagram
     participant Client
     participant Server
-    Client->>Server: POST /login { email, password }
-    Server->>Server: Verify password with bcrypt
-    Server-->>Client: 200 OK { token: "eyJ..." }
-    Client->>Client: Store token in localStorage or memory
+    Client->>Server: POST /login { email,<br/>password }
+    Server->>Server: Verify password with<br/>bcrypt
+    Server-->>Client: 200 OK { token: "eyJ..."<br/>}
+    Client->>Client: Store token in<br/>localStorage or memory
     Client->>Server: GET /api/profile<br/>Authorization: Bearer eyJ...
-    Server->>Server: Verify JWT signature
-    Server-->>Client: 200 OK { user data }
+    Server->>Server: Verify JWT<br/>signature
+    Server-->>Client: 200 OK { user data<br/>}
 ```
 
 The server never stores the token. Any server with the secret key can verify it - enabling horizontal scaling.

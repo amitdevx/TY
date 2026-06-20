@@ -160,7 +160,7 @@ sequenceDiagram
     
     Note over Pool: 5 idle connections ready
     App->>Pool: Request connection
-    Pool->>App: Return existing connection
+    Pool->>App: Return existing<br/>connection
     App->>PostgreSQL: Execute query
     PostgreSQL->>App: Return result
     App->>Pool: Release connection
@@ -375,18 +375,18 @@ SELECT * FROM users WHERE name = ''; DROP TABLE users; --'
 ### Prevention Strategies
 
 ```mermaid
-graph TD
-    A[SQL Injection Prevention] --> B[Parameterized Queries]
+graph LR
+    A[SQL Injection<br/>Prevention] --> B[Parameterized<br/>Queries]
     A --> C[Input Validation]
     A --> D[Least Privilege]
     A --> E[ORM Usage]
     A --> F[Error Handling]
     
-    B --> B1[Never concatenate user input]
-    C --> C1[Whitelist/validate input types]
-    D --> D1[DB user has minimum permissions]
-    E --> E1[ORMs auto-parameterize]
-    F --> F1[Don't expose DB errors to users]
+    B --> B1[Never concatenate user<br/>input]
+    C --> C1[Whitelist/validate input<br/>types]
+    D --> D1[DB user has minimum<br/>permissions]
+    E --> E1[ORMs<br/>auto-parameterize]
+    F --> F1[Don't expose DB errors to<br/>users]
 ```
 
 **Complete Prevention Example:**

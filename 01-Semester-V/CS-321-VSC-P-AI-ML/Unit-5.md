@@ -67,7 +67,7 @@ updated: 2026-06-16
 ### Feature Hierarchy (Why "Deep")
 
 ```mermaid
-graph LR
+graph TD
     P[Pixel Values] --> E[Edges &<br>Textures]
     E --> P2[Parts<br>nose, eye]
     P2 --> O[Objects<br>face]
@@ -115,7 +115,7 @@ After conv+pool layers, flatten feature maps → Feed to standard MLP for classi
 ### CNN Architecture
 
 ```mermaid
-graph LR
+graph TD
     I[Input Image<br>224×224×3] --> C1["Conv Layer 1<br>32 filters 3×3"]
     C1 --> P1["Max Pool<br>2×2"]
     P1 --> C2["Conv Layer 2<br>64 filters 3×3"]
@@ -242,7 +242,7 @@ $$h_t = \tanh(W_h h_{t-1} + W_x x_t + b)$$
 $$y_t = W_y h_t + b_y$$
 
 ```mermaid
-graph LR
+graph TD
     x1[x₁] --> RNN1["RNN<br>Cell"]
     RNN1 --> h1[h₁]
     h1 --> RNN2["RNN<br>Cell"]
@@ -346,7 +346,7 @@ model_bilstm = models.Sequential([
 ### NLP Pipeline
 
 ```mermaid
-graph LR
+graph TD
     T[Raw Text] --> TOK[Tokenization]
     TOK --> SW[Stop Word<br>Removal]
     SW --> STEM[Stemming/<br>Lemmatization]

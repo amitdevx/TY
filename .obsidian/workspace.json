@@ -23,16 +23,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Mathematics/Unit-1.md",
-                "mode": "source",
+                "file": "03-Mathematics/Unit-3.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unit-1"
+              "title": "Unit-3"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,16 +193,30 @@
       "bases:Create new base": false
     }
   },
-  "active": "1f6b5d35047e740a",
+  "active": "87a0c1a8fe772e84",
   "lastOpenFiles": [
-    "03-Mathematics/Formula-Sheet.md",
+    "03-Mathematics/Unit-3.md",
+    "03-Mathematics/Unit-2.md",
+    "03-Mathematics/Unit-1.md",
     "07-Exams/Semester-V/CS-303-Important-Topics.md",
-    "09-Templates/Exam-Prep-Template.md",
-    "10-Canvas/Semester-V-Map.canvas",
-    "10-Canvas/AI-ML-Roadmap.canvas",
+    "01-Semester-V/CS-303-MJ-T-Web-Technology-I/Unit-1.md",
     "01-Semester-V/CS-301-MJ-T-Core-Java/Important-Questions.md",
     "01-Semester-V/CS-301-MJ-T-Core-Java/Interview-Prep.md",
     "01-Semester-V/CS-301-MJ-T-Core-Java/Unit-1.md",
+    "01-Semester-V/CS-302-MJ-T-Operating-Systems/Unit-3.md",
+    "01-Semester-V/CS-302-MJ-T-Operating-Systems/Unit-2.md",
+    "list.md",
+    "01-Semester-V/CS-302-MJ-T-Operating-Systems/Unit-1.md",
+    "01-Semester-V/CS-301-MJ-T-Core-Java/Unit-5.md",
+    "01-Semester-V/CS-301-MJ-T-Core-Java/Unit-4.md",
+    "01-Semester-V/CS-301-MJ-T-Core-Java/Unit-3.md",
+    "01-Semester-V/CS-301-MJ-T-Core-Java/Unit-2.md",
+    "02-Semester-VI/CS-354-MJ-T-Compiler-Construction/Unit-2.md",
+    "02-Semester-VI/CS-354-MJ-T-Compiler-Construction/Unit-3.md",
+    "03-Mathematics/Formula-Sheet.md",
+    "09-Templates/Exam-Prep-Template.md",
+    "10-Canvas/Semester-V-Map.canvas",
+    "10-Canvas/AI-ML-Roadmap.canvas",
     "11-Tracking/Subjects-Database.base",
     "11-Tracking/Revision-Tasks.base",
     "11-Tracking/Resources-Database.base",
@@ -217,22 +230,8 @@
     "10-Canvas/Java-Roadmap.canvas",
     "Welcome.md",
     "10-Canvas/Compiler-Construction-Roadmap.canvas",
-    "01-Semester-V/CS-301-MJ-T-Core-Java/Unit-5.md",
     "01-Semester-V/CS-302-MJ-T-Operating-Systems/Syllabus.md",
-    "01-Semester-V/CS-302-MJ-T-Operating-Systems/Revision.md",
-    "01-Semester-V/CS-302-MJ-T-Operating-Systems/Interview-Prep.md",
-    "01-Semester-V/CS-302-MJ-T-Operating-Systems/Unit-1.md",
-    "01-Semester-V/CS-301-MJ-T-Core-Java/Unit-3.md",
-    "01-Semester-V/CS-301-MJ-T-Core-Java/Unit-2.md",
-    "07-Exams/Semester-V/CS-304-PYQ.md",
-    "07-Exams/Semester-V/CS-303-PYQ.md",
-    "07-Exams/Semester-V/CS-304-Important-Topics.md",
-    "07-Exams/Exams-Dashboard.md",
-    "07-Exams/Semester-V/CS-307-Important-Topics.md",
-    "07-Exams/Semester-V/CS-307-PYQ.md",
-    "07-Exams.md",
     "Untitled.canvas",
-    "06-Revision/Daily/Daily-Notes.md",
     "Daily",
     "populate_missing.py",
     "generate_missing.py",

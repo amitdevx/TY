@@ -206,18 +206,18 @@ public class UserService {
 ```mermaid
 sequenceDiagram
   participant Client
-  participant DS as DispatcherServlet
-  participant HM as HandlerMapping
-  participant C as Controller
-  participant VR as ViewResolver
+  participant DS
+  participant HM
+  participant C
+  participant VR
   participant View
 
   Client->>DS: HTTP Request
-  DS->>HM: Find handler for /users
-  HM->>DS: HandlerMethod (UserController.getUsers())
+  DS->>HM: Find handler for<br/>/users
+  HM->>DS: HandlerMethod<br/>(UserController.getUsers())
   DS->>C: Execute getUsers()
-  C->>DS: ModelAndView ("users", model)
-  DS->>VR: Resolve view "users"
+  C->>DS: ModelAndView ("users",<br/>model)
+  DS->>VR: Resolve view<br/>"users"
   VR->>DS: users.jsp
   DS->>View: Render with model
   View->>Client: HTML Response

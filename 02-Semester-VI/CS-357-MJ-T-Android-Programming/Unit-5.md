@@ -360,18 +360,18 @@ public Cursor searchByDepartment(String dept) {
 ### 5.3.5 CRUD Data Flow Diagram
 
 ```mermaid
-flowchart TD
-    A[Activity or Fragment] --> B{Operation Type}
+flowchart LR
+    A[Activity or<br/>Fragment] --> B{Operation Type}
     B -->|INSERT| C[getWritableDatabase]
     B -->|SELECT| D[getReadableDatabase]
     B -->|UPDATE| C
     B -->|DELETE| C
     C --> E[ContentValues]
-    E -->|insert / update / delete| F[SQLiteDatabase]
-    D -->|query / rawQuery| G[Cursor]
-    F --> H[Returns row ID or count]
-    G --> I[moveToFirst / moveToNext]
-    I --> J[Read columns by index]
+    E -->|insert / update /<br/>delete| F[SQLiteDatabase]
+    D -->|query /<br/>rawQuery| G[Cursor]
+    F --> H[Returns row ID or<br/>count]
+    G --> I[moveToFirst /<br/>moveToNext]
+    I --> J[Read columns by<br/>index]
     J --> K[cursor.close]
     F --> L[db.close]
     K --> L
@@ -431,10 +431,10 @@ A ==ContentProvider== manages access to a central repository of data. It is one 
 ### 5.4.2 ContentProvider Architecture
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Client Application] -->|ContentResolver| B["content://authority/path"]
     B --> C[ContentProvider]
-    C --> D[SQLiteDatabase or other data source]
+    C --> D[SQLiteDatabase or other data<br/>source]
     D --> C
     C -->|Cursor| A
 ```
@@ -513,18 +513,18 @@ if (cursor != null) {
 ## 5.5 Choosing the Right Storage Mechanism
 
 ```mermaid
-flowchart TD
+flowchart LR
     A{What kind of data?} --> B[Small key-value pairs<br/>e.g. user settings]
-    A --> C[Structured or relational data]
-    A --> D[Files, images, documents]
-    A --> E[Share data with other apps]
+    A --> C[Structured or relational<br/>data]
+    A --> D[Files, images,<br/>documents]
+    A --> E[Share data with other<br/>apps]
     B --> F[SharedPreferences]
     C --> G{Used only in<br/>your app?}
     G -->|Yes| H[SQLite or Room]
     G -->|No| I[ContentProvider]
     D --> J{Private to app?}
     J -->|Yes| K[Internal Storage]
-    J -->|No| L[External Storage or MediaStore]
+    J -->|No| L[External Storage or<br/>MediaStore]
     E --> I
 ```
 

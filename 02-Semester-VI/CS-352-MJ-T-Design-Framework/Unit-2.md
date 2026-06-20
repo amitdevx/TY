@@ -224,20 +224,20 @@ sequenceDiagram
   participant Component
 
   Angular->>Component: constructor()
-  Angular->>Component: ngOnChanges() ← Input changes
-  Angular->>Component: ngOnInit() ← Component init
-  Angular->>Component: ngDoCheck() ← Each change detection run
-  Angular->>Component: ngAfterContentInit() ← Projected content
+  Angular->>Component: ngOnChanges() ← Input<br/>changes
+  Angular->>Component: ngOnInit() ← Component<br/>init
+  Angular->>Component: ngDoCheck() ← Each change<br/>detection run
+  Angular->>Component: ngAfterContentInit() ←<br/>Projected content
   Angular->>Component: ngAfterContentChecked()
-  Angular->>Component: ngAfterViewInit() ← View children init
+  Angular->>Component: ngAfterViewInit() ← View<br/>children init
   Angular->>Component: ngAfterViewChecked()
   Note over Angular,Component: [On every change]
-  Angular->>Component: ngOnChanges() ← If inputs change
+  Angular->>Component: ngOnChanges() ← If inputs<br/>change
   Angular->>Component: ngDoCheck()
   Angular->>Component: ngAfterContentChecked()
   Angular->>Component: ngAfterViewChecked()
   Note over Angular,Component: [On Destroy]
-  Angular->>Component: ngOnDestroy() ← Cleanup
+  Angular->>Component: ngOnDestroy() ←<br/>Cleanup
 ```
 
 ### All Lifecycle Hooks
@@ -296,17 +296,17 @@ export class DemoComponent implements OnInit, OnDestroy, OnChanges {
 ## 2.6 Data Binding - All Four Types
 
 ```mermaid
-graph LR
+graph TD
   subgraph Component Class
     DATA[Component Data]
   end
   subgraph Template HTML
     VIEW[Template View]
   end
-  DATA -->|Interpolation {{ }}| VIEW
-  DATA -->|Property Binding [prop]| VIEW
-  VIEW -->|Event Binding event| DATA
-  DATA <-->|Two-way Binding ngModel| VIEW
+  DATA -->|Interpolation<br/>{{ }}| VIEW
+  DATA -->|Property Binding<br/>[prop]| VIEW
+  VIEW -->|Event Binding<br/>event| DATA
+  DATA <-->|Two-way Binding<br/>ngModel| VIEW
 ```
 
 ### Type 1: Interpolation

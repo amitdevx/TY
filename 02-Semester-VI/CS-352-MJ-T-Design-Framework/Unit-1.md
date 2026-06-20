@@ -43,9 +43,9 @@ hours: 4
 ```mermaid
 graph LR
   A[Angular] --> B[TypeScript-based]
-  A --> C[Component Architecture]
+  A --> C[Component<br/>Architecture]
   A --> D[Angular CLI]
-  A --> E[Dependency Injection]
+  A --> E[Dependency<br/>Injection]
   A --> F[RxJS Observables]
   A --> G[Cross-platform]
 ```
@@ -68,8 +68,8 @@ graph LR
 ## 1.2 Angular Architecture
 
 ```mermaid
-graph TD
-  APP[Angular Application] --> MOD[NgModule]
+graph LR
+  APP[Angular<br/>Application] --> MOD[NgModule]
   MOD --> COMP[Components]
   MOD --> SERV[Services]
   MOD --> ROUTE[Routes]
@@ -116,14 +116,14 @@ sequenceDiagram
   participant Server
 
   Browser->>Server: GET /index.html
-  Server->>Browser: index.html + main.js
+  Server->>Browser: index.html +<br/>main.js
   Browser->>AngularApp: Boot Angular
-  AngularApp->>Browser: Render Home Component
+  AngularApp->>Browser: Render Home<br/>Component
 
-  Browser->>AngularApp: Click "Products" link
-  AngularApp->>Server: HTTP GET /api/products
+  Browser->>AngularApp: Click "Products"<br/>link
+  AngularApp->>Server: HTTP GET<br/>/api/products
   Server->>AngularApp: JSON data
-  AngularApp->>Browser: Update view (no reload!)
+  AngularApp->>Browser: Update view (no<br/>reload!)
 ```
 
 ---

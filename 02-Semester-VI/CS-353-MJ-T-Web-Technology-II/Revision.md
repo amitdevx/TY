@@ -510,7 +510,7 @@ npm run deploy
 ### Virtual DOM Reconciliation
 
 ```mermaid
-graph LR
+graph TD
     A[State changes] --> B[React creates new<br/>Virtual DOM tree]
     B --> C[React diffs new VDOM<br/>vs previous VDOM]
     C --> D[Minimal changes<br/>calculated - Reconciliation]

@@ -63,21 +63,24 @@ A ==compiler== is a **translator program** that converts source code written in 
 graph TD
   SRC[Source Program] --> FE
 
-  subgraph FE[Front End - Analysis]
+  subgraph FE[Front End -<br/>Analysis]
     LEX[Lexical Analyzer]
     SYN[Syntax Analyzer]
     SEM[Semantic Analyzer]
-    ICG[Intermediate Code Generator]
+    ICG[Intermediate Code<br/>Generator]
+        LEX ~~~ SYN ~~~ SEM ~~~ ICG
   end
 
-  subgraph BE[Back End - Synthesis]
+  subgraph BE[Back End -<br/>Synthesis]
     OPT[Code Optimizer]
     CG[Code Generator]
+        OPT ~~~ CG
   end
 
   subgraph SUPPORT[Support Components]
     ST[Symbol Table]
     EH[Error Handler]
+        ST ~~~ EH
   end
 
   FE --> BE
@@ -107,14 +110,14 @@ A compiler works in **six major phases**, each transforming the source program:
 
 ```mermaid
 flowchart TD
-  A["Source Program: 'position = initial + rate * 60'"] --> B
+  A["Source Program: 'position =<br/>initial + rate * 60'"] --> B
   B["Lexical Analyzer<br/>↓<br/>Token stream:<br/>id₁ = id₂ + id₃ * 60"] --> C
   C["Syntax Analyzer<br/>↓<br/>Syntax tree (AST)"] --> D
   D["Semantic Analyzer<br/>↓<br/>Annotated tree<br/>(types checked)"] --> E
   E["Intermediate Code Gen<br/>↓<br/>t1 = inttofloat(60)<br/>t2 = id₃ * t1<br/>t3 = id₂ + t2<br/>id₁ = t3"] --> F
   F["Code Optimizer<br/>↓<br/>t1 = id₃ * 60.0<br/>id₁ = id₂ + t1"] --> G
   G["Code Generator<br/>↓<br/>LDF R2, id₃<br/>MULF R2, #60.0<br/>LDF R1, id₂<br/>ADDF R1, R2<br/>STF id₁, R1"] --> H
-  H["Target Machine Code"]
+  H["Target Machine<br/>Code"]
 ```
 
 ### Phase 1: Lexical Analysis (Scanning)

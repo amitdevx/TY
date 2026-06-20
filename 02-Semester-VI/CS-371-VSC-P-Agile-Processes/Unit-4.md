@@ -437,15 +437,15 @@ pytest --cov=src --cov-report=html
 | ==CD== | Continuous Deployment | Fully automated deployment to production on every passing commit |
 
 ```mermaid
-graph LR
-    DEV[Developer commits code] --> CI[CI Pipeline runs]
+graph TD
+    DEV[Developer commits<br/>code] --> CI[CI Pipeline runs]
     CI --> BUILD[Build]
-    BUILD --> TEST[Unit + Integration Tests]
+    BUILD --> TEST[Unit + Integration<br/>Tests]
     TEST --> QUALITY[Code Quality Check]
     QUALITY --> STAGING[Deploy to Staging]
     STAGING --> MANUAL{Manual approval?}
-    MANUAL -->|CD Delivery| PROD[Deploy to Production]
-    MANUAL -->|CD Deployment auto| PROD
+    MANUAL -->|CD Delivery| PROD[Deploy to<br/>Production]
+    MANUAL -->|CD Deployment<br/>auto| PROD
 ```
 
 **Why CI/CD in Agile?**

@@ -51,7 +51,7 @@ graph TD
     A[" Mathematics &<br>Statistics"] --> D["DATA SCIENCE"]
     B[" Computer Science<br>& Programming"] --> D
     C[" Domain / Subject<br>Matter Expertise"] --> D
-    D --> E[" Insights & Knowledge"]
+    D --> E[" Insights &<br/>Knowledge"]
 ```
 
 ### Data Science vs. Related Fields
@@ -118,7 +118,7 @@ pie title Data Scientist Skill Distribution
 ### Primary Classification
 
 ```mermaid
-graph LR
+graph TD
     D[Data] --> S[Structured]
     D --> US[Unstructured]
     D --> SS[Semi-Structured]
@@ -174,13 +174,13 @@ graph LR
 ### CRISP-DM Model (Cross Industry Standard Process for Data Mining)
 
 ```mermaid
-graph LR
+graph TD
     BU[ Business<br>Understanding] --> DU[ Data<br>Understanding]
     DU --> DP[ Data<br>Preparation]
     DP --> M[ Modelling]
     M --> E[ Evaluation]
     E --> D[ Deployment]
-    D -->|New requirements| BU
+    D -->|New<br/>requirements| BU
     E -->|Poor results| DP
     M -->|Bad data| DU
 ```

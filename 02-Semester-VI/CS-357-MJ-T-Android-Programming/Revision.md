@@ -26,7 +26,7 @@ graph TD
     A["Layer 5: Applications<br/>(Contacts, Browser, Maps, Custom Apps)"]
     B["Layer 4: Application Framework<br/>(Activity Manager, Window Manager, Content Providers,<br/>View System, Package Manager, Telephony Manager)"]
     C["Layer 3: Android Runtime + Libraries<br/>(ART / Dalvik | Core Libraries)<br/>(SQLite, OpenGL|ES, WebKit, Media Framework, libc)"]
-    D["Layer 2: Hardware Abstraction Layer (HAL)<br/>(Camera, Bluetooth, Audio, Sensors)"]
+    D["Layer 2: Hardware Abstraction<br/>Layer (HAL)<br/>(Camera, Bluetooth, Audio, Sensors)"]
     E["Layer 1: Linux Kernel<br/>(Display, Camera, Keypad, Wi-Fi, Audio, IPC, Power Management drivers)"]
     A --> B --> C --> D --> E
 ```
@@ -94,7 +94,7 @@ stateDiagram-v2
 ### Layout Hierarchy
 
 ```mermaid
-graph TD
+graph LR
     A[ViewGroup Root] --> B[LinearLayout]
     A --> C[RelativeLayout]
     A --> D[ConstraintLayout]
@@ -141,7 +141,7 @@ graph TD
 ### Intent Types
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Intent] --> B[Explicit Intent]
     A --> C[Implicit Intent]
     B --> D["Specifies exact component<br/>class name<br/>Used within same app"]
@@ -240,16 +240,16 @@ String val = getSharedPreferences("prefs", MODE_PRIVATE)
 
 ```mermaid
 sequenceDiagram
-    participant App as Activity
-    participant Helper as SQLiteOpenHelper
-    participant DB as SQLiteDatabase
+    participant App
+    participant Helper
+    participant DB
 
-    App->>Helper: new DatabaseHelper(context)
+    App->>Helper: new<br/>DatabaseHelper(context)
     App->>Helper: getWritableDatabase()
-    Helper->>DB: onCreate() [first run only]
+    Helper->>DB: onCreate() [first run<br/>only]
     DB-->>Helper: Database created
-    Helper-->>App: SQLiteDatabase instance
-    App->>DB: insert / query / update / delete
+    Helper-->>App: SQLiteDatabase<br/>instance
+    App->>DB: insert / query / update /<br/>delete
     DB-->>App: Result / Cursor
     App->>DB: db.close()
 ```

@@ -45,7 +45,7 @@ last_modified: 2026-06-16
 > ==Deadlock== is a situation where a **set of processes** are **blocked** because each process is **holding a resource** and **waiting for another resource** held by another process in the set.
 
 ```mermaid
-graph LR
+graph TD
     P1["Process P1"] -->|"holds"| R1["Resource R1"]
     P1 -->|"waits for"| R2["Resource R2"]
     P2["Process P2"] -->|"holds"| R2
@@ -91,7 +91,7 @@ graph LR
 | Arrow → from R to P | **Assignment edge** (R is held by P) |
 
 ```mermaid
-graph LR
+graph TD
     P1((P1)) -->|request| R1[R1 •]
     R1 -->|assigned| P2((P2))
     P2((P2)) -->|request| R2["R2 • •"]
@@ -189,7 +189,7 @@ Unsafe State → Does NOT mean deadlock, but MIGHT lead to deadlock
 ```
 
 ```mermaid
-graph LR
+graph TD
     Safe["Safe State<br/> No deadlock guaranteed"] --> Unsafe["Unsafe State<br/> May or may not deadlock"]
     Unsafe --> Deadlock["Deadlock State<br/> Processes permanently blocked"]
 ```

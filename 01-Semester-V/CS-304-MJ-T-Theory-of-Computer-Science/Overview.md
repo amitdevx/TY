@@ -42,29 +42,29 @@ last_reviewed: 2026-06-16
 
 ```mermaid
 mindmap
-  root((Theory of Computer Science))
-    Ch1[Chapter 1: Finite Automata]
+  root((Theory of<br/>Computer Science))
+    Ch1[Chapter 1: Finite<br/>Automata]
       Symbols & Alphabets
       DFA
       NFA
       NFA to DFA Conversion
       Moore & Mealy Machines
       DFA Minimization
-    Ch2[Chapter 2: Regular Expressions]
+    Ch2[Chapter 2: Regular<br/>Expressions]
       RE Definitions
       Regular Languages
       RE to FA Conversion
       Pumping Lemma
-    Ch3[Chapter 3: CFG & CFL]
+    Ch3[Chapter 3: CFG &<br/>CFL]
       Context-Free Grammars
       CFG Simplification
       CNF
       GNF
-    Ch4[Chapter 4: Push Down Automata]
+    Ch4[Chapter 4: Push<br/>Down Automata]
       PDA Definition
       Empty Stack Method
       Final State Method
-    Ch5[Chapter 5: Turing Machine]
+    Ch5[Chapter 5: Turing<br/>Machine]
       TM Model
       TM Design
       Language Recognizers

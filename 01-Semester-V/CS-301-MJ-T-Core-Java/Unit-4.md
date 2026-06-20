@@ -60,7 +60,7 @@ last_modified: 2026-06-16
 ## 4.2 Exception Class Hierarchy
 
 ```mermaid
-graph TD
+graph LR
     Object["java.lang.Object"] --> Throwable["java.lang.Throwable"]
     
     Throwable --> Error["java.lang.Error<br/>(Don't catch these!)"]
@@ -296,8 +296,8 @@ public class LogDemo {
 ## 4.6 Java I/O Stream Hierarchy
 
 ```mermaid
-graph TD
-    subgraph Byte["Byte Streams (binary data)"]
+graph LR
+    subgraph Byte["Byte Streams<br/>(binary data)"]
         IS["InputStream<br/>(abstract)"] --> FIS["FileInputStream"]
         IS --> BIS["BufferedInputStream"]
         IS --> DIS["DataInputStream"]
@@ -307,9 +307,15 @@ graph TD
         OS --> BOS["BufferedOutputStream"]
         OS --> DOS["DataOutputStream"]
         OS --> OOS["ObjectOutputStream"]
+        IS ~~~ OS
     end
-    
-    subgraph Char["Character Streams (text data)"]
+```
+
+### Character Streams
+
+```mermaid
+graph LR
+    subgraph Char["Character Streams<br/>(text data)"]
         R["Reader<br/>(abstract)"] --> FR["FileReader"]
         R --> BR["BufferedReader"]
         R --> ISR["InputStreamReader"]
@@ -319,6 +325,7 @@ graph TD
         W --> BW["BufferedWriter"]
         W --> OSW["OutputStreamWriter"]
         W --> PW["PrintWriter"]
+        R ~~~ W
     end
 ```
 

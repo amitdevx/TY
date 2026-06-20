@@ -88,12 +88,12 @@ timeline
 > Alan Turing proposed the **Imitation Game**: If a human interrogator cannot distinguish between a computer and a human based on text responses alone, the computer is considered to be demonstrating intelligence.
 
 ```mermaid
-graph LR
+graph TD
     H1[Human Interrogator] -->|Typed questions| C[Computer]
     H1 -->|Typed questions| H2[Human]
     C -->|Responses| H1
     H2 -->|Responses| H1
-    H1 -->|Cannot distinguish?| R[AI passes Turing Test]
+    H1 -->|Cannot<br/>distinguish?| R[AI passes Turing<br/>Test]
 ```
 
 ### Criticisms of Turing Test

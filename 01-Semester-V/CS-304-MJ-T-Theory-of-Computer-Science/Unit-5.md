@@ -245,10 +245,10 @@ TM M
 
 ```mermaid
 graph TD
-    A["All Languages (uncountable)"]
-    B["Non-RE: No TM can recognize"]
-    C["RE (Recursively Enumerable)<br/>TM accepts all members<br/>(may loop on non-members)"]
-    D["Recursive (Decidable)<br/>TM always halts with YES/NO"]
+    A["All Languages<br/>(uncountable)"]
+    B["Non-RE: No TM can<br/>recognize"]
+    C["RE (Recursively<br/>Enumerable)<br/>TM accepts all members<br/>(may loop on non-members)"]
+    D["Recursive<br/>(Decidable)<br/>TM always halts with YES/NO"]
     E["Context-Free<br/>(PDA)"]
     F["Regular<br/>(DFA/NFA)"]
     

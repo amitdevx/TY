@@ -92,14 +92,14 @@ $$x_1, x_2 \geq 0$$
 ### Common Problem Types
 
 ```mermaid
-graph TD
+graph LR
     A[LPP Types] --> B[Product Mix]
     A --> C[Diet Problem]
     A --> D[Transportation]
-    A --> E[Resource Allocation]
+    A --> E[Resource<br/>Allocation]
     A --> F[Blending]
-    B --> G[Maximize profit with resource limits]
-    C --> H[Minimize cost with nutritional requirements]
+    B --> G[Maximize profit<br/>with resource limits]
+    C --> H[Minimize cost<br/>with nutritional<br/>requirements]
 ```
 
 ---

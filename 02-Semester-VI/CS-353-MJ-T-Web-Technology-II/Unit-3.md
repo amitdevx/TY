@@ -277,7 +277,7 @@ const products = [
 The ==Virtual DOM== is a **lightweight JavaScript representation** of the actual DOM. React maintains this in memory and syncs it with the real DOM efficiently.
 
 ```mermaid
-graph LR
+graph TD
     A[State/Props Change] --> B[React re-renders<br/>virtual DOM]
     B --> C[Diffing Algorithm<br/> compares old vs new]
     C --> D[Finds minimal<br/>changes needed]

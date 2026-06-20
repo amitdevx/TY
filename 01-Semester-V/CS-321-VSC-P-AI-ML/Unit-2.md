@@ -47,7 +47,7 @@ updated: 2026-06-16
 > ==Machine Learning== is a subset of AI that enables systems to **learn from data** and improve their performance on a task **without being explicitly programmed**. - Arthur Samuel (1959)
 
 ```mermaid
-graph LR
+graph TD
     D[Data] --> ML[ML Algorithm]
     ML --> M[Model]
     M --> P[Predictions]
@@ -60,11 +60,11 @@ graph LR
 ## 2.2 Types of Machine Learning
 
 ```mermaid
-graph TD
-    ML[Machine Learning] --> SL[Supervised Learning]
-    ML --> UL[Unsupervised Learning]
-    ML --> SSL[Semi-Supervised Learning]
-    ML --> RL[Reinforcement Learning]
+graph LR
+    ML[Machine Learning] --> SL[Supervised<br/>Learning]
+    ML --> UL[Unsupervised<br/>Learning]
+    ML --> SSL[Semi-Supervised<br/>Learning]
+    ML --> RL[Reinforcement<br/>Learning]
     
     SL --> Reg[Regression<br>- Linear<br>- Polynomial]
     SL --> Cls[Classification<br>- SVM, KNN<br>- Random Forest]
@@ -89,7 +89,7 @@ graph TD
 ## 2.3 ML Workflow
 
 ```mermaid
-graph LR
+graph TD
     A[Problem<br>Formulation] --> B[Data<br>Collection]
     B --> C[EDA &<br>Preprocessing]
     C --> D[Feature<br>Engineering]
@@ -97,7 +97,7 @@ graph LR
     E --> F[Training]
     F --> G[Evaluation]
     G --> H[Deployment]
-    G -->|Poor performance| E
+    G -->|Poor<br/>performance| E
     H -->|New data| B
 ```
 
@@ -169,7 +169,7 @@ cv_scores_stratified = cross_val_score(model, X, y, cv=skf, scoring='f1')
 ### Visual Understanding
 
 ```mermaid
-graph LR
+graph TD
     UF[" UNDERFITTING<br>High Bias<br>Low Variance<br>Too simple<br>Poor train & test"] --> JR[" JUST RIGHT<br>Low Bias<br>Low Variance<br>Ideal model<br>Good train & test"]
     JR --> OF[" OVERFITTING<br>Low Bias<br>High Variance<br>Too complex<br>Good train, poor test"]
 ```
@@ -262,21 +262,39 @@ elastic.fit(X_train, y_train)
 | ==Variance== | Error from sensitivity to small fluctuations in training data (overfitting) |
 | ==Irreducible Noise== | Inherent randomness in the data; cannot be eliminated |
 
+### Simple Model
+
 ```mermaid
-graph LR
+graph TD
     subgraph "Simple Model"
         LB["Low Variance "]
         HB["High Bias "]
-    end
+        LB ~~~ HB
+        end
+```
+
+### Complex Model
+
+```mermaid
+graph TD
     subgraph "Complex Model"
         LBi["Low Bias "]
         HV["High Variance "]
-    end
+        LBi ~~~ HV
+        end
+```
+
+### Ideal
+
+```mermaid
+graph TD
     subgraph "Ideal"
         IB["Low Bias "]
         IV["Low Variance "]
-    end
+        IB ~~~ IV
+        end
 ```
+
 
 **Key Insight:**
 - **High Bias** → Underfitting → Model is too simple to capture patterns

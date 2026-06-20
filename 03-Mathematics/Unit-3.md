@@ -316,18 +316,18 @@ Assignment:
 
 ```mermaid
 flowchart TD
-    A[Start: Cost Matrix n×n] --> B{Balanced?}
-    B -- No --> C[Add Dummy Row/Col with 0s]
-    B -- Yes --> D[Step 1: Row Reduction]
+    A[Start: Cost Matrix<br/>n×n] --> B{Balanced?}
+    B -- No --> C[Add Dummy Row/Col<br/>with 0s]
+    B -- Yes --> D[Step 1: Row<br/>Reduction]
     C --> D
-    D --> E[Step 2: Column Reduction]
-    E --> F[Step 3: Cover Zeros with Min Lines]
+    D --> E[Step 2: Column<br/>Reduction]
+    E --> F[Step 3: Cover Zeros with Min<br/>Lines]
     F --> G{Lines = n?}
-    G -- Yes --> H[Step 5: Make Assignment]
-    G -- No --> I[Step 4: Find θ = min uncovered]
+    G -- Yes --> H[Step 5: Make<br/>Assignment]
+    G -- No --> I[Step 4: Find θ = min<br/>uncovered]
     I --> J[Subtract θ from uncovered<br/>Add θ to intersections]
     J --> F
-    H --> K[Optimal Solution Found!]
+    H --> K[Optimal Solution<br/>Found!]
 ```
 
 ---

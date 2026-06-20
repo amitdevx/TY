@@ -82,11 +82,11 @@ In plain HTML, form elements such as `<input>`, `<textarea>`, and `<select>` mai
 A ==controlled component== is an input element whose value is bound to React state and whose changes are handled by an `onChange` event handler. The React component is the "single source of truth" for the input value.
 
 ```mermaid
-graph LR
-    A[User types in input] --> B[onChange fires]
-    B --> C[setState called with new value]
-    C --> D[Component re-renders]
-    D --> E[Input value set from state]
+graph TD
+    A[User types in<br/>input] --> B[onChange fires]
+    B --> C[setState called with new<br/>value]
+    C --> D[Component<br/>re-renders]
+    D --> E[Input value set from<br/>state]
     E --> A
 ```
 
@@ -857,7 +857,7 @@ graph TD
     B --> C["Webpack / Vite<br/>(Bundling)"]
     C --> D["Minification<br/>& Optimization"]
     D --> E["Static Files<br/>(HTML, JS, CSS, Assets)"]
-    E --> F[Deployed to CDN / Server]
+    E --> F[Deployed to CDN /<br/>Server]
 ```
 
 ### 5.4.2 Environment Variables
@@ -1048,12 +1048,12 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 ```mermaid
 graph TD
-    A[Developer pushes to Git] --> B[CI/CD Pipeline triggers]
+    A[Developer pushes<br/>to Git] --> B[CI/CD Pipeline<br/>triggers]
     B --> C["npm run build<br/>(inside client/)"]
-    C --> D[Build artifacts created in client/build]
+    C --> D[Build artifacts created in<br/>client/build]
     D --> E[Express server deployed<br/>to cloud platform]
     E --> F[Express serves API routes<br/>and React static files]
-    F --> G[User accesses app via browser]
+    F --> G[User accesses app via<br/>browser]
 ```
 
 ### 5.4.7 Deployment Platform Comparison

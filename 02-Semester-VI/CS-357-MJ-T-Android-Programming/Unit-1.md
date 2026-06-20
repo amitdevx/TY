@@ -119,7 +119,7 @@ graph TD
     L4[" Layer 4: Application Framework<br/>(Activity Manager, Window Manager, Content Providers,<br/>View System, Package Manager, Notification Manager)"]
     L3a[" Layer 3a: Android Runtime - ART<br/>(Core Libraries + ART VM)"]
     L3b[" Layer 3b: Native C/C++ Libraries<br/>(libc, OpenGL ES, SQLite, WebKit, SSL)"]
-    L2[" Layer 2: Hardware Abstraction Layer (HAL)<br/>(Camera, Bluetooth, Audio, GPS)"]
+    L2[" Layer 2: Hardware<br/>Abstraction Layer (HAL)<br/>(Camera, Bluetooth, Audio, GPS)"]
     L1[" Layer 1: Linux Kernel<br/>(Drivers: Display, Camera, Wi-Fi, Audio, Binder IPC, Power Management)"]
     
     L5 --> L4

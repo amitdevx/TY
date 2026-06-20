@@ -35,7 +35,7 @@ updated: 2026-06-16
 
 ```mermaid
 mindmap
-  root((Data Science & Analytics))
+  root((Data Science &<br/>Analytics))
     Unit 1 - Introduction
       Definition & Scope
       Data Scientist Roles

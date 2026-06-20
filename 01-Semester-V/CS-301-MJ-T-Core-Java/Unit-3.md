@@ -74,27 +74,46 @@ d.bark();             // own method
 
 ### Types of Inheritance in Java
 
+### SingleSingle Inheritance
+
 ```mermaid
 graph TD
     subgraph Single["Single Inheritance"]
         A1["Animal"] --> D1["Dog"]
-    end
+        end
+```
 
-    subgraph Multilevel["Multilevel Inheritance"]
+### MultilevelMultilevel Inheritance
+
+```mermaid
+graph TD
+    subgraph Multilevel["Multilevel<br/>Inheritance"]
         A2["Animal"] --> D2["Mammal"] --> D3["Dog"]
-    end
+        end
+```
 
-    subgraph Hierarchical["Hierarchical Inheritance"]
+### HierarchicalHierarchical Inheritance
+
+```mermaid
+graph TD
+    subgraph Hierarchical["Hierarchical<br/>Inheritance"]
         A3["Animal"] --> D4["Dog"]
         A3 --> D5["Cat"]
         A3 --> D6["Horse"]
-    end
+        end
+```
 
+### MultipleMultiple Inheritance<br/>(via Interfaces only)
+
+```mermaid
+graph TD
     subgraph Multiple["Multiple Inheritance<br/>(via Interfaces only)"]
         I1["Flyable"] --> D7["Duck"]
         I2["Swimmable"] --> D7
-    end
+        I1 ~~~ I2
+        end
 ```
+
 
 | Type | Description | Java Support |
 |------|-------------|-------------|
@@ -578,13 +597,13 @@ class MyWindow extends WindowAdapter {
 ## Key Concepts Diagram
 
 ```mermaid
-graph TD
+graph LR
     INH["Inheritance<br/>extends"] --> SINGLE["Single"]
     INH --> MULTI["Multilevel"]
     INH --> HIER["Hierarchical"]
     INH --> NO_MULTI["Multiple (classes) <br/>Diamond Problem"]
     
-    IFACE["Interface<br/>implements"] --> MULTI_IFACE["Multiple Interface "]
+    IFACE["Interface<br/>implements"] --> MULTI_IFACE["Multiple Interface<br/>"]
     IFACE --> DEFAULT["default methods<br/>Java 8+"]
     IFACE --> FUNC["Functional Interface<br/>@FunctionalInterface"]
     FUNC --> LAMBDA["Lambda Expressions<br/>(params) -> body"]

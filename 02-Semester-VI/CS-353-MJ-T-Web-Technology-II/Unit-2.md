@@ -251,7 +251,7 @@ module.exports = router;
 4. Call the next middleware with `next()`
 
 ```mermaid
-graph LR
+graph TD
     Request -->|req| MW1[Logger Middleware]
     MW1 -->|next| MW2[Auth Middleware]
     MW2 -->|next| MW3[Route Handler]

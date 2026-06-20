@@ -46,14 +46,14 @@ A ==Servlet== is a Java class that extends server capabilities to respond to HTT
 ```mermaid
 sequenceDiagram
   participant Client
-  participant WebServer as Web Server (Tomcat)
+  participant WebServer
   participant Servlet
 
   Client->>WebServer: HTTP Request
   WebServer->>Servlet: Forward Request
-  Servlet->>Servlet: Process (doGet/doPost)
+  Servlet->>Servlet: Process<br/>(doGet/doPost)
   Servlet->>WebServer: HttpServletResponse
-  WebServer->>Client: HTTP Response (HTML/JSON)
+  WebServer->>Client: HTTP Response<br/>(HTML/JSON)
 ```
 
 ---

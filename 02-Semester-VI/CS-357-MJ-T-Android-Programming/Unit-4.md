@@ -77,8 +77,8 @@ mindmap
 
 ```mermaid
 sequenceDiagram
-    participant App as Android App
-    participant Server as REST API Server
+    participant App
+    participant Server
     
     App->>Server: GET /api/products<br/>Headers: Authorization: Bearer <token>
     Server-->>App: HTTP 200 OK<br/>Content-Type: application/json<br/>[{"id":1,"name":"Laptop",...}]

@@ -174,7 +174,7 @@ CoD = User Business Value + Time Criticality + Risk Reduction/Opportunity Enable
 3. Demonstrate core value proposition
 
 ```mermaid
-graph LR
+graph TD
     A[All Features<br/>Full Vision] --> B[Should Have<br/>+Must Have]
     B --> C[Must Have Only<br/>= MVP]
     C --> D[Ship!]
@@ -252,21 +252,21 @@ Modified:  0, 0.5, 1, 2, 3, 5, 8, 13, 20, 40, 100, ∞, ?
 
 ```mermaid
 sequenceDiagram
-    participant PO as Product Owner
-    participant Dev1 as Developer 1
-    participant Dev2 as Developer 2
-    participant Dev3 as Developer 3
+    participant PO
+    participant Dev1
+    participant Dev2
+    participant Dev3
     
-    PO->>All: Read User Story: "Add shopping cart feature"
+    PO->>All: Read User Story: "Add<br/>shopping cart feature"
     Note over All: Team discusses and clarifies
-    All->>All: Each picks a card (hidden)
+    All->>All: Each picks a card<br/>(hidden)
     Note over Dev1,Dev3: Simultaneously reveal cards
     Dev1-->>All: Shows card: 8
     Dev2-->>All: Shows card: 13
     Dev3-->>All: Shows card: 5
     Note over All: Outliers explain their estimates
-    Dev2->>All: "I considered the payment integration complexity"
-    Dev3->>All: "I assumed reusing existing components"
+    Dev2->>All: "I considered the payment<br/>integration complexity"
+    Dev3->>All: "I assumed reusing<br/>existing components"
     Note over All: Clarify and revise understanding
     All->>All: Re-estimate
     Dev1-->>All: 8

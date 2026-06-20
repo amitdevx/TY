@@ -92,7 +92,7 @@ Step 6: Stop
 
 ```mermaid
 flowchart TD
-    A([Start]) --> B[Initialize Variables]
+    A([Start]) --> B[Initialize<br/>Variables]
     B --> C{Condition?}
     C -- Yes --> D[Process]
     C -- No --> E[Handle Case]

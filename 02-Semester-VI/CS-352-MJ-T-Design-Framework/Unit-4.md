@@ -44,21 +44,31 @@ An Angular ==Service== is a class with focused purpose - it contains **reusable 
 
 ### Why Use Services?
 
+### Without Service - Tightly Coupled
+
 ```mermaid
 graph TD
-  subgraph Without Service - Tightly Coupled
+    subgraph Without Service - Tightly Coupled
     C1[Component A] -->|Direct logic| L1[Business Logic]
     C2[Component B] -->|Duplicated| L2[Same Logic]
     C3[Component C] -->|Duplicated| L3[Same Logic]
-  end
+        C1 ~~~ C2 ~~~ C3
+      end
+```
 
-  subgraph With Service - Loose Coupling
+### With Service - Loose Coupling
+
+```mermaid
+graph TD
+    subgraph With Service - Loose Coupling
     C4[Component A] --> S[Service]
     C5[Component B] --> S
     C6[Component C] --> S
-    S --> L[Business Logic - One Place]
-  end
+    S --> L[Business Logic - One<br/>Place]
+        C4 ~~~ C5 ~~~ C6
+      end
 ```
+
 
 ### When to Create a Service
 
@@ -281,7 +291,7 @@ Angular has a **tree of injectors** corresponding to the component tree:
 graph TD
   ROOT[Root Injector<br/> providedIn: 'root' <br/>Singleton across app] --> MOD[Module Injector<br/> @NgModule providers <br/>Shared in module]
   MOD --> COMP[Component Injector<br/> @Component providers <br/>New instance per component]
-  COMP --> CHILD[Child Component Injector]
+  COMP --> CHILD[Child Component<br/>Injector]
 ```
 
 ### What Happens When DI Can't Find a Token?

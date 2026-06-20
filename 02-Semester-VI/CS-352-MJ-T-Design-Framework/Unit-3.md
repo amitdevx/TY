@@ -360,17 +360,26 @@ export class ProductsRoutingModule { }
 
 ### Benefits of Lazy Loading
 
+### Without Lazy Loading
+
 ```mermaid
-graph LR
-  subgraph Without Lazy Loading
+graph TD
+    subgraph Without Lazy Loading
     ALL[Load ALL modules at start<br/>600KB bundle] --> SLOW[Slow initial load]
-  end
-  subgraph With Lazy Loading
-    CORE[Load core modules<br/>200KB] --> FAST[Fast initial load]
-    FAST -->|Navigate to /products| PROD[Load products module<br/>150KB]
-    FAST -->|Navigate to /admin| ADM[Load admin module<br/>250KB]
-  end
+      end
 ```
+
+### With Lazy Loading
+
+```mermaid
+graph TD
+    subgraph With Lazy Loading
+    CORE[Load core modules<br/>200KB] --> FAST[Fast initial load]
+    FAST -->|Navigate to<br/>/products| PROD[Load products module<br/>150KB]
+    FAST -->|Navigate to<br/>/admin| ADM[Load admin module<br/>250KB]
+      end
+```
+
 
 ### Preloading Strategies
 

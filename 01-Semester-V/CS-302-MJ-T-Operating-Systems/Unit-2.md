@@ -58,12 +58,13 @@ last_modified: 2026-06-16
 
 ```mermaid
 graph TD
-    subgraph Process["Process Memory Layout"]
+    subgraph Process["Process Memory<br/>Layout"]
         direction TB
         A["⬆ Stack<br/>(function calls, local vars)<br/>Grows downward"]
         B["⬇ Heap<br/>(dynamic allocation - malloc/new)<br/>Grows upward"]
         C["Data Segment<br/>(global & static variables)"]
         D["Text/Code Segment<br/>(program instructions - READ ONLY)"]
+        A ~~~ B ~~~ C ~~~ D
     end
     A -.->|"grows ↓"| B
     B -.->|"grows ↑"| A
@@ -117,8 +118,8 @@ stateDiagram-v2
 > A ==PCB (Process Control Block)== is a **data structure** maintained by the OS for every process. It contains **all information** needed to manage the process.
 
 ```mermaid
-graph TD
-    PCB[" Process Control Block"] --> PID["Process ID (PID)"]
+graph LR
+    PCB[" Process Control<br/>Block"] --> PID["Process ID (PID)"]
     PCB --> PS["Process State<br/>(New/Ready/Running/Waiting/Terminated)"]
     PCB --> PC["Program Counter<br/>(address of next instruction)"]
     PCB --> REG["CPU Registers<br/>(accumulator, index, stack pointer)"]
@@ -174,18 +175,18 @@ graph TD
 ```mermaid
 sequenceDiagram
     participant CPU
-    participant P1 as Process P1
-    participant OS as OS Scheduler
-    participant P2 as Process P2
+    participant P1
+    participant OS
+    participant P2
 
     CPU->>P1: Executing
     Note over CPU,P1: Timer interrupt!
-    P1->>OS: Save P1 context to PCB1
-    OS->>P2: Restore P2 context from PCB2
+    P1->>OS: Save P1 context
+    OS->>P2: Restore P2 context
     CPU->>P2: Now executing P2
     Note over CPU,P2: Timer interrupt!
-    P2->>OS: Save P2 context to PCB2
-    OS->>P1: Restore P1 context from PCB1
+    P2->>OS: Save P2 context
+    OS->>P1: Restore P1 context
     CPU->>P1: Resume P1
 ```
 

@@ -121,7 +121,7 @@ graph TD
 <!-- Insert images, hand-drawn notes, or Mermaid diagrams here -->
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Input] --> B{Decision}
     B -- Yes --> C[Action A]
     B -- No --> D[Action B]

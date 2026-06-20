@@ -103,8 +103,8 @@ mindmap
 ## Technology Stack
 
 ```mermaid
-graph TD
-    A[Client - React.js] -->|HTTP/REST| B[Server - Node.js + Express]
+graph LR
+    A[Client - React.js] -->|HTTP/REST| B[Server - Node.js +<br/>Express]
     B -->|pg / Pool| C[(PostgreSQL DB)]
     B -->|express-session| D[Session Store]
     B -->|JWT / bcrypt| E[Auth Layer]

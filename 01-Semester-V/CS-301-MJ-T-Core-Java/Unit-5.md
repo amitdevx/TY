@@ -61,13 +61,13 @@ last_modified: 2026-06-16
 ## 5.2 JavaFX Architecture
 
 ```mermaid
-graph TD
+graph LR
     APP["JavaFX Application"] --> SG["Scene Graph<br/>(Hierarchical node tree)"]
     SG --> PRISM["Prism<br/>(Graphics rendering engine<br/>OpenGL / DirectX)"]
     SG --> GLASS["Glass Windowing Toolkit<br/>(Window management, Events)"]
     SG --> MEDIA["Media Engine<br/>(Audio/Video playback)"]
     SG --> WEB["WebView<br/>(Embedded browser - WebKit)"]
-    PRISM --> OS["Operating System / Hardware"]
+    PRISM --> OS["Operating System /<br/>Hardware"]
     GLASS --> OS
     
     QUANTUM["Quantum Toolkit<br/>(Orchestrates Prism + Glass)"] --> PRISM
@@ -140,7 +140,7 @@ public class MyApp extends Application {
 ### Lifecycle Sequence
 
 ```mermaid
-flowchart LR
+flowchart TD
     L["launch(args)"] --> INIT["init()<br/>(non-UI setup)"]
     INIT --> START["start(Stage)<br/>(build and show UI)"]
     START --> RUNNING["Application<br/>Running<br/>(event loop)"]
@@ -159,7 +159,7 @@ flowchart LR
 ## 5.4 Stage, Scene, and Node Hierarchy
 
 ```mermaid
-graph TD
+graph LR
     Stage[" Stage<br/>(Window / OS Window)"]
     Stage --> Scene[" Scene<br/>(Container for content)"]
     Scene --> Root["Root Node<br/>(Layout Pane - VBox, etc.)"]

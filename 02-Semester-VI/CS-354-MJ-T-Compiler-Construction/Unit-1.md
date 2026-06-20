@@ -305,10 +305,10 @@ Unambiguous grammar:
 
 ```mermaid
 graph TD
-  Type0["Type 0: Unrestricted (Turing Machine)"]
-  Type1["Type 1: Context-Sensitive (Linear Bounded Automata)"]
-  Type2["Type 2: Context-Free (Pushdown Automata) ← Programming Languages Here"]
-  Type3["Type 3: Regular (Finite Automaton) ← Tokens/Lexer"]
+  Type0["Type 0: Unrestricted (Turing<br/>Machine)"]
+  Type1["Type 1: Context-Sensitive<br/>(Linear Bounded Automata)"]
+  Type2["Type 2: Context-Free<br/>(Pushdown Automata) ← Programming Languages Here"]
+  Type3["Type 3: Regular (Finite<br/>Automaton) ← Tokens/Lexer"]
 
   Type0 --> Type1
   Type1 --> Type2

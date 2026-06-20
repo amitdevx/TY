@@ -85,7 +85,7 @@ By the end of this unit, you should be able to:
 
 ```mermaid
 mindmap
-  root((Unit {{unit_number}}))
+  root((Unit<br/>{{unit_number}}))
     Topic 1
       Sub-topic 1.1
       Sub-topic 1.2
@@ -158,8 +158,8 @@ graph TD
 
 ```mermaid
 sequenceDiagram
-    participant A as Component A
-    participant B as Component B
+    participant A
+    participant B
     A->>B: Request
     B-->>A: Response
 ```

@@ -65,11 +65,11 @@ updated: 2026-06-16
 ### 2.2.1 Handling Missing Values
 
 ```mermaid
-graph TD
+graph LR
     MV[Missing Values] --> Why{Why Missing?}
-    Why --> MCAR["MCAR: Missing Completely at Random"]
-    Why --> MAR["MAR: Missing at Random"]
-    Why --> MNAR["MNAR: Missing Not at Random"]
+    Why --> MCAR["MCAR: Missing Completely at<br/>Random"]
+    Why --> MAR["MAR: Missing at<br/>Random"]
+    Why --> MNAR["MNAR: Missing Not at<br/>Random"]
     
     MV --> How{Solution}
     How --> D[Deletion]
@@ -78,13 +78,13 @@ graph TD
     D --> LD[Listwise Deletion]
     D --> PD[Pairwise Deletion]
     
-    I --> SI[Statistical Imputation]
-    I --> MI[Model-based Imputation]
+    I --> SI[Statistical<br/>Imputation]
+    I --> MI[Model-based<br/>Imputation]
     
     SI --> Mean["Mean (numerical)"]
     SI --> Median["Median (skewed)"]
     SI --> Mode["Mode (categorical)"]
-    MI --> Reg["Regression Imputation"]
+    MI --> Reg["Regression<br/>Imputation"]
     MI --> KNNi["KNN Imputation"]
 ```
 

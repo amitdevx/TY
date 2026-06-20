@@ -294,7 +294,7 @@ print(loadings)
 ### Biological Inspiration
 
 ```mermaid
-graph LR
+graph TD
     D1[Dendrites<br>Input] --> S[Soma<br>Cell Body]
     D2[Dendrites] --> S
     D3[Dendrites] --> S
@@ -425,16 +425,19 @@ graph LR
         x1((x₁))
         x2((x₂))
         x3((x₃))
+        x1 ~~~ x2 ~~~ x3
     end
     subgraph Hidden Layer 1
         h1((h₁))
         h2((h₂))
         h3((h₃))
         h4((h₄))
+        h1 ~~~ h2 ~~~ h3 ~~~ h4
     end
     subgraph Output Layer
         o1((ŷ₁))
         o2((ŷ₂))
+        o1 ~~~ o2
     end
     
     x1 --> h1; x1 --> h2; x1 --> h3; x1 --> h4

@@ -42,8 +42,8 @@ hours: 5
 The ==Lexical Analyzer== (also called lexer or scanner) is the first phase of compilation:
 
 ```mermaid
-graph LR
-  SRC[Source Character Stream] --> LA[Lexical Analyzer]
+graph TD
+  SRC[Source Character<br/>Stream] --> LA[Lexical Analyzer]
   LA --> TOK[Token Stream]
   TOK --> SA[Syntax Analyzer]
   

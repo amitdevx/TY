@@ -54,8 +54,8 @@ last_modified: 2026-06-16
 3. **Ability to evolve:** Allow new features/hardware without disrupting existing services
 
 ```mermaid
-graph TD
-    User[" User / Applications"] <--> OS[" Operating System"]
+graph LR
+    User[" User /<br/>Applications"] <--> OS[" Operating System"]
     OS <--> HW[" Hardware<br/>(CPU, Memory, Disk, I/O)"]
     
     OS --> PM["Process<br/>Management"]
@@ -113,7 +113,7 @@ Different OS designs have evolved over time:
 
 ```mermaid
 graph TD
-    A["Application Programs"] --> B["Monolithic OS Kernel<br/>(all services together)"]
+    A["Application<br/>Programs"] --> B["Monolithic OS Kernel<br/>(all services together)"]
     B --> C["Hardware"]
 ```
 
@@ -170,15 +170,15 @@ graph TD
 
 ```mermaid
 sequenceDiagram
-    participant App as User Program
-    participant OS as OS Kernel
-    participant HW as Hardware
+    participant App
+    participant OS
+    participant HW
 
-    App->>OS: System Call (e.g., read())
+    App->>OS: System Call (e.g.,<br/>read())
     Note over App,OS: Mode switch: User → Kernel
     OS->>HW: Access hardware
     HW->>OS: Return result
-    OS->>App: Return value to user program
+    OS->>App: Return value to user<br/>program
     Note over App,OS: Mode switch: Kernel → User
 ```
 

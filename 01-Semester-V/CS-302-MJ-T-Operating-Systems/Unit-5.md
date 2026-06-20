@@ -250,10 +250,10 @@ Index Block for File A:
 #### UNIX inode (Multi-level Index)
 
 ```mermaid
-graph TD
+graph LR
     inode["inode (Index Node)"] --> D1["Direct Block 1"]
     inode --> D2["Direct Block 2"]
-    inode --> D12["... Direct Blocks (12)"]
+    inode --> D12["... Direct Blocks<br/>(12)"]
     inode --> SI["Single Indirect<br/>Block"]
     inode --> DI["Double Indirect<br/>Block"]
     inode --> TI["Triple Indirect<br/>Block"]
@@ -324,13 +324,14 @@ Free blocks: 1, 2, 4, 7
 ## 5.6 Disk Structure
 
 ```mermaid
-graph LR
-    subgraph Disk["Hard Disk Drive Structure"]
+graph TD
+    subgraph Disk["Hard Disk Drive<br/>Structure"]
         PLATTER["Platter<br/>(magnetic disk)"]
         TRACK["Track<br/>(concentric circles on platter)"]
         SECTOR["Sector<br/>(smallest storage unit, 512B or 4KB)"]
         CYLINDER["Cylinder<br/>(same track on all platters)"]
         HEAD["Read/Write Head<br/>(one per platter surface)"]
+        PLATTER ~~~ TRACK ~~~ SECTOR ~~~ CYLINDER ~~~ HEAD
     end
 ```
 

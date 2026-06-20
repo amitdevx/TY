@@ -269,10 +269,10 @@ Use 27 SP for next sprint planning
 **Velocity Trend Analysis:**
 
 ```mermaid
-graph LR
-    A[Increasing Velocity] -->|Indicates| B[Team improving,<br/>collaboration growing]
-    C[Stable Velocity] -->|Indicates| D[Predictable, healthy team]
-    E[Decreasing Velocity] -->|Indicates| F[Technical debt,<br/>team issues,<br/>external blockers]
+graph TD
+    A[Increasing<br/>Velocity] -->|Indicates| B[Team improving,<br/>collaboration growing]
+    C[Stable Velocity] -->|Indicates| D[Predictable,<br/>healthy team]
+    E[Decreasing<br/>Velocity] -->|Indicates| F[Technical debt,<br/>team issues,<br/>external blockers]
     G[Erratic Velocity] -->|Indicates| H[Poor estimation,<br/>changing priorities,<br/>team instability]
 ```
 
@@ -339,13 +339,13 @@ Mantra: "Stop Starting, Start Finishing"
 ```mermaid
 graph TD
     B[Blocker Identified<br/>in Daily Scrum] --> SM[Scrum Master]
-    SM --> A1[Can resolve internally?]
+    SM --> A1[Can resolve<br/>internally?]
     A1 -->|Yes| R1[Resolve directly:<br/>- Fix build, procure tools,<br/>- Schedule meeting, clarify reqs]
-    A1 -->|No| A2[Escalate to management]
+    A1 -->|No| A2[Escalate to<br/>management]
     A2 --> R2[Escalate:<br/>- Remove organizational obstacles<br/>- Negotiate with external teams]
-    R1 --> T[Track in impediment log]
+    R1 --> T[Track in<br/>impediment log]
     R2 --> T
-    T --> DS[Report in next Daily Scrum]
+    T --> DS[Report in next Daily<br/>Scrum]
 ```
 
 **Impediment Log:**

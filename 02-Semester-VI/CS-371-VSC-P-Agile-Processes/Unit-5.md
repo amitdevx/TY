@@ -36,7 +36,7 @@ By the end of this unit, you will be able to:
 The entire TDD discipline is driven by a short, repeating three-phase cycle:
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["RED<br/>Write a failing test<br/>for new functionality"] --> B["GREEN<br/>Write the minimum code<br/>necessary to pass the test"]
     B --> C["REFACTOR<br/>Improve code structure<br/>without changing behavior"]
     C --> A
@@ -182,14 +182,14 @@ Feature: User Login
 ### 5.2.3 BDD Workflow
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Business Analyst / PO<br/>Writes Feature Files in Gherkin"] --> B["Three Amigos Meeting<br/>Dev + QA + BA review scenarios"]
     B --> C["Developer writes<br/>Step Definitions<br/>in Java/Python"]
     C --> D["BDD Framework<br/>Cucumber/JBehave<br/>executes Feature Files"]
     D --> E{Tests Pass?}
-    E -->|No| F[Implement production code]
+    E -->|No| F[Implement<br/>production code]
     F --> D
-    E -->|Yes| G[Feature is done and verified]
+    E -->|Yes| G[Feature is done and<br/>verified]
 ```
 
 ---
@@ -210,7 +210,7 @@ flowchart LR
 ### 5.3.2 CI/CD Pipeline Stages
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Developer<br/>pushes code"] --> B["Source Control<br/>Git commit/push"]
     B --> C["CI Server<br/>Builds application"]
     C --> D["Unit Tests<br/>JUnit / pytest"]

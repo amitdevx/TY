@@ -74,7 +74,7 @@ status: "not-started"
 | 2.4 | **Types**: One-pass, Multi-pass, Cross Compiler (definition, advantages, examples) |
 
 ```mermaid
-graph LR
+graph TD
     A[Source Code] --> B[Lexical Analyzer]
     B --> C[Syntax Analyzer]
     C --> D[Semantic Analyzer]

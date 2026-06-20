@@ -68,15 +68,15 @@ By the end of this course, you will be able to:
 ## Assignment - Unit Mapping
 
 ```mermaid
-graph LR
-    A1[Assignment 1: Agile Fundamentals] --> U1[Unit 1: Agile Fundamentals]
-    A2[Assignment 2: User Stories] --> U1
-    A3[Assignment 3: Backlog Prioritization] --> U2[Unit 2: Planning and Estimation]
-    A4[Assignment 4: Estimation and Sprint Planning] --> U2
-    A5[Assignment 5: Sprint Execution] --> U3[Unit 3: Sprint Execution]
-    A6[Assignment 6: Testing and Quality] --> U4[Unit 4: Quality Assurance]
-    A7[Assignment 7: Sprint Review] --> U5[Unit 5: Review and Retrospective]
-    A8[Assignment 8: Retrospective] --> U5
+graph TD
+    A1[Assignment 1: Agile<br/>Fundamentals] --> U1[Unit 1: Agile<br/>Fundamentals]
+    A2[Assignment 2: User<br/>Stories] --> U1
+    A3[Assignment 3: Backlog<br/>Prioritization] --> U2[Unit 2: Planning and<br/>Estimation]
+    A4[Assignment 4: Estimation and<br/>Sprint Planning] --> U2
+    A5[Assignment 5: Sprint<br/>Execution] --> U3[Unit 3: Sprint<br/>Execution]
+    A6[Assignment 6: Testing and<br/>Quality] --> U4[Unit 4: Quality<br/>Assurance]
+    A7[Assignment 7: Sprint<br/>Review] --> U5[Unit 5: Review and<br/>Retrospective]
+    A8[Assignment 8:<br/>Retrospective] --> U5
 ```
 
 ---
@@ -97,8 +97,8 @@ graph LR
 
 ```mermaid
 graph TD
-    T1[Git/GitHub] -->|Version Control and CI| P[Agile Project]
-    T2[Jira / Azure DevOps] -->|Backlog and Sprint Boards| P
+    T1[Git/GitHub] -->|Version Control and<br/>CI| P[Agile Project]
+    T2[Jira / Azure<br/>DevOps] -->|Backlog and Sprint<br/>Boards| P
     T3[JUnit / PyTest] -->|Unit Testing| P
     T4[GitHub Actions] -->|CI/CD Pipeline| P
     style T1 fill:#F05032,color:#fff

@@ -47,7 +47,7 @@ last_modified: 2026-06-16
 ### The Four Pillars of OOP
 
 ```mermaid
-graph TD
+graph LR
     OOP[" OOP Pillars"] --> E[" Encapsulation"]
     OOP --> I[" Inheritance"]
     OOP --> P[" Polymorphism"]
@@ -62,7 +62,7 @@ graph TD
     P --> P1["One interface,<br/>many implementations"]
     P --> P2["Overloading &<br/>Overriding"]
 
-    A --> A1["Show what, hide how"]
+    A --> A1["Show what, hide<br/>how"]
     A --> A2["Abstract classes<br/>and Interfaces"]
 ```
 
@@ -172,13 +172,18 @@ class Circle extends Shape {
 ## 1.4 Java Environment
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[" Source Code<br/>(.java)"] -->|javac compiler| B[" Bytecode<br/>(.class)"]
     B -->|JVM loads| C[" JVM<br/>Java Virtual Machine"]
     C -->|JIT Compiler| D[" Machine Code<br/>(Platform Specific)"]
+```
 
-    subgraph JDK[" JDK (Java Development Kit)"]
-        subgraph JRE[" JRE (Java Runtime Environment)"]
+### JDK, JRE, and JVM Structure
+
+```mermaid
+flowchart TD
+    subgraph JDK[" JDK (Java Development<br/>Kit)"]
+        subgraph JRE[" JRE (Java Runtime<br/>Environment)"]
             subgraph JVM2[" JVM"]
                 CL["ClassLoader"]
                 BV["Bytecode Verifier"]
@@ -187,6 +192,7 @@ flowchart LR
             LIB["Java Class Libraries<br/>(rt.jar)"]
         end
         TOOLS["Development Tools<br/>(javac, javadoc, jar, jdb)"]
+        CL ~~~ BV ~~~ INT ~~~ LIB ~~~ TOOLS
     end
 ```
 
@@ -250,7 +256,7 @@ public class HelloWorld {
 Java has **two categories** of data types:
 
 ```mermaid
-graph TD
+graph LR
     DT["Java Data Types"] --> P["Primitive Types<br/>(8 types)"]
     DT --> R["Reference Types"]
     

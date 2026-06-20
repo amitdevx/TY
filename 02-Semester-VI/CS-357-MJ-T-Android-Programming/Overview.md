@@ -109,10 +109,10 @@ mindmap
 
 ```mermaid
 graph TD
-    A[Applications Layer] --> B[Application Framework]
-    B --> C[Android Runtime - ART]
-    B --> D[Native Libraries - C/C++]
-    C --> E[Hardware Abstraction Layer - HAL]
+    A[Applications Layer] --> B[Application<br/>Framework]
+    B --> C[Android Runtime -<br/>ART]
+    B --> D[Native Libraries -<br/>C/C++]
+    C --> E[Hardware Abstraction Layer -<br/>HAL]
     D --> E
     E --> F[Linux Kernel]
     style A fill:#4CAF50,color:#fff

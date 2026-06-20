@@ -41,13 +41,13 @@ hours: 6
 ## 3.1 JDBC Architecture
 
 ```mermaid
-graph TD
-  APP[Java Application] --> JDBCAPI[JDBC API - java.sql.*]
+graph LR
+  APP[Java Application] --> JDBCAPI[JDBC API -<br/>java.sql.*]
   JDBCAPI --> DM[DriverManager]
-  DM --> D1[Type 1: JDBC-ODBC Bridge]
-  DM --> D2[Type 2: Native API Driver]
-  DM --> D3[Type 3: Network Protocol Driver]
-  DM --> D4[Type 4: Thin Driver ]
+  DM --> D1[Type 1: JDBC-ODBC<br/>Bridge]
+  DM --> D2[Type 2: Native API<br/>Driver]
+  DM --> D3[Type 3: Network Protocol<br/>Driver]
+  DM --> D4[Type 4: Thin<br/>Driver ]
   D4 --> DB[(Database Server<br/>MySQL/Oracle/PostgreSQL)]
 ```
 
@@ -330,9 +330,9 @@ Creating a new connection for every DB operation is **expensive** (~100ms). ==Co
 
 ```mermaid
 graph LR
-  App1[Application Thread 1] --> Pool[Connection Pool]
-  App2[Application Thread 2] --> Pool
-  App3[Application Thread 3] --> Pool
+  App1[Application Thread<br/>1] --> Pool[Connection Pool]
+  App2[Application Thread<br/>2] --> Pool
+  App3[Application Thread<br/>3] --> Pool
   Pool --> C1[Connection 1]
   Pool --> C2[Connection 2]
   Pool --> C3[Connection 3]

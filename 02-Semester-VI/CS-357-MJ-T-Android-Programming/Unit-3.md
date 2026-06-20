@@ -329,11 +329,11 @@ data class Student(val id: Int, val name: String, val marks: Float, val email: S
 
 **Room components:**
 ```mermaid
-graph LR
-    UI[UI / Activity / Fragment] --> DAO
+graph TD
+    UI[UI / Activity /<br/>Fragment] --> DAO
     DAO[DAO Interface] --> DB[(Room Database)]
     DB --> SQLite[(SQLite)]
-    E[Entity / Data class] --> DB
+    E[Entity / Data<br/>class] --> DB
     LD[LiveData / Flow] --> UI
     DAO --> LD
 ```

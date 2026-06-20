@@ -448,12 +448,12 @@ class DetailFragment : Fragment() {
 ==RecyclerView== efficiently displays large lists/grids by **recycling** views that are no longer visible, instead of creating new views for each item.
 
 ```mermaid
-graph LR
+graph TD
     Data[Data List] --> Adapter
     Adapter --> VH[ViewHolder]
     VH --> RV[RecyclerView]
     RV --> Screen
-    Note["When item scrolls off screen:<br/>ViewHolder is recycled and reused<br/>for the next item"] 
+    Note["When item scrolls off screen:<br/>ViewHolder is recycled and reused<br/>for the next item"]
 ```
 
 ### Implementation Steps

@@ -151,7 +151,7 @@ aliases:
 **Critical Diagram:**
 
 ```mermaid
-graph LR
+graph TD
     A[Core Concept] --> B[Application 1]
     A --> C[Application 2]
     A --> D[Application 3]

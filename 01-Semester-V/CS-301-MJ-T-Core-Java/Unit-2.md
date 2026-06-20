@@ -339,10 +339,10 @@ s = s + " World";  // Creates new String "Hello World"; old "Hello" is garbage
 ### String Pool
 
 ```mermaid
-graph LR
-    A["String s1 = \"Hello\""] --> P["String Pool<br/>\"Hello\""]
-    B["String s2 = \"Hello\""] --> P
-    C["String s3 = new String(\"Hello\")"] --> H["Heap<br/>\"Hello\" (separate object)"]
+graph TD
+    A["String s1 =<br/>\"Hello\""] --> P["String Pool<br/>\"Hello\""]
+    B["String s2 =<br/>\"Hello\""] --> P
+    C["String s3 = new<br/>String(\"Hello\")"] --> H["Heap<br/>\"Hello\" (separate object)"]
 ```
 
 - String literals go into the **String Pool** (interning)

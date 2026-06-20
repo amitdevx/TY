@@ -36,7 +36,7 @@ updated: 2026-06-16
 
 ```mermaid
 mindmap
-  root((AI & ML Foundation))
+  root((AI & ML<br/>Foundation))
     Unit 1 - Intro to AI
       History & Turing Test
       Search Strategies
