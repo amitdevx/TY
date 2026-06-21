@@ -1,4 +1,4 @@
-# SPPU TYBSc Computer Science – Practicals Repository
+# SPPU TYBSc Computer Science
 
 This repository is created to help TYBSc Computer Science students of Savitribai Phule Pune University (SPPU) across multiple semesters. Students can share practicals, assignments, and help each other with semester work.
 
