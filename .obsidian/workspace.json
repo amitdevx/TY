@@ -11,10 +11,14 @@
             "id": "87a0c1a8fe772e84",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "01-Semester-V/CS-301-MJ-T-Core-Java/Unit-1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unit-1"
             }
           },
           {
