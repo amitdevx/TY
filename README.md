@@ -1,6 +1,6 @@
-# SPPU TYBSc Computer Science
+# SPPU TYBSc Computer Science – Study Material Repository
 
-This repository is created to help TYBSc Computer Science students of Savitribai Phule Pune University (SPPU) across multiple semesters. Students can share practicals, assignments, and help each other with semester work.
+This repository is created to help TYBSc Computer Science students of Savitribai Phule Pune University (SPPU) across multiple semesters. Students can share study materials, practicals, assignments, and help each other with semester work.
 
 ## What You'll Find Here
 
