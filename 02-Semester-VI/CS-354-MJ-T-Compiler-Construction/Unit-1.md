@@ -129,7 +129,7 @@ E
 ⇒ id + id * id       [F → id, replacing last F]
 ```
 
-**Notation:** Uses ⇒ for a single step, ⇒* for multiple steps
+**Notation:** Uses ⇒ for a single step, ⇒\* for multiple steps
 
 ---
 

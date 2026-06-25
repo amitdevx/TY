@@ -163,7 +163,7 @@ Accept when stack empty and input empty
 
 | Type | Name | Grammar | Automaton | Language Example |
 |------|------|---------|-----------|-----------------|
-| Type 0 | Unrestricted | αAβ → γ | Turing Machine | {ww | w ∈ Σ*} |
+| Type 0 | Unrestricted | αAβ → γ | Turing Machine | {ww | w ∈ Σ\*} |
 | Type 1 | Context-Sensitive | αAβ → αγβ | LBA | {aⁿbⁿcⁿ | n≥1} |
 | Type 2 | Context-Free | A → γ | PDA | {aⁿbⁿ | n≥1} |
 | Type 3 | Regular | A → aB or A → a | DFA/NFA | (ab)* |

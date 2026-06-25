@@ -79,7 +79,7 @@ type: interview-prep
 
 > [!question] 11. Difference between `sendRedirect()` and `forward()`?
 > - **`sendRedirect()` (response method):** Sends a status code (302) to the client's browser, telling it to make a completely new request to a new URL. The URL changes in the browser. State/request attributes are lost.
-> - **`RequestDispatcher.forward()` (request method):** The request is transferred to another resource on the *same server* internally. The browser URL does not change. Request attributes are preserved.
+> - **`RequestDispatcher.forward()` (request method):** The request is transferred to another resource on the *same server\* internally. The browser URL does not change. Request attributes are preserved.
 
 > [!question] 12. What are implicit objects in JSP?
 > Objects automatically created by the Web Container that you can use in scriptlets/expressions without explicitly declaring them.

@@ -284,7 +284,7 @@ F1        = 2 × (Precision × Recall) / (Precision + Recall)
 
 ### Critical Topics
 1. **AI Fundamentals** - agents, rationality, PEAS
-2. **Search Algorithms** - BFS, DFS, A*, greedy, heuristics
+2. **Search Algorithms** - BFS, DFS, A\*, greedy, heuristics
 3. **Knowledge Representation** - propositional and predicate logic
 4. **ML Types** - supervised, unsupervised, reinforcement
 5. **Neural Networks** - perceptron, backpropagation, activation functions
@@ -295,8 +295,8 @@ F1        = 2 × (Precision × Recall) / (Precision + Recall)
 | Topic | One-Line Summary |
 |-------|-----------------|
 | PEAS | Performance, Environment, Actuators, Sensors - defines AI agent |
-| A* Search | Optimal path search using f(n) = g(n) + h(n) |
-| Admissible Heuristic | Never overestimates true cost; guarantees A* optimality |
+| A\* Search | Optimal path search using f(n) = g(n) + h(n) |
+| Admissible Heuristic | Never overestimates true cost; guarantees A\* optimality |
 | Perceptron | Simplest neural network; binary linear classifier |
 | Backpropagation | Algorithm to compute gradients in neural networks |
 | CNN | Uses convolution to extract spatial features from images |
@@ -317,7 +317,7 @@ Softmax: P(class_i) = e^(z_i) / Σ e^(z_j)
 ### Last-Minute Checklist - CS-321
 - [ ] PEAS framework for a given agent
 - [ ] BFS vs DFS: time/space complexity
-- [ ] A* vs Greedy Best-First: difference
+- [ ] A\* vs Greedy Best-First: difference
 - [ ] Propositional logic: truth tables
 - [ ] Neural network forward pass steps
 - [ ] Difference: CNN vs RNN use cases
@@ -333,7 +333,7 @@ Softmax: P(class_i) = e^(z_i) / Σ e^(z_j)
 | EAT = (1-p)×m + p×t | OS | Effective access time with paging |
 | MSE = (1/n)Σ(y-ŷ)² | DS | Regression error |
 | R² = 1 - SS_res/SS_tot | DS | Regression goodness of fit |
-| f(n) = g(n) + h(n) | AI | A* search evaluation |
+| f(n) = g(n) + h(n) | AI | A\* search evaluation |
 | Accuracy = (TP+TN)/Total | DS/AI | Classification metric |
 
 ---

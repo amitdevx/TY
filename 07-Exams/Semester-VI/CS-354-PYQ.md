@@ -134,9 +134,9 @@ Source Code
 
 ### Q3. Parse Tree, LMD, and RMD ()
 
-**Grammar:** E → E + E | E * E | (E) | id
+**Grammar:** E → E + E | E \* E | (E) | id
 
-**String:** id + id * id
+**String:** id + id \* id
 
 **Leftmost Derivation:**
 ```
@@ -156,7 +156,7 @@ E → E + E
   → id + id * id
 ```
 
-**Parse Tree (for id + id * id):**
+**Parse Tree (for id + id \* id):**
 ```
         E
       / | \

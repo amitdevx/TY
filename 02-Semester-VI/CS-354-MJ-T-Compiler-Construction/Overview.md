@@ -84,7 +84,7 @@ mindmap
 ## Reference Books
 
 1. **Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman** - *Compilers: Principles, Techniques, and Tools* (Dragon Book) - **Primary**
-2. **Andrew Appel** - *Modern Compiler Implementation in Java/C/ML*
+2. **Andrew Appel** - *Modern Compiler Implementation in Java/C/ML\*
 3. **Steven Muchnick** - *Advanced Compiler Design and Implementation*
 
 ## Quick Navigation

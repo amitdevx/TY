@@ -45,7 +45,7 @@ last_reviewed: 2026-06-16
    - (b) containing 'aa' as substring
    - (c) with even number of a's and odd number of b's
 
-9.  Construct an NFA for the language L = {w ∈ {a,b}* | w ends with 'abb'}. Convert it to an equivalent DFA using subset construction. Draw the transition table and diagram.
+9.  Construct an NFA for the language L = {w ∈ {a,b}\* | w ends with 'abb'}. Convert it to an equivalent DFA using subset construction. Draw the transition table and diagram.
 
 10.  Convert the following NFA to a DFA using subset construction:
     ```
@@ -98,7 +98,7 @@ last_reviewed: 2026-06-16
 
 24.  Use the Pumping Lemma to prove the following are NOT regular:
     - (a) L = {aⁿbⁿ | n ≥ 0}
-    - (b) L = {ww | w ∈ {a,b}*}
+    - (b) L = {ww | w ∈ {a,b}\*}
     - (c) L = {aⁿ | n is a perfect square}
 
 25.  Convert the regular expression `(a+b)*abb` to an NFA and then to a DFA.
@@ -134,7 +134,7 @@ last_reviewed: 2026-06-16
 35.  Write a CFG for the following languages:
     - (a) L = {aⁿbⁿ | n ≥ 1}
     - (b) L = palindromes over {a, b}
-    - (c) L = {ww^R | w ∈ {a,b}*}
+    - (c) L = {ww^R | w ∈ {a,b}\*}
     - (d) Balanced parentheses
 
 36.  Simplify the following CFG by removing ε-productions, unit productions, and useless symbols:
@@ -159,7 +159,7 @@ last_reviewed: 2026-06-16
     B → b
     ```
 
-39.  Explain leftmost and rightmost derivations. Show both for the string "id + id * id" using the arithmetic expression grammar.
+39.  Explain leftmost and rightmost derivations. Show both for the string "id + id \* id" using the arithmetic expression grammar.
 
 ---
 
@@ -180,8 +180,8 @@ last_reviewed: 2026-06-16
 46.  Construct a PDA by final state for L = {aⁿbⁿ | n ≥ 0}. Draw the transition diagram and table.
 
 47.  Construct a PDA for the following languages:
-    - (a) L = {ww^R | w ∈ {a,b}*} (palindromes)
-    - (b) L = {w ∈ {a,b}* | #a(w) = #b(w)}
+    - (a) L = {ww^R | w ∈ {a,b}\*} (palindromes)
+    - (b) L = {w ∈ {a,b}\* | #a(w) = #b(w)}
     - (c) L = {aⁿbᵐ | n ≤ m}
 
 48.  Prove that acceptance by empty stack and acceptance by final state are equivalent for PDAs.
@@ -211,7 +211,7 @@ last_reviewed: 2026-06-16
     - Trace execution for input "aabb"
 
 56.  Design a Turing Machine for:
-    - (a) L = {ww^R | w ∈ {a,b}*} (palindromes)
+    - (a) L = {ww^R | w ∈ {a,b}\*} (palindromes)
     - (b) Computing f(n) = n+1 in unary representation
     - (c) Recognizing balanced parentheses
 

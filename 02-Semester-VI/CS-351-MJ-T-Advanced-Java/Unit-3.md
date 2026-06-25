@@ -147,7 +147,7 @@ ResultSet rs = stmt.executeQuery("SELECT * FROM students WHERE id = 1");
 > Never concatenate user input into SQL strings with `Statement`:
 > ```java
 > // DANGEROUS!
-> String sql = "SELECT * FROM users WHERE name = '" + userInput + "'";
+> String sql = "SELECT \* FROM users WHERE name = '" + userInput + "'";
 > // Input: ' OR '1'='1 → exposes all records!
 > ```
 

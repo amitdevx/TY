@@ -404,7 +404,7 @@ export class ChildComponent {
 
 > [!tip] High Probability
 > 1.  Data binding - all 4 types with code
-> 2.  *ngIf, *ngFor, *ngSwitch usage
+> 2.  \*ngIf, \*ngFor, \*ngSwitch usage
 > 3.  Service with HttpClient - CRUD operations
 > 4.  Angular routing with parameters
 > 5.  Reactive form with validators

@@ -35,7 +35,7 @@ updated: 2026-06-16
 
 - [ ] Trace the history of AI from Turing to modern deep learning
 - [ ] Explain the Turing Test and its significance
-- [ ] Implement BFS, DFS, and A* search algorithms in Python
+- [ ] Implement BFS, DFS, and A\* search algorithms in Python
 - [ ] Explain Hill Climbing and its variants
 - [ ] Represent knowledge using Propositional and First-Order Logic
 
@@ -277,9 +277,9 @@ def dfs_iterative(graph, start, goal):
 
 Uses domain-specific knowledge (heuristic function h(n)) to guide search.
 
-#### A* Algorithm
+#### A\* Algorithm
 
-> [!important] A* Formula
+> [!important] A\* Formula
 > $$f(n) = g(n) + h(n)$$
 > - **g(n)**: Actual cost from start to node n
 > - **h(n)**: Estimated (heuristic) cost from n to goal
@@ -289,7 +289,7 @@ Uses domain-specific knowledge (heuristic function h(n)) to guide search.
 > A heuristic is ==admissible== if it **never overestimates** the actual cost: $h(n) \leq h^*(n)$
 > - For grid maps: Manhattan distance or Euclidean distance are admissible
 
-> [!note] A* Properties
+> [!note] A\* Properties
 > - **Completeness**:  Yes
 > - **Optimality**:  Yes (with admissible heuristic)
 > - **Time**: O(b^d) worst case
@@ -471,8 +471,8 @@ FOL: ∃x [Student(x) ∧ IsGenius(x)]
 > - **BFS**: Use when you need the shortest path (optimal) and memory isn't a constraint. E.g., social network "degree of connection", GPS shortest route.
 > - **DFS**: Use when memory is limited, solution is deep, or when any solution is acceptable. E.g., solving mazes, topological sort.
 
-> [!question] Q3: Explain the A* algorithm. What makes it optimal?
-> **Answer**: A* uses f(n) = g(n) + h(n) where g(n) is actual cost so far and h(n) is an admissible heuristic (never overestimates). A* is **optimal** when the heuristic is admissible because it always expands the node with lowest estimated total cost. It's **complete** as long as all step costs > 0.
+> [!question] Q3: Explain the A\* algorithm. What makes it optimal?
+> **Answer**: A\* uses f(n) = g(n) + h(n) where g(n) is actual cost so far and h(n) is an admissible heuristic (never overestimates). A\* is **optimal** when the heuristic is admissible because it always expands the node with lowest estimated total cost. It's **complete** as long as all step costs > 0.
 
 > [!question] Q4: What is the difference between Propositional Logic and First-Order Logic?
 > **Answer**: 

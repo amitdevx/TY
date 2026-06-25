@@ -80,9 +80,9 @@ mindmap
 ## Reference Books
 
 1. **Yakov Fain and Anton Moiseev** - *Angular Development with TypeScript* (Primary)
-2. **Aristeidis Bampakos and Pablo Garcia** - *Learning Angular*
+2. **Aristeidis Bampakos and Pablo Garcia** - *Learning Angular\*
 3. **Shyam Seshadri** - *Angular: Up and Running*
-4. **Pablo Garcia** - *Getting Started with Angular*
+4. **Pablo Garcia** - *Getting Started with Angular\*
 
 ## Quick Navigation
 

@@ -57,10 +57,10 @@ last_reviewed: 2026-06-16
 | Production | A → α; replaces variable A with string α | S → aSb |
 | Derivation | Applying productions to reach terminal string | S ⇒ aSb ⇒ aaSbb ⇒ aabb |
 | ⇒ | "Derives in one step" | S ⇒ aSb |
-| ⇒* | "Derives in zero or more steps" | S ⇒* aabb |
+| ⇒\* | "Derives in zero or more steps" | S ⇒\* aabb |
 | Sentential form | Any string derived from S | S, aSb, aaSbb |
 | Sentence | Sentential form with only terminals | aabb |
-| L(G) | Language of grammar G: {w ∈ T* | S ⇒* w} | |
+| L(G) | Language of grammar G: {w ∈ T* | S ⇒\* w} | |
 | Parse tree | Tree showing derivation structure | |
 
 ^cfg-definition
@@ -117,7 +117,7 @@ At each step, replace the **leftmost** variable.
 ### Rightmost Derivation
 At each step, replace the **rightmost** variable.
 
-### Example: Derive "id + id * id" from arithmetic grammar
+### Example: Derive "id + id \* id" from arithmetic grammar
 
 **Leftmost derivation:**
 ```
@@ -229,8 +229,8 @@ B → b
 ### Step 3: Remove Useless Symbols
 
 **A symbol X is USEFUL if:**
-- It is **generating**: X ⇒* w for some terminal string w
-- It is **reachable**: S ⇒* αXβ for some α, β
+- It is **generating**: X ⇒\* w for some terminal string w
+- It is **reachable**: S ⇒\* αXβ for some α, β
 
 **Algorithm:**
 ```

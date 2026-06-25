@@ -286,7 +286,7 @@ graph TD
 ### Recursive (Decidable) Languages
 - L = {w | w is a valid Java program} - Yes, a compiler can check
 - L = {aⁿbⁿ | n ≥ 0} - TM can check and always halt
-- L = {w ∈ {a,b}* | w is a palindrome}
+- L = {w ∈ {a,b}\* | w is a palindrome}
 - Any regular language, any CFL
 
 ### Recursively Enumerable (but not Recursive)

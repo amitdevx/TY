@@ -68,7 +68,7 @@ last_reviewed: 2026-06-16
 > - **Q** = Finite set of states
 > - **Σ** = Input alphabet
 > - **Γ** = Stack alphabet (can be different from Σ)
-> - **δ** = Transition function: **Q × (Σ ∪ {ε}) × Γ → 2^(Q × Γ*)** (non-deterministic)
+> - **δ** = Transition function: **Q × (Σ ∪ {ε}) × Γ → 2^(Q × Γ\*)** (non-deterministic)
 > - **q₀** = Start state (q₀ ∈ Q)
 > - **Z₀** = Initial stack symbol (Z₀ ∈ Γ); bottom-of-stack marker
 > - **F** = Set of accepting final states (F ⊆ Q)
@@ -120,7 +120,7 @@ last_reviewed: 2026-06-16
 > [!important] Acceptance by Empty Stack
 > A PDA accepts a string w by ==empty stack== if, starting from the initial configuration, after processing all of w, the stack becomes **empty**.
 >
-> **L(M) = N(M) = {w ∈ Σ* | (q₀, w, Z₀) ⊢\* (q, ε, ε) for some q ∈ Q}**
+> **L(M) = N(M) = {w ∈ Σ\* | (q₀, w, Z₀) ⊢\* (q, ε, ε) for some q ∈ Q}**
 
 > [!note] Note: When using empty stack acceptance, F is irrelevant (any state is acceptable if stack is empty).
 
@@ -180,7 +180,7 @@ last_reviewed: 2026-06-16
 > [!important] Acceptance by Final State
 > A PDA accepts a string w by ==final state== if, starting from initial configuration, after processing all of w, the PDA is in an **accepting state** (regardless of stack content).
 >
-> **L(M) = {w ∈ Σ* | (q₀, w, Z₀) ⊢\* (q, ε, γ) for some q ∈ F, γ ∈ Γ*}**
+> **L(M) = {w ∈ Σ\* | (q₀, w, Z₀) ⊢\* (q, ε, γ) for some q ∈ F, γ ∈ Γ\*}**
 
 ### Example 2: PDA for L = {aⁿbⁿ | n ≥ 1} by Final State
 
@@ -242,7 +242,7 @@ Construct M₂:
 
 ## 4.7 More PDA Examples
 
-### Example 3: PDA for Palindromes over {a, b} - L = {w ∈ {a,b}* | w = wᴿ}
+### Example 3: PDA for Palindromes over {a, b} - L = {w ∈ {a,b}\* | w = wᴿ}
 
 **Strategy (non-deterministic):**
 - Phase 1: Push all input onto stack (guess we're in first half)
@@ -275,7 +275,7 @@ Phase 2 (match and pop):
   δ(q₁, ε, Z₀) = {(q₂, Z₀)}      accept: stack has only Z₀
 ```
 
-### Example 4: PDA for L = {w ∈ {a,b}* | #a(w) = #b(w)} (equal a's and b's)
+### Example 4: PDA for L = {w ∈ {a,b}\* | #a(w) = #b(w)} (equal a's and b's)
 
 **Strategy:**
 - Push 'A' for each 'a', 'B' for each 'b'
@@ -358,7 +358,7 @@ Stack: S; Input: aabb
    - PDA = NFA + stack; the stack allows it to count/match nested structures; DFA/NFA can't recognize {aⁿbⁿ} but PDA can
 
 2. **Define PDA as a 7-tuple. What is each component?**
-   - (Q, Σ, Γ, δ, q₀, Z₀, F): states, input alphabet, stack alphabet, transition fn (Q×Σ_ε×Γ→2^{Q×Γ*}), start state, initial stack symbol, final states
+   - (Q, Σ, Γ, δ, q₀, Z₀, F): states, input alphabet, stack alphabet, transition fn (Q×Σ_ε×Γ→2^{Q×Γ\*}), start state, initial stack symbol, final states
 
 3. **Explain the transition function of a PDA.**
    - δ(q, a, A) = {(p, γ)}: in state q, reading 'a', with A on top, go to p and replace A with γ
@@ -388,11 +388,11 @@ Stack: S; Input: aabb
 >
 > **PDA = (Q, Σ, Γ, δ, q₀, Z₀, F):**
 > - Stack is the key addition over NFA
-> - δ: Q × (Σ ∪ {ε}) × Γ → 2^(Q × Γ*)
+> - δ: Q × (Σ ∪ {ε}) × Γ → 2^(Q × Γ\*)
 >
 > **Acceptance Methods:**
-> - Empty Stack: (q₀, w, Z₀) ⊢* (q, ε, ε) - any state, empty stack
-> - Final State: (q₀, w, Z₀) ⊢* (q, ε, γ) - q ∈ F, any stack
+> - Empty Stack: (q₀, w, Z₀) ⊢\* (q, ε, ε) - any state, empty stack
+> - Final State: (q₀, w, Z₀) ⊢\* (q, ε, γ) - q ∈ F, any stack
 > - Both are **equivalent** in power
 >
 > **Key PDA Constructions:**

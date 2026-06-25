@@ -155,7 +155,7 @@ q11   | q01 | q10
 
 ### Q3. Regular Expression to NFA/DFA (Thompson's Construction)
 
-**Convert RE: (a+b)*abb to NFA.**
+**Convert RE: (a+b)\*abb to NFA.**
 
 Steps of Thompson's Construction:
 1. Each symbol → basic NFA
@@ -163,7 +163,7 @@ Steps of Thompson's Construction:
 3. Union (a+b): create new start/end with ε-transitions
 4. Kleene Star (*): add ε-loops
 
-*Apply for (a+b)*:*
+*Apply for (a+b)\*:*
 - Create NFA for 'a', NFA for 'b'
 - Union them
 - Apply Kleene star
@@ -282,7 +282,7 @@ M = ({q0, q1, q2}, {a,b}, {Z,A}, δ, q0, Z, {q2})
 
 ---
 
-**Design PDA for L = {ww^R | w ∈ {a,b}*}**
+**Design PDA for L = {ww^R | w ∈ {a,b}\*}**
 
 ```
 Phase 1 (q0): Push all symbols onto stack
@@ -342,7 +342,7 @@ Simply scan to end and add one more 1:
 
 | Class | Grammar | Automaton | Example |
 |-------|---------|-----------|---------|
-| Type 0 | Unrestricted | Turing Machine | L = {ww | w ∈ Σ*} |
+| Type 0 | Unrestricted | Turing Machine | L = {ww | w ∈ Σ\*} |
 | Type 1 | Context-Sensitive | LBA | aⁿbⁿcⁿ |
 | Type 2 | Context-Free | PDA | aⁿbⁿ |
 | Type 3 | Regular | DFA/NFA | (ab)* |

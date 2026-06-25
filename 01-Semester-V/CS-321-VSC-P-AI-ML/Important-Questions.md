@@ -40,14 +40,14 @@ updated: 2026-06-16
 ### 2-Mark Questions
 1. What is the Turing Test? Who proposed it?
 2. Differentiate between BFS and DFS.
-3. What is the A* algorithm? Give the formula.
+3. What is the A\* algorithm? Give the formula.
 4. What is an admissible heuristic?
 5. Differentiate Propositional Logic and First-Order Logic.
 6. What are the problems with Hill Climbing?
 
 ### 5-Mark Questions
 1. Explain BFS algorithm with an example. What are its time and space complexities?
-2. Describe the A* algorithm. Why is it optimal?
+2. Describe the A\* algorithm. Why is it optimal?
 3. Explain Hill Climbing variants and their problems.
 4. Explain Propositional Logic with truth table for all connectives.
 5. List major milestones in the history of AI.
@@ -55,7 +55,7 @@ updated: 2026-06-16
 
 ### 8-Mark Questions
 1. ** Implement BFS and DFS in Python. Compare them on time complexity, space complexity, completeness, and optimality.**
-2. ** Explain A* algorithm in detail. Why is admissible heuristic important? Implement in Python.**
+2. ** Explain A\* algorithm in detail. Why is admissible heuristic important? Implement in Python.**
 3. **Explain First-Order Logic with predicates, quantifiers, and inference rules. Give 5 examples of FOL sentences.**
 4. **Trace through the 8-puzzle problem using BFS. Show the state space.**
 
@@ -240,7 +240,7 @@ for k in range(2, 11):
 
 | Formula | Expression |
 |---------|-----------|
-| A* | $f(n) = g(n) + h(n)$ |
+| A\* | $f(n) = g(n) + h(n)$ |
 | Accuracy | $\frac{TP+TN}{TP+TN+FP+FN}$ |
 | Precision | $\frac{TP}{TP+FP}$ |
 | Recall | $\frac{TP}{TP+FN}$ |

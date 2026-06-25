@@ -51,7 +51,7 @@ updated: 2026-06-16
   - UCS (Uniform Cost Search)
 - **Informed (Heuristic) Search**:
   - Greedy Best-First Search
-  - A* Algorithm - f(n) = g(n) + h(n); admissible heuristic
+  - A\* Algorithm - f(n) = g(n) + h(n); admissible heuristic
   - Hill Climbing (Steepest Ascent, Stochastic, First-choice)
 
 ### 1.5 Knowledge Representation

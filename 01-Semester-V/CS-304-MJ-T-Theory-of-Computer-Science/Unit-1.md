@@ -53,9 +53,9 @@ last_reviewed: 2026-06-16
 | ==String (Word)== | Finite sequence of symbols from Σ | `ab`, `aab`, `bba` |
 | ==Empty String== (ε) | String with zero symbols; length = 0 | ε |
 | ==Length of String== |w| | Number of symbols in string w | |aba| = 3, |ε| = 0 |
-| ==Kleene Star== (Σ*) | Set of ALL strings over Σ including ε | Σ={a,b}: {ε, a, b, aa, ab, ...} |
-| ==Σ⁺== | Σ* minus ε (all non-empty strings) | Σ* \ {ε} |
-| ==Language== (L) | Any subset of Σ* | L = {aⁿbⁿ | n ≥ 1} |
+| ==Kleene Star== (Σ\*) | Set of ALL strings over Σ including ε | Σ={a,b}: {ε, a, b, aa, ab, ...} |
+| ==Σ⁺== | Σ\* minus ε (all non-empty strings) | Σ\* \ {ε} |
+| ==Language== (L) | Any subset of Σ\* | L = {aⁿbⁿ | n ≥ 1} |
 
 ### String Operations
 
@@ -95,7 +95,7 @@ Substring of w: any contiguous part
 
 ### Example 1: DFA for strings ending in 'b' over Σ={a,b}
 
-**Language:** L = {w ∈ {a,b}* | w ends with b}
+**Language:** L = {w ∈ {a,b}\* | w ends with b}
 
 **States:**
 - q₀ = start state (last symbol seen: none / last was 'a')
@@ -137,7 +137,7 @@ stateDiagram-v2
 
 ### Example 2: DFA for strings with even number of a's over Σ={a,b}
 
-**Language:** L = {w ∈ {a,b}* | w has even count of 'a' (0 counts as even)}
+**Language:** L = {w ∈ {a,b}\* | w has even count of 'a' (0 counts as even)}
 
 **States:**
 - q₀ = Even number of a's seen (start + accept)
@@ -216,7 +216,7 @@ stateDiagram-v2
 
 ### Example: NFA for strings ending in "ab"
 
-**Language:** L = {w ∈ {a,b}* | w ends with "ab"}
+**Language:** L = {w ∈ {a,b}\* | w ends with "ab"}
 
 ```mermaid
 stateDiagram-v2
@@ -300,7 +300,7 @@ stateDiagram-v2
 |-----------|---|---|
 | →A | B | A |
 | B | B | C |
-| *C | B | A |
+| \*C | B | A |
 
 ^nfa-to-dfa-conversion
 
@@ -444,7 +444,7 @@ Check unmarked pairs:
 | State | 0 | 1 |
 |-------|---|---|
 | →A | A | B |
-| *B | A | B |
+| \*B | A | B |
 | C | B | B |
 
 > Note: State C is unreachable from A, so it can be removed → **Minimal DFA has 2 states: A and B!**
@@ -519,7 +519,7 @@ Check unmarked pairs:
 > [!summary] Unit 1 Key Takeaways
 >
 > **Basic Terms:**
-> - Σ = alphabet, Σ* = all strings (incl. ε), Language ⊆ Σ*
+> - Σ = alphabet, Σ\* = all strings (incl. ε), Language ⊆ Σ\*
 >
 > **DFA = (Q, Σ, δ, q₀, F):**
 > - δ: Q × Σ → Q (one next state)

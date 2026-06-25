@@ -3,7 +3,7 @@
 # Viva Questions: Problem Solving Using Search
 
 1. **What is the difference between uninformed and informed search?**
-   *Uninformed search algorithms (like BFS, DFS) have no additional information about the goal state other than the problem definition, while informed search algorithms (like A*) use heuristics to guide the search.*
+   *Uninformed search algorithms (like BFS, DFS) have no additional information about the goal state other than the problem definition, while informed search algorithms (like A\*) use heuristics to guide the search.*
 
 2. **Why does BFS guarantee the shortest path in an unweighted graph?**
    *BFS explores nodes level by level, ensuring that it visits all nodes at distance `k` before visiting any node at distance `k+1`. Thus, the first time it reaches the goal, it must be via the shortest path.*

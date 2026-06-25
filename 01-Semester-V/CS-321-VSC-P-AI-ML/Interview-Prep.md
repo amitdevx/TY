@@ -41,10 +41,10 @@ updated: 2026-06-16
 > **Answer**: 
 > - **BFS**: Queue (FIFO), explores level by level, guaranteed shortest path (if uniform costs), high memory O(b^d)
 > - **DFS**: Stack (LIFO), goes deep first, not optimal, low memory O(b·m)
-> For **shortest path** → BFS (or Dijkstra's for weighted, A* for heuristic). DFS for: when any solution is acceptable, memory-constrained, deep search spaces (maze solving), topological sort.
+> For **shortest path** → BFS (or Dijkstra's for weighted, A\* for heuristic). DFS for: when any solution is acceptable, memory-constrained, deep search spaces (maze solving), topological sort.
 
-> [!question] Q4: What is A* and why is it better than BFS and Dijkstra's?
-> **Answer**: A* uses f(n) = g(n) + h(n) where g(n) is the actual cost and h(n) is an admissible heuristic estimate. It's better than BFS (which assumes uniform costs) and Dijkstra's (which has no heuristic). A*: Complete + Optimal (with admissible h) + efficient (doesn't explore unpromising paths). BFS explores all directions; A* uses heuristic to focus toward the goal. Example: GPS navigation uses A* with straight-line distance as heuristic.
+> [!question] Q4: What is A\* and why is it better than BFS and Dijkstra's?
+> **Answer**: A\* uses f(n) = g(n) + h(n) where g(n) is the actual cost and h(n) is an admissible heuristic estimate. It's better than BFS (which assumes uniform costs) and Dijkstra's (which has no heuristic). A\*: Complete + Optimal (with admissible h) + efficient (doesn't explore unpromising paths). BFS explores all directions; A\* uses heuristic to focus toward the goal. Example: GPS navigation uses A\* with straight-line distance as heuristic.
 
 > [!question] Q5: What is First-Order Logic? Give examples.
 > **Answer**: FOL (Predicate Logic) extends propositional logic with predicates, variables, and quantifiers. Components: Objects (John, 5), Predicates (IsStudent(x), Loves(x,y)), Functions (FatherOf(x)), Quantifiers: ∀ (for all), ∃ (there exists).
@@ -270,7 +270,7 @@ updated: 2026-06-16
 | Bias vs Variance | Bias=underfitting, Variance=overfitting |
 | L1 vs L2 | L1=sparse (feature selection), L2=weight shrink |
 | BFS vs DFS | BFS=optimal+complete, DFS=memory efficient |
-| A* formula | f(n) = g(n) + h(n) |
+| A\* formula | f(n) = g(n) + h(n) |
 | Admissible heuristic | Never overestimates actual cost |
 | F1 formula | 2PR/(P+R) |
 | Use Precision when | FP costly (spam filter) |

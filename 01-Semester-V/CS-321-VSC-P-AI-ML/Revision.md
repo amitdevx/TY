@@ -39,7 +39,7 @@ updated: 2026-06-16
 
 **Search Algorithm Comparison:**
 
-| Property | BFS | DFS | A* |
+| Property | BFS | DFS | A\* |
 |----------|-----|-----|----|
 | Data structure | Queue (FIFO) | Stack (LIFO) | Priority Queue |
 | Complete |  |  |  |
@@ -47,7 +47,7 @@ updated: 2026-06-16
 | Time | O(b^d) | O(b^m) | O(b^d) |
 | Space | O(b^d) - HIGH | O(b·m) - LOW | O(b^d) |
 
-**A* Formula:** $f(n) = g(n) + h(n)$
+**A\* Formula:** $f(n) = g(n) + h(n)$
 - g(n) = actual cost from start
 - h(n) = heuristic estimate to goal
 - Admissible: h(n) ≤ h*(n) (never overestimates)
@@ -249,7 +249,7 @@ model.evaluate(X_test, y_test)
 
 | Formula | Expression |
 |---------|-----------|
-| A* | $f(n) = g(n) + h(n)$ |
+| A\* | $f(n) = g(n) + h(n)$ |
 | Accuracy | $(TP+TN)/Total$ |
 | Precision | $TP/(TP+FP)$ |
 | Recall | $TP/(TP+FN)$ |
@@ -270,8 +270,8 @@ model.evaluate(X_test, y_test)
 
 ## Last-Hour Checklist
 
-- [ ] BFS=Queue, DFS=Stack, A*=PriorityQueue + f(n)=g(n)+h(n)
-- [ ] A* admissible heuristic → never overestimates
+- [ ] BFS=Queue, DFS=Stack, A\*=PriorityQueue + f(n)=g(n)+h(n)
+- [ ] A\* admissible heuristic → never overestimates
 - [ ] Confusion matrix: TP, TN, FP, FN with all metric formulas
 - [ ] Type I = False Positive; Type II = False Negative
 - [ ] Bias²+Variance+Noise = Total Error

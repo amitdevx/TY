@@ -87,7 +87,7 @@ a+b|c = (a+b)|c - union has lowest precedence
 
 | Language Description | Regular Expression | Notes |
 |---------------------|-------------------|-------|
-| All strings over {a,b} | `(a+b)*` | Σ* |
+| All strings over {a,b} | `(a+b)*` | Σ\* |
 | Strings ending in 'b' | `(a+b)*b` | |
 | Strings starting with 'a' | `a(a+b)*` | |
 | Strings with exactly one 'a' | `b*ab*` | |
@@ -128,9 +128,9 @@ a+b|c = (a+b)|c - union has lowest precedence
 | Idempotent | r + r = r |
 | Star properties | ∅* = ε |
 | | ε* = ε |
-| | (r*)* = r* |
-| | r*r* = r* |
-| | r+ = rr* = r*r |
+| | (r\*)* = r\* |
+| | r\*r\* = r\* |
+| | r+ = rr\* = r\*r |
 | | r? = ε + r |
 | Arden's Theorem | If X = Q + XP then X = QP* (unique solution when ε ∉ L(P)) |
 
@@ -315,7 +315,7 @@ and still be in the same state!
 
 ^pumping-lemma-proof
 
-### Example 2: Prove L = {ww | w ∈ {a,b}*} is NOT regular
+### Example 2: Prove L = {ww | w ∈ {a,b}\*} is NOT regular
 
 **Proof:**
 1. Assume L is regular. Let p be pumping length.

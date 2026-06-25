@@ -19,7 +19,7 @@ type: interview-prep
 > [!question] 1. What is the difference between DFA and NFA?
 > - **DFA (Deterministic Finite Automaton):** For each state and input symbol, there is exactly *one* transition to a next state. Empty string ($\epsilon$) transitions are not allowed.
 > - **NFA (Non-deterministic Finite Automaton):** For a state and input symbol, there can be *zero, one, or multiple* transitions to next states. Empty string ($\epsilon$) transitions are allowed.
-> - **Power:** Both DFA and NFA have the *exact same computational power* (they both recognize Regular Languages). Every NFA can be converted to an equivalent DFA using Subset Construction.
+> - **Power:** Both DFA and NFA have the *exact same computational power\* (they both recognize Regular Languages). Every NFA can be converted to an equivalent DFA using Subset Construction.
 
 > [!question] 2. Explain the terms: Alphabet, String, and Language.
 > - **Alphabet ($\Sigma$):** A finite, non-empty set of symbols (e.g., $\Sigma = \{0, 1\}$).

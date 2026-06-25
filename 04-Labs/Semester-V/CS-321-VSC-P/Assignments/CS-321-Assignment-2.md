@@ -1,13 +1,13 @@
 # Assignment 2: Informed Search Techniques
 
 ## Problem Statement / Aim
-To implement and understand informed search techniques, specifically the A* (A-Star) search algorithm, to find the optimal path between two nodes in a graph using a heuristic function.
+To implement and understand informed search techniques, specifically the A\* (A-Star) search algorithm, to find the optimal path between two nodes in a graph using a heuristic function.
 
 ## Theory & Concept
-A* Search is an informed search algorithm that aims to find the lowest-cost path from a given initial node to a goal node. It uses a best-first search approach and finds the least-cost path by maintaining a priority queue of nodes to be explored. A* uses an evaluation function `f(n) = g(n) + h(n)`, where:
+A\* Search is an informed search algorithm that aims to find the lowest-cost path from a given initial node to a goal node. It uses a best-first search approach and finds the least-cost path by maintaining a priority queue of nodes to be explored. A\* uses an evaluation function `f(n) = g(n) + h(n)`, where:
 - `g(n)` is the actual cost from the start node to node `n`.
 - `h(n)` is the estimated cost (heuristic) from node `n` to the goal node.
-If the heuristic is admissible (never overestimates the true cost), A* is guaranteed to find the optimal path.
+If the heuristic is admissible (never overestimates the true cost), A\* is guaranteed to find the optimal path.
 
 ## Fully Solved Code
 ```python

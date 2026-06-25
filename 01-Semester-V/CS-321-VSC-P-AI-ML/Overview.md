@@ -84,7 +84,7 @@ mindmap
 By the end of this course, students will be able to:
 
 - [ ] Explain the history of AI and key milestones including the Turing Test
-- [ ] Implement search strategies (BFS, DFS, A*, Hill Climbing) in Python
+- [ ] Implement search strategies (BFS, DFS, A\*, Hill Climbing) in Python
 - [ ] Distinguish between types of machine learning
 - [ ] Apply supervised learning algorithms for regression and classification
 - [ ] Implement unsupervised learning (K-Means, Hierarchical)

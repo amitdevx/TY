@@ -89,7 +89,7 @@ date: 2026-06-16
 |---|-----------|--------|------|-------|
 | 1 | Angular project setup, components, templates |  | - | - |
 | 2 | Data binding (Interpolation, Property, Event, Two-way) |  | - | - |
-| 3 | Directives (*ngIf, *ngFor, attribute directives) |  | - | - |
+| 3 | Directives (\*ngIf, \*ngFor, attribute directives) |  | - | - |
 | 4 | Angular Routing and navigation |  | - | - |
 | 5 | Route Guards (CanActivate) and Lazy Loading |  | - | - |
 | 6 | Services and Dependency Injection |  | - | - |
