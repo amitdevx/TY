@@ -24,18 +24,18 @@ date: 2026-06-16
 
 ### Overall Sem V Status
 
-| Subject | Theory/Lab | Total Lectures | Attended | % |
-|---------|-----------|----------------|----------|---|
-| CS-301 Core Java | Theory | 0 | 0 | 0% |
-| CS-302 OS | Theory | 0 | 0 | 0% |
-| CS-303 Web Tech I | Theory | 0 | 0 | 0% |
-| CS-304 TCS | Theory | 0 | 0 | 0% |
-| CS-307 Data Science | Theory | 0 | 0 | 0% |
-| CS-321 AI/ML | VSC Practical | 0 | 0 | 0% |
-| CS-305 OS Lab | Lab | 0 | 0 | 0% |
-| CS-306 Java+Web Lab | Lab | 0 | 0 | 0% |
-| CS-308 DS Lab | Lab | 0 | 0 | 0% |
-| Mathematics (MTC-341) | Theory | 0 | 0 | 0% |
+| Subject               | Theory/Lab    | Total Lectures | Attended | %   |
+| --------------------- | ------------- | -------------- | -------- | --- |
+| CS-301 Core Java      | Theory        | 2              | 1        | 50% |
+| CS-302 OS             | Theory        | 2              | 1        | 50% |
+| CS-303 Web Tech I     | Theory        | 0              | 0        | 0%  |
+| CS-304 TCS            | Theory        | 0              | 0        | 0%  |
+| CS-307 Data Science   | Theory        | 0              | 0        | 0%  |
+| CS-321 AI/ML          | VSC Practical | 0              | 0        | 0%  |
+| CS-305 OS Lab         | Lab           | 0              | 0        | 0%  |
+| CS-306 Java+Web Lab   | Lab           | 0              | 0        | 0%  |
+| CS-308 DS Lab         | Lab           | 0              | 0        | 0%  |
+| Mathematics (MTC-341) | Theory        | 0              | 0        | 0%  |
 
 ---
 
